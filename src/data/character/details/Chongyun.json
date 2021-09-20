@@ -1,0 +1,43 @@
+{
+    "profile": {
+        "bio": {
+            "rarity": 4,
+            "weapon": "claymore",
+            "element": "Cryo",
+            "sex": "Male",
+            "birthday": "September 7th",
+            "constellation": "Nubis Caesor",
+            "nation": "Liyue",
+            "special_dish": "Cold Noodles with Mountain Delicacies",
+            "how_to_obtain": "Wishes",
+            "release_date": "September 28, 2020"
+        },
+        "voice_actors": {
+            "english": "Beau Bridgland",
+            "chinese": "kinsen",
+            "japanese": "Soma Saito (斉藤壮馬)",
+            "korean": "Yang Jeong-hwa (양정화)"
+        },
+        "introduction": {
+            "quote": "An exorcist who roams the land with Liyue as his base of operations, evil spirits fleeing wherever he goes. As the heir to a clan of exorcists, he has always possessed abilities superior to most. However, these abilities are not the result of training, but of an inborn trait — a pure yang spirit.",
+            "content": "C+V Here"
+        },
+        "personality": {
+            "quote": "A young exorcist from a family of exorcists. He does everything he can to suppress his abundance of yang energy.",
+            "content": [
+                "Chongyun is a positive and honorable young man with a passion for sweets. He takes his duties as an exorcist seriously and usually has a stoic, composed personality, although this isn't always the case.\n",
+                "Despite being an exorcist, Chongyun has yet to exorcise or even see a spirit with his own eyes — his excessive positive energy terrifies all spirits in range. He is a hard worker, expressing his disdain towards his positive energy, considering it to be a cheap trick, and trains despite this boon in the event that a spirit resists his excessive energy. He also doesn't show much fondness for his Cryo Vision, believing that vigorous training is the key to becoming stronger. His noble nature often means that whenever he is commissioned to exorcise spirits, he hesitates at the thought of accepting payment when he did nothing.\n",
+                "Because of his excessive positive energy, Chongyun is very susceptible to everything that warms him up — fiery events, food, drinks, clothing and even the sun itself; even thinking about them can trigger a flare-up. If this occurs, Chongyun often enters a manic state in which he becomes exceptionally excited, friendly and illogical, although he may simply faint. While he has no memory of what he does in this state, he considers it to be embarrassing and apologizes for any damage he causes, but most people do not mind and are even impressed by his actions in said state.\n",
+                "Chongyun is extremely desperate to prevent any sort of flare-up and will do anything to minimize the chances of one; indicated with him wearing lightweight, lightly-colored clothes, shows great self-control and only eats cold food, expressing a fondness for Inazuman dishes; when this is not available, he improvises on the go, such as his signature dish, which is his take on the original and popsicles. Possibly as a result of eating cold food often when Liyue food is known to be warm and spicy, he considers his food to be tasteless.\n",
+                "Chongyun's attempts to restrain his excessive positive energy also means that he has very little free time of his own and even then, doesn't have much friends to begin with, has trouble picking up social cues and appears to have low self-esteem outside of exorcism. He usually hangs out with Xingqiu during his free time; despite being pranked by him on a daily basis, he does not mind too much about it.\n",
+                "His friends believe his true personality is that whenever he flares up without inhibitions and self-control.\n"
+            ]
+        },
+        "appearance": [
+            "Chongyun has light blue hair reaching his ears, pale skin, and ice-blue cat slit eyes.\n",
+            "Chongyun usually wears a symmetrical white hooded jacket with navy embroidery. Under this, he wears a blue shirt with gold decals over white pants with gold cuffs, along with a dark navy undershirt. He also wears black and gold slippers. He has bandages around his right wrist and right ankle. He wears his Vision on the left side of his belt. A knotted tassel which matches his eyes hangs from the vision. His outfit, Pure Spirit, is described to be as a traditional thaumaturge's trappings.\n"
+        ]
+    },
+    "name": "Chongyun",
+    "nickname": "Frozen Ardor"
+}

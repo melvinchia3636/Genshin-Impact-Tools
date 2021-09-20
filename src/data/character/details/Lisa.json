@@ -1,0 +1,43 @@
+{
+    "profile": {
+        "bio": {
+            "rarity": 4,
+            "weapon": "catalyst",
+            "element": "Electro",
+            "real_name": "Lisa Minci",
+            "sex": "Female",
+            "birthday": "June 9th",
+            "constellation": "Tempus Fugit (Story Quest)",
+            "nation": "Mondstadt",
+            "special_dish": "Mysterious Bolognese",
+            "release_date": "September 28, 2020"
+        },
+        "voice_actors": {
+            "english": "Mara Junot",
+            "chinese": "Ke Zhong (钟可)",
+            "japanese": "Rie Tanaka (田中理恵)",
+            "korean": "Park Go-woon (박고운)"
+        },
+        "introduction": {
+            "quote": "She is an intellectual witch who can never get enough naps. As the Librarian of the Knights of Favonius, Lisa is smart in that she always knows exactly what to do with whatever troubles her.As much as she loves her sleep, she still manages to keep everything under control in a calm, composed manner.",
+            "content": "C+V Here"
+        },
+        "personality": {
+            "quote": "The languid but knowledgeable Librarian of the Knights of Favonius, deemed by Sumeru Academia to be their most distinguished graduate in the past two centuries.",
+            "content": [
+                "Lisa is a proficient witch; as such, she enjoys everything related to the elements and items that would help her in her understanding in them. Despite her position as Librarian, Lisa takes it somewhat haphazardly as she appears to be relatively bored dealing with the normal books, instead preferring those in the restricted section. She still takes the job seriously nonetheless, as she will personally go out to collect books that are long overdue, albeit in a way that she can still enjoy the smaller things in life.\n",
+                "Her haphazard, carefree personality comes from her Vision, as while the gods gave it to her and she was sated with knowledge she wanted to learn, they did not tell her what the price was, and she began fearing the truth behind them. This in turn caused her to become rather paranoid, and she left Sumeru out of fear that she was paying too high a price for knowledge, relegating herself to categorization and management of the library, usually refusing to take any other duties.\n",
+                "When Lisa becomes angered, the surrounding air near her becomes electrified in part due to her Electro Vision. Depending on the severity of what has angered her, she can either be simply irritated or become incredibly scary, the latter also causing her to dispense \"appropriate\" punishment.\n",
+                "Lisa seems to be fond of the Traveler and sometimes flirtatious by referring to the Traveler as \"cutie\" or \"darling.\" Lisa herself says in her Serenitea Pot dialogue that the Traveler is special to her.\n",
+                "She enjoys tea, always ensuring that she has some in the afternoon, along with vegetable soup. She also suffers from cucurbitophobia, the fear of pumpkins.\n"
+            ]
+        },
+        "appearance": [
+            "Lisa has fair skin, green eyes, and wavy, light honey-brown hair, which is tied in a loose side ponytail.\n",
+            "She wears a purple and white dress with open slits at the sides and gold embroidery, along with black gloves with pale purple trim, a large witch's hat, black lace stockings, and black high heels, and an earring is visible on one ear. She wears a gold necklace with her Vision clasped to the collar of her dress.\n",
+            "Reflecting her favorite flower, a motif of roses is present throughout her outfit. There is a pale purple rose pinned to her hat, and a similar one on the tie of her ponytail. Additionally, a large ornamental golden rose is attached on her belt at the hip. Her outfit, Purple Rose, is described to be a slim-fit dress adorned with roses that displays a young lady's elegance.\n"
+        ]
+    },
+    "name": "Lisa",
+    "nickname": "Witch of Purple Rose"
+}

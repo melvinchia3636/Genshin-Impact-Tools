@@ -1,0 +1,42 @@
+{
+    "profile": {
+        "bio": {
+            "rarity": 5,
+            "weapon": "sword",
+            "element": "Anemo",
+            "real_name": "Kaedehara Kazuha",
+            "sex": "Male",
+            "birthday": "October 29th",
+            "constellation": "Acer Palmatum",
+            "nation": "Inazuma",
+            "special_dish": "All-Weather Beauty",
+            "release_date": "June 29, 2021"
+        },
+        "voice_actors": {
+            "english": "Mark Whitten",
+            "chinese": "Banma (斑马)",
+            "japanese": "Nobunaga Shimazaki (岛崎信长)",
+            "korean": "Kim Shin-woo (김신우)"
+        },
+        "introduction": {
+            "quote": "A wandering samurai from Inazuma with a modest and gentle personality.\nBeneath a youthful and carefree demeanor lies a heart that hides a great many burdens from the past. Seemingly easygoing, Kazuha has his own code of conduct.",
+            "content": "C+V Here"
+        },
+        "personality": {
+            "quote": "A wandering samurai from Inazuma who is currently with Liyue's Crux Fleet. A gentle and carefree soul whose heart hides a great many burdens from the past.",
+            "content": [
+                "Kazuha is a polite and well spoken individual. Compared to other noble Inazuman clan members, Kazuha prefers going out and travelling rather than staying put indoors, something that the seizure of his clan home let him do due to a lack of wealth and duty. He roamed Inazuma peacefully as a modest wanderer for a good portion of his life, teaching himself bladework and picking up other skills, never seeking luxury. He is instead easily pleased just by sleeping on a sun warmed rock. The time he spends outdoors makes him attuned to nature and the wind, being able to \"hear\" and \"smell\" everything around him with absolute clarity. He can sense dangers, read people, and track them down in an instant, no matter how well they try to conceal it. Due to this sensitivity he prefers calm weather and never stays in one place for too long, having trouble sleeping for the former and having his skills stagnate for the latter.\n",
+                "Kazuha is determined in his goals, pursuing them with thoroughness and cunning, but he also takes his time and is easygoing. He is very reflective and thoughtful about all matters, frequently pondering about various topics in his travels. He holds his relationships in high regard, immediately coming out of hiding for his friend and forever grateful to Beidou and Gorou for taking him in when he needed shelter. Kazuha frequently warns others of coming storms and possible trouble, he happily does simple errands, offers advice, and is willing to help others.\n",
+                "Fitting in with his Anemo affiliation, Kazuha firmly believes in a concept of freedom - that everyone is entitled to their hopes and dreams and that no one has the right to take them, not even a god. For this reason, he opposes the Raiden Shogun and those who support her. Despite his values, he isn't prideful and can acknowledge the strong fighting prowess and honorable conduct of those he personally disagrees with. He sees his friend's duel as honorable and noble, but also that his subsequent execution by the Raiden Shogun was both fair and justified.\n",
+                "He was grieved after the death of his friend and wouldn't speak to any of his fellow crewmembers after joining the Crux, but eventually warmed up to them and is fairly chatty according to Beidou. Kazuha has a very poetic side to him, he enjoys penning haikus in his spare time and is easily inspired, though he claims to not be especially talented at it. As a result of both traveling many places and sailing for long periods of time, Kazuha has grown particularly fond of readily available grilled fish and takes the time to prepare and finish his food slowly. While he is not picky about what he eats, he does not appreciate rushed meals or lazy cooking methods. His most prized possession is his sword that he keeps with him at all times, a source of pride for Kazuha as both an Inazuman and a samurai. He is also incredibly fond of red maple leaves, finding them beautiful and enjoys seeing them rain during autumn. When unable to view such sights, he frequently collects and carries them as a memento to ease any homesickness.\n"
+            ]
+        },
+        "appearance": [
+            "Kazuha is a young man with choppy, medium length hair, some of it tied in an off centered ponytail to his right. It is a platinum blonde color, apart from a single orange-red streak on his right. He has red eyes with a yellow hue at the bottom, and he usually has a gentle facial expression.\n",
+            "Kazuha's outfit, Falling Leaves, is described to have maple leaf patterns that are the hallmark of his wandering samurai attire. It consists of a grey short sleeved kimono and a black haori coat. Half the coat is worn normally on his left arm, with a flowy orange sleeve decorated with orange and red maple leaves, while the other half is draped behind his waist and secured by an obi belt he wears over top. He wears a black and red scarf with gold accents, and a slanted belt that goes under his right arm and over his left shoulder, where his Anemo vision is pinned behind. The vision is tied to a red tassel decoration, and is near some samurai shoulder plating. He wears red hakama pants with maple leaf designs and black sandals with dark red tights with a black piece of leather on both legs that covers from under his kneecaps to near his feet.\n",
+            "He wears black glove plates that protect the backs of his hands and his left forearm. His right hand is instead bandaged, though in the past it was not. A possible result of this change was that after taking his friend's Vision, the last of its energy burned his hand as he fled, though it is unknown if visions act like this. Another possible reason is that bandages commonly help protect against constant sword use, and around the time of the change Kazuha would have needed to take better care of his hands. Kazuha is right handed, and would have began fighting more often after exposing himself. After escaping, he still had to help out as a sailor where his hands would callus.\n"
+        ]
+    },
+    "name": "Kaedehara Kazuha",
+    "nickname": "Scarlet Leaves Pursue Wild Waves"
+}

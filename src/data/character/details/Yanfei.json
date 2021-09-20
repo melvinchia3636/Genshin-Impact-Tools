@@ -1,0 +1,41 @@
+{
+    "profile": {
+        "bio": {
+            "rarity": 4,
+            "weapon": "catalyst",
+            "element": "Pyro",
+            "sex": "Female",
+            "birthday": "July 28th",
+            "constellation": "Bestia Iustitia",
+            "nation": "Liyue",
+            "special_dish": "\"My Way\"",
+            "release_date": "April 28, 2021"
+        },
+        "voice_actors": {
+            "english": "Lizzie Freeman",
+            "chinese": "Ziwu Su (苏子芜)",
+            "japanese": "Yumiri Hanamori (花守 ゆみり)",
+            "korean": "Cho Kyung-yi (조경이)"
+        },
+        "introduction": {
+            "quote": "A half-illuminated beast and highly-skilled legal adviser.She combines adherence to the legal codices and reasonable flexibility to find the perfect balance in her work. She devotes herself to protecting the fairness of contracts in Liyue with her identity as a legal adviser and her unique experience and methods.",
+            "content": "C+V Here"
+        },
+        "personality": {
+            "quote": "A well-known legal adviser active in Liyue Harbor. A brilliant young lady in whose veins runs the blood of an illuminated beast.",
+            "content": [
+                "Yanfei enjoys appraisal, reading and is very knowledgeable on many topics — most notably the law, due to her career as a legal advisor. With a strong sense of justice, Yanfei does not mind traveling to help her clients should they have trouble in different parts of Liyue. She claims to have extensive knowledge of the laws of the other nations in Teyvat — though, she notes Fontaine's law to be the most difficult. She is well known by the people of Liyue for her knowledge and is considered the premier legal advisor of Liyue, a title that garners her many a client across the nation. Even Ningguang, the Tianquan of the Liyue Qixing, states that Yanfei's memorization of the law allows her to quickly close loopholes in existing laws faster than she would have been able to herself. When resolving disputes, Yanfei always gets all legal evidence beforehand to make a compelling and convincing argument. Although she can handle any case, she dislikes having to deal with civil suits. As many in Liyue do, Yanfei places a high value on the importance of contracts, though she is noted to place a higher value on them more than the average person due to the nature of her job.\n",
+                "Despite having the blood of an adeptus in her veins, Yanfei is not particularly concerned about her adeptal heritage and is one of the few who did not sign a contract with Rex Lapis due to being born in an era of peace. She is very active and often talks a lot, a stark contrast to her father, who Madame Ping knew to be more solemn. She spends her time much like an average human does, and unlike most adepti, Yanfei doesn't consider herself above mortals in any way.\n",
+                "Despite her playful nature, Yanfei takes her job seriously and practically, ensuring she and all involved parties of a case are well accounted for. She is also willing to do pro bono work as long as she isn't required to be deeply involved. Yanfei dreams of a day where people live honest and happy lives, and there is no longer a need for legal advisors. Should such a day ever come, Yanfei's backup plan is to become a rapper.\n",
+                "Yanfei enjoys tofu because of its versatility and availability. She dislikes cold food and she rarely eats them since her father told her that food was best served hot.\n"
+            ]
+        },
+        "appearance": [
+            "Yanfei is a young woman with pale skin and bright teal-green eyes with ovoid pupils. She has long, salmon pink hair fading to light pink at the tips. Under her hair, Yanfei has a pair of cream colored antlers, indicating her adeptal heritage. In addition to this, the sides of her chest, ankles, and the backs of her hands have white diamond markings that resemble scales.\n",
+            "Her outfit consists of a red and black xiezhi hat, a red and black cropped top with a split cap in the back, a white cross-collar, and two detached white sleeves. Her clothes are decorated with tongbao-shaped buttons, gold banding, and the tip of her cap, collar and sleeves are fashioned with pom-pom and fully materials. She also wears a red skirt with cloud-shaped patterns, tied with a yellow bow on one side over a pair of black shorts with lace trim. Yanfei wears a pair of red and black upturned-toe boots with gold soles and heels and fluffy lining.\n",
+            "She carries a thick book, fastened by two leather belts on her right hip, where her vision affixes. She also carries a large steelyard decorated with adeptus elements. Her outfit, Golden Rule, is described as a dress that Yanfei wears when she heads out to visit clients.\n"
+        ]
+    },
+    "name": "Yanfei",
+    "nickname": "Wise Innocence"
+}

@@ -1,0 +1,43 @@
+{
+    "profile": {
+        "bio": {
+            "rarity": 4,
+            "weapon": "bow",
+            "element": "Electro",
+            "sex": "Female",
+            "birthday": "July 14th",
+            "constellation": "Flabellum",
+            "nation": "Inazuma",
+            "special_dish": "Faith Eternal",
+            "release_date": "September 01, 2021"
+        },
+        "family": {
+            "ancestry": "Kujou Clan (adopted)",
+            "parents": "Kujou Takayuki (Adoptive Father)",
+            "siblings": "Kujou Kamaji (Adoptive Brother)Kujou Masahito (Adoptive Brother)"
+        },
+        "voice_actors": {
+            "english": "Jeannie Tirado",
+            "chinese": "Yang Menglu (杨梦露)",
+            "japanese": "Asami Seto (瀬戸麻沙美)",
+            "korean": "Mun Ji-yeong (문지영)"
+        },
+        "introduction": {
+            "quote": "Leader of the Tenryou Commission's forces. A charismatic woman who acts as swiftly as a storm wind and always honors her word.She bears the title of \"Devotee of the Divine\" and has sworn her allegiance to the Raiden Shogun.The eternity that the Shogun pursues is the cause that she is willing to fight for.",
+            "content": "C+V Here"
+        },
+        "personality": {
+            "quote": "A general of the Tenryou Commission. Bold, decisive, and skilled in battle.",
+            "content": [
+                "Despite being an adopted member of the Kujou Clan, she is immensely loyal to the Raiden Shogun's rule and tirelessly works to create the eternity that the Raiden Shogun desires, even if she does not live to see it herself. Those who speak to her note that she has a ruthless, yet efficient and stern attitude, fitting for her position in the Tenryou Commission. She is honorable in her conduct and despises underhanded tactics and those who betray the Shogun's will.\n",
+                "She enjoys quick and easy-filling foods, but dislikes sweets because they put her at ease, something which she finds unfitting for her duties.\n"
+            ]
+        },
+        "appearance": [
+            "Kujou Sara is a woman with indigo hair cut into an uneven bob. She has golden eyes.\n",
+            "Her attire is primarily white. She wears red and gold geta shoes. An Electro vision can be seen attached to her belt. On her head lies a red tengu mask that resembles a bird, having white accents and a black crest. Around her waist, she has a gold string attached to a yellow bow that has her vision in its middle. Her outfit, Solemn Purity, is described as prim and proper and a garment worthy of an Archon's devout servant.\n"
+        ]
+    },
+    "name": "Kujou Sara",
+    "nickname": "Crowfeather Kaburaya"
+}

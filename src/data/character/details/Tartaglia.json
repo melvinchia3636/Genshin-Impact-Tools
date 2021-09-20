@@ -1,0 +1,45 @@
+{
+    "profile": {
+        "bio": {
+            "rarity": 5,
+            "weapon": "bow",
+            "element": "Hydro",
+            "real_name": "Ajax",
+            "sex": "Male",
+            "birthday": "July 20th",
+            "constellation": "Monoceros Caeli (Story Quest)",
+            "nation": "Snezhnaya",
+            "special_dish": "A Prize Catch",
+            "release_date": "November 11, 2020"
+        },
+        "voice_actors": {
+            "english": "Griffin Burns",
+            "chinese": "Yudong (鱼冻)",
+            "japanese": "Ryōhei Kimura (木村良平)",
+            "korean": "Nam Doh-hyeong (남도형)"
+        },
+        "introduction": {
+            "quote": "Meet Tartaglia — the cunning Snezhnayan whose unpredictable personality keeps people guessing his every move.\nDon't be under any illusion as to what he might be thinking or what his intentions are. Just remember this: Behind that innocent, childlike exterior lies a finely honed instrument of war.",
+            "content": "C+V Here"
+        },
+        "personality": {
+            "quote": "No. 11 of The Harbingers, also known as \"Childe.\" His name is highly feared on the battlefield.",
+            "content": [
+                "Tartaglia describes himself as \"kind of a bad guy\", living for the thrill of a fight and causing chaos.\n",
+                "As a child, Tartaglia was frightened and hesitant, but he secretly desired to become an adventurer like the ones his father told him about as they fished together. After falling into The Abyss and meeting and training with Skirk, Tartaglia's personality drastically changed.\n",
+                "Although he appears to relatively friendly on the surface, Tartaglia is a bloodthirsty warrior. The Abyss and his old master, Skirk, made him self-confident, solipsistic, and brash, thriving on the sensation of being alive. A warrior at heart, he constantly seeks ways to grow stronger, regardless of how he obtains said power. Tartaglia considers those who wish to become strong like him to be friends and takes pleasure in battling them on the battlefield. He lusts for combat and grows excited by fighting strong opponents, even if it could mean dying in the process. He uses bows because he is weakest with them, making his victories with them all the more exhilarating.\n",
+                "Because of his pride, Tartaglia is exceptionally reliable at accomplishing the tasks given to him, no matter how difficult they may be or if they go against his values. This, combined with his straightforward nature, makes him rather easy to manipulate. Despite disliking how his plan in Liyue Harbor could potentially harm innocents, he puts it into motion to fulfill his mission in Liyue — only to learn he was meant to fail as part of an even larger plan he was not privy to, much to his consternation.\n",
+                "Amongst the rest of the Harbingers, Tartaglia is considered an oddball. While his fellow Harbingers prefer clandestine operations and staying behind the scenes, Tartaglia favors being front and center. On top of his lust for battle and tendency to cause havoc, he is a public figure known for attending social gatherings and even participates as an actor in plays and theater. As a result, Childe's coworkers are wary of him, while he holds them in disdain for their schemes and \"intangible\" methods. While he is quite capable of scheming, he only resorts to such approaches when necessary due to his straightforward nature. He also appears to treat his subordinates less harshly than the rest of the Harbingers, stating that he doesn't use lethal force against the recruits in his care, nor does he threaten any of them.\n",
+                "Tartaglia dedicates himself to those he cares about wholeheartedly. He is unquestionably loyal to the Tsaritsa and holds her in high esteem, seeing himself as her weapon of war. He also cares deeply for his family; he sends money, gifts, and letters home often. Tartaglia is exceptionally proud of his three younger siblings and dotes on them frequently, especially his youngest brother Teucer — he is willing to lie and even put himself in mortal danger, so as long as it makes him happy.  While this is callous, Tartaglia prioritizes his brother's safety over his own. He sees the Traveler as a friend, and enjoys sparring with them. Despite Zhongli deceiving him (and often using him as financial support), he remains on good terms with the former Archon.\n",
+                "Tartaglia enjoys fishing, having grown to appreciate fishing with his father before his drastic change. He uses it as a way to meditate, honing his endurance and contemplating his combat techniques. He has no particular preference for meals, declaring that all food is delicious, stating that a true warrior shouldn't fuss over what they eat in a manner similar to the weapon they use.\n"
+            ]
+        },
+        "appearance": [
+            "Tartaglia is a tall young man with short, choppy orange hair and dull blue eyes. He wears a red Fatui mask pulled off to one side of his head. He also wears a beaded earring with a red crystal on his left ear. A few lighter blonde streaks can be seen in his hair, with one prominent one on the left side of his bangs.\n",
+            "He wears a grey jacket with dark red and light grey details, grey pants, and black boots and gloves. His jacket is left unbuttoned at the end to reveal a belt, which his Hydro Vision is attached to. It is instead held by buttons, with the outer edge decorated by a black symbol. He wears short gloves that expose his wrists. He also wears a red banner that goes across his chest and over his left shoulder, which becomes infused with a wispy Hydro effect when in the melee stance of his Elemental Skill Foul Legacy: Raging Tide. His outfit, Blades of Glory is described to be  illustrious attire that signifies Childe's position as the eleventh Fatui Harbinger.\n",
+            "During the Golden House battle, Tartaglia wears his Electro Delusion to the right of his Vision in the center of his belt, and then moves his Vision to the empty slot on his right chest when fully activating the Foul Legacy Transformation.\n"
+        ]
+    },
+    "name": "Tartaglia",
+    "nickname": "Childe"
+}

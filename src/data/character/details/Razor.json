@@ -1,0 +1,39 @@
+{
+    "profile": {
+        "bio": {
+            "rarity": 4,
+            "weapon": "claymore",
+            "element": "Electro",
+            "sex": "Male",
+            "birthday": "September 9th",
+            "constellation": "Lupus Minor (Story Quest)",
+            "nation": "Mondstadt",
+            "special_dish": "Puppy-Paw Hash Brown",
+            "release_date": "September 28, 2020"
+        },
+        "voice_actors": {
+            "english": "Todd Haberkorn",
+            "chinese": "Shuai Zhou (周帅)",
+            "japanese": "Kōki Uchiyama (内山昂輝)",
+            "korean": "Kim Seo-yeong (김서영)"
+        },
+        "introduction": {
+            "quote": "Some say he is an orphan raised by wolves. Others say he is a wolf spirit in human form.He is most at home in the wild, fighting with claw and thunder.To this day the wolf boy can be found prowling the forest, where he and his wolf pack hunt to survive using nothing more than their animal instincts.",
+            "content": "C+V Here"
+        },
+        "personality": {
+            "quote": "A boy who lives among the wolves in Wolvendom of Mondstadt, away from human civilization. As agile as lightning.",
+            "content": [
+                "Razor is a generally good-natured person who considers his wolf pack his family, and becomes enraged if they are hurt by other parties. He loves his wolf family, but dislikes the fact that he isn't fully like them, being an infant taken in by the leader of his pack, Andrius. While he barely sees any fellow humans traveling in Wolvendom due to its fearsome reputation, he considers the few humans he does encounter to be his friends and is willing to protect them from danger if it means sacrificing his and his pack's dinner for the night. Razor is also a quick thinker, as he is able to fix Klee's disasters whenever she goes to play in Wolvendom.\n",
+                "Razor is honest and forthright, due to his limited exposure to human life. He is not used to speaking and only speaks in short phrases and words, finding it troublesome, but he continues nonetheless.\n",
+                "Like the rest of his wolf family, Razor enjoys eating meat and shows an aversion to most vegetables, only preferring potatoes. He gets along with Bennett well for that reason and the two typically spend most of their time talking.\n"
+            ]
+        },
+        "appearance": [
+            "Razor is a boy with long, spiky grey hair; bright red eyes; and pale skin. He has several scars on his body, including one on his left cheek and several on his arms, as a result of his time living in the wild with his wolf family.\n",
+            "Razor wears green camouflage pants, an orange poncho-like shirt, dark boots, and a dark hooded coat decorated with belts. His accessories are a tooth necklace, thumb-less orange gloves, and one gold earring on his left ear. His outfit, Wild Sprint, is described to be as rough and ready clothes suited for running out in the wilderness.\n"
+        ]
+    },
+    "name": "Razor",
+    "nickname": "Wolf Boy"
+}

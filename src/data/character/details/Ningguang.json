@@ -1,0 +1,39 @@
+{
+    "profile": {
+        "bio": {
+            "rarity": 4,
+            "weapon": "catalyst",
+            "element": "Geo",
+            "sex": "Female",
+            "birthday": "August 26th",
+            "constellation": "Opus Aequilibrium",
+            "nation": "Liyue",
+            "special_dish": "Qiankun Mora Meat",
+            "release_date": "September 28, 2020"
+        },
+        "voice_actors": {
+            "english": "Erin Ebers",
+            "chinese": "Mingya Du (杜冥鸦)",
+            "japanese": "Sayaka Ohara (大原さやか)",
+            "korean": "Gwak Gyu-mi (곽규미)"
+        },
+        "introduction": {
+            "quote": "Owner of the Jade Chamber in the skies above Liyue, there are stories abound about Ningguang, with her elegance and mysterious smile.As a Tianquan of the Liyue Qixing, not only does she embody law and order, she also represents fortune and wit.",
+            "content": "C+V Here"
+        },
+        "personality": {
+            "quote": "The Tianquan of the Liyue Qixing. Her wealth is unsurpassed in all of Teyvat.",
+            "content": [
+                "Ningguang is a professional businesswoman, having accumulated her wealth through hard work and perseverance. As the Tianquan, she is known for being highly meticulous in her work and holds a large amount of influence within Liyue.\n",
+                "She is a calculating and ruthless businesswoman guided by the sole aim of making Mora, which stems from her impoverished background. She makes use of a large intelligence network and \"pawns\" to gain the information she needs, and will only make use of people whose weaknesses she knows. As a result, she is disliked by those with significant influence, but nonetheless, many accept it as she adds to the overall prosperity of both the Qixing and Liyue Harbor itself.\n",
+                "Despite her cold, business-driven exterior, she has Liyue's best interests at heart. Under her decree in response to a case of water contamination, those who intentionally endanger public health and safety should be \"shown no mercy whatsoever.\" When Osial was reawakened and threatened Liyue Harbor, she put her conflict with the adepti aside and ultimately sacrificed the Jade Chamber, her life's work, to seal it away. She is also particularly fond of children, both because they give her vital intelligence and because she enjoys seeing them smile.\n"
+            ]
+        },
+        "appearance": [
+            "Ningguang is a tall woman with fair skin, red eyes and an overall elegant appearance. She has long straight hair, where half of it is tied up into a wide bun (that itself resembles a bow) and the rest falls into two divided parts. Her hair is white, reaches her knees and fades into an ashy color. Her bun is accessorized with a black hairpin, and she wears a red tassel decoration atop her head which lays between her eyes.\n",
+            "Ningguang wears a white, high-necked sleeveless qipao dress with side slits that reach up to the thigh. It is decorated with a fur neck wrap around the collar, yellow patterns with gold banding, and black lace along the edge of the dress with her Geo Vision on her left midriff. In addition, she wears a pair of black high gloves reaching to the ruffled extensions stretched from the upper arm. Her gloves are decorated with copper patterns and claw attachments on the thumb, ring and pinkey fingers that act as fingernail guards. The side of her left thigh has a red tattoo. The side slit in her dress reveal black shorts with diamond cut patterns. She wears a pair of brown high heels, with another tattoo around her right ankle. Ningguang also carries a smoking pipe with her. Her outfit, Gold Leaf and Pearly Jade, is described to have intricate embroidery which is the hallmark of this graceful dress.\n"
+        ]
+    },
+    "name": "Ningguang",
+    "nickname": "Eclipsing Star"
+}

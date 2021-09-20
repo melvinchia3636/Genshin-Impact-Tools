@@ -1,0 +1,44 @@
+{
+    "profile": {
+        "bio": {
+            "rarity": 4,
+            "weapon": "bow",
+            "element": "Pyro",
+            "sex": "Female",
+            "birthday": "August 10th",
+            "constellation": "Lepus (Story Quest)",
+            "nation": "Mondstadt",
+            "special_dish": "Outrider's Champion Steak!",
+            "release_date": "September 28, 2020"
+        },
+        "family": {
+            "english": "Kelly Baskin",
+            "chinese": "Shujin Cai (蔡书瑾)",
+            "japanese": "Manaka Iwami (石見舞菜香)",
+            "korean": "Kim Yeon-woo (김연우)"
+        },
+        "voice_actors": {
+            "chinese_name": "安柏 Ānbó",
+            "japanese_name": "アンバー Anbaa",
+            "korean_name": "엠버 Embeo"
+        },
+        "introduction": {
+            "quote": "A perky, straightforward girl, who is also the only Outrider of the Knights of Favonius. Her amazing mastery of the glider has made her a three-time winner of the Gliding Championship in Mondstadt. As a rising star within the Knights of Favonius, Amber is always ready for any challenging tasks.",
+            "content": "C+V Here"
+        },
+        "personality": {
+            "quote": "Always energetic and full of life, Amber's the best - albeit only - Outrider of the Knights of Favonius.",
+            "content": [
+                "Amber is described as an \"exemplary of justice\" by Kaeya. A righteous and accomplished Knight, she fulfills her duties and does things by the rules. She is as charismatic as she is kind, being able to see others' efforts to turn over a new leaf.\n",
+                "Cheerful and friendly, Amber has no problem talking to strangers as if she's already acquainted with them. She is passionate in all things she does, be it when it comes to helping others as an Outrider or taking out hilichurl camps, as she wishes to be just as good as her grandfather, who was a loyal defender of Mondstadt. Even after his mysterious disappearance, she continues to defend the land in his stead.\n",
+                "Although she gets along well with her fellow members, she fails to see Kaeya in such a way, considering him to be very suspicious, but for the completely opposite reasons, such as not helping his fellow members out in times of need. She is also a bit of a troublemaker, as she has had her gliding license revoked numerous times. She is not good at cooking, as she is known to cause accidents in the kitchen and the food she makes is subpar.\n"
+            ]
+        },
+        "appearance": [
+            "Amber has long, dark brown hair, gold eyes, and fair skin. She wears a jumper-like outfit composed of dark brown leather shorts, a red hoodie-like top, red stockings, and white thigh-high boots embellished with gold linings and symbols.\n",
+            "Amber's accessories include a leather belt with two small bags, and her Pyro Vision attached, gloves, a small belt on her right thigh, and gold-framed goggles. Her most distinguishing feature is the headband with the large red bow that rests on her head, resembling the shape of bunny ears. Additionally, her Vision has two red feathers attached below it. Her outfit, 5-Star Outrider, is described to be an outrider's uniform made for maximum mobility.\n"
+        ]
+    },
+    "name": "Amber",
+    "nickname": "Gliding Champion"
+}

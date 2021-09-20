@@ -1,0 +1,38 @@
+{
+    "profile": {
+        "bio": {
+            "rarity": 4,
+            "weapon": "claymore",
+            "element": "Pyro",
+            "sex": "Female",
+            "birthday": "October 16th",
+            "constellation": "Fila Ignium",
+            "nation": "Liyue",
+            "special_dish": "Rockin' Riffin' Chicken!",
+            "release_date": "December 01, 2020"
+        },
+        "voice_actors": {
+            "english": "Laura Stahl",
+            "chinese": "Yaxin Wang (王雅欣)",
+            "japanese": "Chiaki Takahashi (たかはし智秋)",
+            "korean": "Kim Chae-ha (김채하)"
+        },
+        "introduction": {
+            "quote": "Rock 'n' roll is an avant-garde art in Liyue Harbor and Xinyan is the pioneer in this field.She rebels against ossified prejudices, using her music and passionate singing to awaken dazed souls fatigued by worldly matters.If you get the chance, do not miss out on her next performance!",
+            "content": "C+V Here"
+        },
+        "personality": {
+            "quote": "Liyue's sole rock 'n' roll musician. She rebels against ossified prejudices using her music and passionate singing.",
+            "content": [
+                "Xinyan is a fan of rock 'n' roll and returned to Liyue to spread it across the nation. Despite having difficulty in improving its reputation for many reasons, she is not discouraged and continues to play, appreciating all who come to her performances. She does not have any formal training for her music, having learned it herself on the go. As such, she is very supportive of others who show interest, even if they have no experience.\n",
+                "Her Pyro Vision gives her a fiery personality. She likes standing out in her own way, but many consider her to be weird and/or terrifying as a result. While aware of this, her attempts to make herself more presentable to them ends up in failure.\n"
+            ]
+        },
+        "appearance": [
+            "Xinyan has dark skin, amber eyes, and dark brown hair, which she wears pulled back into two buns with spiked bands. One lock at the front of her hair has a dark red streak, and in her buns, the underside of some locks are bright orange.\n",
+            "Xinyan wears a black-brown tank top and white shorts, with a red and white vest with flared red, black, and white sleeves. She has a black and red ribbon tied around her right leg, and a netted sock on her left. Xinyan typically carries a white, brown, and red square ruan with an axe-like bottom. Her outfit, Ardent Soul, is described to be as a rocker's stage costume adorned with spikes.\n"
+        ]
+    },
+    "name": "Xinyan",
+    "nickname": "Blazing Riff"
+}

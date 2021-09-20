@@ -1,0 +1,43 @@
+{
+    "profile": {
+        "bio": {
+            "rarity": 5,
+            "weapon": "bow",
+            "element": "Anemo",
+            "sex": "Male",
+            "birthday": "June 16th",
+            "constellation": "Carmen Dei (Story Quest)",
+            "nation": "Mondstadt",
+            "special_dish": "A Buoyant Breeze",
+            "release_date": "September 28, 2020"
+        },
+        "voice_actors": {
+            "english": "Erika Harlacher",
+            "chinese": "Miaojiang (喵酱)",
+            "japanese": "Ayumu Murase (村瀬歩)",
+            "korean": "Jung Yoo-jung (정유정)"
+        },
+        "introduction": {
+            "quote": "A bard that seems to have arrived on some unknown wind — sometimes sings songs as old as the hills, and other times sings poems fresh and new.Likes apples and lively places but is not a fan of cheese or anything sticky.When using his Anemo power to control the wind, it often appears as feathers, as he's fond of that which appears light and breezy.",
+            "content": "C+V Here"
+        },
+        "personality": {
+            "quote": "One of the many bards of Mondstadt, who freely wanders the city's streets and alleys.",
+            "content": [
+                "Venti has a somewhat recalcitrant, carefree, and playful attitude as well as a liking to rhyming in his speech. He sees a particular worth in music to the point where he names his lyre, saying, \"every being deserves a name to be called upon, and woven into a song.\" He is also bold, not fearing to insult or ignore those who are supposedly powerful. In the game, he responds to Paimon's comments and nicknaming by parroting her.\n",
+                "Venti enjoys roaming around Mondstadt playing songs to his people, most of whom are unaware of his true identity as Barbatos. He is very well-liked due to his musical talent, having won the title \"Most Popular Bard of Mondstadt\" three times. Venti is also an avid drinker of alcoholic beverages, such as Dandelion Wine and has a high tolerance to alcohol. He is also fine with apple cider. To his disdain, the form he takes causes most bartenders to see him as a minor.\n",
+                "Being a god who is generally absent for prolonged periods of time, Venti has no personal finances; he often resorts to pilfering from the Dawn Winery for food and shamelessly has people listening to his songs buy him drinks in lieu of a payment. For reasons unknown, he is deathly allergic to cats and will not perform unless he is certain none are nearby. In his story quest, it is implied that his constant alcoholism is his way of coping with the loss of a dear friend.\n",
+                "He also enjoys apples, considering them to be the fruit of the gods, jokingly stating that he would refuse to go to Celestia even if he was invited because their apples are bland and the water foul, which would make bad cider. He dislikes cheese, claiming it to be a smelly, sticky and slimy mess.\n",
+                "Despite his normally playful personality as the bard Venti, he speaks wisely and somewhat philosophically whenever he assumes his true identity due to the many experiences he had being one of the original members of The Seven. Compared to Zhongli, the mortal vessel of Morax, Venti does not mind revealing his identity and using his powers if it means helping his people.\n",
+                "For all his cheer and wisdom, Venti hides a lonely soul who, even millennia later, continues to feel strongly about the loss of the Bard whose form he imitates and even compares himself to Stanley (a man whose real name is Hans Archibald but took on the name of his deceased friend Stanley and tried to imitate him).\n",
+                "Venti also confesses to finding the Traveler's ability to discern what he's thinking as discomforting, but admits that he appreciates having a true friend, similar to how he views the Bard.\n"
+            ]
+        },
+        "appearance": [
+            "Venti appears as a young boy with fair skin and a slim build. Similar to the Anemo element, his eyes are aqua green which also resembles the sky and the grass. He has dark blue hair that borders on black, with short twin braids that fade into aqua at the tips. The aqua tips glow neon when he uses his abilities. The form he currently takes is modeled after a deceased friend who perished to liberate Old Mondstadt. This appearance is used for his Statues of the Seven around Mondstadt and the larger statue in the plaza in front of the Favonius Cathedral.\n",
+            "He wears a frilly white top with a corset-like leather midsection, along with teal shorts with gold embroidery, a matching teal cape held together by a deep blue and gold bow. He also wears white stockings with three gold diamond shapes along each leg and a beret-like hat with a Cecilia, which is his favorite flower. He carries a wooden lyre with blue strings and cecilias imbued with the power of Anemo. This wooden lyre is also called \"Der Frühling\", and it is the current lyre he carries since his other lyre \"Der Himmel\" is held by the Church. Because he is an Archon with an innate Gnosis, the \"Vision\" on his hip is no more than \"a glass ball [he carries] around to avoid suspicion.\" His outfit, Breezy Ode, is described to be an outfit of a carefree bard.\n"
+        ]
+    },
+    "name": "Venti",
+    "nickname": "Windborne Bard"
+}

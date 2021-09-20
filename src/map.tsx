@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import Navbar from "./navbar";
 import "leaflet/dist/leaflet.css";
 import types from "./data/type/type.json";
 import marks from "./data/type/marks.json";
@@ -10,7 +11,12 @@ import bg from "./assets/bg.png";
 //@ts-ignore
 import Multiple from "multiple.js";
 
-const Map = (): JSX.Element => {
+interface IMap {
+    currentTab: number;
+    changeTab: any;
+}
+
+const Map: React.FC<IMap> = ({currentTab, changeTab}: IMap): JSX.Element => {
 
     const [found, setFound] = useState<number[]>([]);
     const [expand, setExpand] = useState<boolean>(false);
@@ -61,10 +67,9 @@ const Map = (): JSX.Element => {
             background: `url(${bg}), linear-gradient(104deg, #4C7F9B 20.53%, #0E1E3E 100%)`
         });
     }, []);
-
-    console.log(found);
     
     return <>
+        <Navbar currentTab={currentTab} changeTab={changeTab}/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/multiple.js/0.0.1/multiple.min.css"/>
         <div className={"pt-16 transition-all duration-500 section relative " + (expand ? "w-full pr-6" : "w-0 pr-0")}>
             <Scrollbar className={"overflow-y-auto transition-all duration-500 flex flex-col " + (expand ? "px-6" : "px-0")} style={{height: "calc(100vh - 4rem)"}} alwaysShowTracks={true}>

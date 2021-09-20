@@ -2,10 +2,11 @@ import React from "react";
 
 interface INavbar {
 	currentTab: number;
-	changeTab: any
+	changeTab: any,
+    setSelectedChar?: any;
 }
 
-const Navbar: React.FC<INavbar> = ({currentTab, changeTab}):JSX.Element => {
+const Navbar: React.FC<INavbar> = ({currentTab, changeTab, setSelectedChar}):JSX.Element => {
     const tab = [
         "World Map",
         "Characters",
@@ -47,7 +48,7 @@ const Navbar: React.FC<INavbar> = ({currentTab, changeTab}):JSX.Element => {
             </defs>
         </svg>
         <div className="flex flex-col w-full justify-between flex-grow my-16 mr-4">
-            {tab.map((e, i) => <a key={e} className={"text-genshin-white flex gap-3 items-center cursor-pointer transition-all " + (currentTab === i ? "text-3xl" : "text-2xl opacity-60")} onClick={() => changeTab(i)}>
+            {tab.map((e, i) => <a key={e} className={"text-genshin-white flex gap-3 items-center cursor-pointer transition-all " + (currentTab === i ? "text-3xl" : "text-2xl opacity-60")} onClick={() => {changeTab(i); (setSelectedChar ? setSelectedChar(null) : "");}}>
                 <svg className="transition-all" width={currentTab === i ? "27" : "17"} height={currentTab === i ? "27" : "17"} viewBox="0 0 27 27" fill={currentTab === i ? "none" : "#F8FEE4"} xmlns="http://www.w3.org/2000/svg">
                     <rect x="0.707107" y="13.3553" width="17.8873" height="17.8873" transform="rotate(-45 0.707107 13.3553)" stroke="#F8FEE4"/>
                     <path d="M23.3554 13.3553L13.3553 3.35531V23.3554L23.3554 13.3553Z" fill="#F8FEE4"/>

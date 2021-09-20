@@ -1,0 +1,43 @@
+{
+    "profile": {
+        "bio": {
+            "rarity": 4,
+            "weapon": "bow",
+            "element": "Cryo",
+            "sex": "Female",
+            "birthday": "January 18th",
+            "constellation": "Feles",
+            "nation": "Mondstadt",
+            "special_dish": "Definitely Not Bar Food!",
+            "release_date": "November 11, 2020"
+        },
+        "family": {
+            "ancestry": "Kätzlein Lineage",
+            "parents": "Draff"
+        },
+        "voice_actors": {
+            "english": "Dina Sherman",
+            "chinese": "Nuoya (诺亚)",
+            "japanese": "Shiori Izawa (井澤詩織)",
+            "korean": "Woo Jeong-sin (우정신)"
+        },
+        "introduction": {
+            "quote": "The incredibly popular bartender of the Cat's Tail tavern, rising star of Mondstadt's wine industry, and the greatest challenger to its traditional powerhouses.A feisty feline young lady from Springvale, any drink mixed by Diona's hand tastes delicious beyond belief.Yet given her extreme distaste for alcohol, is her talent a blessing or a curse?",
+            "content": "C+V Here"
+        },
+        "personality": {
+            "quote": "A young lady who has inherited trace amounts of non-human blood. She is the incredible popular bartender of the Cat's Tail tavern.",
+            "content": [
+                "According to her father Draff, Diona is in a bit of a rebellious phase. While Diona adores her father and idolized him in her youth, witnessing his change in personality while drunk shattered the pedestal she put him on — and started her vendetta against alcohol. She despises just about anyone who indulges in alcohol, apart from Lisa and Eula.\n",
+                "Although Diona has the option of literally destroying the industry, she chose not to, instead opting to do so by plummeting the industry's reputation by becoming a bartender and serving terrible drinks. Unfortunately, her friend blessed her with a magic touch that makes all of her drinks delicious, regardless of how noxious the ingredients used are, and she herself is unaware of this.\n",
+                "In her voiceovers, Diona proves to be a classic tsundere and is very naïve. She worries over the Traveler's ability to get home safely without night vision and offers to escort them home until they remind her that street lamps exist, and she quickly denies ever having offered escorting them. She blames Diluc for her father's problems, even though the Dawn Winery had existed well before him or his father, and fails to see why the fans she and Barbara gets are drastically different. She also appears to crave companionship, implied to be a result of Draff neglecting her when he's in his drunken stupors.\n"
+            ]
+        },
+        "appearance": [
+            "Diona is a small young girl with fair skin and short pink hair. Part of her hair is pulled into a stiff pigtail at the front of her head. She also has pink, black, and white cat ears and tail, teal green eyes, and round eyebrows. Diona's cat traits are those of a calico cat's.\n",
+            "Diona wears a large dark indigo cap, along with shorts of the same color with gold paw-print decorations. She also wears a dark indigo midriff-baring sleeveless shirt with an orange-yellow scarf, pale pink sleeves, a vest of the same color, and white gloves with light pink paw-like patterns on the undersides. Diona wears a cold drink canteen strapped to her shorts, attached to which is her Cryo Vision. She also wears navy blue boots, that are shaped with raised heels, with gold cat-shaped decorations. Her outfit, Sugary Brew, is described to be the work uniform of the Cat's Tail.\n"
+        ]
+    },
+    "name": "Diona",
+    "nickname": "Kätzlein Cocktail"
+}

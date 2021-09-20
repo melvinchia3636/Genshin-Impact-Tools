@@ -1,0 +1,41 @@
+{
+    "profile": {
+        "bio": {
+            "rarity": 4,
+            "weapon": "claymore",
+            "element": "Electro",
+            "sex": "Female",
+            "birthday": "February 14th",
+            "constellation": "Victor Mare",
+            "nation": "Liyue",
+            "special_dish": "Flash-Fried Filet",
+            "release_date": "September 28, 2020"
+        },
+        "voice_actors": {
+            "english": "Allegra Clark",
+            "chinese": "Yajing Tang (唐雅菁)",
+            "japanese": "Ami Kōshimizu (小清水亜美)",
+            "korean": "Jeong Yoo-mi (정유미)"
+        },
+        "introduction": {
+            "quote": "Captain of the Crux, with quite the reputation in Liyue.There are those who say she can split mountains and part the sea. Others say she draws lightning through her sword. Some say that even the mightiest of sea beasts are no match for her.For those not from Liyue, it may sound like a hearty joke, but those that have sailed with her will say—\"No matter what sea beasts there may be, Beidou will be sure to split them all in two.\"",
+            "content": "C+V Here"
+        },
+        "personality": {
+            "quote": "Captain of her crew, The Crux. She's quite an unbound and forthright woman.",
+            "content": [
+                "Beidou loves travelling the oceans, setting sail with her ship and crew to any place they desire. She admits that she is so used to sailing the seas that she is not used to staying on land for prolonged periods of time.\n",
+                "She is a reliable and strong captain, getting along well with her entire crew, prioritizing the interests of her ship and crew first above everything else. In part due to her time in the seas, she can easily read people in an instant and shows no fear against powerful entities, having defeated the leviathan Haishan without a vision, something that Xiao notes as remarkable. She often breaks the rules in Liyue, resulting in hefty fines from the Tianquan, but she does not appear to mind paying despite having lost a significant amount of Mora doing so.\n",
+                "Beidou is also on good terms with Ganyu, but because of her poor standing with the Liyue Qixing, she keeps it a secret to avoid putting a negative light on her.\n",
+                "She enjoys eating robust food, primarily those fried or spiced, and enjoys drinking. Due to this, she is fond of Xiangling's cooking and does not mind testing out any new dishes for her when she returns to port.\n"
+            ]
+        },
+        "appearance": [
+            "Beidou is a tall woman whose beauty strikes one senseless, like a flash of roaring thunder. She has long, waist-length dark brown hair that flows like the waves of the sea. The top of her hair is tied up with an intricate gold hairpin with a pale blue tassel hanging from one end. Her fringe parts around her right eye, slightly covering her left. Her right eye is a deep ruby-colored hue melting into gold, reminiscent of a brilliant dawn. The radiance in her gaze could challenge that of the sun. Her left eye is covered by a red eyepatch. From her left ear dangles an earring resembling two hollow diamonds stacked upon each other, the color of which matches with her hairpin.\n",
+            "Her outfit, Rolling Waves, is described to be lightweight clothing saturated with a brave seafarer's spirit.\n",
+            "She dons a black leotard underneath a bright red sleeveless qipao dress, with side slits going up to her hips and the chest area cut out. In stark contrast to the rest of her primarily red ensemble, a vivid purple Electro Vision is chained below her left breast, from which hangs a golden tassel. Beidou also wears an imposing fur-lined red shawl around her shoulders. The back of her qipao dress splits into two, with gold cloud patterns embroidered at the end, accentuated by black bordering. Additionally, she wears a pair of fingerless, elbow-length black gloves. Beidou's boots reach up to her thighs and boast high heels strong enough to kick a claymore into the air with. Many golden anchor motifs can be found scattered around Beidou's outfit, such as on her boots, her gloves, and the front of her qipao dress.\n"
+        ]
+    },
+    "name": "Beidou",
+    "nickname": "Uncrowned Lord of the Ocean"
+}

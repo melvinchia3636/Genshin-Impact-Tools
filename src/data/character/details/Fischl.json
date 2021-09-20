@@ -1,0 +1,48 @@
+{
+    "profile": {
+        "bio": {
+            "rarity": 4,
+            "weapon": "bow",
+            "element": "Electro",
+            "real_name": "Fischl von Luftschloss Narfidort",
+            "sex": "Female",
+            "birthday": "May 27th",
+            "constellation": "Corvus",
+            "nation": "Mondstadt",
+            "special_dish": "Die Heilige Sinfonie",
+            "release_date": "September 28, 2020"
+        },
+        "family": {
+            "english": "Brittany CoxOz: Ben Pronsky",
+            "chinese": "MaceOz: Yuantao Li (李元韬)",
+            "japanese": "Maaya Uchida (内田真礼)",
+            "korean": "Park Go-woon (박고운)"
+        },
+        "voice_actors": {
+            "chinese_name": "菲谢尔 Fēixièěr",
+            "japanese_name": "フィッシュル Fisshuru",
+            "korean_name": "피슬 Piseul"
+        },
+        "introduction": {
+            "quote": "A mysterious girl who calls herself \"Prinzessin der Verurteilung\" and travels with a night raven named Oz. Currently serves as an investigator in the Adventurers' Guild.Through her unique abilities, eccentric character, and (while she would never admit it herself) hard work, Fischl has become a rising star among the Adventurers' Guild's investigators, earning the recognition of all.",
+            "content": "C+V Here"
+        },
+        "personality": {
+            "quote": "A mysterious girl who calls herself \"Prinzessin der Verurteilung\" and travels with a night raven named Oz.",
+            "content": [
+                "Due to her upbringing as a child, Fischl is obsessed with fantasy stories and roleplays as a benevolent princess. She speaks in a polite and formal manner to all, which greatly confuses those who interact with her. For this purpose, Oz ends up translating most of her speech if they are confused. She is used to speaking this way that even breaking character ends up confusing them just as much.\n",
+                "This roleplay often results in most people having a negative view of her outside of guild duties, but she is not dismayed by this and continues roleplaying regardless of what others think of it. She has very few friends and appreciates those who are willing to go along with her roleplay.\n",
+                "Outside of roleplaying, she is a kind and well-behaved girl. She gets along well with her parents, even if she doesn't spend much time with them or they disagree with some of her decisions, but they tend to respect her enough that they comply with whatever she requests. Lisa, who generally gets in a bad mood when people neglect the books they borrow from the library, states that Fischl always keeps the books she borrows in good condition and returns them early. She tends not to dwell too much on the past, seeing herself as Fischl, not as her true identity, who she considers a different person.\n",
+                "Fischl also has a knack for investigating in part due to her own theories and Oz, which has allowed her to quickly climb up the ranks of the Adventurer's Guild. Even when her ideas sound outlandish (such as claiming a meteor shower to be the result of a curse), Oz is quick to ask others not to underestimate her intuition, as her instincts are very keen.\n",
+                "She enjoys Mitternachtsbrot des Sommernachtgartens and despises Sweet Madame, claiming that it has been mutilated by \"unnatural bondage\" and that it resembles her homeworld's hell.\n"
+            ]
+        },
+        "appearance": [
+            "Fischl has blonde hair, light green eyes, and a petite build with fair skin. Two sections of her hair are tied into twin tails with a black ribbon, the left of which is decorated with a bat wing pattern. Fischl wears a black eyepatch that is worn to not obstruct her view when possessing Oz.\n",
+            "Overall, Fischl seems to have designed her outfit to be as asymmetrical as physically possible. She wears a sleeveless black lace dress-like leotard with a black lace collar and purple bow tie, crosses stitched in, and black and violet tailcoats. However, hidden under her hair reveals a black tattoo of wings. Fischl's vision is tied to the back of this dress with a bat wing-style purple ribbon. She wears a shoulder-length black glove on her left hand and a black and purple sleeve on her right arm. Fischl wears a transparent black stocking on her right leg and a similar thigh-high black sock held up by a garter on her left. Fischl wears black boots with a light purple lining, gold heels, and bat wing decorations.\n",
+            "In general, Fischl seems to style herself after the titular character of the book \"Flowers for Princess Fischl.\" Her outfit, Dunkelnacht Sakrament, is described to be the Prinzessin Der Verurteilung's customary vestments during her sojourn upon this realm.\n"
+        ]
+    },
+    "name": "Fischl",
+    "nickname": "Prinzessin der Verurteilung"
+}

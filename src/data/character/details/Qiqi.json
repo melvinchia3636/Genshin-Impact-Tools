@@ -1,0 +1,41 @@
+{
+    "profile": {
+        "bio": {
+            "rarity": 5,
+            "weapon": "sword",
+            "element": "Cryo",
+            "sex": "Female",
+            "birthday": "March 3rd",
+            "constellation": "Pristina Nola",
+            "nation": "Liyue",
+            "special_dish": "No Tomorrow",
+            "release_date": "September 28, 2020"
+        },
+        "voice_actors": {
+            "english": "Christie Cate",
+            "chinese": "Yanning (宴宁)",
+            "japanese": "Yukari Tamura (田村ゆかり)",
+            "korean": "Lee Seul (이슬)"
+        },
+        "introduction": {
+            "quote": "An apprentice and herb gatherer at Bubu Pharmacy. \"Blessed\" by the adepti with a body that cannot die, this petite zombie cannot do anything without first giving herself orders to do it.Qiqi's memory is like a sieve. Out of necessity, she always carries around a notebook in which she writes anything important that she is sure to forget later.But on her worst days, she even forgets to look at her notebook...",
+            "content": "C+V Here"
+        },
+        "personality": {
+            "quote": "An apprentice and herb gatherer at Bubu Pharmacy. An undead with a bone-white complexion, she seldom has much in the way of words or emotion.",
+            "content": [
+                "Qiqi has a quiet, yet polite demeanor when dealing with customers at the pharmacy. As a zombie, Qiqi has trouble retaining memories and can quickly forget about people if she doesn't continually reinforce herself with an impression of them, using her Vision to protect those she holds dear. Due to her undead nature, Qiqi has a relatively flat voice and is unable to convey most of her emotions to others, nor does she have a particularly strong sense of smell. She prefers cold weather, as the heat reminds her of death and her flesh begins to decay if she stays too long in such places.\n",
+                "Although zombies have to be issued orders when awoken, because Qiqi had done so herself, she is a rare case and has to give herself orders in order to perform her duties. These duties cannot be canceled and she must either finish the task or be forced to cancel it by hugging her with enough sincerity. She takes her duties seriously, carrying a notebook in which she details everything she needs to do for the day, which also serves as a reminder in case she forgets something. She also strives to improve herself so she becomes less forgetful. On particularly foul days however, she may forget to check on her notebook.\n",
+                "While she generally gets along with everyone, she loses it whenever Hu Tao comes or is mentioned, remarking that she has a \"punchable face\" and completely despises her, expressing an intent to throw the director into the fridge due to her insistence on sealing her away. Even after giving her an exception and pampering her, Qiqi still holds a grudge towards Hu Tao. While she usually forgets about her boss on an infrequent basis and is aware that he has ulterior motives with her, she does not mind remaining under his employment because she treasures his concern over her.\n",
+                "She is also fond of coconut milk and finches for reasons unknown, though she initially mistakes the former as \"cocogoat\" milk. The result is a popular joke involving Ganyu being the cocogoat because of her qilin horns.\n"
+            ]
+        },
+        "appearance": [
+            "Qiqi has light purple hair reaching her shoulders at the sides with a long plait in the back, pale skin, and magenta colored eyes. Her fingernails are black.\n",
+            "Qiqi usually wears purple themed clothing and has several ofuda talismans stuck on her. Her attire consists of a purple frock and a deep purple beret with a red-purple (magenta) tassel on top and her Cryo Vision embedded on the side. She wears a pair of simple earrings; one black and one white. She also wears black heels and white stockings that are wrapped in mummy-like bandages.\n",
+            "Despite being a zombie, Qiqi is in a better shape than her boss, Baizhu. She performs calisthenics on a daily basis to prevent rigor mortis from setting in, which would otherwise force her to continually hop around to move. Her outfit, Summerchill Dreams, is described to be a herb gatherer's garment that brings her great peace of mind due to the attached talismans.\n"
+        ]
+    },
+    "name": "Qiqi",
+    "nickname": "Icy Resurrection"
+}

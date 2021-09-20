@@ -1,0 +1,35 @@
+{
+    "profile": {
+        "bio": {
+            "rarity": 5,
+            "weapon": "sword",
+            "element": "element"
+        },
+        "family": {},
+        "voice_actors": {},
+        "introduction": {
+            "quote": "The keeper is fading away; the creator has not yet come.\nBut the world shall burn no more, for you shall ascend.",
+            "content": "C+V Here"
+        },
+        "personality": {
+            "quote": "A traveler from another world who had their only kin taken away, forcing them to embark on a journey to find The Seven.",
+            "content": [
+                "The traveler's personality is determined primarily by the player themselves through dialogue options. Their personality can range from stoic, humble and helpful to boastful, lazy and short-tempered.\n",
+                "Despite this, there are instances of single speech options or similar options which give a glimpse at their personality overall. They are, for example, observed by Paimon as not believing the gods are anymore worthy of unearned respect than mortal inhabitants of Teyvat. They also are pointedly uninterested in getting involved with each nation's troubles without good reason. Their response to Morax's \"death\" was initially to simply leave, both to avoid suspicion and seemingly a level of apathy considering the circumstances of their arrival on the world.\n",
+                "This trend continues into Inazuma, where the Traveler initially denies aid to the rebellion and refuses to take sides, interested only in meeting with the Raiden Shogun. Yet despite this hesitation to get involved, the Traveler is ultimately a compassionate person, and coming to understand the circumstances of each situation led to them reversing their initial stances.\n"
+            ]
+        },
+        "appearance": [
+            "Both siblings have blond hair, though in-game, Aether's is of a brighter shade. They have slim body builds, golden-yellow eyes, and fair skin. Their skin is of a light tan when compared to the NPCs of Mondstadt. They adorn a contrasting color palette—Aether's color scheme is mainly black, golden and white, while Lumine's is white and blue. The two are not identical and differ in their natural features.\n",
+            "Aether wears a dark brown breastplate vest baring his midriff along with a white scarf and a two-tailed cape with golden embroidery and decals. He wears a golden pauldron on his left shoulder and a tasseled earring in his left ear. He wears dark brown pants, brown gloves and black boots, and has lightly-defined pecs which do not appear in his in-game model. His hair is medium cut with choppy bangs and a long, braided ponytail, tied with a tasseled band.\n",
+            "Lumine wears a sleeveless white dress with a scarf and two tail capes. She also wears bracers and gloves that cover only her thumb, with white stockings and boots. Her hair is cut into a bob with bangs, with, straight, shoulder-length twin tails, and is decorated with her favorite flowers and white-blue feathers.\n",
+            "The Travelers have glowing pieces in their outfit (The diamond on Aether's chest, his earring, his gloves, boots and decals on this cape; the emblem on Lumine's midriff, the diamonds on her cape and her stockings) that change color based on which element they are currently attuned to. In the opening cutscene with the Unknown God, both of the siblings had glowing white clothing and yellow wings. Later, after the fight with the Unknown God, the player's chosen Traveler will lose their white light. Aether's will turn black and Lumine's will be dull until they interact with the first Statue of the Seven they come across. The clothing will light up again, but this time becoming teal, as they are borrowing the power of Anemo from Barbatos. This lighting scheme would continue based on which element the sibling is currently borrowing.\n",
+            "If a character's Elemental Burst is charged, switching to that character will show their Vision glowing brightly. Interestingly, even though the Travelers do not have a Vision of their own, one of the glowing sections of their clothing will show the same effect of glowing/showing their current element's sign (the emblem on Lumine's midriff and the diamond on Aether's chest). Their outfit, Rising Star, is described to be a practical set of clothing to wear during a long journey.\n",
+            "History",
+            "Aether and Lumine were going to leave Teyvat after witnessing the destruction of Khaenri'ah,[6] when suddenly an Unknown God blocked their way. A fight ensued and resulted in one of the twins getting consumed by red cubes from the Unknown God, and the other trapped in a seal which caused them to lose their powers. Spending an unknown amount of time sealed (the Traveler speculates it had been \"years\") they eventually woke up. Stranded alone on Teyvat for some time, one day the Traveler accidentally fished out Paimon from a lake, saving her from drowning.\n",
+            "Paimon would stay with the Traveler and taught them the Teyvat Language: to her amazement, it only took them two months to become a conversational speaker. After learning of how they got stranded on Teyvat at the start of the game, Paimon suggests they get in contact with The Seven, in order to help the Traveler look for their lost sibling. In the Archon Quest We Will Be Reunited, the siblings briefly reunite. However, after having found their lost sibling, the Traveler changes their goal to instead explore Teyvat and uncover the secrets of Khaenri'ah as instructed by their sibling.\n"
+        ]
+    },
+    "name": "Traveler",
+    "nickname": "Outlander"
+}

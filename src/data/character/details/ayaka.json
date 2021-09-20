@@ -1,9 +1,7 @@
 {
-    "name": "Kamisato Ayaka",
-    "nickname": "Frostflake Heron",
     "profile": {
         "bio": {
-            "rarity": "✦✦✦✦✦",
+            "rarity": 5,
             "weapon": "sword",
             "element": "Cryo",
             "real_name": "Kamisato Ayaka",
@@ -20,19 +18,28 @@
             "siblings": "Kamisato Ayato"
         },
         "voice_actors": {
-            "english": "Erica Mendez",
-            "chinese": "Xiao N (小N)",
-            "japanese": "Saori Hayami (早見沙織)",
-            "korean": "Lee Yu-ri (이유리)"
+            "english": "Erica Mendez[1]",
+            "chinese": "Xiao N (小N)[2]",
+            "japanese": "Saori Hayami (早見沙織)[3]",
+            "korean": "Lee Yu-ri (이유리)[4]"
         },
         "introduction": {
-            "quote": "Daughter of the Yashiro Commission's Kamisato Clan from Inazuma. Dignified and elegant, wise and determined.\nSincere and pleasant to others. Universally loved by the Inazuma people, she has earned the title of Shirasagi Himegimi.",
-            "content": "Kamisato Ayaka (Japanese: 神里綾華) is a playable Cryo character in Genshin Impact.\nShe is the eldest daughter of the Kamisato Clan and sister of Kamisato Ayato. Being beautiful, elegant, and graceful, the common-folk have nothing to bad-mouth Ayaka about.\nBecause of her social status as the eldest daughter of the Kamisato Clan of the Yashiro Commission and as the Shirasagi Himegimi, Ayaka is seen as a model of perfection."
+            "quote": "Daughter of the Yashiro Commission's Kamisato Clan from Inazuma. Dignified and elegant, wise and determined.Sincere and pleasant to others. Universally loved by the Inazuma people, she has earned the title of Shirasagi Himegimi.",
+            "content": "C+V Here"
         },
         "personality": {
             "quote": "Daughter of the Yashiro Commission's Kamisato Clan. Dignified and elegant, as well as wise and strong.",
-            "content": "Ayaka is a kind-hearted girl with a pleasant temperament who treats others with politeness and courtesy. She holds the people of Inazuma dear to her heart and often goes out of her way to personally assist in all kinds of matters; being a member of the Yashiro Commission, she feels that she must meet the people's needs. She is a perfectionist with an earnest personality. Her dedication often moves people, and those close to her gave her the honorary title of Shirasagi Himegimi  (Japanese: 白鷺の姫君 Shirasagi no Himegimi, \"White Heron Princess\"). People in the neighborhood always talk about her with sincere admiration.\nThanks to the influence of Ayaka's excellent upbringing, her heart is as pure as crystallized ice. Just like the splendid colors reflected as the ice crystals spin in the winter air, such is Ayaka's spirit. While the people of Inazuma love her, it is also well known that she has very few friends due to her upbringing — Thoma is her only known friend until she met the Traveler. She is also busy to the point that she doesn't have much free time, to begin with, so she has trouble mingling with others. When not burdened with her duties, she shows a tender, cute side to her.\nBut if you want to capture a heart hanging high in the sky, you must have the ability to climb up the clouds. In other words, Ayaka is eager to associate with people capable of achieving great feats — in her eyes, friendships are dictated by fate, the same way she was destined to wield her frost-covered sword."
+            "content": [
+                "Ayaka is a kind-hearted girl with a pleasant temperament who treats others with politeness and courtesy. She holds the people of Inazuma dear to her heart and often goes out of her way to personally assist in all kinds of matters; being a member of the Yashiro Commission, she feels that she must meet the people's needs. She is a perfectionist with an earnest personality. Her dedication often moves people, and those close to her gave her the honorary title of Shirasagi Himegimi  (Japanese: 白しら鷺さぎの 姫ひめ君ぎみ Shirasagi no Himegimi, \"White Heron Princess\"). People in the neighborhood always talk about her with sincere admiration.\n",
+                "Thanks to the influence of Ayaka's excellent upbringing, her heart is as pure as crystallized ice. Just like the splendid colors reflected as the ice crystals spin in the winter air, such is Ayaka's spirit. While the people of Inazuma love her, it is also well known that she has very few friends due to her upbringing — Thoma is her only known friend until she met the Traveler. She is also busy to the point that she doesn't have much free time, to begin with, so she has trouble mingling with others. When not burdened with her duties, she shows a tender, cute side to her.\n",
+                "But if you want to capture a heart hanging high in the sky, you must have the ability to climb up the clouds. In other words, Ayaka is eager to associate with people capable of achieving great feats — in her eyes, friendships are dictated by fate, the same way she was destined to wield her frost-covered sword.[6]\n"
+            ]
         },
-        "appearance": "Ayaka is a female of slightly below average height. She keeps her long white-blue hair tied in a high ponytail by an armored headdress. Her hair is fitted into a hime cut, with the frontal portions on the sides separated by pink 3-petaled flower knots. Her light blue-gray eyes are accompanied by thick lashes and a mole underneath her left eye.\nHer outfit, Flawless Radiance, is described as a kimono that displays the nobility and resilience of the Shirasagi Himegimi. It consists of a royal blue pleated knee-length skirt with an assortment of patterns, bearing gold accents and small white flower patterns, and black geta sandals with ankle-length white socks decorated by pink bows at the back. She has a black breastplate with a golden Kamisato Clan emblem in the center and matching armor platings on the sides of her skirt. Underneath her breastplate is a loose elbow-length shirt with gradients of blue to white. Her cuffs and collar on her top are navy with a variety of gold stripes. She wears black sleeves underneath the loose shirt, sling over her middle fingers, and covering both of her thumbs. On top of her black sleeves are white armored platings lined by gold metal, tied together by red knots. At the back of her outfit is a big purple bow, tied together by her Vision and yet another pink flower knot. The lower half of the ribbons darken in color with gold markings seemingly native to her homeland. As an accessory, she carries around a gold-navy fan that matches her skirt."
-    }
+        "appearance": [
+            "Ayaka is a female of slightly below average height. She keeps her long white-blue hair tied in a high ponytail by an armored headdress. Her hair is fitted into a hime cut, with the frontal portions on the sides separated by pink 3-petaled flower knots. Her light blue-gray eyes are accompanied by thick lashes and a mole underneath her left eye.\n",
+            "Her outfit, Flawless Radiance, is described as a kimono that displays the nobility and resilience of the Shirasagi Himegimi. It consists of a royal blue pleated knee-length skirt with an assortment of patterns, bearing gold accents and small white flower patterns, and black geta sandals with ankle-length white socks decorated by pink bows at the back. She has a black breastplate with a golden Kamisato Clan emblem in the center and matching armor platings on the sides of her skirt. Underneath her breastplate is a loose elbow-length shirt with gradients of blue to white. Her cuffs and collar on her top are navy with a variety of gold stripes. She wears black sleeves underneath the loose shirt, sling over her middle fingers, and covering both of her thumbs. On top of her black sleeves are white armored platings lined by gold metal, tied together by red knots. At the back of her outfit is a big purple bow, tied together by her Vision and yet another pink flower knot. The lower half of the ribbons darken in color with gold markings seemingly native to her homeland. As an accessory, she carries around a gold-navy fan that matches her skirt.\n"
+        ]
+    },
+    "name": "Kamisato Ayaka",
+    "nickname": "Frostflake Heron"
 }

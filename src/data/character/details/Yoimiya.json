@@ -1,0 +1,42 @@
+{
+    "profile": {
+        "bio": {
+            "rarity": 5,
+            "weapon": "bow",
+            "element": "Pyro",
+            "real_name": "Naganohara Yoimiya",
+            "sex": "Female",
+            "birthday": "June 21st",
+            "constellation": "Carassius Auratus (Story Quest)",
+            "nation": "Inazuma",
+            "special_dish": "Summer Festival Fish",
+            "release_date": "August 10, 2021"
+        },
+        "voice_actors": {
+            "english": "Jenny Yokobori",
+            "chinese": "Na Jin (金娜)",
+            "japanese": "Kana Ueda (植田佳奈)",
+            "korean": "Bak Sin-hee (박신희)"
+        },
+        "introduction": {
+            "quote": "A talented pyrotechnician. The current owner of Naganohara Fireworks known as the \"Queen of the Summer Festival.\"\nA girl filled with fiery passion. The uncompromising childish innocence and the obsession with craftsmanship intertwine in her to create a spectacular blaze.",
+            "content": "C+V Here"
+        },
+        "personality": {
+            "quote": "Owner of Naganohara Fireworks. Known as \"Queen of the Summer Festival,\" she excels in her craft of creating fireworks that symbolize people's hopes and dreams.",
+            "content": [
+                "Yoimiya, like the rest of her family, is loved by the people of Inazuma City for the fireworks she creates. Like her father, Yoimiya is devoted to the family business, stating that her customers' happiness is the first priority above all else. This service has amassed a massive and loyal customer base who are willing to help her out on any problems she have.\n",
+                "She is also loved by children due to her friendly hands-on approach with them, as she wishes to keep them happy so they don't have to deal with the harsh realities of Inazuma for the time being. Having very few worries of her own, she can also read peoples' hearts and can tell whether or not they're hiding something deep down.\n",
+                "She is somewhat of a fast speaker, and despite being the primary provider of fireworks, is also known to be quite reckless and unprepared, having been scolded by the city's fire brigade numerous times and noted by Amenoma Tougo to always make last-minute preparations.\n",
+                "Like many other Vision bearers, Yoimiya enjoys her Pyro Vision, as it helps her out with the business and she couldn't imagine a life without one. While not supportive of the Vision Hunt Decree, she still worships Baal.\n"
+            ]
+        },
+        "appearance": [
+            "She has short strawberry blonde hair that is choppily cut, tied into a high ponytail and leaves a lock of hair loose on the left side of her face. She wears many festival themed hair accessories, her eyes are a golden color and she wears bright orange eyeliner.\n",
+            "Yoimiya's attire mainly consists of a red short kimono but with only one sleeve worn. Her right sleeve is rolled up past her elbow and tied with a string. The left half of the kimono is draped around her waist, and its black sleeve with floral patterns fall behind her around her knees. It's held by an obi belt, and exposes the upper left section of her body. Her chest is wrapped up in sarashi, as are her left forearm and upper thighs, extending down to her right leg. Her black obi is tied in a neat knot but is also decorated with a red rope that's made into huge bow behind her. A smaller white rope is also added to secure the knot. She wears black socks and sandals, made with red strings and decoratively tied into bows at her ankles for both feet. Her right leg is armored with red plating and padded with a longer thigh-high sock underneath. The armor is tied to her leg at the knee with light blue fabric.\n",
+            "Her outfit contains a multitude of accessories; she wears a red choker with a golden butterfly ornament, black stud earrings, a red beaded bracelet on her right hand and a black fingerless glove tied by a red ribbon on her left. There is a small flower tattoo near her left shoulder above the sarashi, and another similar tattoo patch around her upper left arm containing a red fish, more flowers and purple swirls. A festival pouch hangs from her waist on the left, and her vision is secured to her obi on her right.\n"
+        ]
+    },
+    "name": "Yoimiya",
+    "nickname": "Frolicking Flames"
+}

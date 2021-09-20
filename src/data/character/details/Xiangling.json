@@ -1,0 +1,42 @@
+{
+    "profile": {
+        "bio": {
+            "rarity": 4,
+            "weapon": "polearm",
+            "element": "Pyro",
+            "sex": "Female",
+            "birthday": "November 2nd",
+            "constellation": "Trulla (Story Quest)",
+            "nation": "Liyue",
+            "special_dish": "Wanmin Restaurant's Boiled Fish",
+            "release_date": "September 28, 2020"
+        },
+        "family": {
+            "parents": "Chef Mao"
+        },
+        "voice_actors": {
+            "english": "Jackie Lastra",
+            "chinese": "Xiao N (小N)",
+            "japanese": "Ari Ozawa (小澤亜李)",
+            "korean": "Yun A-yeong (윤아영)"
+        },
+        "introduction": {
+            "quote": "The Head Chef at the Wanmin Restaurant and also a waitress there, Xiangling is extremely passionate about cooking and excels at her signature hot and spicy dishes.Though still young, Xiangling is a true master of the culinary arts with all the skills of a kitchen veteran. She enjoys a good reputation among the hearty eaters at Chihu Rock.There's absolutely no need to be nervous if she wants you to sample her latest creation. It will not disappoint. Promise.",
+            "content": "C+V Here"
+        },
+        "personality": {
+            "quote": "A renowned chef from Liyue. She's extremely passionate about cooking and excels at making her signature hot and spicy dishes.",
+            "content": [
+                "Xiangling loves cooking, having learned the art from her father. She does not have a discerning eye towards a specific type of cuisine, seeing that food is a way to expand and experiment. She will use anything for her recipes, even unconventional ingredients that would gross out others. Even if some of the dishes are not to her liking, Xiangling will not give up and simply press on to modify or start over from scratch.\n",
+                "Her unconventional cooking is what led her to acclaim in both Mondstadt and Liyue. Unlike most cooks, Xiangling is not concerned about mora, stating that food is to nourish and that the smiles on her customers' faces is more than enough for her. She dislikes having to limit herself to a specific style of cooking, seeing it as bland and unsurprising.\n",
+                "Outside of cooking, Xiangling is easy to scare and is often pranked by Hu Tao. Despite disliking her pranks, Xiangling does not have a grudge towards her because she occasionally brings her gifts in return for giving her a good laugh.\n"
+            ]
+        },
+        "appearance": [
+            "Xiangling has dark, indigo-black hair that she keeps in a pair of panda-like braided buns. She has golden eyes, pale skin, and a perpetual smile on her face. Xiangling wears a golden paw-shaped hair clip on one side of her bangs.\n",
+            "Xiangling wears a brown and gold leotard with red ribbons in the front and back, the back being larger and holding a bell. She wears a gold belt, which she uses to hold her Vision and carry around her red panda companion, Guoba. Additionally she wears brown fingerless gloves and boots, as well as a braided red ribbon around her left thigh and right arm and adhesive bandages in the shape of an X on her right knee. Her outfit, Red Pepper and Turmeric, is described as light and comfortable clothing brimming with fiery passion.\n"
+        ]
+    },
+    "name": "Xiangling",
+    "nickname": "Exquisite Delicacy"
+}

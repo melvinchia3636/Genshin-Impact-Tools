@@ -1,0 +1,38 @@
+{
+    "profile": {
+        "bio": {
+            "rarity": 4,
+            "weapon": "catalyst",
+            "element": "Anemo",
+            "sex": "Female",
+            "birthday": "November 26th",
+            "constellation": "Ampulla",
+            "nation": "Mondstadt",
+            "special_dish": "Nutritious Meal (V. 593)",
+            "release_date": "September 28, 2020"
+        },
+        "voice_actors": {
+            "english": "Valeria Rodriguez",
+            "chinese": "Xiaogan (小敢)",
+            "japanese": "Akane Fujita (藤田茜)",
+            "korean": "Kim Ha-yeong (김하영)"
+        },
+        "introduction": {
+            "quote": "An alchemist with an insatiable curiosity towards the world and everything in it. Attached to the Knights of Favonius as an assistant to Albedo, her area of focus is \"bio-alchemy.\"She strives to enrich the world by transforming living things with the power of alchemy.Granted, the products of her research sometimes prove to be more weird than wonderful — but on the whole, she has made monumental contributions to the field of bio-alchemy.",
+            "content": "C+V Here"
+        },
+        "personality": {
+            "quote": "An alchemist filled with curiosity about all things. She researches bio-alchemy.",
+            "content": [
+                "Sucrose loves experimenting and spends most of her time researching on bio-alchemy, stating that she likes to discover the secrets of life. Her research often yields numerous results that she often labels every unique variable as a result of its own, regardless of how useful said result may be. She spends an immense amount of time researching that she finds herself quickly bored whenever she takes a break.\n",
+                "Due to spending most of her time researching and experimenting, Sucrose is a recluse. She has trouble talking with others, as she frequently worries about unintentionally offending them. Lisa remarks that she is hopeless when talking to people, and she herself admits that she is scared of Jean to the point that she often asks Albedo to go on her behalf if she has to discuss something with her. However, she does not share the same issue when talking about bio-alchemy or Albedo. She reveres Albedo to the point that she considers him to be a true gentleman and maintains an excessively formal manner towards him, despite both of them being at a similar age.\n"
+            ]
+        },
+        "appearance": [
+            "Sucrose has tied up long, light green hair with a streak of blue, fair skin, and amber eyes, with a pair of black round spectacles. Her Anemo Vision is attached as a brooch to her cape collar. She wears her alchemist uniform as part of the Knights of Favonius investigation department alongside her mentor, Albedo. She wears thick, white gloves, black-rimmed glasses, a blue corset with a ruffled hem, and a pair of white boots and black thigh-highs with garter.\n",
+            "Sucrose appears to have some non-human blood, as her ears are a hereditary feature, which she conceals as part of her hair. Her outfit, Germinating Wind, is described to be a Knights of Favonius alchemist's uniform customized for Sucrose.\n"
+        ]
+    },
+    "name": "Sucrose",
+    "nickname": "Harmless Sweetie"
+}

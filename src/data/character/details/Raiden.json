@@ -1,0 +1,42 @@
+{
+    "profile": {
+        "bio": {
+            "rarity": 5,
+            "weapon": "polearm",
+            "element": "Electro",
+            "real_name": "Raiden Ei (Japanese: 雷らい電でん影えい)",
+            "sex": "Female",
+            "birthday": "June 26th",
+            "constellation": "Imperatrix Umbrosa (Story Quest)",
+            "nation": "Inazuma",
+            "special_dish": "None",
+            "release_date": "September 01, 2021"
+        },
+        "voice_actors": {
+            "english": "Anne Yatco",
+            "chinese": "Juhuahua (菊花花)",
+            "japanese": "Miyuki Sawashiro (沢城みゆき)",
+            "korean": "Park Ji-yoon (박지윤)"
+        },
+        "introduction": {
+            "quote": "The Raiden Shogun is the awesome and terrible power of thunder incarnate, the exalted ruler of the Inazuma Shogunate.\nWith the might of lightning at her disposal, she commits herself to the solitary pursuit of eternity.",
+            "content": "C+V Here"
+        },
+        "personality": {
+            "quote": "Her Excellency, the Almighty Narukami Ogosho, who promised the people of Inazuma an unchanging Eternity",
+            "content": [
+                "The Raiden Shogun is a firm believer of what she believes to be eternity—a place in which everything is kept the same, regardless of what goes on. She is honorable in her conduct and is revered by the people of Inazuma.\n",
+                "The Raiden Shogun exists in two forms—Raiden Ei, her true identity, and the Shogun, a puppet created by Ei to act as the ruler of Inazuma in her stead while she meditates in the Plane of Euthymia. This puppet follows a set of directives programmed into her, which are extremely hard to modify even by Ei herself. The Shogun is cold and stern in personality, even callous at times; she is limited in emotional expression, has no likes and dislikes, and has no need for recreation. The Shogun thinks of herself as Ei's assistant, and does exactly as she wishes, no more and no less; she cannot act without Ei's direction, and if her usual functions are disabled, the Shogun becomes incapable of doing anything. Due to her limited protocols and Ei's indifference for anything other than her goal of eternity, the puppet can easily be manipulated by outside forces. For example, the Kujou Clan and the Fatui tricked her into initiating and maintaining the Vision Hunt Decree.\n",
+                "While Ei has a more stern demeanor than the average person, she is notably more emotive and sociable than the Shogun. Unlike the Shogun, Ei has preferences, such as a love for sweets. Due to her dedication to eternity, Ei is wary of the idea of change. However, she shows curiosity rather than disdain when it comes to new things, such as the appearance of the Traveler and the customs of the modern world. Due to having lost many of her loved ones over the centuries, Ei is driven by a fear of further loss, wanting to preserve Inazuma for all eternity. To this end, she sealed herself in the Plane of Euthymia to keep herself from the effects of erosion, while she created the puppet Shogun to be immune to the decay of the physical body. While in the Plane of Euthymia, Ei was indifferent to anything that did not affect her pursuit of eternity and had a low opinion of human ambition due to ambition leading to loss and suffering, thus making it incompatible with eternity. Even in the Plane of Euthymia, however, she could not truly escape loneliness, as she was happy to see her friend Yae Miko again, and she appears to enjoy the Traveler and Paimon's company.\n",
+                "Ei has a weakness against desserts and sweet things. Her view is that desserts can't pose any serious obstacle to her pursuit of Eternity to the extent that in any case of cavities, she could just replace her tooth. Yae Miko and Venti also mentioned about her fondness against desserts, with the Anemo Archon even suggesting that the Traveler bring her desserts to exploit the said vulnerability. During her story quest, when asked by Traveler, Ei explained that since humans enjoyed desserts, she should enjoy it as well. Ei also has an aversion to cooking, saying that she can do anything but that.\n",
+                "In spite of her flawed actions, Ei truly loves Inazuma as her sister did and just wants to protect it and her subjects for all eternity. After she was convinced that her actions were wrong, Ei shows remorse on her prior conduct and is willing to change her ways in governing Inazuma so as to avoid repeating her past mistakes.\n"
+            ]
+        },
+        "appearance": [
+            "The Raiden Shogun is an adult woman with long braided violet hair behind her back and a hairpin, which belonged to Beelzebul's twin sister, Raiden Makoto, on her right side. She wears a small crimson ribbon on her neck as a choker. Her kimono has an assortment of patterns in different shades of purple and crimson, along with a badge bearing the emblem of Inazuma tied to the front of her clothing below her right breast and a more elaborate emblem on a pauldron on her left shoulder. She wears dark purple thigh-high tights with small diamond openings at the top. On the back of her outfit, she wears a crimson bow with tassels. She also wears high-heeled sandals; the one on the right is adorned with two pale violet flowers.\n",
+            "Unlike the other known Archons, she does not appear to wear a 'fake' vision, as none of the electro gems on her clothing appear in the shape of a typical Inazuman vision. Instead, all three of these emblems (one tied to her lower chest, another on the 'fan' on her back and another on her pauldron) all glow faintly when her elemental burst is charged, somewhat similar to how the Traveler's clothing glows.\n"
+        ]
+    },
+    "name": "Raiden Shogun",
+    "nickname": "Plane of Euthymia"
+}

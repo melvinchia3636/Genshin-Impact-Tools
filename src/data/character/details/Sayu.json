@@ -1,0 +1,37 @@
+{
+    "profile": {
+        "bio": {
+            "rarity": 4,
+            "weapon": "claymore",
+            "element": "Anemo",
+            "sex": "Female",
+            "birthday": "October 19th",
+            "constellation": "Nyctereutes Minor",
+            "nation": "Inazuma",
+            "special_dish": "Dizziness-Be-Gone no Jutsu Version 2.0",
+            "release_date": "August 10, 2021"
+        },
+        "voice_actors": {
+            "english": "Lilypichu (Lily Ki)",
+            "chinese": "Sakula小舞",
+            "japanese": "Aya Suzaki (洲崎綾)",
+            "korean": "Lee Ji-hyeon (이지현)"
+        },
+        "introduction": {
+            "quote": "Sayu, Shuumatsuban's resident ninja, is obsessed with sleeping and growing taller.She has mastered all kinds of ninjutsu to run away and hide in pursuit of opportunities to laze around and sleep.Such an extraordinary skillset may have very unexpected uses.",
+            "content": "C+V Here"
+        },
+        "personality": {
+            "quote": "A pint-sized ninja attached to the Shuumatsuban, who always seems sleep-deprived.",
+            "content": [
+                "Sayu is a seemingly eternally sleep-deprived ninja who uses her skills to hide from work and responsibilities. Her height is something she's deeply unsatisfied with, believing that sleep can replenish all her energy and help her grow taller. In order to live by this principle and have as much time to nap as possible, she honed her ninjutsu to perfection. As a result, if the Shiyuumatsu-Ban needs Sayu's help, they need to commit all efforts to finding her first.\n",
+                "Of course, from Sayu's point of view, this so-called \"laziness\" is just better time allocation which allows her to focus on things... like sleeping and growing taller.\n"
+            ]
+        },
+        "appearance": [
+            "Sayu is a pint-sized girl who wears Mujina attire, which people appear to confuse as that of a tanuki's. Despite her small stature, she is able to wield a claymore taller than herself, mainly due to her Anemo Vision's power. According to her, without her Vision, she would not have been able to lift it even with her ninjutsu training.\n"
+        ]
+    },
+    "name": "Sayu",
+    "nickname": "Mujina Ninja"
+}

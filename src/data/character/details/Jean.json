@@ -1,0 +1,47 @@
+{
+    "profile": {
+        "bio": {
+            "rarity": 5,
+            "weapon": "sword",
+            "element": "Anemo",
+            "real_name": "Jean Gunnhildr",
+            "sex": "Female",
+            "birthday": "March 14th",
+            "constellation": "Leo Minor (Story Quest)",
+            "nation": "Mondstadt",
+            "special_dish": "Invigorating Pizza",
+            "release_date": "September 28, 2020"
+        },
+        "family": {
+            "ancestry": "Gunnhildr Clan",
+            "parents": "Frederica GunnhildrSeamus Pegg",
+            "siblings": "Barbara Pegg"
+        },
+        "voice_actors": {
+            "english": "Stephanie Southerland",
+            "chinese": "Su Lin (林簌)",
+            "japanese": "Chiwa Saitō (斎藤千和)",
+            "korean": "Ahn Young-mi (안영미)"
+        },
+        "introduction": {
+            "quote": "As the Acting Grand Master of the Knights, Jean has always been devoted to her duties and maintaining peace in Mondstadt.She had taken precautions long before the onset of Stormterror's assault, and she will guard Mondstadt with her life as always.",
+            "content": "C+V Here"
+        },
+        "personality": {
+            "quote": "The righteous and rigorous Dandelion Knight, and Acting Grand Master of Mondstadt's  Knights of Favonius.",
+            "content": [
+                "As the acting Grand Master for the Knights, Jean takes all of her responsibilities and duties associated with the role seriously, regardless of how minor the tasks may seem, such as finding a lost cat. Due to this, Jean often exhausts herself trying to complete commissions from the locals, much to the concern of her fellow members.\n",
+                "Her devotion to her duties stems from two reasons; her upbringing as a child, and Varka's teachings. Even though he consistently takes his duties lightly, his relaxed and unruly personality has contributed to her growth. She shows no resentment towards his attitude, instead vowing to ensure that the city will be more prosperous and welcoming when he returns. Her work ethic makes her well-liked by both Mondstadt's citizens, her fellow members, and is noted by other organizations. Although she prefers using peaceful methods to solve problems, she will not hesitate to use force if necessary.\n",
+                "She sees Vennessa as a role model because of her exploits and how she left an impressive legacy behind and works tirelessly to maintain her legacy and Mondstadt's safety. Whenever she feels troubled or confused, she often heads to the Great Tree in Windrise.\n",
+                "She has a habit of calling Diluc her senior, even well after he left the Knights. Despite this, she acknowledges that they both share the same vision of protecting Mondstadt.\n"
+            ]
+        },
+        "appearance": [
+            "Jean has a tall, athletic build and fair skin. She has grey-blue eyes and medium-length gold-blonde hair tied back into a ponytail with a black bow. On her ears, she wears a pair of gold cross earrings.\n",
+            "She wears a white, blue, black, and red strapless shirt with gold symbol and linings along with a long blue tailcoat attached to it, a pair of separate white sleeves, a short blue and gold cloak with a light blue inner lining attached to a white separate collar with black linings, a white tights embroidered with gold diamond-dot pattern, and pair of white high-heeled knee-high boots with gold patterns and black heels. She also wears a pair of blue gauntlets.\n",
+            "Her artwork depicts her wielding an ascended Favonius Sword, a silver and blue sword with a gold grip in the shape of a spread bird wing, set with a sky-blue gem. Her outfit, Favonian Devotion, is described to be neat and smart and also symbolizes her chivalry. Her summer outfit, Sea Breeze Dandelion, is described to be light and cool, but no less elegant and is considered the perfect choice for a trip to the seaside.\n"
+        ]
+    },
+    "name": "Jean",
+    "nickname": "Dandelion Knight"
+}

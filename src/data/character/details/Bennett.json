@@ -1,0 +1,45 @@
+{
+    "profile": {
+        "bio": {
+            "rarity": 4,
+            "weapon": "sword",
+            "element": "Pyro",
+            "sex": "Male",
+            "birthday": "February 29th",
+            "constellation": "Rota Calamitas",
+            "nation": "Mondstadt",
+            "special_dish": "Teyvat Charred Egg",
+            "release_date": "September 28, 2020"
+        },
+        "family": {
+            "english": "Cristina Vee Valenzuela",
+            "chinese": "Xueting Mu (穆雪婷)",
+            "japanese": "Ryōta Ōsaka (逢坂良太)",
+            "korean": "Song Ha-rim (송하림)"
+        },
+        "voice_actors": {
+            "chinese_name": "班尼特 Bānnítè",
+            "japanese_name": "ベネット Benetto",
+            "korean_name": "베넷 Benet"
+        },
+        "introduction": {
+            "quote": "One of the few young adventurers of the Mondstadt Adventurers' Guild, he is always plagued with inexplicable bad luck.He is the only active member of his own adventure group, known as \"Benny's Adventure Team,\" after all the other members decided to \"take leave\" following a series of unfortunate incidents. As a result, the team is currently on the verge of being dissolved.Being unable to break the poor boy's heart, Katheryne of the Adventurers' Guild has kept \"Benny's Adventure Team\" on the books, whilst also hiding from him the fact that all the other members have long since officially left the team.",
+            "content": "C+V Here"
+        },
+        "personality": {
+            "quote": "A righteous and good-natured adventurer from Mondstadt who's unfortunately extremely unlucky.",
+            "content": [
+                "Bennett is a well-behaved person, albeit he somehow has terrible luck attributed to him. His bad luck causes all types of misfortunes to befall either him or others nearby.\n",
+                "Despite this, Bennett is very optimistic and continues to show a positive outlook on life, attributed to the fact that despite the odds, he somehow manages to push through them, having made his own solutions to deal with some of these problems. He interprets his Vision as a sign that the gods have not given up on him.\n",
+                "Because he was raised by old and/or retired adventurers from the Guild, he affectionally refers to them as \"dads\".\n",
+                "He loves eating meat and likes cabbage, but cannot stand spicy foods.\n"
+            ]
+        },
+        "appearance": [
+            "Bennett is a slim yet well-built young man who is often covered in scars due to his various misadventures. He has pale ash-grey hair, light tan skin, and bright green eyes, usually seen wearing his goggles on his head. He has a prominent scar on his left shoulder and seems to be perpetually injured, resultant again due to his adventures and his categorized terrible luck.\n",
+            "Bennett wears cuffed navy shorts and a sleeveless cream-colored jacket with blue and gold details, a leather belt, a bag holding his Vision attached to it, gloves, and a yellow bandanna tied around his right arm. His outfit, Fortune's Favor, is described to be an old adventurer's outfit that is patched and sewn up in various places.\n"
+        ]
+    },
+    "name": "Bennett",
+    "nickname": "Trial by Fire"
+}

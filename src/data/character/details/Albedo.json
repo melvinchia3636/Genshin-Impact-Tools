@@ -1,0 +1,45 @@
+{
+    "profile": {
+        "bio": {
+            "rarity": 5,
+            "weapon": "sword",
+            "element": "Geo",
+            "sex": "Male",
+            "birthday": "September 13th",
+            "constellation": "Princeps Cretaceus (Story Quest)",
+            "nation": "Mondstadt",
+            "special_dish": "Woodland Dream",
+            "release_date": "December 23, 2020"
+        },
+        "family": {
+            "english": "Khoi Dao",
+            "chinese": "Mace",
+            "japanese": "Kenji Nojima (野島健児)",
+            "korean": "Kim Myung-jun (김명준)"
+        },
+        "voice_actors": {
+            "chinese_name": "阿贝多 Ābèiduō",
+            "japanese_name": "アルベド Arubedo",
+            "korean_name": "알베도 Albedo"
+        },
+        "introduction": {
+            "quote": "Albedo — an alchemist based in Mondstadt, in the service of the Knights of Favonius.\"Genius,\" \"Kreideprinz,\" or \"Captain of the Investigation Team\"... Such titles and honors are of no consequence to him when there is so much more research to conduct.The pursuit of fortune and connections cannot hold a candle to his heart's desire — acquiring the limitless, obscure knowledge left behind by previous generations of scholars.",
+            "content": "C+V Here"
+        },
+        "personality": {
+            "quote": "A genius known as the Kreideprinz, he is the Chief Alchemist and Captain of the Investigation Team of the Knights of Favonius.",
+            "content": [
+                "Albedo is described as an amiable and popular figure in Mondstadt, as well as an alchemical genius. He pursues the \"truth\" of the world of Teyvat per his master's request and seems to be able to create living organisms through his alchemical talents. Albedo is also good with children, as he gets along well with Klee, who considers him to be kind and patient, while he in turn sees her like a younger sister of sorts.\n",
+                "Similarly to Sucrose, Albedo spends most of his time as a recluse that he shows a slight distaste for talking with others because of the trouble needed to maintain the social relationship; he does not stutter like his assistant.\n",
+                "Albedo is a talented artist, having picked up the hobby initially to help with his experiments, but now does so to relax. He serves as Xingqiu's illustrator, considering him to be a good author. He researches and studies whatever he is interested in, stating that he enjoys the sense of enlightenment doing so. Once this feeling is gone, he quickly abandons what he was doing as the truth feels bittersweet to him. He retains this view when it comes to eating, preferring light dishes and sweets.\n",
+                "Despite being seen in a positive manner by the people of Mondstadt, they know almost nothing about him, and he is secretive about his past. He is implied to be a homunculus created by his master, as he curiously sees her as his creator, has no memory of his family and considers himself to be of a different \"substance\" compared to the people of Teyvat. Due to the forgotten and ancient knowledge he possesses, he even considers himself to be a threat, with both Venti and Dainsleif considering him to be dangerous for that reason.\n"
+            ]
+        },
+        "appearance": [
+            "Albedo is a young man with bright teal eyes with three dots in his iris (similar to the alchemy table) and pale skin. He has ashy light blonde hair reaching below his shoulders, partially pulled back in a braided half ponytail. There is a golden diamond marking at the center of his neck.\n",
+            "Albedo wears a long white coat with short sleeves with a black hood, a golden chain at the back, and black and gold lining. It is unbuttoned but held with a black sash. Under this, he wears an indigo shirt and a pair of black shorts, along with plain black stockings, embellished thigh-high black boots with silver accents, and long black gloves with orange undersides and gold details. He wears his Vision right below the collar of his shirt. His outfit, Newmoon Starlight, is described to be the Knights of Favonius alchemist's uniform that Albedo often wears when conducting his experiments.\n"
+        ]
+    },
+    "name": "Albedo",
+    "nickname": "Kreideprinz"
+}

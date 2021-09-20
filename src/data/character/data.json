@@ -40,6 +40,14 @@
         "weapon": "sword"
     },
     {
+        "name": "Albedo",
+        "gender": "male",
+        "birthday": "September 13th",
+        "rarity": 5,
+        "vision": "geo",
+        "weapon": "sword"
+    },
+    {
         "name": "Yoimiya",
         "gender": "female",
         "birthday": "June 21st",

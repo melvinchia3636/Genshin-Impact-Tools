@@ -1,0 +1,48 @@
+{
+    "profile": {
+        "bio": {
+            "rarity": 4,
+            "weapon": "catalyst",
+            "element": "Hydro",
+            "real_name": "Barbara Pegg",
+            "sex": "Female",
+            "birthday": "July 5th",
+            "constellation": "Crater",
+            "nation": "Mondstadt",
+            "special_dish": "Spicy Stew",
+            "release_date": "September 28, 2020"
+        },
+        "family": {
+            "ancestry": "Gunnhildr Clan",
+            "parents": "Frederica GunnhildrSeamus Pegg",
+            "siblings": "Jean Gunnhildr"
+        },
+        "voice_actors": {
+            "english": "Laura Stahl",
+            "chinese": "Yuanyuan Song (宋媛媛)",
+            "japanese": "Akari Kitō (鬼頭明里)",
+            "korean": "Yun Ah-yeong (윤아영)"
+        },
+        "introduction": {
+            "quote": "The Deaconess of the Favonius Church and a shining starlet adored by all. Although the concept of a starlet is rather novel in a city of bards, the people of Mondstadt love Barbara nonetheless. \"I owe everything to the city's spirit of freedom\" — Barbara, regarding her popularity.",
+            "content": "C+V Here"
+        },
+        "personality": {
+            "quote": "Every citizen of Mondstadt adores Barbara. However, she learned the word \"idol\" from a magazine.",
+            "content": [
+                "Barbara is a charismatic individual who does her best to spread joy all around. The mere sight of her alone can boost people's spirits.\n",
+                "She has been bright and optimistic from a young age, albeit being a bit clumsy at times. Regardless, she's able to quickly recover and jump back into it.\n",
+                "Barbara is a hard-worker, but can be hard on herself at times. However successful she may seem to others, she shares her own mixed feelings on her achievements. Barbara will become somewhat disillusioned and doubtful when pondering about how long a smile lasts on someone's face after listening to her song. Her craving for recognition switched over into the mere desire to help people. Even with all her depressing thoughts, she quickly jumps back on her feet, not allowing herself to be depressed for more than 30 seconds. Barbara continues to strive for excellence, believing she'll be of help to her sister.\n",
+                "Barbara feels slightly inferior to Jean as she feels that her accomplishments are nowhere near as significant as her sister's and hopes to surpass her in at least one activity. While she likes to call Jean \"big sister\" and unconditionally loves her, Barbara usually keeps these feelings suppressed while on duty.\n",
+                "Being the deaconess for the Church, Barbara takes the safekeeping of religious artifacts seriously and worships Barbatos. After seeing the damaged Holy Lyre der Himmel, she flew into a panic, and refused to let anyone see it after the Stormterror incident. She also appears to be oblivious to the fact that Venti is actually her god, Barbatos.\n",
+                "Despite her appearance and personality, Barbara loves spicy food and drinks as it keeps her awake and working to the best of her abilities. She dislikes bitter foods.\n"
+            ]
+        },
+        "appearance": [
+            "Barbara has a small, petite build with ash-blonde hair tied in pigtails and blue eyes.\n",
+            "She wears a white frock that is open at the shoulders with blue frills, gold lining, and a large white and blue bow with a gold cross in the front along with white tights, white ankle boots with black bottoms and blue ankle cuffs, and a blue and white cap resembling a nurse's cap with a gold cross on its front. Her white tights have a faint flower polka-dot pattern. Her Vision is attached to a gold-adorned spell-book with a light blue cover and a small cross charm hangs at her side, attached to a black strap held together with a gold hoop. Her outfit, Innocent Longing, is described to be a Deaconess's uniform from the Church of Favonius with a unique Barbara streak running through it. Her summer outfit, Summertime Sparkle, is described to be a pretty skirt that brims with summer vitality and carries with it a cool ocean breeze.\n"
+        ]
+    },
+    "name": "Barbara",
+    "nickname": "Shining Idol"
+}

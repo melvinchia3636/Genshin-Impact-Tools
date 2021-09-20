@@ -1,0 +1,40 @@
+{
+    "profile": {
+        "bio": {
+            "rarity": 5,
+            "weapon": "bow",
+            "element": "Cryo",
+            "sex": "Female",
+            "birthday": "December 2nd",
+            "constellation": "Sinae Unicornis (Story Quest)",
+            "nation": "Liyue",
+            "special_dish": "Prosperous Peace",
+            "release_date": "January 12, 2021"
+        },
+        "voice_actors": {
+            "english": "Jennifer Losi",
+            "chinese": "Su Lin (林簌)",
+            "japanese": "Reina Ueda (上田麗奈)",
+            "korean": "Kim Sun-hye (김선혜)"
+        },
+        "introduction": {
+            "quote": "The secretary to the Liyue Qixing. The blood of both human and illuminated beast flows within her veins.\nGraceful and quiet by nature, yet the gentle disposition of qilin sees not even the slightest conflict with even the most arduous of workloads.After all, Ganyu firmly believes that all the work she does is in honor of her contract with Rex Lapis, seeking the well-being of all living things within Liyue.",
+            "content": "C+V Here"
+        },
+        "personality": {
+            "quote": "The secretary at Yuehai Pavilion. The blood of the qilin, an illuminated beast, flows within her veins.",
+            "content": [
+                "Ganyu is usually very quiet and reserved due to her half-qilin heritage. She also completes whatever is given to her, whether it be tasks or food, even if she is reluctant to do so.\n",
+                "Ganyu has served as the non-stopping secretary of the Liyue Qixing for thousands of years. The more important the task is, the more effort she puts into it, but she also becomes increasingly nervous and is more prone to making mistakes.\n",
+                "She has a huge work schedule, often working overtime. As a result, Ganyu has very few friends outside of work. Due to her age, she is very forgetful, and she often forgets important details which causes her much embarrassment. She is relatively sleepy and is very sensitive about both her horns and weight.\n"
+            ]
+        },
+        "appearance": [
+            "As a half-human, half-adeptus (to be precise, half qilin) hybrid, Ganyu has characteristics of both regular mortals and features found only in the gods.\n",
+            "Ganyu has the appearance of a young woman with long blue hair, which fades into a darker shade at the end. The styling of her hair is, similar to Kaeya, easy to mistake for a ponytail, but it is not actually tied back by anything. Though she mostly resembles a human, she has dark red horns that bend back along her hair, similar to how a goat's horns look, with brighter red markings on them. Many people confuse it as a headdress, a misconception that Ganyu actively encourages. She has heterochromatic eyes whose irises are purple at the top and fade into pink and gold at the middle and bottom.\n",
+            "Around her neck, she additionally wears a golden bell. Her outfit consists of a black body-suit with gold accents underneath a purple and white bodice with long ends similar to a tailcoat, with a separated pair of sleeves to match. The bodysuit meets at the back of her neck to make a bow. She has white heels with gold accents and gray bottoms, with red knots around her ankles. Her Cryo Vision rests on her left hip with a red cloverleaf knot. Her outfit, Frostdew Trail, is described to be as elegant clothing blessed by the mighty and illuminated adepti.\n"
+        ]
+    },
+    "name": "Ganyu",
+    "nickname": "Plenilune Gaze"
+}

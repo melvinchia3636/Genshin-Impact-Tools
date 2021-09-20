@@ -1,0 +1,41 @@
+{
+    "profile": {
+        "bio": {
+            "rarity": 4,
+            "weapon": "polearm",
+            "element": "Cryo",
+            "sex": "Female",
+            "birthday": "January 24th",
+            "constellation": "Spinea Corona",
+            "nation": "Mondstadt",
+            "special_dish": "Dinner of Judgment",
+            "release_date": "April 06, 2021"
+        },
+        "voice_actors": {
+            "english": "Elizabeth Maxwell",
+            "chinese": "Anqi Zhang (张安琪)",
+            "japanese": "Ai Kakuma (加隈亜衣)",
+            "korean": "Kim Bo-na (김보나)"
+        },
+        "introduction": {
+            "quote": "Rosaria, a sister in Mondstadt's Church of Favonius.A sister of the church, though you wouldn't know it if it weren't for her attire. An unusual woman with sharp, piercing words and a cold manner.Her movements are unpredictable. She often leaves without notifying anyone. She acts with some kind of purpose, but others don't seem to know exactly what she stands for...",
+            "content": "C+V Here"
+        },
+        "personality": {
+            "quote": "A sister of the church, though you wouldn't know it if it weren't for her attire. Known for her sharp, cold words and manner, she often works alone.",
+            "content": [
+                "Rosaria is a somewhat intimidating woman who has a rather unorthodox idea of piety. Kaeya describes her as someone who is \"honest with herself\". She dislikes topics that bore her and having to work overtime. Fischl overheard her cursing out someone in Barbatos' name and takes it as a sign of Rosaria's piety, an interpretation Oz doubts.\n",
+                "Despite her position in the church, Rosaria is seen as extremely lazy by her fellow sisters, as she is always guaranteed to skip all church activities when possible, and is the first one to leave when she is forced to attend. She is extremely negligent to the point that she is infamous by her fellow sisters for her truancy, but nonetheless was promoted without much trouble.\n",
+                "Secretly, she acts as a purveyor of justice for the Church, investigating potential threats to Mondstadt and eliminating them if necessary. She is particularly skilled in killing, having been taught by her former \"family\", a group of bandits before they had been wiped out by the Knights of Favonius. Due to being offered a chance for redemption by Varka, Rosaria sees herself differently to the people of Mondstadt, and is indebted to them for their unselfish warmth and goodwill.\n",
+                "Like Fischl, her intuition is very keen, as she correctly suspects that Albedo is hiding something. Likewise, she is also able to see through the mysterious Kaeya with ease after getting him drunk. She enjoys alcohol and alcohol-drenched foods, but is unusually tolerant towards it, claiming that she has not gotten drunk yet.\n"
+            ]
+        },
+        "appearance": [
+            "Rosaria is a tall adult female with ghostly pale grey skin. She has choppy wine-colored hair cut short in the back, with some strands of her bangs colored a darker red. Rosaria has pale magenta eyes with cat-like light pink irises, and noticeable bags under her eyes. She almost always has a serious expression on her face.\n",
+            "Rosaria wears a form-fitting nuns habit consisting of a long white and black coif with red lining, a white sleeveless turtleneck top, long white gloves, and a long black and red slit skirt that partially reveals her right leg and completely reveals her left. She wears black belts around her left thigh, along with black fishnet tights and silver high-heels.\n",
+            "Rosaria's outfit is adorned with multiple silver and white gold accessories embedded with red gems; including a silver tiara on top of her coif, a silver pendant on her white top, a white gold brooch on her left shoulder and left hip, multiple silver claw rings on her fingers and a small silver censer tied to her right wrist with a long piece of black cloth. Her Cryo vision hangs off of her waist on her lower back. Her outfit, Executor's Thorns, is described as a heavily modified Church of Favonius uniform made by Rosaria herself.\n"
+        ]
+    },
+    "name": "Rosaria",
+    "nickname": "Thorny Benevolence"
+}

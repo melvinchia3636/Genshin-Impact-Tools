@@ -1,0 +1,47 @@
+{
+    "profile": {
+        "bio": {
+            "rarity": 5,
+            "weapon": "claymore",
+            "element": "Cryo",
+            "real_name": "Eula Lawrence",
+            "sex": "Female",
+            "birthday": "October 25th",
+            "constellation": "Aphros Delos (Story Quest)",
+            "nation": "Mondstadt",
+            "special_dish": "Stormcrest Pie",
+            "release_date": "May 18, 2021"
+        },
+        "family": {
+            "ancestry": "Lawrence Clan",
+            "relatives": "Schubert (Uncle)"
+        },
+        "voice_actors": {
+            "english": "Suzie Yeung",
+            "chinese": "Ziyin (子音)",
+            "japanese": "Rina Sato (佐藤利奈)",
+            "korean": "Kim Hyeon-ji (김현지)"
+        },
+        "introduction": {
+            "quote": "A rebellious descendant of the old aristocracy who is always out on the battlefield.As one born into the old aristocracy, carrying the bloodline of sinners, Eula has needed a unique approach to the world to navigate the towering walls of prejudice peacefully. Of course, this did not prevent her from severing ties with her clan. As the outstanding Spindrift Knight, she hunts down Mondstadt's enemies in the wild to exact her unique \"vengeance.\"",
+            "content": "C+V Here"
+        },
+        "personality": {
+            "quote": "The Spindrift Knight, a scion of the old aristocracy, and the Captain of the Knights of Favonius Reconnaissance Company. The reason for which a descendant of the ancient nobles might join the Knights remains a great mystery in Mondstadt to this very day.",
+            "content": [
+                "Eula is a descendant of Mondstadt's old aristocracy, being from the now-overthrown Lawrence Clan infamous for their tyrannical rule over Mondstadt. She dislikes people who view her similarly to the rest of her clan due to this mistrust, which has not been forgotten. She has a habit of declaring and getting \"vengeance\" against her enemies to redeem her family name.\n",
+                "Eula is one of the few Lawrence Clan nobles who realize that their actions against the people of Mondstadt were unjustified, rather than the other way around. As a young child, she was forced by her family to learn noble etiquette as part of an educational regime so harsh that it is considered borderline abusive. Although Eula considers most of her clan's customs despicable, she personally enjoys the traditional \"Dance of Sacrifice\" and incorporates it into her style of \"Favonius Bladework.\" She has a strained relationship with her family, who denounce her as a traitor for leaving the clan. She has stated that she would not hesitate to destroy her own family if they endangered Mondstadt, even finding it fitting. While she still tends to act like a clan noble on the outside, inside she is actually a kind-hearted person, echoed by both Amber and Sara.\n",
+                "Despite her family's infamous history, her acquaintances consider her a reliable ally and friend with a unique sense of humor, and they have grown to understand that her controversial statements are but a product of her personality. The Knights under her command also support her unconditionally.\n",
+                "She is good friends with Yanfei after saving her from the Abyss Order, who compares her similarly in the way that they're both not bound by convention and solve problems their own way.\n",
+                "Possibly in part due to her Cryo Vision, Eula loves the cool and cold, such as ice-cold drinks which she drinks all-year round, something which is considered rare for a Mondstadter.\n"
+            ]
+        },
+        "appearance": [
+            "Eula is an elegant woman with pale skin and purple-yellow eyes. She has light blue hair that is longer on the left side of her face and bangs reaching her eyebrows. Above her bangs, Eula wears a black headband and a hairpin to her left. She wears a blue cape, with her Cryo Vision pinned to it, that glows when she uses her Cryo abilities.\n",
+            "Her outfit, Wavecrest Waltz, is described as consummate elegance that shines through her neat and smart knight's uniform. It consists of a black leotard which has a silver symbol of her clan at the sides of the bottom, and the back cut out, with the center translucent and the upper body and sleeves, which ruffles out into blue, colored white, which have the sides of the shoulders cut out, held by a belt strapped below her breasts.\n",
+            "Additionally she wears a blue tie, a pair of black gloves, which are colored blue on the inside, and blue stockings with black, highlighted with silver, thigh-high boots which have an additional strap, silver heels with spurs, and blue soles.\n"
+        ]
+    },
+    "name": "Eula",
+    "nickname": "Dance of the Shimmering Wave"
+}

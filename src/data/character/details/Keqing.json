@@ -1,0 +1,39 @@
+{
+    "profile": {
+        "bio": {
+            "rarity": 5,
+            "weapon": "sword",
+            "element": "Electro",
+            "sex": "Female",
+            "birthday": "November 20th",
+            "constellation": "Trulla Cementarii",
+            "nation": "Liyue",
+            "special_dish": "Survival Grilled Fish",
+            "release_date": "September 28, 2020"
+        },
+        "voice_actors": {
+            "english": "Kayli Mills",
+            "chinese": "Ying Xie (谢莹)",
+            "japanese": "Eri Kitamura (喜多村英梨)",
+            "korean": "Lee Bo-hee (이보희)"
+        },
+        "introduction": {
+            "quote": "The Yuheng of the Liyue Qixing. Keqing has much to say about Rex Lapis' unilateral approach to policymaking in Liyue ⁠— but in truth, gods admire skeptics such as her quite a lot.She firmly believes that humanity's future should be determined by humans themselves, and that they can even do better than the archons and adepti have done for them. In order to prove this, she works harder than anyone else.",
+            "content": "C+V Here"
+        },
+        "personality": {
+            "quote": "The Yuheng of the Liyue Qixing. Keqing has much to say about Rex Lapis' unilateral approach to policymaking in Liyue — but in truth, gods admire skeptics such as her quite a lot.",
+            "content": [
+                "Keqing is a workaholic, demanding herself to work \"ten times harder than the average human\" and is abnormally progressive in work-related issues. She also has a strong sense of responsibility and will not stop until a task has been completed perfectly - and by her standards, that means everything related to that task is also resolved, which unsurprisingly causes her employees to have a high turnover rate. Despite her young age, Keqing does not mind working under laborious conditions as part of her duties as the Yuheng.\n",
+                "Before Rex Lapis' departure from Liyue, Keqing was an adamant skeptic of the gods, believing that humans should deal with their own affairs. However, once the Qixing took on the former responsibilities of Rex Lapis, she gained new respect for him after realizing how much he had done for Liyue, but because she is known for openly defying the gods, she tries to hide the fact that she gained new respect for him. She now keeps a collection of Rex Lapis memorabilia in the name of \"self-reflection.\" Likewise, she was initially skeptical of Visions; when she obtained hers, she took it as a challenge and an insult, desperately trying to destroy it to no avail. She eventually realized her mistake and began appreciating it for its many usages.\n",
+                "Outside of work, she enjoys shopping when she has the time to do so, and her favorite food is Golden Shrimp Balls. She is very attached to and reliant on her hairpins; being imbued with Electro energy, she can essentially do just about everything she needs when out in the wilderness with them. She also states that despite its weathered appearance, it is what gives it their charm.\n"
+            ]
+        },
+        "appearance": [
+            "Keqing has fair skin and dark amethyst eyes, with oval cat-like pupils featuring diamond-shaped markings on the iris. Her light purple hair tied into waist-length twin-tails, topped by small odango-style buns resembling cat ears. There is also a small braid running along the side of her bangs.\n",
+            "She wears a pale lavender top with a high violet collar and ruffled dark blue skirt, layered under a deep violet overcoat. The opening of her overcoat is marked by a golden ornament, which has white flowers and purple and gold-accented feathers attached. The pattern of the feathers resembles the ones on the dangling backs of her long sleeves. In addition, she wears a golden hairpin, a tasseled choker, and dark gloves with lavender trim. Her outfit, Piercing Thunderbolt, is described to be a formidable-looking dress made using luxurious materials.\n"
+        ]
+    },
+    "name": "Keqing",
+    "nickname": "Driving Thunder"
+}

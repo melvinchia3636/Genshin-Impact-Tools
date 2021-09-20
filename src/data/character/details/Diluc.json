@@ -1,0 +1,46 @@
+{
+    "profile": {
+        "bio": {
+            "rarity": 5,
+            "weapon": "claymore",
+            "element": "Pyro",
+            "real_name": "Diluc Ragnvindr",
+            "sex": "Male",
+            "birthday": "April 30th",
+            "constellation": "Noctua (Story Quest)",
+            "nation": "Mondstadt",
+            "special_dish": "\"Once Upon a Time in Mondstadt\"",
+            "release_date": "September 28, 2020"
+        },
+        "family": {
+            "ancestry": "Ragnvindr Clan",
+            "parents": "Crepus Ragnvindr",
+            "siblings": "Kaeya (adoptive brother)"
+        },
+        "voice_actors": {
+            "english": "Sean Chiplock",
+            "chinese": "Yang Ma (马洋)",
+            "japanese": "Kensho Ono (小野賢章)",
+            "korean": "Choi Seung-hoon (최승훈)"
+        },
+        "introduction": {
+            "quote": "As the wealthiest gentleman in Mondstadt, the ever-dapper Diluc always presents himself as the epitome of perfection. But behind the courteous visage burns a zealous soul that has sworn to protect Mondstadt at all costs, allowing him to mercilessly vanquish all who threaten his city.",
+            "content": "C+V Here"
+        },
+        "personality": {
+            "quote": "The tycoon of a winery empire in Mondstadt, unmatched in every possible way.",
+            "content": [
+                "Kaeya calls himself and Diluc \"anti-heroes with attitude problems\". He decided to take matters into his own hands by becoming, to his dismay and embarrassment, the \"Darknight Hero\" to protect Mondstadt's people.\n",
+                "Diluc was once an ideal young man, dedicated to his work with Knights of Favonius. After his father's untimely demise as a result of using a Delusion, along with Inspector Eroch ordering Diluc to cover up the incident, his faith in the Knights shattered and he left the organization. Even after Eroch was purged from the Knights for being a traitor, he still holds resentment towards them. He claims that the Knights take too long to get the job done, although he still appreciates those who put the effort in, such as Lisa and Jean.\n",
+                "When he was a member of the Knights, he adored his father, Crepus. Being praised by his father made him happier than fame and anything else, and Crepus told Diluc to be faithful in his duties. After his father's death, he has been suppressing himself. Despite coming off as bitter and grumpy through his speech, he has a gentle, tender, and modest nature. In his childhood, Diluc had a lighthearted and happy nature, rather to the contrary of him now.\n",
+                "Diluc is not fond of alcohol, as he does not like its taste and that it clouds his mind when he tries to work. He prefers non-alcoholic drinks such as grape juice and apple cider, which he had ordered developed upon his return to Mondstadt. This does not appear to be well known by many however, most likely as a result of him being the current owner of Mondstadt's largest wine producer. He even expresses surprise when he learns that Diona also loathes alcohol, having initially believed that he was the only bartender in Mondstadt that did not like alcohol. He also tends to part with his possessions he no longer needs, such as his father's private residence.\n"
+            ]
+        },
+        "appearance": [
+            "Diluc is a tall and slender man with pale skin, red eyes and bright red hair, worn in a low ponytail that extends to his mid-back. His expression usually makes him appear stern, exasperated or unimpressed.\n",
+            "Diluc wears a black dress shirt, a long white vest, and a black ascot with a red gem. Over this he dons a dark brown coat with golden trimmings and tassels, ending with black fur-trims. He wears black pants which are embellished with chains on his right thigh, while his Vision, attached to a belt, is settled upon his left thigh. Diluc also wears cuffed, dark brown boots held by multiple buckles, and a pair of black gloves which he has a habit of adjusting. Their palm sides are all red while the backs are black with a matching red diamond pattern. His outfit, Darknight Blaze, is described to be a smart and tasteful suit fit for a nobleman.\n"
+        ]
+    },
+    "name": "Diluc",
+    "nickname": "The Dark Side of Dawn"
+}

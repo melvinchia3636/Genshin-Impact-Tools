@@ -1,0 +1,40 @@
+{
+    "profile": {
+        "bio": {
+            "rarity": 5,
+            "weapon": "bow",
+            "element": "Cryo",
+            "sex": "Female",
+            "birthday": "April 4th",
+            "constellation": "Nora Fortis",
+            "special_dish": "Satiety Gel",
+            "release_date": "September 01, 2021"
+        },
+        "family": {
+            "chinese": "Mufei (沐霏)",
+            "japanese": "Ayahi Takagaki (高垣 彩陽)",
+            "korean": "Jo Hyeon-jeong (조현정)"
+        },
+        "voice_actors": {
+            "chinese_name": "埃洛伊 Āiluòyī",
+            "japanese_name": "アーロイ Aaroi",
+            "korean_name": "에일로이 Eilloi"
+        },
+        "introduction": {
+            "quote": "An outcast since birth, Aloy grew up in a harsh mountain wilderness near the tribe that shunned her. Fostered by an expert hunter, she trained to hunt with cat-like grace and deadly accuracy – but the things she most wanted to learn, he could not teach her. Most of all, she burned to know the circumstances of her birth – who her parents were, and why she was shunned by the tribe.Her quest for answers swept her into a wider and more dangerous world than she ever could have imagined. She encountered strange and powerful new tribes, ancient ruins rife with mysteries, and dangerous enemies, both human and machine.Eventually she learned that her origins and destiny were deeply tied to the fate of the world itself, and fought an epic battle to save it against the evil forces of an artificial intelligence from the ancient past.She thought that this would be the end of her journey. But there is always more to an adventurer's tale. She has now come to Teyvat in search of a new challenges.In this brave new world, Aloy is ready for the hunt!",
+            "content": "C+V Here"
+        },
+        "personality": {
+            "quote": "An agile hunter from the Nora tribe. With bow in hand, she's always ready to protect the innocent.",
+            "content": [
+                "Main article: w:c:horizon:Aloy § Personality"
+            ]
+        },
+        "appearance": [
+            "Aloy has pale, freckled skin and long, light auburn-brown hair, some of which is tied into braids. She has light green-brown eyes and is shown in her card art as wearing clothes in brown, blue, red, grey, black and beige, as well as heeled boots.\n",
+            ""
+        ]
+    },
+    "name": "Aloy",
+    "nickname": "Savior From Another World"
+}

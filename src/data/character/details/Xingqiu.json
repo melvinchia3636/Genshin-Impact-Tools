@@ -1,0 +1,41 @@
+{
+    "profile": {
+        "bio": {
+            "rarity": 4,
+            "weapon": "sword",
+            "element": "Hydro",
+            "sex": "Male",
+            "birthday": "October 9th",
+            "constellation": "Fabulae Textile (Story Quest)",
+            "nation": "Liyue",
+            "special_dish": "All-Delicacy Parcels",
+            "release_date": "September 28, 2020"
+        },
+        "voice_actors": {
+            "english": "Cristina Vee Valenzuela",
+            "chinese": "Yajing Tang (唐雅菁)",
+            "japanese": "Junko Minagawa (皆川純子)",
+            "korean": "Gwak Gyu-mi (곽규미)"
+        },
+        "introduction": {
+            "quote": "The second son of the Feiyun Commerce Guild, Xingqiu has had a reputation for being studious and polite ever since he was a young child.But there is another side to the mild-mannered Xingqiu everyone knows. A daring, adventurous and much more mischievous side...",
+            "content": "C+V Here"
+        },
+        "personality": {
+            "quote": "A young man carrying a longsword who is frequently seen at book booths. He has a chivalrous heart and yearns for justice and fairness for all.",
+            "content": [
+                "To most people, Xingqiu appears to be a polite young man who takes his studies seriously, but he also has a more mischievous side to him. In the presence of close friends and family, he is gregarious and chatty, but shows more restraint than his elder brother. He is known to be somewhat messy, as his elder brother and the maids the family had hired have noted his room to be disorganized, while his writing is barely legible to most readers. Unlike his older sibling, who is devoted to the guild's success, Xingqiu is more reluctant to do so, putting him at odds with his family.\n",
+                "He is good friends with Hu Tao and Chongyun, though he pranks the latter consistently. He is an avid reader and spends most of his time looking for rare books at Wanwen Bookhouse when he is not preoccupied with his duties, writing his own books from time to time, with \"A Legend of Sword\" being one of his books. While it did not garner the popularity he wished for in Liyue, he is unexpectedly popular in Inazuma and Fontaine after an Inazuman merchant took the book back home with them; however, Xingqiu was initially unaware of its popularity in Inazuma.\n",
+                "Being the second son of the Feiyun Commerce Guild, Xingqiu is extremely wealthy and possesses a significant amount of influence, albeit he only resorts to using the guild as backup if the situation cannot be handled otherwise. Wishing to become a real life embodiment of the heroes he reads in stories, Xingqiu has a strong sense of justice and was able to revitalize the Guhua Clan despite being one of its younger members. He despises those who resort to underhanded methods or badmouths chivalrous heroes. Despite his apparently carefree personality, he is also intelligent, capable of rectifying the problem in his own unique way and has done so in a manner that people simply give up arguing against him if he gets himself in trouble. He claims that when his older brother takes over, he would have to do all the work for him; likewise, Yanfei has a positive view on him, as she was impressed by how he was able to keep up with her train of thought compared to the rest of his family.\n",
+                "He enjoys baked goods and Yue-style food. He despises carrots as a result of his mother mashing them up into something unknown, as he cuts himself off before explaining what it ended up as, claiming that thinking of it makes him sick.\n"
+            ]
+        },
+        "appearance": [
+            "Xingqiu has dark, navy blue hair with asymmetrical bangs and golden amber eyes. He has a slight frame and a light skin tone. He typically wears a blue earring with a gold tassel on his right ear. He is the only character who wears a single right earring. Other characters either have two earrings, a single left earring, or none at all. His vision is pinned to the bottom of the left side of his coat on top of a span of frilled, white fabric. A tassel made of amber which matches his eyes hangs from the vision.\n",
+            "His attire consists of a long coat of silk which gradients from black at the collar, to shades of navy blue as the material descends. The coat's underside is a contrasting yellow with a faint, wavy pattern decorating the fabric, alluding to his Hydro vision. His collar and shoulder plates are rimmed with a gold, metallic material and to the right side of his chest sits a large circular brooch. It's embedded with a blue jewel, alike the center of his collar, coat buttons and sleeve cuffs (front and side). Underneath, Xingqiu wears a white long-sleeved shirt with a frilled seam to the right, revealed by the slit of his coat behind two overlapping ribbon-like buttons.\n",
+            "He additionally wields distinct, frilled sleeves which extend from his coat's baggy, gold pair. A clover-like ribbon of white, black and yellow is pinned to the right side of his belt.Beneath this hangs a pair of rectangular ribbons, one in white covering a notably longer, black ribbon. Both of them wield gold decals at their ends. He also wears a pair of navy-blue shorts with ends of black that are mostly concealed by the length of his coat. On his right leg, Xingqiu wears a garter with a blue tassel, just below the knee. His footwear consists of a pair of white high-calf boots, black at the heels and soles with gold motifs. His outfit, Azure Silk, is described as fine robes woven from the high-quality silk sold by the Feiyun Commerce Guild.\n"
+        ]
+    },
+    "name": "Xingqiu",
+    "nickname": "Juvenile Galant"
+}

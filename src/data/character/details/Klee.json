@@ -1,0 +1,44 @@
+{
+    "profile": {
+        "bio": {
+            "rarity": 5,
+            "weapon": "catalyst",
+            "element": "Pyro",
+            "sex": "Female",
+            "birthday": "July 27th",
+            "constellation": "Trifolium (Story Quest)",
+            "nation": "Mondstadt",
+            "special_dish": "Fish-Flavored Toast",
+            "release_date": "October 20, 2020"
+        },
+        "family": {
+            "parents": "Alice"
+        },
+        "voice_actors": {
+            "english": "Poonam Basu",
+            "chinese": "Hualing (花玲)",
+            "japanese": "Misaki Kuno (久野美咲)",
+            "korean": "Bang Yeon-ji (방연지)"
+        },
+        "introduction": {
+            "quote": "Knights of Favonius Spark Knight! Forever with a bang and a flash!—And then disappearing from the stern gaze of Acting Grand Master Jean.Sure, time in solitary confinement gives lots of time to think about new gunpowder formulas...But it'd still be better to not be in solitary in the first place.",
+            "content": "C+V Here"
+        },
+        "personality": {
+            "quote": "An explosives expert and a regular at the Knights of Favonius' confinement room. Also known as Fleeing Sunlight.",
+            "content": [
+                "Klee is an energetic and outgoing girl who takes after her mother, Alice. She has a particular talent for creating explosives and is not fazed by the sound of explosions. She adores anything that can blow up like her bombs, such as Amber's Baron Bunny. She acts like a typical energetic young child who loves playing with her friends. Unfortunately, her definition of playing usually involves explosives; she is particularly fond of \"fish blasting\", tossing bombs into lakes full of fish.\n",
+                "In part due to her young age, Klee can be very naïve at times and easily confused by topics she doesn't have any context for, such as mistaking Mondstadt's wine industry for a monster, and wondering why Diluc is always grumpy, even going as far as to call him the \"weird grown-up\".\n",
+                "While she is considered an official member of the Knights of Favonius, Klee's antics often get her into trouble. Like any child, she often tries to flee to avoid being reprimanded, but is eventually caught by Jean who sends her to solitary confinement to self-reflect. While she occasionally does try to do so, she almost always quickly forgets and instead uses the time to brainstorm new bombs and explosives.\n",
+                "Klee loves her fellow knights, and is well-loved by them in turn. She is particularly fond of Kaeya and Albedo. Whenever she heads out of the city to play, she always follows the \"survival rules\" which Kaeya gave her. Albedo, on the other hand, is an older brother figure who takes care of her. She also loves her parents, although she hasn't seen them since they left her under the care of the Knights of Favonius while they travel.\n",
+                "She loves fluffy things and fish, but has an unusual aversion to crabs as they take too long to de-shell.\n"
+            ]
+        },
+        "appearance": [
+            "Klee is a small elf-like[Note 1] girl with pale skin and light red eyes. She has pale blonde hair tied in pigtails with a prominent cowlick and elf ears.\n",
+            "Klee wears a red coat with a darker red embellishment and keyhole shapes in the hem over a white dress and shorts, as well as a fluffy scarf with a pom-pom, gloves, knee socks, boots, and a brown messenger bag. Attached to this bag is Dodoco, a furry, woodland animal-shaped pom-pom made by her mother and her Pyro Vision. Klee wears a sizeable red newsboy cap with a pin featuring a clover insignia and two white feathers. Her outfit, Shooting Spark, is described as a set of clothing for an energetic child that even comes with a matching leather backpack.\n"
+        ]
+    },
+    "name": "Klee",
+    "nickname": "Fleeing Sunlight"
+}

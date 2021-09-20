@@ -1,0 +1,39 @@
+{
+    "profile": {
+        "bio": {
+            "rarity": 4,
+            "weapon": "claymore",
+            "element": "Geo",
+            "sex": "Female",
+            "birthday": "March 21st",
+            "constellation": "Parma Cordis",
+            "nation": "Mondstadt",
+            "special_dish": "Lighter-Than-Air Pancake",
+            "release_date": "September 28, 2020"
+        },
+        "voice_actors": {
+            "english": "Laura Faye Smith",
+            "chinese": "Yanning (宴宁)",
+            "japanese": "Kanon Takao (高尾奏音)",
+            "korean": "Lee Bo-hee (이보희)"
+        },
+        "introduction": {
+            "quote": "Like most of Mondstadt's young people, Noelle always dreamed of being a knight of Favonius when she grew up.She may not have what it takes to be a knight just yet, but she is learning. Working as a maid at the Knights' headquarters, she is constantly taking notes on what constitutes knightly speech, knightly conduct, and knightly customs.She holds firm to her belief that one day she will join their ranks — she just needs to keep trying her hardest at everything she does.",
+            "content": "C+V Here"
+        },
+        "personality": {
+            "quote": "A maid who faithfully serves the Knights of Favonius. She dreams of joining their ranks someday.",
+            "content": [
+                "Noelle is a polite young woman and professional maid, helping those in need without hesitation, regardless of how far they are or what they need done, as long as they say her name. She has a very high standard of work ethic, as she always strives to ensure that everyones' needs are satisfied and always makes the effort to go over their expectations. No work is a problem for her; Lisa believes that the more work she is given, the happier she is.\n",
+                "Despite this, she is relatively stubborn and inexperienced; she states that she is useless in an argument and simply does what she believes is best, regardless of the other party's advice. Likewise, her attempts to meet everyone's needs is double-edged; although most people are genuine, others can take advantage of her generosity. Jean also considers her to be eligible for the Knights, but refrains from knighting her because she is worried that she is not ready for what lies outside Mondstadt.\n",
+                "She looks up to all of the Knights and asks them for advice on how to be a proper member when she officially joins, regardless of how much experience they may have, such as the rambunctious Klee. Her aspiration of joining them means that she will refuse any other invitations offered to her.\n"
+            ]
+        },
+        "appearance": [
+            "Noelle possesses a short stature, which contrasts the big and heavy weapon she carries in-game. Her eyes are olive green and she has short, neck-length lavender hair with lopsided bangs. A braid runs over her bangs and is clipped down by a shield.\n",
+            "As for wear, Noelle has the typical maid ensemble with the exception of a priestess hat, a cravat, and many roses, which she wears as to remind herself to never leak confidential information. Her crimson dress has two bows, one at her hip and the other on her rear, the latter of which her Geo Vision is sat on top of. Gilded white armor plating adorns her chest and she wears a pauldron upon her left shoulder. She also wears black tights beneath her armored boots. Her outfit, Armored Rose, is described to be heavy and durable velvet and metal plates.\n"
+        ]
+    },
+    "name": "Noelle",
+    "nickname": "Chivalric Blossom"
+}
