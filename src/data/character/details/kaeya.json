@@ -1,0 +1,49 @@
+{
+    "profile": {
+        "bio": {
+            "rarity": 4,
+            "weapon": "sword",
+            "element": "Cryo",
+            "real_name": "Kaeya Alberich",
+            "sex": "Male",
+            "birthday": "November 30th",
+            "constellation": "Pavo Ocellus (Story Quest)",
+            "nation": "MondstadtKhaenri'ah",
+            "special_dish": "Fruity Skewers",
+            "release_date": "September 28, 2020"
+        },
+        "family": {
+            "parents": "Unnamed biological fatherCrepus (adoptive father)",
+            "siblings": "Diluc (adoptive brother)"
+        },
+        "voice_actors": {
+            "english": "Josey Montana McCoy",
+            "chinese": "Ye Sun (孙晔)",
+            "japanese": "Kohsuke Toriumi (鳥海浩輔)",
+            "korean": "Jeong Joo-won (정주원)"
+        },
+        "introduction": {
+            "quote": "In the Knights of Favonius, Kaeya is the most trusted aide for the Acting Grand Master Jean. You can always count on him to solve any intractable problems. Everyone in Mondstadt loves Kaeya, but no one knows what secrets this witty, charming knight has...",
+            "content": [
+                "Kaeya Alberich is a playable Cryo character in Genshin Impact.",
+                "Kaeya is the Cavalry Captain of the Knights of Favonius. He is held in high regard by the people of Mondstadt — even with all his eccentricities and secrets.",
+                "He is obtained in the Prologue, Act I: The Outlander Who Caught the Wind during the quest Crash Course."
+            ]
+        },
+        "personality": {
+            "quote": "An accomplished swordsman and a strategic thinker in the Knights of Favonius, rumored to hail from beyond Mondstadt.",
+            "content": [
+                "Kaeya is an outwardly confident and charming individual with a flair for drama. He is sometimes seen as overly laid-back and even lazy, but he takes his work seriously. He is surprisingly popular among the elderly of Mondstadt, even earning himself the title of \"top candidate for grandson-in-law.\" His charisma and determination have earned him the admiration, respect, and favor of many people in Mondstadt — yet, his love for provoking others has also gained him the exasperation of those same people.",
+                "He seems to get a kick out of telling bald-faced lies and convincing others to do his work, but this serves him well in his role in the Knights of Favonius. He is a self-proclaimed \"anti-hero with an attitude problem\"; as long as everything ends the way he wants, Kaeya doesn't care about the methods used. Still, according to his informant Vile, he draws the line at working with those who threaten other people's families, believing they deserve to be \"hunted down and destroyed.\"",
+                "Kaeya enjoys putting people into high-stress situations and challenging their values, which he does to both his enemies and his allies alike. He takes pleasure in seeing the hesitation in his comrades' eyes at the moment just before they dive into battle with him, just as he takes pleasure in the look of fear in his enemies' eyes as they face off against him.",
+                "Despite his extroversion, the Traveler has observed that he appears to struggle with loneliness, though he playfully deflects when confronted about it. He frequently reminds the Traveler that they can talk to him, invites them to spend time with him, insistently offers (sometimes extensive) assistance, and often voices his disappointment whenever the Traveler has to leave, showing his desire to be helpful and aversion to being alone.",
+                "He appreciates the taste of alcohol and is often seen drinking when he isn't busy. He despises grape juice, claiming that the people who drink it have no patience and are missing out, though he understands that not everyone can drink alcohol until they come of age. The Traveler thinks his drinking habit may be some kind of coping mechanism, and Rosaria implies that Kaeya's façades start to slip when he's intoxicated."
+            ]
+        },
+        "appearance": [
+            "Kaeya is a tall young man with a lean build and a tanned complexion. His visible eye is sharp and slanted, periwinkle with long eyelashes and the same diamond-shaped pupil as Dainsleif. He has navy-blue hair with streaks of lighter blue, accompanied by a long lock of hair that rests over his left shoulder, cascading down to his waist. His bangs are trimmed in a lengthy fringe that covers the right side of his face and almost hides a plain black eyepatch, which he claims to have inherited from his grandfather, a pirate. However, this was later revealed to be a lie he told to mess with people.",
+            "Kaeya's clothes are fitting for a Cavalry Captain, albeit a flamboyant one. He wears a white-collared, cleavage-revealing blouse with forearm-length sleeves that have dark blue folded cuffs. Above that, he wears a light blue vest or jacket, and a cape adorned with a fur collar. He wears dark, tight-fitted trousers and knee-length boots. For accessories, he wears fingerless gloves with spikes on the wrists and marked with the same diamond shape as his eyes. He also wears a loose brown belt from which his Vision hangs, as well as a rope which may be meant for a scabbard to carry his sword. He has a single earring on his left ear, which has some kind of blue gem on a metal frame shaped like a teardrop with a spike at the bottom. The same gems are found hanging off of two straps at his ankles. His outfit has many more small details, such as a blue band around his forearms to keep his cuffs folded, a chain across his chest that seems to be attached to the ends of his collars, and unexplained straps, belts, or bands. His outfit, Icy Featherflight, is described to be fashionable and adorned with a fur collar.",
+            "Notably, while other Mondstadt characters' Visions feature three feathers per wing, Kaeya's Vision only features two feathers. He is also the only one with a wing on the right side of the back of his Vision (other Mondstadt Visions have those on the left side or no wings at all on the back)."
+        ]
+    }
+}

@@ -12,7 +12,9 @@ module.exports = {
                 lightblue: "hsla(206, 62%, 26%, 1)",
                 lighterblue: "#76a8c3",
                 mediumblue: "#326483",
-                reallylightblue: "#6495af"
+                reallylightblue: "#6495af",
+                detailsblue: "#ACCACB",
+                quoteblue: "#4C7F9B"
             }
         }
     },

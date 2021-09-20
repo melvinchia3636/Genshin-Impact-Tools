@@ -61,6 +61,8 @@ const Map = (): JSX.Element => {
             background: `url(${bg}), linear-gradient(104deg, #4C7F9B 20.53%, #0E1E3E 100%)`
         });
     }, []);
+
+    console.log(found);
     
     return <>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/multiple.js/0.0.1/multiple.min.css"/>
@@ -104,7 +106,7 @@ const Map = (): JSX.Element => {
                             iconUrl: `https://map.genshinpact.com/markers/${e.type}.png`,
                             iconRetinaUrl: `https://map.genshinpact.com/markers/${e.type}.png`,
                             iconSize: new L.Point(24, 24),
-                            className: "marker transition-all " + (found.includes(parseInt(e.markerid, 10)) ? "opacity-50" : "")
+                            className:  (found.includes(parseInt(e.markerid, 10)) ? "opacity-50" : "") + " marker transition-all"
                         })
                     }>
                         <Popup>

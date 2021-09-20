@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
 
 html, body {
     width: 100%;
@@ -78,4 +78,22 @@ body {
     100% {
         opacity: 1
     }
+}
+
+.opacity-50 {
+    opacity: .5 !important
+}
+
+.char .scroll-content > div {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem
+}
+
+.bg-cover {
+    background-size: cover !important;
+}
+
+.titlecase {
+    text-transform: capitalize;
 }
