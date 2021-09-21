@@ -18,13 +18,13 @@
         },
         "voice_actors": {
             "english": "Jeannie Tirado",
-            "chinese": "Yang Menglu (杨梦露)",
-            "japanese": "Asami Seto (瀬戸麻沙美)",
-            "korean": "Mun Ji-yeong (문지영)"
+            "chinese": "Yang Menglu (\u6768\u68a6\u9732)",
+            "japanese": "Asami Seto (\u702c\u6238\u9ebb\u6c99\u7f8e)",
+            "korean": "Mun Ji-yeong (\ubb38\uc9c0\uc601)"
         },
         "introduction": {
             "quote": "Leader of the Tenryou Commission's forces. A charismatic woman who acts as swiftly as a storm wind and always honors her word.She bears the title of \"Devotee of the Divine\" and has sworn her allegiance to the Raiden Shogun.The eternity that the Shogun pursues is the cause that she is willing to fight for.",
-            "content": "C+V Here"
+            "content": "Kujou Sara ( Japanese: \u4e5d\u6761\u88df\u7f85 Kujou Sara ) is a playable Electro  character in Genshin Impact. A tengu, Sara is the adopted daughter of the Kujou Clan of the Tenryou Commission. Loyal to both her clan and the Shogun, Kujou Sara carries out her orders to the Shogun's will."
         },
         "personality": {
             "quote": "A general of the Tenryou Commission. Bold, decisive, and skilled in battle.",
@@ -39,5 +39,321 @@
         ]
     },
     "name": "Kujou Sara",
-    "nickname": "Crowfeather Kaburaya"
+    "nickname": "Crowfeather Kaburaya",
+    "combat_info": {
+        "base_stats": {
+            "special": "ATK",
+            "data": {
+                "0": {
+                    "1": [
+                        "802",
+                        "16",
+                        "53",
+                        "\u2014"
+                    ],
+                    "20": [
+                        "2,061",
+                        "42",
+                        "135"
+                    ]
+                },
+                "1": {
+                    "20": [
+                        "2,661",
+                        "54",
+                        "175",
+                        "\u2014"
+                    ],
+                    "40": [
+                        "3,985",
+                        "81",
+                        "262"
+                    ]
+                },
+                "2": {
+                    "40": [
+                        "4,411",
+                        "90",
+                        "289",
+                        "6.0%"
+                    ],
+                    "50": [
+                        "5,074",
+                        "104",
+                        "333"
+                    ]
+                },
+                "3": {
+                    "50": [
+                        "5,642",
+                        "115",
+                        "370",
+                        "12.0%"
+                    ],
+                    "60": [
+                        "6,305",
+                        "129",
+                        "414"
+                    ]
+                },
+                "4": {
+                    "60": [
+                        "6,731",
+                        "137",
+                        "442",
+                        "12.0%"
+                    ],
+                    "70": [
+                        "7,393",
+                        "151",
+                        "485"
+                    ]
+                },
+                "5": {
+                    "70": [
+                        "7,818",
+                        "160",
+                        "513",
+                        "18.0%"
+                    ],
+                    "80": [
+                        "8,481",
+                        "173",
+                        "556"
+                    ]
+                },
+                "6": {
+                    "80": [
+                        "8,907",
+                        "182",
+                        "584",
+                        "24.0%"
+                    ],
+                    "90": [
+                        "9,570",
+                        "195",
+                        "628"
+                    ]
+                }
+            }
+        },
+        "talents": [
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Talent_Tengu_Bowmanship.png",
+                "name": "Tengu Bowmanship",
+                "type": "Normal Attack",
+                "desc": "Normal Attack: Perform up to 5 consecutive shots with a bow.\nCharged Attack: Perform a more precise Aimed Shot with increased DMG. While aiming, crackling lightning will accumulate on the arrowhead. An arrow fully charged with the storm's might will deal Electro DMG.When in the Crowfeather Cover state, a fully-charged arrow will leave a Crowfeather behind after it hits.\nPlunging Attack: Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/6/6a/Talent_Tengu_Stormcall.png",
+                "name": "Tengu Stormcall",
+                "type": "Elemental Skill",
+                "desc": "Retreats rapidly with the speed of a tengu, summoning the protection of the Crowfeather. Gains Crowfeather Cover for 18s, and when Kujou Sara fires a fully-charged Aimed Shot, Crowfeather Cover will be consumed, and will leave a Crowfeather at the target location.Crowfeathers will trigger Tengu Juurai: Ambush after a short time, dealing Electro DMG and granting the active character within its AoE an ATK Bonus based on Kujou Sara's Base ATK.The ATK Bonuses from different Tengu Juurai will not stack, and their effects and duration will be determined by the last Tengu Juurai to take effect."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/e/e8/Talent_Subjugation_Koukou_Sendou.png",
+                "name": "Subjugation: Koukou Sendou",
+                "type": "Elemental Burst",
+                "desc": "Casts down Tengu Juurai: Titanbreaker, dealing AoE Electro DMG. Afterwards, Tengu Juurai: Titanbreaker spreads out into 4 consecutive bouts of Tengu Juurai: Stormcluster, dealing AoE Electro DMG.Tengu Juurai: Titanbreaker and Tengu Juurai: Stormcluster can provide the active character within their AoE with the same ATK Bonus as given by the Elemental Skill, Tengu Stormcall.The ATK Bonus provided by various kinds of Tengu Juurai will not stack, and their effects and duration will be determined by the last Tengu Juurai to take effect."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/Talent_Immovable_Will.png",
+                "name": "Immovable Will",
+                "type": "1st Ascension Passive",
+                "desc": "While in the Crowfeather Cover state provided by Tengu Stormcall, Aimed Shot charge times are decreased by 60%."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Talent_Decorum.png",
+                "name": "Decorum",
+                "type": "4th Ascension Passive",
+                "desc": "When Tengu Juurai: Ambush hits opponents, Kujou Sara will restore 1.2 Energy to all party members for every 100% Energy Recharge she has. This effect can be triggered once every 3s."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/e/e8/Talent_Land_Survey.png",
+                "name": "Land Survey",
+                "type": "Utility Passive",
+                "desc": "When dispatched on an expedition in Inazuma, time consumed is reduced by 25%."
+            }
+        ],
+        "lvup_mat": [
+            [
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f2/Item_Teachings_of_Elegance.png",
+                    "amount": 9
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/df/Item_Guide_to_Elegance.png",
+                    "amount": 63
+                },
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/6f/Item_Philosophies_of_Elegance.png",
+                    "amount": 114
+                }
+            ],
+            [
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/69/Item_Damaged_Mask.png",
+                    "amount": 18
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Stained_Mask.png",
+                    "amount": 66
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Ominous_Mask.png",
+                    "amount": 93
+                }
+            ],
+            [
+                {
+                    "rarity": 5,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/29/Item_Ashen_Heart.png",
+                    "amount": 18
+                }
+            ]
+        ],
+        "constellation": [
+            {
+                "level": 1,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/a/ad/Constellation_Crow%27s_Eye.png",
+                "name": "Crow's Eye",
+                "effect": "When Tengu Juurai grant characters ATK Bonuses or hits opponents, the CD of Tengu Stormcall is decreased by 1s.This effect can be triggered once every 3s."
+            },
+            {
+                "level": 2,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/73/Constellation_Dark_Wings.png",
+                "name": "Dark Wings",
+                "effect": "Unleashing Tengu Stormcall will leave a weaker Crowfeather at Kujou Sara's original position that will deal 30% of its original DMG."
+            },
+            {
+                "level": 3,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Constellation_The_War_Within.png",
+                "name": "The War Within",
+                "effect": "Increases the Level of Subjugation: Koukou Sendou by 3.Maximum upgrade level is 15."
+            },
+            {
+                "level": 4,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/35/Constellation_Conclusive_Proof.png",
+                "name": "Conclusive Proof",
+                "effect": "The number of Tengu Juurai: Stormcluster released by Subjugation: Koukou Sendou is increased to 6."
+            },
+            {
+                "level": 5,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/b1/Constellation_Spellsinger.png",
+                "name": "Spellsinger",
+                "effect": "Increases the Level of Tengu Stormcall by 3.Maximum upgrade level is 15."
+            },
+            {
+                "level": 6,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/b4/Constellation_Sin_of_Pride.png",
+                "name": "Sin of Pride",
+                "effect": "The Electro DMG of characters who have had their ATK increased by Tengu Juurai has its Crit DMG increased by 60%."
+            }
+        ],
+        "ascensions": [
+            [
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d7/Item_Dendrobium.png",
+                    "amount": 3
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/69/Item_Damaged_Mask.png",
+                    "amount": 3
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/28/Item_Storm_Beads.png",
+                    "amount": 2
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d7/Item_Dendrobium.png",
+                    "amount": 10
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/69/Item_Damaged_Mask.png",
+                    "amount": 15
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/28/Item_Storm_Beads.png",
+                    "amount": 4
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d7/Item_Dendrobium.png",
+                    "amount": 20
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Stained_Mask.png",
+                    "amount": 12
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/28/Item_Storm_Beads.png",
+                    "amount": 8
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d7/Item_Dendrobium.png",
+                    "amount": 30
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Stained_Mask.png",
+                    "amount": 18
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/28/Item_Storm_Beads.png",
+                    "amount": 12
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d7/Item_Dendrobium.png",
+                    "amount": 45
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Ominous_Mask.png",
+                    "amount": 12
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/28/Item_Storm_Beads.png",
+                    "amount": 20
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d7/Item_Dendrobium.png",
+                    "amount": 60
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Ominous_Mask.png",
+                    "amount": 24
+                }
+            ]
+        ]
+    }
 }

@@ -18,22 +18,22 @@
         },
         "voice_actors": {
             "english": "Josey Montana McCoy",
-            "chinese": "Ye Sun (孙晔)",
-            "japanese": "Kohsuke Toriumi (鳥海浩輔)",
-            "korean": "Jeong Joo-won (정주원)"
+            "chinese": "Ye Sun (\u5b59\u6654)",
+            "japanese": "Kohsuke Toriumi (\u9ce5\u6d77\u6d69\u8f14)",
+            "korean": "Jeong Joo-won (\uc815\uc8fc\uc6d0)"
         },
         "introduction": {
             "quote": "In the Knights of Favonius, Kaeya is the most trusted aide for the Acting Grand Master Jean. You can always count on him to solve any intractable problems. Everyone in Mondstadt loves Kaeya, but no one knows what secrets this witty, charming knight has...",
-            "content": "C+V Here"
+            "content": "Kaeya Alberich is a playable Cryo  character in Genshin Impact. Kaeya is the Cavalry Captain of the Knights of Favonius. He is held in high regard by the people of Mondstadt \u2014 even with all his eccentricities and secrets. He is obtained in the Prologue, Act I: The Outlander Who Caught the Wind during the quest Crash Course."
         },
         "personality": {
             "quote": "An accomplished swordsman and a strategic thinker in the Knights of Favonius, rumored to hail from beyond Mondstadt.",
             "content": [
-                "Kaeya is an outwardly confident and charming individual with a flair for drama. He is sometimes seen as overly laid-back and even lazy, but he takes his work seriously. He is surprisingly popular among the elderly of Mondstadt, even earning himself the title of \"top candidate for grandson-in-law.\" His charisma and determination have earned him the admiration, respect, and favor of many people in Mondstadt — yet, his love for provoking others has also gained him the exasperation of those same people.\n",
+                "Kaeya is an outwardly confident and charming individual with a flair for drama. He is sometimes seen as overly laid-back and even lazy, but he takes his work seriously. He is surprisingly popular among the elderly of Mondstadt, even earning himself the title of \"top candidate for grandson-in-law.\" His charisma and determination have earned him the admiration, respect, and favor of many people in Mondstadt \u2014 yet, his love for provoking others has also gained him the exasperation of those same people.\n",
                 "He seems to get a kick out of telling bald-faced lies and convincing others to do his work, but this serves him well in his role in the Knights of Favonius. He is a self-proclaimed \"anti-hero with an attitude problem\"; as long as everything ends the way he wants, Kaeya doesn't care about the methods used. Still, according to his informant Vile, he draws the line at working with those who threaten other people's families, believing they deserve to be \"hunted down and destroyed.\"\n",
                 "Kaeya enjoys putting people into high-stress situations and challenging their values, which he does to both his enemies and his allies alike. He takes pleasure in seeing the hesitation in his comrades' eyes at the moment just before they dive into battle with him, just as he takes pleasure in the look of fear in his enemies' eyes as they face off against him.\n",
                 "Despite his extroversion, the Traveler has observed that he appears to struggle with loneliness, though he playfully deflects when confronted about it. He frequently reminds the Traveler that they can talk to him, invites them to spend time with him, insistently offers (sometimes extensive) assistance, and often voices his disappointment whenever the Traveler has to leave, showing his desire to be helpful and aversion to being alone.\n",
-                "He appreciates the taste of alcohol and is often seen drinking when he isn't busy. He despises grape juice, claiming that the people who drink it have no patience and are missing out, though he understands that not everyone can drink alcohol until they come of age. The Traveler thinks his drinking habit may be some kind of coping mechanism, and Rosaria implies that Kaeya's façades start to slip when he's intoxicated. \n"
+                "He appreciates the taste of alcohol and is often seen drinking when he isn't busy. He despises grape juice, claiming that the people who drink it have no patience and are missing out, though he understands that not everyone can drink alcohol until they come of age. The Traveler thinks his drinking habit may be some kind of coping mechanism, and Rosaria implies that Kaeya's fa\u00e7ades start to slip when he's intoxicated. \n"
             ]
         },
         "appearance": [
@@ -43,5 +43,321 @@
         ]
     },
     "name": "Kaeya",
-    "nickname": "Frostwind Swordsman"
+    "nickname": "Frostwind Swordsman",
+    "combat_info": {
+        "base_stats": {
+            "special": "Energy Recharge",
+            "data": {
+                "0": {
+                    "1": [
+                        "976",
+                        "19",
+                        "66",
+                        "\u2014"
+                    ],
+                    "20": [
+                        "2,506",
+                        "48",
+                        "171"
+                    ]
+                },
+                "1": {
+                    "20": [
+                        "3,235",
+                        "62",
+                        "220",
+                        "\u2014"
+                    ],
+                    "40": [
+                        "4,846",
+                        "93",
+                        "330"
+                    ]
+                },
+                "2": {
+                    "40": [
+                        "5,364",
+                        "103",
+                        "365",
+                        "6.7%"
+                    ],
+                    "50": [
+                        "6,170",
+                        "118",
+                        "420"
+                    ]
+                },
+                "3": {
+                    "50": [
+                        "6,860",
+                        "131",
+                        "467",
+                        "13.3%"
+                    ],
+                    "60": [
+                        "7,666",
+                        "147",
+                        "522"
+                    ]
+                },
+                "4": {
+                    "60": [
+                        "8,184",
+                        "157",
+                        "557",
+                        "13.3%"
+                    ],
+                    "70": [
+                        "8,990",
+                        "172",
+                        "612"
+                    ]
+                },
+                "5": {
+                    "70": [
+                        "9,508",
+                        "182",
+                        "647",
+                        "20.0%"
+                    ],
+                    "80": [
+                        "10,312",
+                        "198",
+                        "702"
+                    ]
+                },
+                "6": {
+                    "80": [
+                        "10,830",
+                        "208",
+                        "737",
+                        "26.7%"
+                    ],
+                    "90": [
+                        "11,636",
+                        "223",
+                        "792"
+                    ]
+                }
+            }
+        },
+        "talents": [
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/8/8d/Talent_Ceremonial_Bladework.png",
+                "name": "Ceremonial Bladework",
+                "type": "Normal Attack",
+                "desc": "Normal Attack: Performs up to 5 rapid strikes.\nCharged Attack: Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.\nPlunging Attack: Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/51/Talent_Frostgnaw.png",
+                "name": "Frostgnaw",
+                "type": "Elemental Skill",
+                "desc": "Unleashes a frigid blast, dealing Cryo DMG to opponents in front of Kaeya."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/2/29/Talent_Glacial_Waltz.png",
+                "name": "Glacial Waltz",
+                "type": "Elemental Burst",
+                "desc": "Coalescing the frost in the air, Kaeya summons 3 icicles that revolve 4 times around him for 8 seconds.These icicles will follow the character around and deal Cryo DMG to opponents in their path for so long as they persist."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Talent_Cold-Blooded_Strike.png",
+                "name": "Cold-Blooded Strike",
+                "type": "1st Ascension Passive",
+                "desc": "Every hit with Frostgnaw regenerates HP for Kaeya equal to 15% of his ATK."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/6/6f/Talent_Glacial_Heart.png",
+                "name": "Glacial Heart",
+                "type": "4th Ascension Passive",
+                "desc": "Opponents Frozen by Frostgnaw will drop additional Elemental Particles. Frostgnaw may only produce a maximum of 2 additional Elemental Particles per use."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/8/8e/Talent_Hidden_Strength.png",
+                "name": "Hidden Strength",
+                "type": "Utility Passive",
+                "desc": "Decreases sprinting Stamina consumption of your characters in the party by 20%.\nNot stackable with Passive Talents that provide the exact same effects."
+            }
+        ],
+        "lvup_mat": [
+            [
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b4/Item_Teachings_of_Ballad.png",
+                    "amount": 9
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Guide_to_Ballad.png",
+                    "amount": 63
+                },
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/7e/Item_Philosophies_of_Ballad.png",
+                    "amount": 114
+                }
+            ],
+            [
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c9/Item_Treasure_Hoarder_Insignia.png",
+                    "amount": 18
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Item_Silver_Raven_Insignia.png",
+                    "amount": 66
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Golden_Raven_Insignia.png",
+                    "amount": 93
+                }
+            ],
+            [
+                {
+                    "rarity": 5,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/81/Item_Spirit_Locket_of_Boreas.png",
+                    "amount": 18
+                }
+            ]
+        ],
+        "constellation": [
+            {
+                "level": 1,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/0/0a/Constellation_Excellent_Blood.png",
+                "name": "Excellent Blood",
+                "effect": "The CRIT Rate of Kaeya's Normal and Charge Attacks against opponents affected by Cryo is increased by 15%."
+            },
+            {
+                "level": 2,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/78/Constellation_Never-Ending_Performance.png",
+                "name": "Never-Ending Performance",
+                "effect": "Every time Glacial Waltz defeats an opponent during its duration, its duration is increased by 2.5s, up to a maximum of 15s."
+            },
+            {
+                "level": 3,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/2/2d/Constellation_Dance_of_Frost.png",
+                "name": "Dance of Frost",
+                "effect": "Increases the Level of Frostgnaw by 3.Maximum upgrade level is 15."
+            },
+            {
+                "level": 4,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/a/a3/Constellation_Frozen_Kiss.png",
+                "name": "Frozen Kiss",
+                "effect": "Triggers automatically when Kaeya's HP falls below 20%:Creates a shield that absorbs damage equal to 30% of Kaeya's Max HP. Lasts for 20s.This shield absorbs Cryo DMG with 250% efficiency.Can only occur once every 60s."
+            },
+            {
+                "level": 5,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/0/04/Constellation_Frostbiting_Embrace.png",
+                "name": "Frostbiting Embrace",
+                "effect": "Increases the Level of Glacial Waltz by 3.Maximum upgrade level is 15."
+            },
+            {
+                "level": 6,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/bb/Constellation_Glacial_Whirlwind.png",
+                "name": "Glacial Whirlwind",
+                "effect": "Glacial Waltz will generate 1 additional icicle, and will regenerate 15 Energy when cast."
+            }
+        ],
+        "ascensions": [
+            [
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/de/Item_Calla_Lily.png",
+                    "amount": 3
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c9/Item_Treasure_Hoarder_Insignia.png",
+                    "amount": 3
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Item_Hoarfrost_Core.png",
+                    "amount": 2
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/de/Item_Calla_Lily.png",
+                    "amount": 10
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c9/Item_Treasure_Hoarder_Insignia.png",
+                    "amount": 15
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Item_Hoarfrost_Core.png",
+                    "amount": 4
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/de/Item_Calla_Lily.png",
+                    "amount": 20
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Item_Silver_Raven_Insignia.png",
+                    "amount": 12
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Item_Hoarfrost_Core.png",
+                    "amount": 8
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/de/Item_Calla_Lily.png",
+                    "amount": 30
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Item_Silver_Raven_Insignia.png",
+                    "amount": 18
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Item_Hoarfrost_Core.png",
+                    "amount": 12
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/de/Item_Calla_Lily.png",
+                    "amount": 45
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Golden_Raven_Insignia.png",
+                    "amount": 12
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Item_Hoarfrost_Core.png",
+                    "amount": 20
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/de/Item_Calla_Lily.png",
+                    "amount": 60
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Golden_Raven_Insignia.png",
+                    "amount": 24
+                }
+            ]
+        ]
+    }
 }

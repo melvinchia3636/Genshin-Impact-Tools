@@ -19,13 +19,13 @@
         },
         "voice_actors": {
             "english": "Laura Stahl",
-            "chinese": "Yuanyuan Song (宋媛媛)",
-            "japanese": "Akari Kitō (鬼頭明里)",
-            "korean": "Yun Ah-yeong (윤아영)"
+            "chinese": "Yuanyuan Song (\u5b8b\u5a9b\u5a9b)",
+            "japanese": "Akari Kit\u014d (\u9b3c\u982d\u660e\u91cc)",
+            "korean": "Yun Ah-yeong (\uc724\uc544\uc601)"
         },
         "introduction": {
-            "quote": "The Deaconess of the Favonius Church and a shining starlet adored by all. Although the concept of a starlet is rather novel in a city of bards, the people of Mondstadt love Barbara nonetheless. \"I owe everything to the city's spirit of freedom\" — Barbara, regarding her popularity.",
-            "content": "C+V Here"
+            "quote": "The Deaconess of the Favonius Church and a shining starlet adored by all. Although the concept of a starlet is rather novel in a city of bards, the people of Mondstadt love Barbara nonetheless. \"I owe everything to the city's spirit of freedom\" \u2014 Barbara, regarding her popularity.",
+            "content": "Barbara Pegg is a playable Hydro  character in Genshin Impact. She is the deaconess of the Church of Favonius and a self-proclaimed \"idol\" after learning about them from the intrepid adventurer Alice. She is also the daughter of Frederica Gunnhildr and Seamus Pegg, and the younger sister of Jean. Through Frederica she is a descendant of the prestigious Gunnhildr Clan. She can be obtained for free in the Baptism of Song Event by completing the quest A Long Shot during the Prologue Act III: Song of the Dragon and Freedom."
         },
         "personality": {
             "quote": "Every citizen of Mondstadt adores Barbara. However, she learned the word \"idol\" from a magazine.",
@@ -44,5 +44,321 @@
         ]
     },
     "name": "Barbara",
-    "nickname": "Shining Idol"
+    "nickname": "Shining Idol",
+    "combat_info": {
+        "base_stats": {
+            "special": "HP",
+            "data": {
+                "0": {
+                    "1": [
+                        "821",
+                        "13",
+                        "56",
+                        "\u2014"
+                    ],
+                    "20": [
+                        "2,108",
+                        "34",
+                        "144"
+                    ]
+                },
+                "1": {
+                    "20": [
+                        "2,721",
+                        "44",
+                        "186",
+                        "\u2014"
+                    ],
+                    "40": [
+                        "4,076",
+                        "66",
+                        "279"
+                    ]
+                },
+                "2": {
+                    "40": [
+                        "4,512",
+                        "73",
+                        "308",
+                        "6.0%"
+                    ],
+                    "50": [
+                        "5,189",
+                        "84",
+                        "355"
+                    ]
+                },
+                "3": {
+                    "50": [
+                        "5,770",
+                        "94",
+                        "394",
+                        "12.0%"
+                    ],
+                    "60": [
+                        "6,448",
+                        "105",
+                        "441"
+                    ]
+                },
+                "4": {
+                    "60": [
+                        "6,884",
+                        "112",
+                        "470",
+                        "12.0%"
+                    ],
+                    "70": [
+                        "7,561",
+                        "123",
+                        "517"
+                    ]
+                },
+                "5": {
+                    "70": [
+                        "7,996",
+                        "130",
+                        "546",
+                        "18.0%"
+                    ],
+                    "80": [
+                        "8,674",
+                        "141",
+                        "593"
+                    ]
+                },
+                "6": {
+                    "80": [
+                        "9,110",
+                        "148",
+                        "623",
+                        "24.0%"
+                    ],
+                    "90": [
+                        "9,787",
+                        "159",
+                        "669"
+                    ]
+                }
+            }
+        },
+        "talents": [
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/53/Talent_Whisper_of_Water.png",
+                "name": "Whisper of Water",
+                "type": "Normal Attack",
+                "desc": "Normal Attack: Perform up to 4 water splash attacks that deal Hydro DMG.\nCharged Attack: Consumes a certain amount of Stamina to deal AoE Hydro DMG after a short casting time.\nPlunging Attack: Gathering the might of Hydro, Barbara plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Hydro DMG upon impact with the ground."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/95/Talent_Let_the_Show_Begin%E2%99%AA.png",
+                "name": "Let the Show Begin\u266a",
+                "type": "Elemental Skill",
+                "desc": "Summons water droplets resembling musical notes that form a Melody Loop, dealing Hydro DMG to surrounding opponents and applying the Wet status to them.\nMelody Loop:\n\nOn hit, Barbara's Normal Attacks heal your own party members and nearby teammates for a certain amount of HP, which scales with Barbara's Max HP.\nOn hit, Barbara's Charged Attack generates 4 times the amount of healing.\nPeriodically regenerates your own active character's HP.\nApplies the Wet status to the character and to opponents who come in contact with them."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Talent_Shining_Miracle%E2%99%AA.png",
+                "name": "Shining Miracle\u266a",
+                "type": "Elemental Burst",
+                "desc": "Heals nearby allied characters and your characters in the party for a large amount of HP that scales with Barbara's Max HP."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/49/Talent_Glorious_Season.png",
+                "name": "Glorious Season",
+                "type": "1st Ascension Passive",
+                "desc": "The Stamina Consumption of characters within Let the Show Begin's Melody Loop is reduced by 12%."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/3f/Talent_Encore.png",
+                "name": "Encore",
+                "type": "4th Ascension Passive",
+                "desc": "When your active character gains an Elemental Orb/Particle, the duration of Let the Show Begin's Melody Loop is extended by 1s. The maximum extension is 5s."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/Talent_With_My_Whole_Heart%E2%99%AA.png",
+                "name": "With My Whole Heart\u266a",
+                "type": "Utility Passive",
+                "desc": "When a Perfect Cooking is achieved on a dish with restorative effects, Barbara has a 12% chance to obtain double the product."
+            }
+        ],
+        "lvup_mat": [
+            [
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3a/Item_Teachings_of_Freedom.png",
+                    "amount": 9
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1a/Item_Guide_to_Freedom.png",
+                    "amount": 63
+                },
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Item_Philosophies_of_Freedom.png",
+                    "amount": 114
+                }
+            ],
+            [
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/74/Item_Divining_Scroll.png",
+                    "amount": 18
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Sealed_Scroll.png",
+                    "amount": 66
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Item_Forbidden_Curse_Scroll.png",
+                    "amount": 93
+                }
+            ],
+            [
+                {
+                    "rarity": 5,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d6/Item_Ring_of_Boreas.png",
+                    "amount": 18
+                }
+            ]
+        ],
+        "constellation": [
+            {
+                "level": 1,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Constellation_Gleeful_Songs.png",
+                "name": "Gleeful Songs",
+                "effect": "Barbara regenerates 1 Energy every 10s."
+            },
+            {
+                "level": 2,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/1/14/Constellation_Vitality_Burst.png",
+                "name": "Vitality Burst",
+                "effect": "Decreases the CD of Let the Show Begin\u266a by 15%.During the ability's duration, your active character gains a 15% Hydro DMG Bonus."
+            },
+            {
+                "level": 3,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/6/67/Constellation_Star_of_Tomorrow.png",
+                "name": "Star of Tomorrow",
+                "effect": "Increases the Level of Shining Miracle\u266a by 3.Maximum upgrade level is 15."
+            },
+            {
+                "level": 4,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/6/69/Constellation_Attentiveness_be_My_Power.png",
+                "name": "Attentiveness be My Power",
+                "effect": "Every opponent Barbara hits with her Charged Attack regenerates 1 Energy for her.A maximum of 5 energy can be regenerated in this manner with any one Charged Attack."
+            },
+            {
+                "level": 5,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/6/69/Constellation_The_Purest_Companionship.png",
+                "name": "The Purest Companionship",
+                "effect": "Increases the Level of Let the Show Begin\u266a by 3.Maximum upgrade level is 15."
+            },
+            {
+                "level": 6,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/a/a0/Constellation_Dedicating_Everything_to_You.png",
+                "name": "Dedicating Everything to You",
+                "effect": "When Barbara is in the party but not on the field, and one of your own party members falls:\nAutomatically revives the fallen character.\nFully restores the revived character's HP to 100%.\nThis effect can only occur once every 15 mins."
+            }
+        ],
+        "ascensions": [
+            [
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8a/Item_Philanemo_Mushroom.png",
+                    "amount": 3
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/74/Item_Divining_Scroll.png",
+                    "amount": 3
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Item_Cleansing_Heart.png",
+                    "amount": 2
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8a/Item_Philanemo_Mushroom.png",
+                    "amount": 10
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/74/Item_Divining_Scroll.png",
+                    "amount": 15
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Item_Cleansing_Heart.png",
+                    "amount": 4
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8a/Item_Philanemo_Mushroom.png",
+                    "amount": 20
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Sealed_Scroll.png",
+                    "amount": 12
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Item_Cleansing_Heart.png",
+                    "amount": 8
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8a/Item_Philanemo_Mushroom.png",
+                    "amount": 30
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Sealed_Scroll.png",
+                    "amount": 18
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Item_Cleansing_Heart.png",
+                    "amount": 12
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8a/Item_Philanemo_Mushroom.png",
+                    "amount": 45
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Item_Forbidden_Curse_Scroll.png",
+                    "amount": 12
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Item_Cleansing_Heart.png",
+                    "amount": 20
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8a/Item_Philanemo_Mushroom.png",
+                    "amount": 60
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Item_Forbidden_Curse_Scroll.png",
+                    "amount": 24
+                }
+            ]
+        ]
+    }
 }

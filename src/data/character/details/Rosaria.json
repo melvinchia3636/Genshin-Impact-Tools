@@ -13,13 +13,13 @@
         },
         "voice_actors": {
             "english": "Elizabeth Maxwell",
-            "chinese": "Anqi Zhang (张安琪)",
-            "japanese": "Ai Kakuma (加隈亜衣)",
-            "korean": "Kim Bo-na (김보나)"
+            "chinese": "Anqi Zhang (\u5f20\u5b89\u742a)",
+            "japanese": "Ai Kakuma (\u52a0\u9688\u4e9c\u8863)",
+            "korean": "Kim Bo-na (\uae40\ubcf4\ub098)"
         },
         "introduction": {
             "quote": "Rosaria, a sister in Mondstadt's Church of Favonius.A sister of the church, though you wouldn't know it if it weren't for her attire. An unusual woman with sharp, piercing words and a cold manner.Her movements are unpredictable. She often leaves without notifying anyone. She acts with some kind of purpose, but others don't seem to know exactly what she stands for...",
-            "content": "C+V Here"
+            "content": "Rosaria is a playable Cryo  character in Genshin Impact. She is a member of the Church of Favonius in Mondstadt."
         },
         "personality": {
             "quote": "A sister of the church, though you wouldn't know it if it weren't for her attire. Known for her sharp, cold words and manner, she often works alone.",
@@ -37,5 +37,321 @@
         ]
     },
     "name": "Rosaria",
-    "nickname": "Thorny Benevolence"
+    "nickname": "Thorny Benevolence",
+    "combat_info": {
+        "base_stats": {
+            "special": "ATK",
+            "data": {
+                "0": {
+                    "1": [
+                        "1,030",
+                        "20",
+                        "60",
+                        "\u2014"
+                    ],
+                    "20": [
+                        "2,647",
+                        "52",
+                        "153"
+                    ]
+                },
+                "1": {
+                    "20": [
+                        "3,417",
+                        "67",
+                        "197",
+                        "\u2014"
+                    ],
+                    "40": [
+                        "5,118",
+                        "100",
+                        "296"
+                    ]
+                },
+                "2": {
+                    "40": [
+                        "5,665",
+                        "111",
+                        "327",
+                        "6.0%"
+                    ],
+                    "50": [
+                        "6,516",
+                        "127",
+                        "376"
+                    ]
+                },
+                "3": {
+                    "50": [
+                        "7,245",
+                        "141",
+                        "418",
+                        "12.0%"
+                    ],
+                    "60": [
+                        "8,096",
+                        "158",
+                        "468"
+                    ]
+                },
+                "4": {
+                    "60": [
+                        "8,643",
+                        "169",
+                        "499",
+                        "12.0%"
+                    ],
+                    "70": [
+                        "9,493",
+                        "185",
+                        "548"
+                    ]
+                },
+                "5": {
+                    "70": [
+                        "10,040",
+                        "196",
+                        "580",
+                        "18.0%"
+                    ],
+                    "80": [
+                        "10,891",
+                        "213",
+                        "629"
+                    ]
+                },
+                "6": {
+                    "80": [
+                        "11,438",
+                        "223",
+                        "661",
+                        "24.0%"
+                    ],
+                    "90": [
+                        "12,289",
+                        "240",
+                        "710"
+                    ]
+                }
+            }
+        },
+        "talents": [
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/7c/Talent_Spear_of_the_Church.png",
+                "name": "Spear of the Church",
+                "type": "Normal Attack",
+                "desc": "Normal Attack: Performs up to five rapid strikes.\nCharged Attack:  Consumes a certain amount of Stamina to lunge forward, dealing damage to enemies along the way.\nPlunging Attack: Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/c/ce/Talent_Ravaging_Confession.png",
+                "name": "Ravaging Confession",
+                "type": "Elemental Skill",
+                "desc": "Rosaria swiftly positions herself behind her opponent, then pierces and slashes the enemy with her polearm, dealing Cryo DMG.Rosaria cannot use this ability to move behind larger opponents."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/2/26/Talent_Rites_of_Termination.png",
+                "name": "Rites of Termination",
+                "type": "Elemental Burst",
+                "desc": "Rosaria's unique take on this prayer ritual.\nFirst, she swings her weapon to slash surrounding enemies; then, she summons a frigid Ice Lance that strikes the ground. Both actions deal Cryo DMG.\nWhile active, the Ice Lance periodically releases a blast of cold air, dealing Cryo DMG to surrounding enemies."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/e/e3/Talent_Regina_Probationum.png",
+                "name": "Regina Probationum",
+                "type": "1st Ascension Passive",
+                "desc": "When Rosaria strikes an opponent from behind using Ravaging Confession, Rosaria's CRIT Rate increases by 12% for 5s."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/53/Talent_Shadow_Samaritan.png",
+                "name": "Shadow Samaritan",
+                "type": "4th Ascension Passive",
+                "desc": "Casting Rites of Termination increases CRIT Rate of all nearby party members (except Rosaria herself) by 15% of Rosaria's CRIT Rate for 10s.CRIT Rate Bonus gained this way cannot exceed 15%."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/c/c8/Talent_Night_Walk.png",
+                "name": "Night Walk",
+                "type": "Utility Passive",
+                "desc": "At night (18:00 \u2013 6:00), increases the Movement SPD of your own party members by 10%.Does not take effect in Domains, Trounce Domains, or Spiral Abyss. Not stackable with Passive Talents that provide the same effects."
+            }
+        ],
+        "lvup_mat": [
+            [
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b4/Item_Teachings_of_Ballad.png",
+                    "amount": 9
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Guide_to_Ballad.png",
+                    "amount": 63
+                },
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/7e/Item_Philosophies_of_Ballad.png",
+                    "amount": 114
+                }
+            ],
+            [
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b2/Item_Recruit%27s_Insignia.png",
+                    "amount": 18
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Sergeant%27s_Insignia.png",
+                    "amount": 66
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/db/Item_Lieutenant%27s_Insignia.png",
+                    "amount": 93
+                }
+            ],
+            [
+                {
+                    "rarity": 5,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/5d/Item_Shadow_of_the_Warrior.png",
+                    "amount": 18
+                }
+            ]
+        ],
+        "constellation": [
+            {
+                "level": 1,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/f/f9/Constellation_Unholy_Revelation.png",
+                "name": "Unholy Revelation",
+                "effect": "When Rosaria deals a CRIT Hit, her ATK SPD increases by 10% and her Normal Attack DMG increases by 10% for 4s."
+            },
+            {
+                "level": 2,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/1/1d/Constellation_Land_Without_Promise.png",
+                "name": "Land Without Promise",
+                "effect": "The duration of the Ice Lance created by Rites of Termination is increased by 4s."
+            },
+            {
+                "level": 3,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/31/Constellation_The_Wages_of_Sin.png",
+                "name": "The Wages of Sin",
+                "effect": "Increases the Level of Ravaging Confession by 3.Maximum upgrade level is 15."
+            },
+            {
+                "level": 4,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/57/Constellation_Painful_Grace.png",
+                "name": "Painful Grace",
+                "effect": "Ravaging Confession's CRIT Hits regenerate 5 Energy for Rosaria.Can only be triggered once each time Ravaging Confession is cast."
+            },
+            {
+                "level": 5,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/8/88/Constellation_Last_Rites.png",
+                "name": "Last Rites",
+                "effect": "Increases the Level of Rites of Termination by 3.Maximum upgrade level is 15."
+            },
+            {
+                "level": 6,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/bd/Constellation_Divine_Retribution.png",
+                "name": "Divine Retribution",
+                "effect": "Rites of Termination's attack decreases opponents' Physical RES by 20% for 10s."
+            }
+        ],
+        "ascensions": [
+            [
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ed/Item_Valberry.png",
+                    "amount": 3
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b2/Item_Recruit%27s_Insignia.png",
+                    "amount": 3
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Item_Hoarfrost_Core.png",
+                    "amount": 2
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ed/Item_Valberry.png",
+                    "amount": 10
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b2/Item_Recruit%27s_Insignia.png",
+                    "amount": 15
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Item_Hoarfrost_Core.png",
+                    "amount": 4
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ed/Item_Valberry.png",
+                    "amount": 20
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Sergeant%27s_Insignia.png",
+                    "amount": 12
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Item_Hoarfrost_Core.png",
+                    "amount": 8
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ed/Item_Valberry.png",
+                    "amount": 30
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Sergeant%27s_Insignia.png",
+                    "amount": 18
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Item_Hoarfrost_Core.png",
+                    "amount": 12
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ed/Item_Valberry.png",
+                    "amount": 45
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/db/Item_Lieutenant%27s_Insignia.png",
+                    "amount": 12
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Item_Hoarfrost_Core.png",
+                    "amount": 20
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ed/Item_Valberry.png",
+                    "amount": 60
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/db/Item_Lieutenant%27s_Insignia.png",
+                    "amount": 24
+                }
+            ]
+        ]
+    }
 }

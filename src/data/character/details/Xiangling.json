@@ -16,13 +16,13 @@
         },
         "voice_actors": {
             "english": "Jackie Lastra",
-            "chinese": "Xiao N (小N)",
-            "japanese": "Ari Ozawa (小澤亜李)",
-            "korean": "Yun A-yeong (윤아영)"
+            "chinese": "Xiao N (\u5c0fN)",
+            "japanese": "Ari Ozawa (\u5c0f\u6fa4\u4e9c\u674e)",
+            "korean": "Yun A-yeong (\uc724\uc544\uc601)"
         },
         "introduction": {
             "quote": "The Head Chef at the Wanmin Restaurant and also a waitress there, Xiangling is extremely passionate about cooking and excels at her signature hot and spicy dishes.Though still young, Xiangling is a true master of the culinary arts with all the skills of a kitchen veteran. She enjoys a good reputation among the hearty eaters at Chihu Rock.There's absolutely no need to be nervous if she wants you to sample her latest creation. It will not disappoint. Promise.",
-            "content": "C+V Here"
+            "content": "Xiangling ( Chinese: \u9999\u83f1 Xi\u0101ngl\u00edng, \"Fragrant Water Caltrop\" ) is a playable Pyro  character in Genshin Impact. She is the Head Chef at the Wanmin Restaurant and runs it alongside her father Chef Mao. As a chef, Xiangling isn't afraid to try out different recipes or \"exotic\" ingredients... Making her dishes sometimes quite unique. She can be obtained for free in the permanent Spiral Abyss Event - People's Choice by clearing Floor 3, Chamber 3 of the Spiral Abyss."
         },
         "personality": {
             "quote": "A renowned chef from Liyue. She's extremely passionate about cooking and excels at making her signature hot and spicy dishes.",
@@ -38,5 +38,321 @@
         ]
     },
     "name": "Xiangling",
-    "nickname": "Exquisite Delicacy"
+    "nickname": "Exquisite Delicacy",
+    "combat_info": {
+        "base_stats": {
+            "special": "Elemental Mastery",
+            "data": {
+                "0": {
+                    "1": [
+                        "912",
+                        "19",
+                        "56",
+                        "\u2014"
+                    ],
+                    "20": [
+                        "2,342",
+                        "48",
+                        "144"
+                    ]
+                },
+                "1": {
+                    "20": [
+                        "3,024",
+                        "63",
+                        "186",
+                        "\u2014"
+                    ],
+                    "40": [
+                        "4,529",
+                        "94",
+                        "279"
+                    ]
+                },
+                "2": {
+                    "40": [
+                        "5,013",
+                        "104",
+                        "308",
+                        "24"
+                    ],
+                    "50": [
+                        "5,766",
+                        "119",
+                        "355"
+                    ]
+                },
+                "3": {
+                    "50": [
+                        "6,411",
+                        "133",
+                        "394",
+                        "48"
+                    ],
+                    "60": [
+                        "7,164",
+                        "148",
+                        "441"
+                    ]
+                },
+                "4": {
+                    "60": [
+                        "7,648",
+                        "158",
+                        "470",
+                        "48"
+                    ],
+                    "70": [
+                        "8,401",
+                        "174",
+                        "517"
+                    ]
+                },
+                "5": {
+                    "70": [
+                        "8,885",
+                        "184",
+                        "546",
+                        "72"
+                    ],
+                    "80": [
+                        "9,638",
+                        "200",
+                        "593"
+                    ]
+                },
+                "6": {
+                    "80": [
+                        "10,122",
+                        "210",
+                        "623",
+                        "96"
+                    ],
+                    "90": [
+                        "10,875",
+                        "225",
+                        "669"
+                    ]
+                }
+            }
+        },
+        "talents": [
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Talent_Dough-Fu.png",
+                "name": "Dough-Fu",
+                "type": "Normal Attack",
+                "desc": "Normal Attack: Performs up to five consecutive spear strikes.\nCharged Attack: Consumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\nPlunging Attack: Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/a/a9/Talent_Guoba_Attack.png",
+                "name": "Guoba Attack",
+                "type": "Elemental Skill",
+                "desc": "Summons Guoba the Panda. After 2 seconds, Guoba starts breathing fire at an opponent, dealing AoE Pyro DMG every 1.5 seconds 4 times."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/2/29/Talent_Pyronado.png",
+                "name": "Pyronado",
+                "type": "Elemental Burst",
+                "desc": "Displaying her mastery over both fire and polearms, Xiangling sends a Pyronado whirling around her. The Pyronado will move with your character for so long as the ability persists, dealing Pyro DMG to all opponents in its path."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/3e/Talent_Crossfire.png",
+                "name": "Crossfire",
+                "type": "1st Ascension Passive",
+                "desc": "Increases the flame range of Guoba by 20%."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/49/Talent_Beware%2C_It%27s_Super_Hot%21.png",
+                "name": "Beware, It's Super Hot!",
+                "type": "4th Ascension Passive",
+                "desc": "When Guoba Attack's effects end, Guoba leaves a chili pepper on the spot where it disappeared. Picking up a chili pepper increases ATK by 10% for 10s."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/4e/Talent_Chef_de_Cuisine.png",
+                "name": "Chef de Cuisine",
+                "type": "Utility Passive",
+                "desc": "When a Perfect Cooking is achieved on an ATK-boosting dish, Xiangling has a 12% chance to receive double the product."
+            }
+        ],
+        "lvup_mat": [
+            [
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Teachings_of_Diligence.png",
+                    "amount": 9
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9f/Item_Guide_to_Diligence.png",
+                    "amount": 63
+                },
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c2/Item_Philosophies_of_Diligence.png",
+                    "amount": 114
+                }
+            ],
+            [
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/Item_Slime_Condensate.png",
+                    "amount": 18
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Slime_Secretions.png",
+                    "amount": 66
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d8/Item_Slime_Concentrate.png",
+                    "amount": 93
+                }
+            ],
+            [
+                {
+                    "rarity": 5,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a8/Item_Dvalin%27s_Claw.png",
+                    "amount": 18
+                }
+            ]
+        ],
+        "constellation": [
+            {
+                "level": 1,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/78/Constellation_Crispy_Outside%2C_Tender_Inside.png",
+                "name": "Crispy Outside, Tender Inside",
+                "effect": "Opponents hit by Guoba's attacks have their Pyro RES reduced by 15% for 6s."
+            },
+            {
+                "level": 2,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/40/Constellation_Oil_Meets_Fire.png",
+                "name": "Oil Meets Fire",
+                "effect": "The last attack in a Normal Attack sequence applies the Implode status onto the opponent for 2s. An explosion will occur once this duration ends, dealing 75% of Xiangling's ATK as AoE Pyro DMG."
+            },
+            {
+                "level": 3,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/2/24/Constellation_Deepfry.png",
+                "name": "Deepfry",
+                "effect": "Increases the Level of Pyronado by 3.Maximum upgrade level is 15."
+            },
+            {
+                "level": 4,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/7b/Constellation_Slowbake.png",
+                "name": "Slowbake",
+                "effect": "Pyronado's duration is increased by 40%."
+            },
+            {
+                "level": 5,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/a/a2/Constellation_Guoba_Mad.png",
+                "name": "Guoba Mad",
+                "effect": "Increases the Level of Guoba Attack by 3.Maximum upgrade level is 15."
+            },
+            {
+                "level": 6,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/8/8a/Constellation_Condensed_Pyronado.png",
+                "name": "Condensed Pyronado",
+                "effect": "For the duration of Pyronado, all party members receive a 15% Pyro DMG Bonus."
+            }
+        ],
+        "ascensions": [
+            [
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/13/Item_Jueyun_Chili.png",
+                    "amount": 3
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/Item_Slime_Condensate.png",
+                    "amount": 3
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b2/Item_Everflame_Seed.png",
+                    "amount": 2
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/13/Item_Jueyun_Chili.png",
+                    "amount": 10
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/Item_Slime_Condensate.png",
+                    "amount": 15
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b2/Item_Everflame_Seed.png",
+                    "amount": 4
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/13/Item_Jueyun_Chili.png",
+                    "amount": 20
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Slime_Secretions.png",
+                    "amount": 12
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b2/Item_Everflame_Seed.png",
+                    "amount": 8
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/13/Item_Jueyun_Chili.png",
+                    "amount": 30
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Slime_Secretions.png",
+                    "amount": 18
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b2/Item_Everflame_Seed.png",
+                    "amount": 12
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/13/Item_Jueyun_Chili.png",
+                    "amount": 45
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d8/Item_Slime_Concentrate.png",
+                    "amount": 12
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b2/Item_Everflame_Seed.png",
+                    "amount": 20
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/13/Item_Jueyun_Chili.png",
+                    "amount": 60
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d8/Item_Slime_Concentrate.png",
+                    "amount": 24
+                }
+            ]
+        ]
+    }
 }

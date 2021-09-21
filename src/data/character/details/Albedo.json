@@ -14,17 +14,17 @@
         "family": {
             "english": "Khoi Dao",
             "chinese": "Mace",
-            "japanese": "Kenji Nojima (野島健児)",
-            "korean": "Kim Myung-jun (김명준)"
+            "japanese": "Kenji Nojima (\u91ce\u5cf6\u5065\u5150)",
+            "korean": "Kim Myung-jun (\uae40\uba85\uc900)"
         },
         "voice_actors": {
-            "chinese_name": "阿贝多 Ābèiduō",
-            "japanese_name": "アルベド Arubedo",
-            "korean_name": "알베도 Albedo"
+            "chinese_name": "\u963f\u8d1d\u591a \u0100b\u00e8idu\u014d",
+            "japanese_name": "\u30a2\u30eb\u30d9\u30c9 Arubedo",
+            "korean_name": "\uc54c\ubca0\ub3c4 Albedo"
         },
         "introduction": {
-            "quote": "Albedo — an alchemist based in Mondstadt, in the service of the Knights of Favonius.\"Genius,\" \"Kreideprinz,\" or \"Captain of the Investigation Team\"... Such titles and honors are of no consequence to him when there is so much more research to conduct.The pursuit of fortune and connections cannot hold a candle to his heart's desire — acquiring the limitless, obscure knowledge left behind by previous generations of scholars.",
-            "content": "C+V Here"
+            "quote": "Albedo \u2014 an alchemist based in Mondstadt, in the service of the Knights of Favonius.\"Genius,\" \"Kreideprinz,\" or \"Captain of the Investigation Team\"... Such titles and honors are of no consequence to him when there is so much more research to conduct.The pursuit of fortune and connections cannot hold a candle to his heart's desire \u2014 acquiring the limitless, obscure knowledge left behind by previous generations of scholars.",
+            "content": "Albedo, also known as the \"Kreideprinz\" is a playable Geo character in Genshin Impact.The mysterious Albedo is the Chief Alchemist and Captain of the Investigation Team of the Knights of Favonius through a recommendation from the adventurer Alice, with Sucrose as his assistant. He holds an infinite desire to learn about the world of Teyvat, carefully studying every object around him."
         },
         "personality": {
             "quote": "A genius known as the Kreideprinz, he is the Chief Alchemist and Captain of the Investigation Team of the Knights of Favonius.",
@@ -41,5 +41,321 @@
         ]
     },
     "name": "Albedo",
-    "nickname": "Kreideprinz"
+    "nickname": "Kreideprinz",
+    "combat_info": {
+        "base_stats": {
+            "special": "Geo DMG Bonus",
+            "data": {
+                "0": {
+                    "1": [
+                        "1,030",
+                        "20",
+                        "68",
+                        "\u2014"
+                    ],
+                    "20": [
+                        "2,671",
+                        "51",
+                        "177"
+                    ]
+                },
+                "1": {
+                    "20": [
+                        "3,554",
+                        "68",
+                        "235",
+                        "\u2014"
+                    ],
+                    "40": [
+                        "5,317",
+                        "101",
+                        "352"
+                    ]
+                },
+                "2": {
+                    "40": [
+                        "5,944",
+                        "113",
+                        "394",
+                        "7.2%"
+                    ],
+                    "50": [
+                        "6,839",
+                        "130",
+                        "453"
+                    ]
+                },
+                "3": {
+                    "50": [
+                        "7,675",
+                        "146",
+                        "508",
+                        "14.4%"
+                    ],
+                    "60": [
+                        "8,579",
+                        "163",
+                        "568"
+                    ]
+                },
+                "4": {
+                    "60": [
+                        "9,207",
+                        "175",
+                        "610",
+                        "14.4%"
+                    ],
+                    "70": [
+                        "10,119",
+                        "192",
+                        "670"
+                    ]
+                },
+                "5": {
+                    "70": [
+                        "10,746",
+                        "204",
+                        "712",
+                        "21.6%"
+                    ],
+                    "80": [
+                        "11,669",
+                        "222",
+                        "773"
+                    ]
+                },
+                "6": {
+                    "80": [
+                        "12,296",
+                        "233",
+                        "815",
+                        "28.8%"
+                    ],
+                    "90": [
+                        "13,226",
+                        "251",
+                        "876"
+                    ]
+                }
+            }
+        },
+        "talents": [
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/35/Talent_Favonius_Bladework_-_Weiss.png",
+                "name": "Favonius Bladework - Weiss",
+                "type": "Normal Attack",
+                "desc": "Normal Attack: Perform up to 5 rapid strikes.Charged Attack: Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.Plunging Attack: Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/0/0e/Talent_Abiogenesis_Solar_Isotoma.png",
+                "name": "Abiogenesis: Solar Isotoma",
+                "type": "Elemental Skill",
+                "desc": "Albedo creates a Solar Isotoma using alchemy, which deals AoE Geo DMG on appearance.Solar Isotoma has the following properties:\nWhen enemies within the Solar Isotoma zone take damage, the Solar Isotoma will generate Transient Blossoms which deal AoE Geo DMG. DMG dealt scales off Albedo's DEF. Transient Blossoms can only be generated once every 2s.\nWhen a character is located at the locus of the Solar Isotoma, the Solar Isotoma will accumulate Geo power to form a crystallized platform that lifts the character up to a certain height. Only one crystallized platform can exist at a time.\nSolar Isotoma is a Geo Construct.\nHold to designate the location of the skill."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/0/0a/Talent_Rite_of_Progeniture_Tectonic_Tide.png",
+                "name": "Rite of Progeniture: Tectonic Tide",
+                "type": "Elemental Burst",
+                "desc": "Under Albedo's command, Geo crystals surge and burst forth, dealing AoE Geo DMG in front of him.If a Solar Isotoma created by Albedo himself is on the field, 7 Fatal Blossoms will be generated in the Solar Isotoma field, bursting violently into bloom and dealing AoE Geo DMG.Tecotonic Tide DMG and Fatal Blossom DMG will not generate Transient Blossoms."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/56/Talent_Calcite_Might.png",
+                "name": "Calcite Might",
+                "type": "1st Ascension Passive",
+                "desc": "Transient Blossoms generated by Abiogenesis: Solar Isotoma deal 25% more DMG to opponents whose HP is below 50%."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/8/80/Talent_Homuncular_Nature.png",
+                "name": "Homuncular Nature",
+                "type": "4th Ascension Passive",
+                "desc": "Using Rite of Progeniture: Tectonic Tide increases the Elemental Mastery of nearby party members by 125 for 10s."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/32/Talent_Flash_of_Genius_%28Albedo%29.png",
+                "name": "Flash of Genius (Albedo)",
+                "type": "Utility Passive",
+                "desc": "When Albedo crafts Weapon Ascension Materials, he has a 10% chance to receive double the product."
+            }
+        ],
+        "lvup_mat": [
+            [
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b4/Item_Teachings_of_Ballad.png",
+                    "amount": 9
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Guide_to_Ballad.png",
+                    "amount": 63
+                },
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/7e/Item_Philosophies_of_Ballad.png",
+                    "amount": 114
+                }
+            ],
+            [
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/74/Item_Divining_Scroll.png",
+                    "amount": 18
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Sealed_Scroll.png",
+                    "amount": 66
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Item_Forbidden_Curse_Scroll.png",
+                    "amount": 93
+                }
+            ],
+            [
+                {
+                    "rarity": 5,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/Item_Tusk_of_Monoceros_Caeli.png",
+                    "amount": 18
+                }
+            ]
+        ],
+        "constellation": [
+            {
+                "level": 1,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/2/29/Constellation_Flower_of_Eden.png",
+                "name": "Flower of Eden",
+                "effect": "Transient Blossoms generated by Albedo's Abiogenesis: Solar Isotoma regenerate 1.2 Energy for Albedo."
+            },
+            {
+                "level": 2,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/d8/Constellation_Opening_of_Phanerozoic.png",
+                "name": "Opening of Phanerozoic",
+                "effect": "Transient Blossoms generated by Abiogenesis: Solar Isotoma grant Albedo Fatal Reckoning for 30s:\nUnleashing Rite of Progeniture: Tectonic Tide consumes all stacks of Fatal Reckoning. Each stack of Fatal Reckoning consumed increases the DMG dealt by Fatal Blossoms and Rite of Progeniture: Tectonic Tide's burst DMG by 30% of Albedo's DEF.\nThis effect stacks up to 4 times."
+            },
+            {
+                "level": 3,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/e/e8/Constellation_Grace_of_Helios.png",
+                "name": "Grace of Helios",
+                "effect": "Increases the Level of Abiogenesis: Solar Isotoma by 3.Maximum upgrade level is 15."
+            },
+            {
+                "level": 4,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/8/8f/Constellation_Descent_of_Divinity.png",
+                "name": "Descent of Divinity",
+                "effect": "Active party members within the Solar Isotoma field have their Plunging Attack DMG increased by 30%."
+            },
+            {
+                "level": 5,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/a/a1/Constellation_Tide_of_Hadean.png",
+                "name": "Tide of Hadean",
+                "effect": "Increases the Level of Rite of Progeniture: Tectonic Tide by 3.Maximum upgrade level is 15."
+            },
+            {
+                "level": 6,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/52/Constellation_Dust_of_Purification.png",
+                "name": "Dust of Purification",
+                "effect": "Active party members within the Solar Isotoma field who are protected by a shield created by Crystallize have their DMG increased by 17%."
+            }
+        ],
+        "ascensions": [
+            [
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9b/Item_Cecilia.png",
+                    "amount": 3
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/74/Item_Divining_Scroll.png",
+                    "amount": 3
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bc/Item_Basalt_Pillar.png",
+                    "amount": 2
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9b/Item_Cecilia.png",
+                    "amount": 10
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/74/Item_Divining_Scroll.png",
+                    "amount": 15
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bc/Item_Basalt_Pillar.png",
+                    "amount": 4
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9b/Item_Cecilia.png",
+                    "amount": 20
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Sealed_Scroll.png",
+                    "amount": 12
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bc/Item_Basalt_Pillar.png",
+                    "amount": 8
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9b/Item_Cecilia.png",
+                    "amount": 30
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Sealed_Scroll.png",
+                    "amount": 18
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bc/Item_Basalt_Pillar.png",
+                    "amount": 12
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9b/Item_Cecilia.png",
+                    "amount": 45
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Item_Forbidden_Curse_Scroll.png",
+                    "amount": 12
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bc/Item_Basalt_Pillar.png",
+                    "amount": 20
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9b/Item_Cecilia.png",
+                    "amount": 60
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Item_Forbidden_Curse_Scroll.png",
+                    "amount": 24
+                }
+            ]
+        ]
+    }
 }

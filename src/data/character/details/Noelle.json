@@ -13,13 +13,13 @@
         },
         "voice_actors": {
             "english": "Laura Faye Smith",
-            "chinese": "Yanning (宴宁)",
-            "japanese": "Kanon Takao (高尾奏音)",
-            "korean": "Lee Bo-hee (이보희)"
+            "chinese": "Yanning (\u5bb4\u5b81)",
+            "japanese": "Kanon Takao (\u9ad8\u5c3e\u594f\u97f3)",
+            "korean": "Lee Bo-hee (\uc774\ubcf4\ud76c)"
         },
         "introduction": {
-            "quote": "Like most of Mondstadt's young people, Noelle always dreamed of being a knight of Favonius when she grew up.She may not have what it takes to be a knight just yet, but she is learning. Working as a maid at the Knights' headquarters, she is constantly taking notes on what constitutes knightly speech, knightly conduct, and knightly customs.She holds firm to her belief that one day she will join their ranks — she just needs to keep trying her hardest at everything she does.",
-            "content": "C+V Here"
+            "quote": "Like most of Mondstadt's young people, Noelle always dreamed of being a knight of Favonius when she grew up.She may not have what it takes to be a knight just yet, but she is learning. Working as a maid at the Knights' headquarters, she is constantly taking notes on what constitutes knightly speech, knightly conduct, and knightly customs.She holds firm to her belief that one day she will join their ranks \u2014 she just needs to keep trying her hardest at everything she does.",
+            "content": "Noelle is a playable Geo  character in Genshin Impact. While not yet a knight, she seeks to one day join the Knights of Favonius by first serving as a dutiful maid."
         },
         "personality": {
             "quote": "A maid who faithfully serves the Knights of Favonius. She dreams of joining their ranks someday.",
@@ -35,5 +35,321 @@
         ]
     },
     "name": "Noelle",
-    "nickname": "Chivalric Blossom"
+    "nickname": "Chivalric Blossom",
+    "combat_info": {
+        "base_stats": {
+            "special": "DEF",
+            "data": {
+                "0": {
+                    "1": [
+                        "1,012",
+                        "16",
+                        "67",
+                        "\u2014"
+                    ],
+                    "20": [
+                        "2,600",
+                        "41",
+                        "172"
+                    ]
+                },
+                "1": {
+                    "20": [
+                        "3,356",
+                        "53",
+                        "222",
+                        "\u2014"
+                    ],
+                    "40": [
+                        "5,027",
+                        "80",
+                        "333"
+                    ]
+                },
+                "2": {
+                    "40": [
+                        "5,564",
+                        "88",
+                        "368",
+                        "7.5%"
+                    ],
+                    "50": [
+                        "6,400",
+                        "101",
+                        "423"
+                    ]
+                },
+                "3": {
+                    "50": [
+                        "7,117",
+                        "113",
+                        "471",
+                        "15.0%"
+                    ],
+                    "60": [
+                        "7,953",
+                        "126",
+                        "526"
+                    ]
+                },
+                "4": {
+                    "60": [
+                        "8,490",
+                        "134",
+                        "562",
+                        "15.0%"
+                    ],
+                    "70": [
+                        "9,325",
+                        "148",
+                        "617"
+                    ]
+                },
+                "5": {
+                    "70": [
+                        "9,862",
+                        "156",
+                        "652",
+                        "22.5%"
+                    ],
+                    "80": [
+                        "10,698",
+                        "169",
+                        "708"
+                    ]
+                },
+                "6": {
+                    "80": [
+                        "11,235",
+                        "178",
+                        "743",
+                        "30.0%"
+                    ],
+                    "90": [
+                        "12,071",
+                        "191",
+                        "799"
+                    ]
+                }
+            }
+        },
+        "talents": [
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/38/Talent_Favonius_Bladework_-_Maid.png",
+                "name": "Favonius Bladework - Maid",
+                "type": "Normal Attack",
+                "desc": "Normal Attack: Performs up to 4 consecutive slashes.\nCharged Attack: Drains Stamina over time to perform continuous swirling attack on all nearby opponents. At the end of the sequence, performs an additional powerful slash.\nPlunging Attack: Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/5a/Talent_Breastplate.png",
+                "name": "Breastplate",
+                "type": "Elemental Skill",
+                "desc": "Summons protective stone armor, dealing Geo DMG to surrounding opponents and creating a shield. The shield's DMG Absorption scales based on Noelle's DEF.The shield has the following properties:\nWhen Noelle's Normal and Charged Attacks hit a target, they have a certain chance to regenerate HP for all characters.\nPossesses 150% DMG Absorption efficiency against all Elemental and Physical DMG.\nThe amount of HP healed when regeneration is triggered scales based on Noelle's DEF."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/7c/Talent_Sweeping_Time.png",
+                "name": "Sweeping Time",
+                "type": "Elemental Burst",
+                "desc": "Gathering the strength of stone around her weapon, Noelle strikes the opponents surrounding her within a large AoE, dealing Geo DMG.Afterwards, Noelle gains the following effects:\nLarger attack AoE\nConverts attack DMG to Geo DMG that cannot be overridden by any other elemental infusion.\nIncreased ATK that scales based on her DEF."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/b2/Talent_Devotion.png",
+                "name": "Devotion",
+                "type": "1st Ascension Passive",
+                "desc": "When Noelle is in the party but not on the field, this ability triggers automatically when your active character's HP falls below 30%:\nCreates a shield for your active character that lasts for 20s and absorbs DMG equal to 400% of Noelle's DEF. The shield has a 150% DMG Absorption effectiveness against all Elemental and Physical DMG. This effect can only occur once every 60s."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/9a/Talent_Nice_and_Clean.png",
+                "name": "Nice and Clean",
+                "type": "4th Ascension Passive",
+                "desc": "Every 4 Normal or Charged Attack hits will decrease the CD of Breastplate by 1s.Hitting multiple opponents with a single attack is only counted as 1 hit."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/dd/Talent_Maid%27s_Knighthood.png",
+                "name": "Maid's Knighthood",
+                "type": "Utility Passive",
+                "desc": "When a Perfect Cooking is achieved on a DEF-boosting dish, Noelle has a 12% chance to obtain double the product."
+            }
+        ],
+        "lvup_mat": [
+            [
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/33/Item_Teachings_of_Resistance.png",
+                    "amount": 9
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Item_Guide_to_Resistance.png",
+                    "amount": 63
+                },
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Philosophies_of_Resistance.png",
+                    "amount": 114
+                }
+            ],
+            [
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/69/Item_Damaged_Mask.png",
+                    "amount": 18
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Stained_Mask.png",
+                    "amount": 66
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Ominous_Mask.png",
+                    "amount": 93
+                }
+            ],
+            [
+                {
+                    "rarity": 5,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a8/Item_Dvalin%27s_Claw.png",
+                    "amount": 18
+                }
+            ]
+        ],
+        "constellation": [
+            {
+                "level": 1,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/73/Constellation_I_Got_Your_Back.png",
+                "name": "I Got Your Back",
+                "effect": "While Sweeping Time and Breastplate are both in effect, the chance of Breastplate's healing effects activating is increased to 100%."
+            },
+            {
+                "level": 2,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/73/Constellation_Combat_Maid.png",
+                "name": "Combat Maid",
+                "effect": "Decreases the Stamina Consumption of Noelle's Charged Attacks by 20% and increases her Charged Attack DMG by 15%."
+            },
+            {
+                "level": 3,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/36/Constellation_Invulnerable_Maid.png",
+                "name": "Invulnerable Maid",
+                "effect": "Increases the Level of Breastplate by 3.Maximum upgrade level is 15."
+            },
+            {
+                "level": 4,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/8/81/Constellation_To_Be_Cleaned.png",
+                "name": "To Be Cleaned",
+                "effect": "When Breastplate's duration expires or it is destroyed by DMG, it will deal 400% ATK of Geo DMG to surrounding opponents."
+            },
+            {
+                "level": 5,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/3f/Constellation_Favonius_Sweeper_Master.png",
+                "name": "Favonius Sweeper Master",
+                "effect": "Increases the Level of Sweeping Time by 3.Maximum upgrade level is 15."
+            },
+            {
+                "level": 6,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/1/14/Constellation_Must_Be_Spotless.png",
+                "name": "Must Be Spotless",
+                "effect": "Sweeping Time increases Noelle's ATK by an additional 50% of her DEF.Additionally, every opponent defeated during the skill's duration adds 1s to the duration, up to 10s."
+            }
+        ],
+        "ascensions": [
+            [
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ed/Item_Valberry.png",
+                    "amount": 3
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/69/Item_Damaged_Mask.png",
+                    "amount": 3
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bc/Item_Basalt_Pillar.png",
+                    "amount": 2
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ed/Item_Valberry.png",
+                    "amount": 10
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/69/Item_Damaged_Mask.png",
+                    "amount": 15
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bc/Item_Basalt_Pillar.png",
+                    "amount": 4
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ed/Item_Valberry.png",
+                    "amount": 20
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Stained_Mask.png",
+                    "amount": 12
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bc/Item_Basalt_Pillar.png",
+                    "amount": 8
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ed/Item_Valberry.png",
+                    "amount": 30
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Stained_Mask.png",
+                    "amount": 18
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bc/Item_Basalt_Pillar.png",
+                    "amount": 12
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ed/Item_Valberry.png",
+                    "amount": 45
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Ominous_Mask.png",
+                    "amount": 12
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bc/Item_Basalt_Pillar.png",
+                    "amount": 20
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ed/Item_Valberry.png",
+                    "amount": 60
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Ominous_Mask.png",
+                    "amount": 24
+                }
+            ]
+        ]
+    }
 }

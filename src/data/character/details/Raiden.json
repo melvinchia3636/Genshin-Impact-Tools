@@ -4,7 +4,7 @@
             "rarity": 5,
             "weapon": "polearm",
             "element": "Electro",
-            "real_name": "Raiden Ei (Japanese: 雷らい電でん影えい)",
+            "real_name": "Raiden Ei (Japanese: \u96f7\u3089\u3044\u96fb\u3067\u3093\u5f71\u3048\u3044)",
             "sex": "Female",
             "birthday": "June 26th",
             "constellation": "Imperatrix Umbrosa (Story Quest)",
@@ -14,19 +14,19 @@
         },
         "voice_actors": {
             "english": "Anne Yatco",
-            "chinese": "Juhuahua (菊花花)",
-            "japanese": "Miyuki Sawashiro (沢城みゆき)",
-            "korean": "Park Ji-yoon (박지윤)"
+            "chinese": "Juhuahua (\u83ca\u82b1\u82b1)",
+            "japanese": "Miyuki Sawashiro (\u6ca2\u57ce\u307f\u3086\u304d)",
+            "korean": "Park Ji-yoon (\ubc15\uc9c0\uc724)"
         },
         "introduction": {
             "quote": "The Raiden Shogun is the awesome and terrible power of thunder incarnate, the exalted ruler of the Inazuma Shogunate.\nWith the might of lightning at her disposal, she commits herself to the solitary pursuit of eternity.",
-            "content": "C+V Here"
+            "content": "The Raiden Shogun (Japanese: \u96f7\u96fb\u5c06\u8ecd Raiden Shougun), real name Raiden Ei (Japanese: \u96f7\u3089\u3044\u96fb\u3067\u3093\u5f71\u3048\u3044 Raiden Ei), is a playable Electro character in Genshin Impact. She controls a puppet while meditating inside the Plane of Euthymia. Her current form is the vessel of Beelzebul, the current Electro Archon of Inazuma."
         },
         "personality": {
             "quote": "Her Excellency, the Almighty Narukami Ogosho, who promised the people of Inazuma an unchanging Eternity",
             "content": [
-                "The Raiden Shogun is a firm believer of what she believes to be eternity—a place in which everything is kept the same, regardless of what goes on. She is honorable in her conduct and is revered by the people of Inazuma.\n",
-                "The Raiden Shogun exists in two forms—Raiden Ei, her true identity, and the Shogun, a puppet created by Ei to act as the ruler of Inazuma in her stead while she meditates in the Plane of Euthymia. This puppet follows a set of directives programmed into her, which are extremely hard to modify even by Ei herself. The Shogun is cold and stern in personality, even callous at times; she is limited in emotional expression, has no likes and dislikes, and has no need for recreation. The Shogun thinks of herself as Ei's assistant, and does exactly as she wishes, no more and no less; she cannot act without Ei's direction, and if her usual functions are disabled, the Shogun becomes incapable of doing anything. Due to her limited protocols and Ei's indifference for anything other than her goal of eternity, the puppet can easily be manipulated by outside forces. For example, the Kujou Clan and the Fatui tricked her into initiating and maintaining the Vision Hunt Decree.\n",
+                "The Raiden Shogun is a firm believer of what she believes to be eternity\u2014a place in which everything is kept the same, regardless of what goes on. She is honorable in her conduct and is revered by the people of Inazuma.\n",
+                "The Raiden Shogun exists in two forms\u2014Raiden Ei, her true identity, and the Shogun, a puppet created by Ei to act as the ruler of Inazuma in her stead while she meditates in the Plane of Euthymia. This puppet follows a set of directives programmed into her, which are extremely hard to modify even by Ei herself. The Shogun is cold and stern in personality, even callous at times; she is limited in emotional expression, has no likes and dislikes, and has no need for recreation. The Shogun thinks of herself as Ei's assistant, and does exactly as she wishes, no more and no less; she cannot act without Ei's direction, and if her usual functions are disabled, the Shogun becomes incapable of doing anything. Due to her limited protocols and Ei's indifference for anything other than her goal of eternity, the puppet can easily be manipulated by outside forces. For example, the Kujou Clan and the Fatui tricked her into initiating and maintaining the Vision Hunt Decree.\n",
                 "While Ei has a more stern demeanor than the average person, she is notably more emotive and sociable than the Shogun. Unlike the Shogun, Ei has preferences, such as a love for sweets. Due to her dedication to eternity, Ei is wary of the idea of change. However, she shows curiosity rather than disdain when it comes to new things, such as the appearance of the Traveler and the customs of the modern world. Due to having lost many of her loved ones over the centuries, Ei is driven by a fear of further loss, wanting to preserve Inazuma for all eternity. To this end, she sealed herself in the Plane of Euthymia to keep herself from the effects of erosion, while she created the puppet Shogun to be immune to the decay of the physical body. While in the Plane of Euthymia, Ei was indifferent to anything that did not affect her pursuit of eternity and had a low opinion of human ambition due to ambition leading to loss and suffering, thus making it incompatible with eternity. Even in the Plane of Euthymia, however, she could not truly escape loneliness, as she was happy to see her friend Yae Miko again, and she appears to enjoy the Traveler and Paimon's company.\n",
                 "Ei has a weakness against desserts and sweet things. Her view is that desserts can't pose any serious obstacle to her pursuit of Eternity to the extent that in any case of cavities, she could just replace her tooth. Yae Miko and Venti also mentioned about her fondness against desserts, with the Anemo Archon even suggesting that the Traveler bring her desserts to exploit the said vulnerability. During her story quest, when asked by Traveler, Ei explained that since humans enjoyed desserts, she should enjoy it as well. Ei also has an aversion to cooking, saying that she can do anything but that.\n",
                 "In spite of her flawed actions, Ei truly loves Inazuma as her sister did and just wants to protect it and her subjects for all eternity. After she was convinced that her actions were wrong, Ei shows remorse on her prior conduct and is willing to change her ways in governing Inazuma so as to avoid repeating her past mistakes.\n"
@@ -38,5 +38,321 @@
         ]
     },
     "name": "Raiden Shogun",
-    "nickname": "Plane of Euthymia"
+    "nickname": "Plane of Euthymia",
+    "combat_info": {
+        "base_stats": {
+            "special": "Energy Recharge",
+            "data": {
+                "0": {
+                    "1": [
+                        "1,005",
+                        "26",
+                        "61",
+                        "\u2014"
+                    ],
+                    "20": [
+                        "2,606",
+                        "68",
+                        "159"
+                    ]
+                },
+                "1": {
+                    "20": [
+                        "3,468",
+                        "91",
+                        "212",
+                        "\u2014"
+                    ],
+                    "40": [
+                        "5,189",
+                        "136",
+                        "317"
+                    ]
+                },
+                "2": {
+                    "40": [
+                        "5,801",
+                        "152",
+                        "355",
+                        "8.0%"
+                    ],
+                    "50": [
+                        "6,675",
+                        "175",
+                        "408"
+                    ]
+                },
+                "3": {
+                    "50": [
+                        "7,491",
+                        "196",
+                        "458",
+                        "16.0%"
+                    ],
+                    "60": [
+                        "8,373",
+                        "219",
+                        "512"
+                    ]
+                },
+                "4": {
+                    "60": [
+                        "8,985",
+                        "235",
+                        "549",
+                        "16.0%"
+                    ],
+                    "70": [
+                        "9,875",
+                        "258",
+                        "604"
+                    ]
+                },
+                "5": {
+                    "70": [
+                        "10,487",
+                        "274",
+                        "641",
+                        "24.0%"
+                    ],
+                    "80": [
+                        "11,388",
+                        "298",
+                        "696"
+                    ]
+                },
+                "6": {
+                    "80": [
+                        "12,000",
+                        "314",
+                        "737",
+                        "32.0%"
+                    ],
+                    "90": [
+                        "12,907",
+                        "337",
+                        "789"
+                    ]
+                }
+            }
+        },
+        "talents": [
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/8/8f/Talent_Origin.png",
+                "name": "Origin",
+                "type": "Normal Attack",
+                "desc": "Normal Attack: Performs up to 5 consecutive spear strikes.\nCharged Attack: Consumes a certain amount of Stamina to perform an upward slash.\nPlunging Attack: Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Talent_Transcendence_Baleful_Omen.png",
+                "name": "Transcendence: Baleful Omen",
+                "type": "Elemental Skill",
+                "desc": "The Raiden Shogun unveils a shard of her Euthymia, dealing Electro DMG to nearby opponents, and granting nearby party members the Eye of Stormy Judgment.\nEye of Stormy Judgment\n\nWhen characters with this buff attack and deal DMG to opponents, the Eye will unleash a coordinated attack, dealing AoE Electro DMG at the opponent's position.\nCharacters who gain the Eye of Stormy Judgment will have their Elemental Burst DMG increased based on the Energy Cost of the Elemental Burst during the Eye's duration.The Eye can initiate one coordinated attack every 0.9s per party.Coordinated attacks generated by characters not controlled by you deal 20% of the normal DMG."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/e/e0/Talent_Secret_Art_Musou_Shinsetsu.png",
+                "name": "Secret Art: Musou Shinsetsu",
+                "type": "Elemental Burst",
+                "desc": "Gathering truths unnumbered and wishes uncounted, the Raiden Shogun unleashes the Musou no Hitotachi and deals AoE Electro DMG, using Musou Isshin in combat for a certain duration afterward. The DMG dealt by Musou no Hitotachi and Musou Isshin's attacks will be increased based on the number of Chakra Desiderata's Resolve stacks consumed when this skill is used.\nMusou Isshin\nWhile in this state, the Raiden Shogun will wield her tachi in battle, while her Normal, Charged, and Plunging Attacks will be infused with Electro DMG, which cannot be overridden. When such attacks hit opponents, she will regenerate Energy for all nearby party members. Energy can be restored this way once every 1s, and this effect can be triggered 5 times throughout this skill's duration.While in this state, the Raiden Shogun's resistance to interruption is increased, and she is immune to Electro-Charged reaction DMG.While Musou Isshin is active, the Raiden Shogun's Normal, Charged, and Plunging Attack DMG will be considered Elemental Burst DMG.The effects of Musou Isshin will be cleared when the Raiden Shogun leaves the field.\nChakra Desiderata\nWhen nearby party members (excluding the Raiden Shogun herself) use their Elemental Bursts, the Raiden Shogun will build up Resolve stacks based on the Energy Cost of these Elemental Bursts.\nThe maximum number of Resolve stacks is 60. The Resolve gained by Chakra Desiderata will be cleared 300s after the Raiden Shogun leaves the field."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/bc/Talent_Wishes_Unnumbered.png",
+                "name": "Wishes Unnumbered",
+                "type": "1st Ascension Passive",
+                "desc": "When nearby party members gain Elemental Orbs or Particles, Chakra Desiderata gains 2 Resolve stacks.This effect can occur once every 3s."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Talent_Enlightened_One.png",
+                "name": "Enlightened One",
+                "type": "4th Ascension Passive",
+                "desc": "Each 1% above 100% Energy Recharge that the Raiden Shogun possesses grants her:\n0.6% greater Energy restoration from Musou Isshin\n0.4% Electro DMG Bonus"
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/0/0e/Talent_All-Preserver.png",
+                "name": "All-Preserver",
+                "type": "Utility Passive",
+                "desc": "Mora expended when ascending Swords and Polearms is decreased by 50%."
+            }
+        ],
+        "lvup_mat": [
+            [
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/5e/Item_Teachings_of_Light.png",
+                    "amount": 9
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/fe/Item_Guide_to_Light.png",
+                    "amount": 63
+                },
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/95/Item_Philosophies_of_Light.png",
+                    "amount": 114
+                }
+            ],
+            [
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e2/Item_Old_Handguard.png",
+                    "amount": 18
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Kageuchi_Handguard.png",
+                    "amount": 66
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4e/Item_Famed_Handguard.png",
+                    "amount": 93
+                }
+            ],
+            [
+                {
+                    "rarity": 5,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Item_Molten_Moment.png",
+                    "amount": 18
+                }
+            ]
+        ],
+        "constellation": [
+            {
+                "level": 1,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/2/24/Constellation_Ominous_Inscription.png",
+                "name": "Ominous Inscription",
+                "effect": "Chakra Desiderata will gather Resolve even faster. When Electro characters use their Elemental Bursts, the Resolve gained is increased by 80%. When characters of other Elemental Types use their Elemental Bursts, the Resolve gained is increased by 20%."
+            },
+            {
+                "level": 2,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/4e/Constellation_Steelbreaker.png",
+                "name": "Steelbreaker",
+                "effect": "While using Musou no Hitotachi and in the Musou Isshin state applied by Secret Art: Musou Shinsetsu, the Raiden Shogun's attacks ignore 60% of opponents's DEF."
+            },
+            {
+                "level": 3,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/4d/Constellation_Shinkage_Bygones.png",
+                "name": "Shinkage Bygones",
+                "effect": "Increases the Level of Secret Art: Musou Shinsetsu by 3.Maximum upgrade level is 15."
+            },
+            {
+                "level": 4,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Constellation_Pledge_of_Propriety.png",
+                "name": "Pledge of Propriety",
+                "effect": "When the Musou Isshin state applied by Secret Art: Musou Shinsetsu expires, all nearby party members (excluding the Raiden Shogun) gain 30% bonus ATK for 10s."
+            },
+            {
+                "level": 5,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/8/85/Constellation_Shogun%27s_Descent.png",
+                "name": "Shogun's Descent",
+                "effect": "Increases the Level of Transcendence: Baleful Omen by 3.Maximum upgrade level is 15."
+            },
+            {
+                "level": 6,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/5e/Constellation_Wishbearer.png",
+                "name": "Wishbearer",
+                "effect": "While in the Musou Isshin state applied by Secret Art: Musou Shinsetsu, attacks by the Raiden Shogun that are considered part of her Elemental Burst will decrease all nearby party members' (but not including the Raiden Shogun herself) Elemental Burst CD by 1s when they hit opponents.\nThis effect can trigger once every 1s, and can trigger a total of 5 times during the state's duration."
+            }
+        ],
+        "ascensions": [
+            [
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8a/Item_Amakumo_Fruit.png",
+                    "amount": 3
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e2/Item_Old_Handguard.png",
+                    "amount": 3
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/28/Item_Storm_Beads.png",
+                    "amount": 2
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8a/Item_Amakumo_Fruit.png",
+                    "amount": 10
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e2/Item_Old_Handguard.png",
+                    "amount": 15
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/28/Item_Storm_Beads.png",
+                    "amount": 4
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8a/Item_Amakumo_Fruit.png",
+                    "amount": 20
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Kageuchi_Handguard.png",
+                    "amount": 12
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/28/Item_Storm_Beads.png",
+                    "amount": 8
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8a/Item_Amakumo_Fruit.png",
+                    "amount": 30
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Kageuchi_Handguard.png",
+                    "amount": 18
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/28/Item_Storm_Beads.png",
+                    "amount": 12
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8a/Item_Amakumo_Fruit.png",
+                    "amount": 45
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4e/Item_Famed_Handguard.png",
+                    "amount": 12
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/28/Item_Storm_Beads.png",
+                    "amount": 20
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8a/Item_Amakumo_Fruit.png",
+                    "amount": 60
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4e/Item_Famed_Handguard.png",
+                    "amount": 24
+                }
+            ]
+        ]
+    }
 }

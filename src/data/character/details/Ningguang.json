@@ -13,13 +13,13 @@
         },
         "voice_actors": {
             "english": "Erin Ebers",
-            "chinese": "Mingya Du (杜冥鸦)",
-            "japanese": "Sayaka Ohara (大原さやか)",
-            "korean": "Gwak Gyu-mi (곽규미)"
+            "chinese": "Mingya Du (\u675c\u51a5\u9e26)",
+            "japanese": "Sayaka Ohara (\u5927\u539f\u3055\u3084\u304b)",
+            "korean": "Gwak Gyu-mi (\uacfd\uaddc\ubbf8)"
         },
         "introduction": {
             "quote": "Owner of the Jade Chamber in the skies above Liyue, there are stories abound about Ningguang, with her elegance and mysterious smile.As a Tianquan of the Liyue Qixing, not only does she embody law and order, she also represents fortune and wit.",
-            "content": "C+V Here"
+            "content": "Ningguang ( Chinese: \u51dd\u5149 N\u00ednggu\u0101ng, \"Condensed Light\" ) is a playable Geo  character in Genshin Impact. As the Tianquan of the Liyue Qixing, she holds a position of wealth beyond many others in Teyvat. Her position and abilities have allowed her to build her greatest achievement, the floating Jade Chamber that watches over all of Liyue."
         },
         "personality": {
             "quote": "The Tianquan of the Liyue Qixing. Her wealth is unsurpassed in all of Teyvat.",
@@ -35,5 +35,321 @@
         ]
     },
     "name": "Ningguang",
-    "nickname": "Eclipsing Star"
+    "nickname": "Eclipsing Star",
+    "combat_info": {
+        "base_stats": {
+            "special": "Geo DMG Bonus",
+            "data": {
+                "0": {
+                    "1": [
+                        "821",
+                        "18",
+                        "48",
+                        "\u2014"
+                    ],
+                    "20": [
+                        "2,108",
+                        "46",
+                        "123"
+                    ]
+                },
+                "1": {
+                    "20": [
+                        "2,721",
+                        "59",
+                        "159",
+                        "\u2014"
+                    ],
+                    "40": [
+                        "4,076",
+                        "88",
+                        "239"
+                    ]
+                },
+                "2": {
+                    "40": [
+                        "4,512",
+                        "98",
+                        "264",
+                        "6.0%"
+                    ],
+                    "50": [
+                        "5,189",
+                        "113",
+                        "304"
+                    ]
+                },
+                "3": {
+                    "50": [
+                        "5,770",
+                        "125",
+                        "338",
+                        "12.0%"
+                    ],
+                    "60": [
+                        "6,448",
+                        "140",
+                        "378"
+                    ]
+                },
+                "4": {
+                    "60": [
+                        "6,884",
+                        "149",
+                        "403",
+                        "12.0%"
+                    ],
+                    "70": [
+                        "7,561",
+                        "164",
+                        "443"
+                    ]
+                },
+                "5": {
+                    "70": [
+                        "7,996",
+                        "174",
+                        "468",
+                        "18.0%"
+                    ],
+                    "80": [
+                        "8,674",
+                        "188",
+                        "508"
+                    ]
+                },
+                "6": {
+                    "80": [
+                        "9,110",
+                        "198",
+                        "534",
+                        "24.0%"
+                    ],
+                    "90": [
+                        "9,787",
+                        "212",
+                        "573"
+                    ]
+                }
+            }
+        },
+        "talents": [
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/51/Talent_Sparkling_Scatter.png",
+                "name": "Sparkling Scatter",
+                "type": "Normal Attack",
+                "desc": "Normal Attack: Shoots gems that deal Geo DMG. Upon hit, this grants Ningguang 1 Star Jade.\nCharged Attack: Consumes a certain amount of stamina to fire off a giant gem that deals Geo DMG. If Ningguang has any Star Jades, unleashing a Charged Attack will cause the Star Jades to be fired at the enemy as well, dealing additional DMG.\nPlunging Attack: Gathering the might of Geo, Ningguang plunges toward the ground from mid-air, damaging all opponents in her path. Deals AoE Geo DMG upon impact with the ground."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/e/e8/Talent_Jade_Screen.png",
+                "name": "Jade Screen",
+                "type": "Elemental Skill",
+                "desc": "Ningguang creates a Jade Screen out of gold, obsidian and her great opulence, dealing AoE Geo DMG.\nJade Screen\n\nBlocks opponents' projectiles.\nEndurance scales based on Ningguang's Max HP.\nJade Screen is considered a Geo Construct and can be used to block certain attacks, but cannot be climbed. Only one Jade Screen may exist at a time."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/47/Talent_Starshatter.png",
+                "name": "Starshatter",
+                "type": "Elemental Burst",
+                "desc": "Gathering a great number of gems, Ningguang scatters them all at once, sending homing projectiles at her opponents that deal massive Geo DMG.\nIf Starshatter is cast when a Jade Screen is nearby, the Jade Screen will fire additional gem projectiles at the same time."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/2/2d/Talent_Backup_Plan.png",
+                "name": "Backup Plan",
+                "type": "1st Ascension Passive",
+                "desc": "When Ningguang is in possession of Star Jades, her Charged Attack does not consume Stamina."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/6/62/Talent_Strategic_Reserve.png",
+                "name": "Strategic Reserve",
+                "type": "4th Ascension Passive",
+                "desc": "A character that passes through the Jade Screen will gain a 12% Geo DMG Bonus for 10s."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/43/Talent_Trove_of_Marvelous_Treasures.png",
+                "name": "Trove of Marvelous Treasures",
+                "type": "Utility Passive",
+                "desc": "Displays the location of nearby ore veins used in forging on the mini-map."
+            }
+        ],
+        "lvup_mat": [
+            [
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9e/Item_Teachings_of_Prosperity.png",
+                    "amount": 9
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/67/Item_Guide_to_Prosperity.png",
+                    "amount": 63
+                },
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bd/Item_Philosophies_of_Prosperity.png",
+                    "amount": 114
+                }
+            ],
+            [
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b2/Item_Recruit%27s_Insignia.png",
+                    "amount": 18
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Sergeant%27s_Insignia.png",
+                    "amount": 66
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/db/Item_Lieutenant%27s_Insignia.png",
+                    "amount": 93
+                }
+            ],
+            [
+                {
+                    "rarity": 5,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/81/Item_Spirit_Locket_of_Boreas.png",
+                    "amount": 18
+                }
+            ]
+        ],
+        "constellation": [
+            {
+                "level": 1,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/52/Constellation_Piercing_Fragments.png",
+                "name": "Piercing Fragments",
+                "effect": "When a Normal Attack hits, it deals AoE DMG."
+            },
+            {
+                "level": 2,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/Constellation_Shock_Effect.png",
+                "name": "Shock Effect",
+                "effect": "When Jade Screen is shattered, its CD will reset.Can occur once every 6s."
+            },
+            {
+                "level": 3,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/b4/Constellation_Majesty_be_the_Array_of_Stars.png",
+                "name": "Majesty be the Array of Stars",
+                "effect": "Increases the Level of Starshatter by 3.Maximum upgrade level is 15."
+            },
+            {
+                "level": 4,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/a/a8/Constellation_Exquisite_be_the_Jade%2C_Outshining_All_Beneath.png",
+                "name": "Exquisite be the Jade, Outshining All Beneath",
+                "effect": "Jade Screen increases nearby characters' Elemental RES by 10%."
+            },
+            {
+                "level": 5,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/70/Constellation_Invincible_be_the_Jade_Screen.png",
+                "name": "Invincible be the Jade Screen",
+                "effect": "Increases the Level of Jade Screen by 3.Maximum upgrade level is 15."
+            },
+            {
+                "level": 6,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/a/a8/Constellation_Grandeur_be_the_Seven_Stars.png",
+                "name": "Grandeur be the Seven Stars",
+                "effect": "When Starshatter is used, Ningguang gains 7 Star Jades."
+            }
+        ],
+        "ascensions": [
+            [
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e1/Item_Glaze_Lily.png",
+                    "amount": 3
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b2/Item_Recruit%27s_Insignia.png",
+                    "amount": 3
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bc/Item_Basalt_Pillar.png",
+                    "amount": 2
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e1/Item_Glaze_Lily.png",
+                    "amount": 10
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b2/Item_Recruit%27s_Insignia.png",
+                    "amount": 15
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bc/Item_Basalt_Pillar.png",
+                    "amount": 4
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e1/Item_Glaze_Lily.png",
+                    "amount": 20
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Sergeant%27s_Insignia.png",
+                    "amount": 12
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bc/Item_Basalt_Pillar.png",
+                    "amount": 8
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e1/Item_Glaze_Lily.png",
+                    "amount": 30
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Sergeant%27s_Insignia.png",
+                    "amount": 18
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bc/Item_Basalt_Pillar.png",
+                    "amount": 12
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e1/Item_Glaze_Lily.png",
+                    "amount": 45
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/db/Item_Lieutenant%27s_Insignia.png",
+                    "amount": 12
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bc/Item_Basalt_Pillar.png",
+                    "amount": 20
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e1/Item_Glaze_Lily.png",
+                    "amount": 60
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/db/Item_Lieutenant%27s_Insignia.png",
+                    "amount": 24
+                }
+            ]
+        ]
+    }
 }

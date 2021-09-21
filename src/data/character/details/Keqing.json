@@ -13,16 +13,16 @@
         },
         "voice_actors": {
             "english": "Kayli Mills",
-            "chinese": "Ying Xie (谢莹)",
-            "japanese": "Eri Kitamura (喜多村英梨)",
-            "korean": "Lee Bo-hee (이보희)"
+            "chinese": "Ying Xie (\u8c22\u83b9)",
+            "japanese": "Eri Kitamura (\u559c\u591a\u6751\u82f1\u68a8)",
+            "korean": "Lee Bo-hee (\uc774\ubcf4\ud76c)"
         },
         "introduction": {
-            "quote": "The Yuheng of the Liyue Qixing. Keqing has much to say about Rex Lapis' unilateral approach to policymaking in Liyue ⁠— but in truth, gods admire skeptics such as her quite a lot.She firmly believes that humanity's future should be determined by humans themselves, and that they can even do better than the archons and adepti have done for them. In order to prove this, she works harder than anyone else.",
-            "content": "C+V Here"
+            "quote": "The Yuheng of the Liyue Qixing. Keqing has much to say about Rex Lapis' unilateral approach to policymaking in Liyue \u2060\u2014 but in truth, gods admire skeptics such as her quite a lot.She firmly believes that humanity's future should be determined by humans themselves, and that they can even do better than the archons and adepti have done for them. In order to prove this, she works harder than anyone else.",
+            "content": "Keqing ( Chinese: \u523b\u6674 K\u00e8q\u00edng, \"Sunny Moment\" or \"Delicate Carving\" ) is a playable Electro  character in Genshin Impact. As the Yuheng of the Liyue Qixing, she is someone who seeks her own answers instead of idly letting chaos run amok in Liyue. She chooses her own path with her own power and ability, instead of letting the gods determine her fate."
         },
         "personality": {
-            "quote": "The Yuheng of the Liyue Qixing. Keqing has much to say about Rex Lapis' unilateral approach to policymaking in Liyue — but in truth, gods admire skeptics such as her quite a lot.",
+            "quote": "The Yuheng of the Liyue Qixing. Keqing has much to say about Rex Lapis' unilateral approach to policymaking in Liyue \u2014 but in truth, gods admire skeptics such as her quite a lot.",
             "content": [
                 "Keqing is a workaholic, demanding herself to work \"ten times harder than the average human\" and is abnormally progressive in work-related issues. She also has a strong sense of responsibility and will not stop until a task has been completed perfectly - and by her standards, that means everything related to that task is also resolved, which unsurprisingly causes her employees to have a high turnover rate. Despite her young age, Keqing does not mind working under laborious conditions as part of her duties as the Yuheng.\n",
                 "Before Rex Lapis' departure from Liyue, Keqing was an adamant skeptic of the gods, believing that humans should deal with their own affairs. However, once the Qixing took on the former responsibilities of Rex Lapis, she gained new respect for him after realizing how much he had done for Liyue, but because she is known for openly defying the gods, she tries to hide the fact that she gained new respect for him. She now keeps a collection of Rex Lapis memorabilia in the name of \"self-reflection.\" Likewise, she was initially skeptical of Visions; when she obtained hers, she took it as a challenge and an insult, desperately trying to destroy it to no avail. She eventually realized her mistake and began appreciating it for its many usages.\n",
@@ -35,5 +35,321 @@
         ]
     },
     "name": "Keqing",
-    "nickname": "Driving Thunder"
+    "nickname": "Driving Thunder",
+    "combat_info": {
+        "base_stats": {
+            "special": "CRIT DMG",
+            "data": {
+                "0": {
+                    "1": [
+                        "1020",
+                        "25",
+                        "62",
+                        "\u2014"
+                    ],
+                    "20": [
+                        "2,646",
+                        "65",
+                        "161"
+                    ]
+                },
+                "1": {
+                    "20": [
+                        "3,521",
+                        "87",
+                        "215",
+                        "\u2014"
+                    ],
+                    "40": [
+                        "5,268",
+                        "130",
+                        "321"
+                    ]
+                },
+                "2": {
+                    "40": [
+                        "5,889",
+                        "145",
+                        "359",
+                        "9.6%"
+                    ],
+                    "50": [
+                        "6,776",
+                        "167",
+                        "413"
+                    ]
+                },
+                "3": {
+                    "50": [
+                        "7,604",
+                        "187",
+                        "464",
+                        "19.2%"
+                    ],
+                    "60": [
+                        "8,500",
+                        "209",
+                        "519"
+                    ]
+                },
+                "4": {
+                    "60": [
+                        "9,121",
+                        "225",
+                        "556",
+                        "19.2%"
+                    ],
+                    "70": [
+                        "10,025",
+                        "247",
+                        "612"
+                    ]
+                },
+                "5": {
+                    "70": [
+                        "10,647",
+                        "262",
+                        "649",
+                        "28.8%"
+                    ],
+                    "80": [
+                        "11,561",
+                        "285",
+                        "705"
+                    ]
+                },
+                "6": {
+                    "80": [
+                        "12,182",
+                        "300",
+                        "743",
+                        "38.4%"
+                    ],
+                    "90": [
+                        "13,103",
+                        "323",
+                        "799"
+                    ]
+                }
+            }
+        },
+        "talents": [
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/6/68/Talent_Yunlai_Swordsmanship.png",
+                "name": "Yunlai Swordsmanship",
+                "type": "Normal Attack",
+                "desc": "Normal Attack: Perform up to 5 rapid strikes.\nCharged Attack: Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.\nPlunging Attack: Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/5a/Talent_Stellar_Restoration.png",
+                "name": "Stellar Restoration",
+                "type": "Elemental Skill",
+                "desc": "Hurls a Lightning Stiletto that annihilates her opponents like the swift thunder. When the Stiletto hits its target, it deals Electro DMG to opponents in a small AoE, and places a Stiletto Mark on the spot hit.\nHold: Hold to adjust the direction in which the Stiletto shall be thrown. Stilettos thrown by the Hold attack mode can be suspended in mid-air, allowing Keqing to jump to them when using Stellar Restoration a second time.\nLightning Stiletto: If Keqing uses Stellar Restoration again or uses a Charged Attack while its duration lasts, it will clear the Stiletto Mark and produce different effects:\n\nIf she uses Stellar Restoration again, she will blink to the location of the Mark and unleash one slashing attack that deals AoE Electro DMG. When blinking to a Stiletto that was thrown from a Holding attack, Keqing can leap across obstructing terrain.\nIf Keqing uses a Charged Attack, she will ignite a series of thundering cuts at the Mark's location, dealing AoE Electro DMG."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/1/14/Talent_Starward_Sword.png",
+                "name": "Starward Sword",
+                "type": "Elemental Burst",
+                "desc": "Keqing unleashes the power of lightning, dealing Electro DMG in an AoE.\nShe then blends into the shadow of her blade, striking a series of thunderclap-blows to nearby opponents simultaneously that deal multiple instances of Electro DMG. The final attack deals massive AoE Electro DMG."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/a/a4/Talent_Thundering_Penance.png",
+                "name": "Thundering Penance",
+                "type": "1st Ascension Passive",
+                "desc": "After recasting Stellar Restoration while a Lightning Stiletto is present, Keqing's weapon gains an Electro Infusion for 5s."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/d3/Talent_Aristocratic_Dignity.png",
+                "name": "Aristocratic Dignity",
+                "type": "4th Ascension Passive",
+                "desc": "When casting Starward Sword, Keqing's CRIT Rate is increased by 15%, and her Energy Recharge is increased by 15%. This effect lasts for 8s."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/2/2c/Talent_Land%27s_Overseer.png",
+                "name": "Land's Overseer",
+                "type": "Utility Passive",
+                "desc": "When dispatched on an expedition in Liyue, time consumed is reduced by 25%."
+            }
+        ],
+        "lvup_mat": [
+            [
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9e/Item_Teachings_of_Prosperity.png",
+                    "amount": 9
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/67/Item_Guide_to_Prosperity.png",
+                    "amount": 63
+                },
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bd/Item_Philosophies_of_Prosperity.png",
+                    "amount": 114
+                }
+            ],
+            [
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/Item_Whopperflower_Nectar.png",
+                    "amount": 18
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Item_Shimmering_Nectar.png",
+                    "amount": 66
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Energy_Nectar.png",
+                    "amount": 93
+                }
+            ],
+            [
+                {
+                    "rarity": 5,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d6/Item_Ring_of_Boreas.png",
+                    "amount": 18
+                }
+            ]
+        ],
+        "constellation": [
+            {
+                "level": 1,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/c/cc/Constellation_Thundering_Might.png",
+                "name": "Thundering Might",
+                "effect": "Recasting Stellar Restoration while a Lightning Stiletto is present causes Keqing to deal 50% of her ATK as AoE Electro DMG at the start point and terminus of her Blink."
+            },
+            {
+                "level": 2,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/0/07/Constellation_Keen_Extraction.png",
+                "name": "Keen Extraction",
+                "effect": "When Keqing's Normal and Charged Attacks hit opponents affected by Electro, they have a 50% chance of producing an Elemental Particle.This effect can only occur once every 5s."
+            },
+            {
+                "level": 3,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/49/Constellation_Foreseen_Reformation.png",
+                "name": "Foreseen Reformation",
+                "effect": "Increases the Level of Starward Sword by 3.Maximum upgrade level is 15."
+            },
+            {
+                "level": 4,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/a/ac/Constellation_Attunement.png",
+                "name": "Attunement",
+                "effect": "For 10s after Keqing triggers an Electro-related Elemental Reaction, her ATK is increased by 25%."
+            },
+            {
+                "level": 5,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/35/Constellation_Beckoning_Stars.png",
+                "name": "Beckoning Stars",
+                "effect": "Increases the Level of Stellar Restoration by 3.Maximum upgrade level is 15."
+            },
+            {
+                "level": 6,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/b9/Constellation_Tenacious_Star.png",
+                "name": "Tenacious Star",
+                "effect": "When initiating a Normal Attack, a Charged Attack, Elemental Skill or Elemental Burst, Keqing gains a 6% Electro DMG Bonus for 8s.Effects triggered by Normal Attacks, Charged Attacks, Elemental Skills and Elemental Bursts are considered independent entities."
+            }
+        ],
+        "ascensions": [
+            [
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/aa/Item_Cor_Lapis.png",
+                    "amount": 3
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/Item_Whopperflower_Nectar.png",
+                    "amount": 3
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ee/Item_Lightning_Prism.png",
+                    "amount": 2
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/aa/Item_Cor_Lapis.png",
+                    "amount": 10
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/Item_Whopperflower_Nectar.png",
+                    "amount": 15
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ee/Item_Lightning_Prism.png",
+                    "amount": 4
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/aa/Item_Cor_Lapis.png",
+                    "amount": 20
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Item_Shimmering_Nectar.png",
+                    "amount": 12
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ee/Item_Lightning_Prism.png",
+                    "amount": 8
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/aa/Item_Cor_Lapis.png",
+                    "amount": 30
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Item_Shimmering_Nectar.png",
+                    "amount": 18
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ee/Item_Lightning_Prism.png",
+                    "amount": 12
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/aa/Item_Cor_Lapis.png",
+                    "amount": 45
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Energy_Nectar.png",
+                    "amount": 12
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ee/Item_Lightning_Prism.png",
+                    "amount": 20
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/aa/Item_Cor_Lapis.png",
+                    "amount": 60
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Energy_Nectar.png",
+                    "amount": 24
+                }
+            ]
+        ]
+    }
 }

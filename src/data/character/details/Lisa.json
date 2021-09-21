@@ -14,13 +14,13 @@
         },
         "voice_actors": {
             "english": "Mara Junot",
-            "chinese": "Ke Zhong (钟可)",
-            "japanese": "Rie Tanaka (田中理恵)",
-            "korean": "Park Go-woon (박고운)"
+            "chinese": "Ke Zhong (\u949f\u53ef)",
+            "japanese": "Rie Tanaka (\u7530\u4e2d\u7406\u6075)",
+            "korean": "Park Go-woon (\ubc15\uace0\uc6b4)"
         },
         "introduction": {
             "quote": "She is an intellectual witch who can never get enough naps. As the Librarian of the Knights of Favonius, Lisa is smart in that she always knows exactly what to do with whatever troubles her.As much as she loves her sleep, she still manages to keep everything under control in a calm, composed manner.",
-            "content": "C+V Here"
+            "content": "Lisa Minci is a playable Electro  character in Genshin Impact. A powerful mage recognized as Sumeru Academia's most distinguished graduate in 200 years, Lisa has since returned to Mondstadt to become the humble Librarian of the Knights of Favonius. She can be obtained for free in the Prologue Act I: The Outlander Who Caught the Wind during the quest Sparks Amongst the Pages."
         },
         "personality": {
             "quote": "The languid but knowledgeable Librarian of the Knights of Favonius, deemed by Sumeru Academia to be their most distinguished graduate in the past two centuries.",
@@ -39,5 +39,321 @@
         ]
     },
     "name": "Lisa",
-    "nickname": "Witch of Purple Rose"
+    "nickname": "Witch of Purple Rose",
+    "combat_info": {
+        "base_stats": {
+            "special": "Elemental Mastery",
+            "data": {
+                "0": {
+                    "1": [
+                        "802",
+                        "19",
+                        "48",
+                        "\u2014"
+                    ],
+                    "20": [
+                        "2,061",
+                        "50",
+                        "123"
+                    ]
+                },
+                "1": {
+                    "20": [
+                        "2,661",
+                        "64",
+                        "159",
+                        "\u2014"
+                    ],
+                    "40": [
+                        "3,985",
+                        "96",
+                        "239"
+                    ]
+                },
+                "2": {
+                    "40": [
+                        "4,411",
+                        "107",
+                        "264",
+                        "24"
+                    ],
+                    "50": [
+                        "5,074",
+                        "123",
+                        "304"
+                    ]
+                },
+                "3": {
+                    "50": [
+                        "5,642",
+                        "136",
+                        "338",
+                        "48"
+                    ],
+                    "60": [
+                        "6,305",
+                        "153",
+                        "378"
+                    ]
+                },
+                "4": {
+                    "60": [
+                        "6,731",
+                        "163",
+                        "403",
+                        "48"
+                    ],
+                    "70": [
+                        "7,393",
+                        "179",
+                        "443"
+                    ]
+                },
+                "5": {
+                    "70": [
+                        "7,818",
+                        "189",
+                        "468",
+                        "72"
+                    ],
+                    "80": [
+                        "8,481",
+                        "205",
+                        "508"
+                    ]
+                },
+                "6": {
+                    "80": [
+                        "8,907",
+                        "215",
+                        "534",
+                        "96"
+                    ],
+                    "90": [
+                        "9,570",
+                        "232",
+                        "573"
+                    ]
+                }
+            }
+        },
+        "talents": [
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Talent_Lightning_Touch.png",
+                "name": "Lightning Touch",
+                "type": "Normal Attack",
+                "desc": "Normal Attack: Performs up to 4 Electro attacks, dealing Electro DMG.\nCharged Attack: Consumes a certain amount of Stamina to deal Electro DMG after a short casting time.\nPlunging Attack: Gathering the might of Electro, Lisa plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Electro DMG upon impact with the ground."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/c/c8/Talent_Violet_Arc.png",
+                "name": "Violet Arc",
+                "type": "Elemental Skill",
+                "desc": "Channels the power of lightning to sweep bothersome matters away\nPress: Releases a homing lightning orb. On hit, it deals Electro DMG, and applies a stack of the Conductive status (Max 3 stacks) to opponents in a small AoE.\nHold: After an extended casting time, calls down lightning from the heavens, dealing massive Electro DMG to all nearby opponents.\nDeals great amounts of extra damage to opponents based on the number of Conductive stacks applied to them and clears their Conductive status."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/f/fd/Talent_Lightning_Rose.png",
+                "name": "Lightning Rose",
+                "type": "Elemental Burst",
+                "desc": "Summons a Lightning Rose that unleashes powerful lightning bolts, launching surrounding opponents and dealing Electro DMG.\nThe Lightning Rose will continuously emit lightning to knock back opponents and deal Electro DMG for so long as it persists."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/48/Talent_Induced_Aftershock.png",
+                "name": "Induced Aftershock",
+                "type": "1st Ascension Passive",
+                "desc": "Hits by Charged Attacks apply Violet Arc's Conductive status to opponents."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/9a/Talent_Static_Electricity_Field.png",
+                "name": "Static Electricity Field",
+                "type": "4th Ascension Passive",
+                "desc": "Opponents hit by Lightning Rose have their DEF decreased by 15% for 10s."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/7c/Talent_General_Pharmaceutics.png",
+                "name": "General Pharmaceutics",
+                "type": "Utility Passive",
+                "desc": "When Lisa crafts a potion, she has a 20% chance to refund one count of one material out of all the crafting materials used."
+            }
+        ],
+        "lvup_mat": [
+            [
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b4/Item_Teachings_of_Ballad.png",
+                    "amount": 9
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Guide_to_Ballad.png",
+                    "amount": 63
+                },
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/7e/Item_Philosophies_of_Ballad.png",
+                    "amount": 114
+                }
+            ],
+            [
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/Item_Slime_Condensate.png",
+                    "amount": 18
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Slime_Secretions.png",
+                    "amount": 66
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d8/Item_Slime_Concentrate.png",
+                    "amount": 93
+                }
+            ],
+            [
+                {
+                    "rarity": 5,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a8/Item_Dvalin%27s_Claw.png",
+                    "amount": 18
+                }
+            ]
+        ],
+        "constellation": [
+            {
+                "level": 1,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/1/13/Constellation_Infinite_Circuit.png",
+                "name": "Infinite Circuit",
+                "effect": "Lisa regenerates 2 Energy for every opponent hit while holding Violet Arc.A maximum of 10 Energy can be regenerated in this manner at any one time."
+            },
+            {
+                "level": 2,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/f/f5/Constellation_Electromagnetic_Field.png",
+                "name": "Electromagnetic Field",
+                "effect": "Holding Violet Arc has the following effects:\nIncreases DEF by 25%.\nIncreases Lisa's resistance to interruption."
+            },
+            {
+                "level": 3,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/de/Constellation_Resonant_Thunder.png",
+                "name": "Resonant Thunder",
+                "effect": "Increases the Level of Lightning Rose by 3.Maximum upgrade level is 15."
+            },
+            {
+                "level": 4,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/2/2b/Constellation_Plasma_Eruption.png",
+                "name": "Plasma Eruption",
+                "effect": "Increases the number of lightning bolts released by Lightning Rose by 1-3."
+            },
+            {
+                "level": 5,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/1/1d/Constellation_Electrocute.png",
+                "name": "Electrocute",
+                "effect": "Increases the Level of Violet Arc by 3.Maximum upgrade level is 15."
+            },
+            {
+                "level": 6,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Constellation_Pulsating_Witch.png",
+                "name": "Pulsating Witch",
+                "effect": "When Lisa takes the field, she applies 3 stacks of Violet Arc's Conductive status onto nearby opponents.This effect can only occur once every 5s."
+            }
+        ],
+        "ascensions": [
+            [
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ed/Item_Valberry.png",
+                    "amount": 3
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/Item_Slime_Condensate.png",
+                    "amount": 3
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ee/Item_Lightning_Prism.png",
+                    "amount": 2
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ed/Item_Valberry.png",
+                    "amount": 10
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/Item_Slime_Condensate.png",
+                    "amount": 15
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ee/Item_Lightning_Prism.png",
+                    "amount": 4
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ed/Item_Valberry.png",
+                    "amount": 20
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Slime_Secretions.png",
+                    "amount": 12
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ee/Item_Lightning_Prism.png",
+                    "amount": 8
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ed/Item_Valberry.png",
+                    "amount": 30
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Slime_Secretions.png",
+                    "amount": 18
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ee/Item_Lightning_Prism.png",
+                    "amount": 12
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ed/Item_Valberry.png",
+                    "amount": 45
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d8/Item_Slime_Concentrate.png",
+                    "amount": 12
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ee/Item_Lightning_Prism.png",
+                    "amount": 20
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ed/Item_Valberry.png",
+                    "amount": 60
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d8/Item_Slime_Concentrate.png",
+                    "amount": 24
+                }
+            ]
+        ]
+    }
 }

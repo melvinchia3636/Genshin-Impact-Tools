@@ -13,13 +13,13 @@
         },
         "voice_actors": {
             "english": "Erika Harlacher",
-            "chinese": "Miaojiang (喵酱)",
-            "japanese": "Ayumu Murase (村瀬歩)",
-            "korean": "Jung Yoo-jung (정유정)"
+            "chinese": "Miaojiang (\u55b5\u9171)",
+            "japanese": "Ayumu Murase (\u6751\u702c\u6b69)",
+            "korean": "Jung Yoo-jung (\uc815\uc720\uc815)"
         },
         "introduction": {
-            "quote": "A bard that seems to have arrived on some unknown wind — sometimes sings songs as old as the hills, and other times sings poems fresh and new.Likes apples and lively places but is not a fan of cheese or anything sticky.When using his Anemo power to control the wind, it often appears as feathers, as he's fond of that which appears light and breezy.",
-            "content": "C+V Here"
+            "quote": "A bard that seems to have arrived on some unknown wind \u2014 sometimes sings songs as old as the hills, and other times sings poems fresh and new.Likes apples and lively places but is not a fan of cheese or anything sticky.When using his Anemo power to control the wind, it often appears as feathers, as he's fond of that which appears light and breezy.",
+            "content": "Venti is a playable Anemo  character in Genshin Impact. He is a free-spirited, wine-loving bard in Mondstadt and the current mortal vessel of Barbatos, the Anemo Archon. He first appears during the Archon Quest Prologue: Act I - The Outlander Who Caught the Wind."
         },
         "personality": {
             "quote": "One of the many bards of Mondstadt, who freely wanders the city's streets and alleys.",
@@ -35,9 +35,325 @@
         },
         "appearance": [
             "Venti appears as a young boy with fair skin and a slim build. Similar to the Anemo element, his eyes are aqua green which also resembles the sky and the grass. He has dark blue hair that borders on black, with short twin braids that fade into aqua at the tips. The aqua tips glow neon when he uses his abilities. The form he currently takes is modeled after a deceased friend who perished to liberate Old Mondstadt. This appearance is used for his Statues of the Seven around Mondstadt and the larger statue in the plaza in front of the Favonius Cathedral.\n",
-            "He wears a frilly white top with a corset-like leather midsection, along with teal shorts with gold embroidery, a matching teal cape held together by a deep blue and gold bow. He also wears white stockings with three gold diamond shapes along each leg and a beret-like hat with a Cecilia, which is his favorite flower. He carries a wooden lyre with blue strings and cecilias imbued with the power of Anemo. This wooden lyre is also called \"Der Frühling\", and it is the current lyre he carries since his other lyre \"Der Himmel\" is held by the Church. Because he is an Archon with an innate Gnosis, the \"Vision\" on his hip is no more than \"a glass ball [he carries] around to avoid suspicion.\" His outfit, Breezy Ode, is described to be an outfit of a carefree bard.\n"
+            "He wears a frilly white top with a corset-like leather midsection, along with teal shorts with gold embroidery, a matching teal cape held together by a deep blue and gold bow. He also wears white stockings with three gold diamond shapes along each leg and a beret-like hat with a Cecilia, which is his favorite flower. He carries a wooden lyre with blue strings and cecilias imbued with the power of Anemo. This wooden lyre is also called \"Der Fr\u00fchling\", and it is the current lyre he carries since his other lyre \"Der Himmel\" is held by the Church. Because he is an Archon with an innate Gnosis, the \"Vision\" on his hip is no more than \"a glass ball [he carries] around to avoid suspicion.\" His outfit, Breezy Ode, is described to be an outfit of a carefree bard.\n"
         ]
     },
     "name": "Venti",
-    "nickname": "Windborne Bard"
+    "nickname": "Windborne Bard",
+    "combat_info": {
+        "base_stats": {
+            "special": "Energy Recharge",
+            "data": {
+                "0": {
+                    "1": [
+                        "820",
+                        "20",
+                        "52",
+                        "\u2014"
+                    ],
+                    "20": [
+                        "2,127",
+                        "53",
+                        "135"
+                    ]
+                },
+                "1": {
+                    "20": [
+                        "2,830",
+                        "71",
+                        "180",
+                        "\u2014"
+                    ],
+                    "40": [
+                        "4,234",
+                        "106",
+                        "269"
+                    ]
+                },
+                "2": {
+                    "40": [
+                        "4,734",
+                        "118",
+                        "301",
+                        "8.0%"
+                    ],
+                    "50": [
+                        "5,446",
+                        "136",
+                        "346"
+                    ]
+                },
+                "3": {
+                    "50": [
+                        "6,112",
+                        "153",
+                        "388",
+                        "16.0%"
+                    ],
+                    "60": [
+                        "6,832",
+                        "171",
+                        "434"
+                    ]
+                },
+                "4": {
+                    "60": [
+                        "7,331",
+                        "183",
+                        "465",
+                        "16.0%"
+                    ],
+                    "70": [
+                        "8,058",
+                        "201",
+                        "512"
+                    ]
+                },
+                "5": {
+                    "70": [
+                        "8,557",
+                        "214",
+                        "543",
+                        "24.0%"
+                    ],
+                    "80": [
+                        "9,292",
+                        "232",
+                        "590"
+                    ]
+                },
+                "6": {
+                    "80": [
+                        "9,790",
+                        "245",
+                        "622",
+                        "32.0%"
+                    ],
+                    "90": [
+                        "10,531",
+                        "263",
+                        "669"
+                    ]
+                }
+            }
+        },
+        "talents": [
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/a/a9/Talent_Divine_Marksmanship.png",
+                "name": "Divine Marksmanship",
+                "type": "Normal Attack",
+                "desc": "Normal Attack: Perform up to 6 consecutive shots with a bow.\nCharged Attack: Perform a more precise Aimed Shot with increased DMG. While aiming, favorable winds will accumulate on the arrowhead. A fully charged wind arrow will deal Anemo DMG.\nPlunging Attack: Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/1/17/Talent_Skyward_Sonnet.png",
+                "name": "Skyward Sonnet",
+                "type": "Elemental Skill",
+                "desc": "O wind upon which all hymns and songs fly, bear these earth-walkers up into the sky!\nPress: Summons a Wind Domain at the opponent's location, dealing AoE Anemo DMG and launching opponents into the air.\nHold: Summons an even larger Wind Domain with Venti as the epicenter, dealing AoE Anemo DMG and launching affected opponents into the air. After unleashing the Hold version of this ability, Venti rides the wind into the air.\nOpponents hit by Skyward Sonnet will fall to the ground slowly."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/32/Talent_Wind%27s_Grand_Ode.png",
+                "name": "Wind's Grand Ode",
+                "type": "Elemental Burst",
+                "desc": "Fires off an arrow made of countless coalesced winds, creating a huge Stormeye that sucks in objects and opponents and deals continuous Anemo DMG.Elemental Absorption: If the Stormeye comes into contact with Hydro/Pyro/Cryo/Electro elements, it will deal additional elemental DMG of that type.Elemental Absorption may only occur once per use."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/70/Talent_Embrace_of_Winds.png",
+                "name": "Embrace of Winds",
+                "type": "1st Ascension Passive",
+                "desc": "Holding Skyward Sonnet creates an upcurrent that lasts for 20s."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/b2/Talent_Stormeye.png",
+                "name": "Stormeye",
+                "type": "4th Ascension Passive",
+                "desc": "Regenerates 15 Energy for Venti after the effects of Wind's Grand Ode end. If an Elemental Absorption occurred, this also restores 15 Energy to all characters of that corresponding element."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/0/05/Talent_Windrider.png",
+                "name": "Windrider",
+                "type": "Utility Passive",
+                "desc": "Decreases gliding Stamina consumption for your own party members by 20%.Not stackable with Passive Talents that provide the exact same effects."
+            }
+        ],
+        "lvup_mat": [
+            [
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b4/Item_Teachings_of_Ballad.png",
+                    "amount": 9
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Guide_to_Ballad.png",
+                    "amount": 63
+                },
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/7e/Item_Philosophies_of_Ballad.png",
+                    "amount": 114
+                }
+            ],
+            [
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/Item_Slime_Condensate.png",
+                    "amount": 18
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Slime_Secretions.png",
+                    "amount": 66
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d8/Item_Slime_Concentrate.png",
+                    "amount": 93
+                }
+            ],
+            [
+                {
+                    "rarity": 5,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/66/Item_Tail_of_Boreas.png",
+                    "amount": 18
+                }
+            ]
+        ],
+        "constellation": [
+            {
+                "level": 1,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/5b/Constellation_Splitting_Gales.png",
+                "name": "Splitting Gales",
+                "effect": "Fires 2 additional arrows per Aimed Shot, each dealing 33% of the original arrow's DMG."
+            },
+            {
+                "level": 2,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/Constellation_Breeze_of_Reminiscence.png",
+                "name": "Breeze of Reminiscence",
+                "effect": "Skyward Sonnet decreases opponents' Anemo RES and Physical RES by 12% for 10s.Opponents launched by Skyward Sonnet suffer an additional 12% Anemo RES and Physical RES decrease while airborne."
+            },
+            {
+                "level": 3,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/53/Constellation_Ode_to_Thousand_Winds.png",
+                "name": "Ode to Thousand Winds",
+                "effect": "Increases the Level of Wind's Grand Ode by 3.Maximum upgrade level is 15."
+            },
+            {
+                "level": 4,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/e/ee/Constellation_Hurricane_of_Freedom.png",
+                "name": "Hurricane of Freedom",
+                "effect": "When Venti picks up an Elemental Orb or Particle, he receives a 25% Anemo DMG Bonus for 10s."
+            },
+            {
+                "level": 5,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Constellation_Concerto_dal_Cielo.png",
+                "name": "Concerto dal Cielo",
+                "effect": "Increases the Level of Skyward Sonnet by 3.Maximum upgrade level is 15."
+            },
+            {
+                "level": 6,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/1/1d/Constellation_Storm_of_Defiance.png",
+                "name": "Storm of Defiance",
+                "effect": "Targets who take DMG from Wind's Grand Ode have their Anemo RES decreased by 20%.If an Elemental Absorption occurred, then their RES towards the corresponding Element is also decreased by 20%."
+            }
+        ],
+        "ascensions": [
+            [
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9b/Item_Cecilia.png",
+                    "amount": 3
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/Item_Slime_Condensate.png",
+                    "amount": 3
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/5e/Item_Hurricane_Seed.png",
+                    "amount": 2
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9b/Item_Cecilia.png",
+                    "amount": 10
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/Item_Slime_Condensate.png",
+                    "amount": 15
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/5e/Item_Hurricane_Seed.png",
+                    "amount": 4
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9b/Item_Cecilia.png",
+                    "amount": 20
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Slime_Secretions.png",
+                    "amount": 12
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/5e/Item_Hurricane_Seed.png",
+                    "amount": 8
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9b/Item_Cecilia.png",
+                    "amount": 30
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Slime_Secretions.png",
+                    "amount": 18
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/5e/Item_Hurricane_Seed.png",
+                    "amount": 12
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9b/Item_Cecilia.png",
+                    "amount": 45
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d8/Item_Slime_Concentrate.png",
+                    "amount": 12
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/5e/Item_Hurricane_Seed.png",
+                    "amount": 20
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9b/Item_Cecilia.png",
+                    "amount": 60
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d8/Item_Slime_Concentrate.png",
+                    "amount": 24
+                }
+            ]
+        ]
+    }
 }

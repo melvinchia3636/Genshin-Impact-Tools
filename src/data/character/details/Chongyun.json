@@ -15,19 +15,19 @@
         "voice_actors": {
             "english": "Beau Bridgland",
             "chinese": "kinsen",
-            "japanese": "Soma Saito (斉藤壮馬)",
-            "korean": "Yang Jeong-hwa (양정화)"
+            "japanese": "Soma Saito (\u6589\u85e4\u58ee\u99ac)",
+            "korean": "Yang Jeong-hwa (\uc591\uc815\ud654)"
         },
         "introduction": {
-            "quote": "An exorcist who roams the land with Liyue as his base of operations, evil spirits fleeing wherever he goes. As the heir to a clan of exorcists, he has always possessed abilities superior to most. However, these abilities are not the result of training, but of an inborn trait — a pure yang spirit.",
-            "content": "C+V Here"
+            "quote": "An exorcist who roams the land with Liyue as his base of operations, evil spirits fleeing wherever he goes. As the heir to a clan of exorcists, he has always possessed abilities superior to most. However, these abilities are not the result of training, but of an inborn trait \u2014 a pure yang spirit.",
+            "content": "Chongyun ( Chinese: \u91cd\u4e91 Ch\u00f3ngy\u00fan, \"Layers of Clouds\" ) is a playable Cryo  character in Genshin Impact. An exorcist from Liyue, Chongyun was born with excessive yang (positive) energy, which has proven to be both a help and a hindrance. It makes him a very effective exorcist, but it also means he has never seen a spirit for himself \u2014 they flee before he can even lay eyes on them. It has also made him particularly susceptible to any kind of heat or strong emotion, which leads to some rather... unexpected results."
         },
         "personality": {
             "quote": "A young exorcist from a family of exorcists. He does everything he can to suppress his abundance of yang energy.",
             "content": [
                 "Chongyun is a positive and honorable young man with a passion for sweets. He takes his duties as an exorcist seriously and usually has a stoic, composed personality, although this isn't always the case.\n",
-                "Despite being an exorcist, Chongyun has yet to exorcise or even see a spirit with his own eyes — his excessive positive energy terrifies all spirits in range. He is a hard worker, expressing his disdain towards his positive energy, considering it to be a cheap trick, and trains despite this boon in the event that a spirit resists his excessive energy. He also doesn't show much fondness for his Cryo Vision, believing that vigorous training is the key to becoming stronger. His noble nature often means that whenever he is commissioned to exorcise spirits, he hesitates at the thought of accepting payment when he did nothing.\n",
-                "Because of his excessive positive energy, Chongyun is very susceptible to everything that warms him up — fiery events, food, drinks, clothing and even the sun itself; even thinking about them can trigger a flare-up. If this occurs, Chongyun often enters a manic state in which he becomes exceptionally excited, friendly and illogical, although he may simply faint. While he has no memory of what he does in this state, he considers it to be embarrassing and apologizes for any damage he causes, but most people do not mind and are even impressed by his actions in said state.\n",
+                "Despite being an exorcist, Chongyun has yet to exorcise or even see a spirit with his own eyes \u2014 his excessive positive energy terrifies all spirits in range. He is a hard worker, expressing his disdain towards his positive energy, considering it to be a cheap trick, and trains despite this boon in the event that a spirit resists his excessive energy. He also doesn't show much fondness for his Cryo Vision, believing that vigorous training is the key to becoming stronger. His noble nature often means that whenever he is commissioned to exorcise spirits, he hesitates at the thought of accepting payment when he did nothing.\n",
+                "Because of his excessive positive energy, Chongyun is very susceptible to everything that warms him up \u2014 fiery events, food, drinks, clothing and even the sun itself; even thinking about them can trigger a flare-up. If this occurs, Chongyun often enters a manic state in which he becomes exceptionally excited, friendly and illogical, although he may simply faint. While he has no memory of what he does in this state, he considers it to be embarrassing and apologizes for any damage he causes, but most people do not mind and are even impressed by his actions in said state.\n",
                 "Chongyun is extremely desperate to prevent any sort of flare-up and will do anything to minimize the chances of one; indicated with him wearing lightweight, lightly-colored clothes, shows great self-control and only eats cold food, expressing a fondness for Inazuman dishes; when this is not available, he improvises on the go, such as his signature dish, which is his take on the original and popsicles. Possibly as a result of eating cold food often when Liyue food is known to be warm and spicy, he considers his food to be tasteless.\n",
                 "Chongyun's attempts to restrain his excessive positive energy also means that he has very little free time of his own and even then, doesn't have much friends to begin with, has trouble picking up social cues and appears to have low self-esteem outside of exorcism. He usually hangs out with Xingqiu during his free time; despite being pranked by him on a daily basis, he does not mind too much about it.\n",
                 "His friends believe his true personality is that whenever he flares up without inhibitions and self-control.\n"
@@ -39,5 +39,321 @@
         ]
     },
     "name": "Chongyun",
-    "nickname": "Frozen Ardor"
+    "nickname": "Frozen Ardor",
+    "combat_info": {
+        "base_stats": {
+            "special": "ATK",
+            "data": {
+                "0": {
+                    "1": [
+                        "1,003",
+                        "19",
+                        "54",
+                        "\u2014"
+                    ],
+                    "20": [
+                        "2,366",
+                        "48",
+                        "140"
+                    ]
+                },
+                "1": {
+                    "20": [
+                        "3,054",
+                        "62",
+                        "180",
+                        "\u2014"
+                    ],
+                    "40": [
+                        "4,574",
+                        "93",
+                        "270"
+                    ]
+                },
+                "2": {
+                    "40": [
+                        "5,063",
+                        "103",
+                        "299",
+                        "6.0%"
+                    ],
+                    "50": [
+                        "5,824",
+                        "118",
+                        "344"
+                    ]
+                },
+                "3": {
+                    "50": [
+                        "6,475",
+                        "131",
+                        "382",
+                        "12.0%"
+                    ],
+                    "60": [
+                        "7,236",
+                        "147",
+                        "427"
+                    ]
+                },
+                "4": {
+                    "60": [
+                        "7,725",
+                        "157",
+                        "456",
+                        "12.0%"
+                    ],
+                    "70": [
+                        "8,485",
+                        "172",
+                        "501"
+                    ]
+                },
+                "5": {
+                    "70": [
+                        "8,974",
+                        "182",
+                        "530",
+                        "18.0%"
+                    ],
+                    "80": [
+                        "9,734",
+                        "198",
+                        "575"
+                    ]
+                },
+                "6": {
+                    "80": [
+                        "10,223",
+                        "208",
+                        "603",
+                        "24.0%"
+                    ],
+                    "90": [
+                        "10,984",
+                        "223",
+                        "648"
+                    ]
+                }
+            }
+        },
+        "talents": [
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/2/28/Talent_Demonbane.png",
+                "name": "Demonbane",
+                "type": "Normal Attack",
+                "desc": "Normal Attack: Perform up to 4 consecutive strikes.\nCharged Attack: Drains Stamina over time to perform continuous swirling attacks against all nearby opponents. At the end of the sequence, perform a more powerful slash.\nPlunging Attack: Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/a/aa/Talent_Spirit_Blade_Chonghua%27s_Layered_Frost.png",
+                "name": "Spirit Blade: Chonghua's Layered Frost",
+                "type": "Elemental Skill",
+                "desc": "Chongyun strikes the ground with his greatsword, causing a Cryo explosion in a circular AoE in front of him that deals Cryo DMG.\nAfter a short delay, the cold air created by the Cryo explosion will coalesce into a Chonghua Frost Field, within which all Sword, Claymore and Polearm-wielding characters' weapons will be infused with Cryo."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/93/Talent_Spirit_Blade_Cloud-Parting_Star.png",
+                "name": "Spirit Blade: Cloud-Parting Star",
+                "type": "Elemental Burst",
+                "desc": "Performing the secret hand seals, Chongyun summons 3 giant spirit blades in mid-air that fall to the earth one by one after a short delay, exploding as they hit the ground.\nWhen the spirit blades explode, they will deal AoE Cryo DMG and launch opponents."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/49/Talent_Steady_Breathing.png",
+                "name": "Steady Breathing",
+                "type": "1st Ascension Passive",
+                "desc": "Sword, Claymore, or Polearm-wielding characters within the field created by Spirit Blade: Chonghua's Layered Frost have their Normal ATK SPD increased by 8%."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/1/12/Talent_Rimechaser_Blade.png",
+                "name": "Rimechaser Blade",
+                "type": "4th Ascension Passive",
+                "desc": "When the field created by Spirit Blade: Chonghua's Layered Frost disappears, another spirit blade will be summoned to strike nearby opponents, dealing 100% of Chonghua's Layered Frost's Skill DMG as AoE Cryo DMG. Opponents hit by this blade will have their Cryo RES decreased by 10% for 8s."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Talent_Gallant_Journey.png",
+                "name": "Gallant Journey",
+                "type": "Utility Passive",
+                "desc": "When dispatched on an expedition in Liyue, time consumed is reduced by 25%."
+            }
+        ],
+        "lvup_mat": [
+            [
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Teachings_of_Diligence.png",
+                    "amount": 9
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9f/Item_Guide_to_Diligence.png",
+                    "amount": 63
+                },
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c2/Item_Philosophies_of_Diligence.png",
+                    "amount": 114
+                }
+            ],
+            [
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/69/Item_Damaged_Mask.png",
+                    "amount": 18
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Stained_Mask.png",
+                    "amount": 66
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Ominous_Mask.png",
+                    "amount": 93
+                }
+            ],
+            [
+                {
+                    "rarity": 5,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/07/Item_Dvalin%27s_Sigh.png",
+                    "amount": 18
+                }
+            ]
+        ],
+        "constellation": [
+            {
+                "level": 1,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/db/Constellation_Ice_Unleashed.png",
+                "name": "Ice Unleashed",
+                "effect": "The last attack of Chongyun's Normal Attack combo releases 3 ice blades. Each blade deals 50% of Chongyun's ATK as Cryo DMG to all opponents in its path."
+            },
+            {
+                "level": 2,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/8/8f/Constellation_Atmospheric_Revolution.png",
+                "name": "Atmospheric Revolution",
+                "effect": "Elemental Skills and Elemental Bursts cast within the Frost Field created by Spirit Blade: Chonghua's Layered Frost have their CD time decreased by 15%."
+            },
+            {
+                "level": 3,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/b6/Constellation_Cloudburst.png",
+                "name": "Cloudburst",
+                "effect": "Increases the Level of Spirit Blade: Cloud-Parting Star by 3.Maximum upgrade level is 15."
+            },
+            {
+                "level": 4,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/99/Constellation_Frozen_Skies.png",
+                "name": "Frozen Skies",
+                "effect": "Chongyun regenerates 1 Energy every time he hits an opponent affected by Cryo.This effect can only occur once every 2s."
+            },
+            {
+                "level": 5,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/33/Constellation_The_True_Path.png",
+                "name": "The True Path",
+                "effect": "Increases the Level of Spirit Blade: Chonghua's Layered Frost by 3.Maximum upgrade level is 15."
+            },
+            {
+                "level": 6,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/1/18/Constellation_Rally_of_Four_Blades.png",
+                "name": "Rally of Four Blades",
+                "effect": "Spirit Blade: Cloud-Parting Star deals 15% more DMG to opponents with a lower percentage of their Max HP remaining than Chongyun.This skill will also summon 1 additional spirit blade."
+            }
+        ],
+        "ascensions": [
+            [
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/aa/Item_Cor_Lapis.png",
+                    "amount": 3
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/69/Item_Damaged_Mask.png",
+                    "amount": 3
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Item_Hoarfrost_Core.png",
+                    "amount": 2
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/aa/Item_Cor_Lapis.png",
+                    "amount": 10
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/69/Item_Damaged_Mask.png",
+                    "amount": 15
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Item_Hoarfrost_Core.png",
+                    "amount": 4
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/aa/Item_Cor_Lapis.png",
+                    "amount": 20
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Stained_Mask.png",
+                    "amount": 12
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Item_Hoarfrost_Core.png",
+                    "amount": 8
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/aa/Item_Cor_Lapis.png",
+                    "amount": 30
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Stained_Mask.png",
+                    "amount": 18
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Item_Hoarfrost_Core.png",
+                    "amount": 12
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/aa/Item_Cor_Lapis.png",
+                    "amount": 45
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Ominous_Mask.png",
+                    "amount": 12
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Item_Hoarfrost_Core.png",
+                    "amount": 20
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/aa/Item_Cor_Lapis.png",
+                    "amount": 60
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Ominous_Mask.png",
+                    "amount": 24
+                }
+            ]
+        ]
+    }
 }

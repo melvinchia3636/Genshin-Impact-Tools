@@ -12,25 +12,25 @@
             "release_date": "November 11, 2020"
         },
         "family": {
-            "ancestry": "Kätzlein Lineage",
+            "ancestry": "K\u00e4tzlein Lineage",
             "parents": "Draff"
         },
         "voice_actors": {
             "english": "Dina Sherman",
-            "chinese": "Nuoya (诺亚)",
-            "japanese": "Shiori Izawa (井澤詩織)",
-            "korean": "Woo Jeong-sin (우정신)"
+            "chinese": "Nuoya (\u8bfa\u4e9a)",
+            "japanese": "Shiori Izawa (\u4e95\u6fa4\u8a69\u7e54)",
+            "korean": "Woo Jeong-sin (\uc6b0\uc815\uc2e0)"
         },
         "introduction": {
             "quote": "The incredibly popular bartender of the Cat's Tail tavern, rising star of Mondstadt's wine industry, and the greatest challenger to its traditional powerhouses.A feisty feline young lady from Springvale, any drink mixed by Diona's hand tastes delicious beyond belief.Yet given her extreme distaste for alcohol, is her talent a blessing or a curse?",
-            "content": "C+V Here"
+            "content": "Diona is a playable Cryo  character in Genshin Impact. Despite being a bartender at Cat's Tail, she actually despises alcohol and wants nothing more than to ruin Mondstadt's wine industry\u2014a feat easier said than done when her patrons absolutely love her drinks. She is the daughter of Draff, a hunter in Springvale."
         },
         "personality": {
             "quote": "A young lady who has inherited trace amounts of non-human blood. She is the incredible popular bartender of the Cat's Tail tavern.",
             "content": [
-                "According to her father Draff, Diona is in a bit of a rebellious phase. While Diona adores her father and idolized him in her youth, witnessing his change in personality while drunk shattered the pedestal she put him on — and started her vendetta against alcohol. She despises just about anyone who indulges in alcohol, apart from Lisa and Eula.\n",
+                "According to her father Draff, Diona is in a bit of a rebellious phase. While Diona adores her father and idolized him in her youth, witnessing his change in personality while drunk shattered the pedestal she put him on \u2014 and started her vendetta against alcohol. She despises just about anyone who indulges in alcohol, apart from Lisa and Eula.\n",
                 "Although Diona has the option of literally destroying the industry, she chose not to, instead opting to do so by plummeting the industry's reputation by becoming a bartender and serving terrible drinks. Unfortunately, her friend blessed her with a magic touch that makes all of her drinks delicious, regardless of how noxious the ingredients used are, and she herself is unaware of this.\n",
-                "In her voiceovers, Diona proves to be a classic tsundere and is very naïve. She worries over the Traveler's ability to get home safely without night vision and offers to escort them home until they remind her that street lamps exist, and she quickly denies ever having offered escorting them. She blames Diluc for her father's problems, even though the Dawn Winery had existed well before him or his father, and fails to see why the fans she and Barbara gets are drastically different. She also appears to crave companionship, implied to be a result of Draff neglecting her when he's in his drunken stupors.\n"
+                "In her voiceovers, Diona proves to be a classic tsundere and is very na\u00efve. She worries over the Traveler's ability to get home safely without night vision and offers to escort them home until they remind her that street lamps exist, and she quickly denies ever having offered escorting them. She blames Diluc for her father's problems, even though the Dawn Winery had existed well before him or his father, and fails to see why the fans she and Barbara gets are drastically different. She also appears to crave companionship, implied to be a result of Draff neglecting her when he's in his drunken stupors.\n"
             ]
         },
         "appearance": [
@@ -39,5 +39,321 @@
         ]
     },
     "name": "Diona",
-    "nickname": "Kätzlein Cocktail"
+    "nickname": "K\u00e4tzlein Cocktail",
+    "combat_info": {
+        "base_stats": {
+            "special": "Cryo DMG Bonus",
+            "data": {
+                "0": {
+                    "1": [
+                        "802",
+                        "18",
+                        "50",
+                        "\u2014"
+                    ],
+                    "20": [
+                        "2,061",
+                        "46",
+                        "129"
+                    ]
+                },
+                "1": {
+                    "20": [
+                        "2,661",
+                        "59",
+                        "167",
+                        "\u2014"
+                    ],
+                    "40": [
+                        "3,985",
+                        "88",
+                        "250"
+                    ]
+                },
+                "2": {
+                    "40": [
+                        "4,411",
+                        "98",
+                        "277",
+                        "6.0%"
+                    ],
+                    "50": [
+                        "5,074",
+                        "113",
+                        "318"
+                    ]
+                },
+                "3": {
+                    "50": [
+                        "5,642",
+                        "125",
+                        "354",
+                        "12.0%"
+                    ],
+                    "60": [
+                        "6,305",
+                        "140",
+                        "396"
+                    ]
+                },
+                "4": {
+                    "60": [
+                        "6,731",
+                        "149",
+                        "422",
+                        "12.0%"
+                    ],
+                    "70": [
+                        "7,393",
+                        "164",
+                        "464"
+                    ]
+                },
+                "5": {
+                    "70": [
+                        "7,818",
+                        "174",
+                        "491",
+                        "18.0%"
+                    ],
+                    "80": [
+                        "8,481",
+                        "188",
+                        "532"
+                    ]
+                },
+                "6": {
+                    "80": [
+                        "8,907",
+                        "198",
+                        "559",
+                        "24.0%"
+                    ],
+                    "90": [
+                        "9,570",
+                        "212",
+                        "601"
+                    ]
+                }
+            }
+        },
+        "talents": [
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/77/Talent_K%C3%A4tzlein_Style.png",
+                "name": "K\u00e4tzlein Style",
+                "type": "Normal Attack",
+                "desc": "Normal Attack: Perform up to 5 consecutive shots with a bow.\nCharged Attack: Perform a more precise Aimed Shot with increased DMG. While aiming, biting frost will accumulate on the arrowhead. A fully charged frost arrow will deal Cryo Damage.\nPlunging Attack: Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG on impact."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/e/e9/Talent_Icy_Paws.png",
+                "name": "Icy Paws",
+                "type": "Elemental Skill",
+                "desc": "Fires an Icy Paw that deals Cryo DMG to opponents and forms a shield on hit. The shield's DMG Absorption scales based on Diona's Max HP, and its duration scales off the number of Icy Paws that hit their target.\nPress: Rapidly fires off 2 Icy Paws.\nHold: Dashes back quickly before firing 5 Icy Paws. The shield created by a Hold attack will gain a 75% DMG Absorption Bonus.\nThe shield has a 250% Cryo DMG Absorption Bonus, and will infuse Diona with Cryo at the point of formation for a short duration."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/57/Talent_Signature_Mix.png",
+                "name": "Signature Mix",
+                "type": "Elemental Burst",
+                "desc": "Tosses out a special cold brew that deals AoE Cryo DMG and creates a Drunken Mist in an AoE.\nEvery 2 seconds, for 12 seconds, Drunken Mist:\n\nDeals Cryo DMG to opponents within the field.\nRegenerates the HP of characters within the field."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/c/cc/Talent_Cat%27s_Tail_Secret_Menu.png",
+                "name": "Cat's Tail Secret Menu",
+                "type": "1st Ascension Passive",
+                "desc": "Characters shielded by Icy Paws have their Movement SPD increased by 10% and their Stamina Consumption decreased by 10%."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/53/Talent_Drunkards%27_Farce.png",
+                "name": "Drunkards' Farce",
+                "type": "4th Ascension Passive",
+                "desc": "Opponents who enter the AoE of Signature Mix have 10% decreased ATK for 15s."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/da/Talent_Complimentary_Bar_Food.png",
+                "name": "Complimentary Bar Food",
+                "type": "Utility Passive",
+                "desc": "When a Perfect Cooking is achieved on a dish with restorative effects, Diona has a 12% chance to obtain double the product."
+            }
+        ],
+        "lvup_mat": [
+            [
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3a/Item_Teachings_of_Freedom.png",
+                    "amount": 9
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1a/Item_Guide_to_Freedom.png",
+                    "amount": 63
+                },
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Item_Philosophies_of_Freedom.png",
+                    "amount": 114
+                }
+            ],
+            [
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/Item_Firm_Arrowhead.png",
+                    "amount": 18
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0d/Item_Sharp_Arrowhead.png",
+                    "amount": 66
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/22/Item_Weathered_Arrowhead.png",
+                    "amount": 93
+                }
+            ],
+            [
+                {
+                    "rarity": 5,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/48/Item_Shard_of_a_Foul_Legacy.png",
+                    "amount": 18
+                }
+            ]
+        ],
+        "constellation": [
+            {
+                "level": 1,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/e/e2/Constellation_A_Lingering_Flavor.png",
+                "name": "A Lingering Flavor",
+                "effect": "Regenerates 15 Energy for Diona after the effects of Signature Mix end."
+            },
+            {
+                "level": 2,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/3a/Constellation_Shaken%2C_Not_Purred.png",
+                "name": "Shaken, Not Purred",
+                "effect": "Increases Icy Paws' DMG by 15%, and increases its shield's DMG Absorption by 15%.Additionally, when paws hit their targets, creates a shield for other nearby characters on the field with 50% of the Icy Paws shield's DMG Absorption for 5s."
+            },
+            {
+                "level": 3,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/f/fa/Constellation_A-Another_Round%3F.png",
+                "name": "A-Another Round?",
+                "effect": "Increases the Level of Signature Mix by 3.Maximum upgrade level is 15."
+            },
+            {
+                "level": 4,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/93/Constellation_Wine_Industry_Slayer.png",
+                "name": "Wine Industry Slayer",
+                "effect": "Within the radius of Signature Mix, Diona's charge time for aimed shots is reduced by 60%"
+            },
+            {
+                "level": 5,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/94/Constellation_Double_Shot%2C_On_The_Rocks.png",
+                "name": "Double Shot, On The Rocks",
+                "effect": "Increases the Level of Icy Paws by 3.Maximum upgrade level is 15."
+            },
+            {
+                "level": 6,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Constellation_Cat%27s_Tail_Closing_Time.png",
+                "name": "Cat's Tail Closing Time",
+                "effect": "Characters within Signature Mix's radius will gain the following effects based on their HP amounts:\nIncreases Incoming Healing Bonus by 30% when HP falls below or is equal to 50%.\nElemental Mastery increased by 200 when HP is above 50%."
+            }
+        ],
+        "ascensions": [
+            [
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/de/Item_Calla_Lily.png",
+                    "amount": 3
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/Item_Firm_Arrowhead.png",
+                    "amount": 3
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Item_Hoarfrost_Core.png",
+                    "amount": 2
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/de/Item_Calla_Lily.png",
+                    "amount": 10
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/Item_Firm_Arrowhead.png",
+                    "amount": 15
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Item_Hoarfrost_Core.png",
+                    "amount": 4
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/de/Item_Calla_Lily.png",
+                    "amount": 20
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0d/Item_Sharp_Arrowhead.png",
+                    "amount": 12
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Item_Hoarfrost_Core.png",
+                    "amount": 8
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/de/Item_Calla_Lily.png",
+                    "amount": 30
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0d/Item_Sharp_Arrowhead.png",
+                    "amount": 18
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Item_Hoarfrost_Core.png",
+                    "amount": 12
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/de/Item_Calla_Lily.png",
+                    "amount": 45
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/22/Item_Weathered_Arrowhead.png",
+                    "amount": 12
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Item_Hoarfrost_Core.png",
+                    "amount": 20
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/de/Item_Calla_Lily.png",
+                    "amount": 60
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/22/Item_Weathered_Arrowhead.png",
+                    "amount": 24
+                }
+            ]
+        ]
+    }
 }

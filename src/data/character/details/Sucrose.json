@@ -13,13 +13,13 @@
         },
         "voice_actors": {
             "english": "Valeria Rodriguez",
-            "chinese": "Xiaogan (小敢)",
-            "japanese": "Akane Fujita (藤田茜)",
-            "korean": "Kim Ha-yeong (김하영)"
+            "chinese": "Xiaogan (\u5c0f\u6562)",
+            "japanese": "Akane Fujita (\u85e4\u7530\u831c)",
+            "korean": "Kim Ha-yeong (\uae40\ud558\uc601)"
         },
         "introduction": {
-            "quote": "An alchemist with an insatiable curiosity towards the world and everything in it. Attached to the Knights of Favonius as an assistant to Albedo, her area of focus is \"bio-alchemy.\"She strives to enrich the world by transforming living things with the power of alchemy.Granted, the products of her research sometimes prove to be more weird than wonderful — but on the whole, she has made monumental contributions to the field of bio-alchemy.",
-            "content": "C+V Here"
+            "quote": "An alchemist with an insatiable curiosity towards the world and everything in it. Attached to the Knights of Favonius as an assistant to Albedo, her area of focus is \"bio-alchemy.\"She strives to enrich the world by transforming living things with the power of alchemy.Granted, the products of her research sometimes prove to be more weird than wonderful \u2014 but on the whole, she has made monumental contributions to the field of bio-alchemy.",
+            "content": "Sucrose is a playable Anemo  character in Genshin Impact. An alchemist specializing in bio-alchemy, she also serves as an assistant for Albedo, the head alchemist of the Knights of Favonius."
         },
         "personality": {
             "quote": "An alchemist filled with curiosity about all things. She researches bio-alchemy.",
@@ -34,5 +34,321 @@
         ]
     },
     "name": "Sucrose",
-    "nickname": "Harmless Sweetie"
+    "nickname": "Harmless Sweetie",
+    "combat_info": {
+        "base_stats": {
+            "special": "Anemo DMG Bonus",
+            "data": {
+                "0": {
+                    "1": [
+                        "775",
+                        "14",
+                        "59",
+                        "\u2014"
+                    ],
+                    "20": [
+                        "1,991",
+                        "37",
+                        "151"
+                    ]
+                },
+                "1": {
+                    "20": [
+                        "2,570",
+                        "47",
+                        "195",
+                        "\u2014"
+                    ],
+                    "40": [
+                        "3,850",
+                        "71",
+                        "293"
+                    ]
+                },
+                "2": {
+                    "40": [
+                        "4,261",
+                        "78",
+                        "324",
+                        "6.0%"
+                    ],
+                    "50": [
+                        "4,901",
+                        "90",
+                        "373"
+                    ]
+                },
+                "3": {
+                    "50": [
+                        "5,450",
+                        "100",
+                        "414",
+                        "12.0%"
+                    ],
+                    "60": [
+                        "6,090",
+                        "112",
+                        "463"
+                    ]
+                },
+                "4": {
+                    "60": [
+                        "6,501",
+                        "120",
+                        "494",
+                        "12.0%"
+                    ],
+                    "70": [
+                        "7,141",
+                        "131",
+                        "543"
+                    ]
+                },
+                "5": {
+                    "70": [
+                        "7,552",
+                        "139",
+                        "574",
+                        "18.0%"
+                    ],
+                    "80": [
+                        "8,192",
+                        "151",
+                        "623"
+                    ]
+                },
+                "6": {
+                    "80": [
+                        "8,603",
+                        "158",
+                        "654",
+                        "24.0%"
+                    ],
+                    "90": [
+                        "9,243",
+                        "170",
+                        "703"
+                    ]
+                }
+            }
+        },
+        "talents": [
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/92/Talent_Wind_Spirit_Creation.png",
+                "name": "Wind Spirit Creation",
+                "type": "Normal Attack",
+                "desc": "Normal Attack: Performs up to 4 attacks using Wind Spirits, dealing Anemo DMG.\nCharged Attack: Consumes a certain amount of Stamina and deals AoE Anemo DMG after a short casting time.\nPlunging Attack: Calling upon the power of her Wind Spirits, Sucrose plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Anemo DMG upon impact with the ground."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/76/Talent_Astable_Anemohypostasis_Creation_-_6308.png",
+                "name": "Astable Anemohypostasis Creation - 6308",
+                "type": "Elemental Skill",
+                "desc": "Creates a small Wind Spirit that pulls opponents and objects towards its location, launches opponents within its AoE, and deals Anemo DMG."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/4d/Talent_Forbidden_Creation_-_Isomer_75_Type_II.png",
+                "name": "Forbidden Creation - Isomer 75 / Type II",
+                "type": "Elemental Burst",
+                "desc": "Sucrose hurls an unstable concoction that creates a Large Wind Spirit. While it persists, the Large Wind Spirit will continuously pull and launch nearby opponents, and deal Anemo DMG.\nElemental Absorption: If the Wind Spirit comes into contact with Hydro/Pyro/Cryo/Electro elements, it will deal additional elemental DMG of that type. Elemental Absorption may only occur once per use."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/Talent_Catalyst_Conversion.png",
+                "name": "Catalyst Conversion",
+                "type": "1st Ascension Passive",
+                "desc": "When Sucrose triggers a Swirl effect, all characters in the party with the matching element (excluding Sucrose) have their Elemental Mastery increased by 50 for 8s."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Talent_Mollis_Favonius.png",
+                "name": "Mollis Favonius",
+                "type": "4th Ascension Passive",
+                "desc": "When Astable Anemohypostasis Creation - 6308 or Forbidden Creation - Isomer 75 / Type II hits an opponent, increases all party members' (excluding Sucrose) Elemental Mastery based on 20% of Sucrose's Elemental Mastery for 8s."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/7e/Talent_Astable_Invention.png",
+                "name": "Astable Invention",
+                "type": "Utility Passive",
+                "desc": "When Sucrose crafts Character and Weapon Enhancement Materials, she has a 10% chance to obtain double the product."
+            }
+        ],
+        "lvup_mat": [
+            [
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3a/Item_Teachings_of_Freedom.png",
+                    "amount": 9
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1a/Item_Guide_to_Freedom.png",
+                    "amount": 63
+                },
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Item_Philosophies_of_Freedom.png",
+                    "amount": 114
+                }
+            ],
+            [
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/Item_Whopperflower_Nectar.png",
+                    "amount": 18
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Item_Shimmering_Nectar.png",
+                    "amount": 66
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Energy_Nectar.png",
+                    "amount": 93
+                }
+            ],
+            [
+                {
+                    "rarity": 5,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/81/Item_Spirit_Locket_of_Boreas.png",
+                    "amount": 18
+                }
+            ]
+        ],
+        "constellation": [
+            {
+                "level": 1,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/c/ce/Constellation_Clustered_Vacuum_Field.png",
+                "name": "Clustered Vacuum Field",
+                "effect": "Astable Anemohypostasis Creation - 6308 gains 1 additional charge."
+            },
+            {
+                "level": 2,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Constellation_Beth_Unbound_Form.png",
+                "name": "Beth: Unbound Form",
+                "effect": "The duration of Forbidden Creation - Isomer 75 / Type II is increased by 2s."
+            },
+            {
+                "level": 3,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Constellation_Flawless_Alchemistress.png",
+                "name": "Flawless Alchemistress",
+                "effect": "Increases the Level of Astable Anemohypostasis Creation - 6308 by 3.Maximum upgrade level is 15."
+            },
+            {
+                "level": 4,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/3e/Constellation_Alchemania.png",
+                "name": "Alchemania",
+                "effect": "Every 7 Normal and Charged Attacks, Sucrose will reduce the CD of Astable Anemohypostasis Creation - 6308 by 1-7s."
+            },
+            {
+                "level": 5,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/5e/Constellation_Caution_Standard_Flask.png",
+                "name": "Caution: Standard Flask",
+                "effect": "Increases the Level of Forbidden Creation - Isomer 75 / Type II by 3.Maximum upgrade level is 15."
+            },
+            {
+                "level": 6,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/b1/Constellation_Chaotic_Entropy.png",
+                "name": "Chaotic Entropy",
+                "effect": "If Forbidden Creation - Isomer 75 / Type II triggers an Elemental Absorption, all party members gain a 20% Elemental DMG Bonus for the corresponding absorbed element during its duration."
+            }
+        ],
+        "ascensions": [
+            [
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/32/Item_Windwheel_Aster.png",
+                    "amount": 3
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/Item_Whopperflower_Nectar.png",
+                    "amount": 3
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/5e/Item_Hurricane_Seed.png",
+                    "amount": 2
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/32/Item_Windwheel_Aster.png",
+                    "amount": 10
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/Item_Whopperflower_Nectar.png",
+                    "amount": 15
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/5e/Item_Hurricane_Seed.png",
+                    "amount": 4
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/32/Item_Windwheel_Aster.png",
+                    "amount": 20
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Item_Shimmering_Nectar.png",
+                    "amount": 12
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/5e/Item_Hurricane_Seed.png",
+                    "amount": 8
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/32/Item_Windwheel_Aster.png",
+                    "amount": 30
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Item_Shimmering_Nectar.png",
+                    "amount": 18
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/5e/Item_Hurricane_Seed.png",
+                    "amount": 12
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/32/Item_Windwheel_Aster.png",
+                    "amount": 45
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Energy_Nectar.png",
+                    "amount": 12
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/5e/Item_Hurricane_Seed.png",
+                    "amount": 20
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/32/Item_Windwheel_Aster.png",
+                    "amount": 60
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Energy_Nectar.png",
+                    "amount": 24
+                }
+            ]
+        ]
+    }
 }

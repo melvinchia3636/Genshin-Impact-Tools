@@ -13,13 +13,13 @@
         },
         "voice_actors": {
             "english": "Lilypichu (Lily Ki)",
-            "chinese": "Sakula小舞",
-            "japanese": "Aya Suzaki (洲崎綾)",
-            "korean": "Lee Ji-hyeon (이지현)"
+            "chinese": "Sakula\u5c0f\u821e",
+            "japanese": "Aya Suzaki (\u6d32\u5d0e\u7dbe)",
+            "korean": "Lee Ji-hyeon (\uc774\uc9c0\ud604)"
         },
         "introduction": {
             "quote": "Sayu, Shuumatsuban's resident ninja, is obsessed with sleeping and growing taller.She has mastered all kinds of ninjutsu to run away and hide in pursuit of opportunities to laze around and sleep.Such an extraordinary skillset may have very unexpected uses.",
-            "content": "C+V Here"
+            "content": "Sayu ( Japanese: \u65e9\u3055\u67da\u3086 Sayu ) is a playable Anemo  character in Genshin Impact. A ninja from the Shuumatsuban that is struggling with growing tall. Sayu believes that sleeping can help her growth, which is why she prefers to use her ninja techniques to hide and \"laze around.\""
         },
         "personality": {
             "quote": "A pint-sized ninja attached to the Shuumatsuban, who always seems sleep-deprived.",
@@ -33,5 +33,321 @@
         ]
     },
     "name": "Sayu",
-    "nickname": "Mujina Ninja"
+    "nickname": "Mujina Ninja",
+    "combat_info": {
+        "base_stats": {
+            "special": "Elemental Mastery",
+            "data": {
+                "0": {
+                    "1": [
+                        "994",
+                        "20",
+                        "62",
+                        "\u2014"
+                    ],
+                    "20": [
+                        "2,553",
+                        "53",
+                        "160"
+                    ]
+                },
+                "1": {
+                    "20": [
+                        "3,296",
+                        "68",
+                        "207",
+                        "\u2014"
+                    ],
+                    "40": [
+                        "4,937",
+                        "102",
+                        "310"
+                    ]
+                },
+                "2": {
+                    "40": [
+                        "5,464",
+                        "113",
+                        "343",
+                        "24"
+                    ],
+                    "50": [
+                        "6,285",
+                        "130",
+                        "395"
+                    ]
+                },
+                "3": {
+                    "50": [
+                        "6,988",
+                        "144",
+                        "439",
+                        "48"
+                    ],
+                    "60": [
+                        "7,809",
+                        "161",
+                        "491"
+                    ]
+                },
+                "4": {
+                    "60": [
+                        "8,337",
+                        "172",
+                        "524",
+                        "48"
+                    ],
+                    "70": [
+                        "9,157",
+                        "189",
+                        "575"
+                    ]
+                },
+                "5": {
+                    "70": [
+                        "9,684",
+                        "200",
+                        "608",
+                        "72"
+                    ],
+                    "80": [
+                        "10,505",
+                        "216",
+                        "660"
+                    ]
+                },
+                "6": {
+                    "80": [
+                        "11,033",
+                        "227",
+                        "693",
+                        "96"
+                    ],
+                    "90": [
+                        "11,854",
+                        "244",
+                        "745"
+                    ]
+                }
+            }
+        },
+        "talents": [
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/c/c9/Talent_Shuumatsuban_Ninja_Blade.png",
+                "name": "Shuumatsuban Ninja Blade",
+                "type": "Normal Attack",
+                "desc": "Normal Attack: Performs up to 4 consecutive strikes.Charged Attack: Drains Stamina over time to perform continuous spinning attacks against all nearby opponents.At the end of the sequence, perform a more powerful slash.Plunging Attack: Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/4b/Talent_Yoohoo_Art_Fuuin_Dash.png",
+                "name": "Yoohoo Art: Fuuin Dash",
+                "type": "Elemental Skill",
+                "desc": "The special technique of the Yoohoo Ninja Arts!\nSayu curls up into a rolling Fuufuu Windwheel and smashes into opponents at high speed, dealing Anemo DMG.\nWhen the duration ends, she unleashes a Fuufuu Whirlwind Kick, dealing AoE Anemo DMG.\nPress: Enters the Fuufuu Windwheel state, rolling forward a short distance before using the Fuufuu Whirlwind Kick.\nHold: Rolls about continuously in the Fuufuu Windwheel state, increasing Sayu's resistance to interruption while within that state.\nDuring this time, Sayu can control the direction of her roll, and can use the skill again to end her Windwheel state early and unleash a stronger version of the Fuufuu Whirlwind Kick.\nThe Hold version of this skill can trigger Elemental Absorption.\nThis skill has a maximum duration of 10s and enters CD once its effects end. The longer Sayu remains in her Windwheel state, the longer the CD.\nElemental Absorption: If Sayu comes into contact with Hydro, Pyro, Cryo and Electro while in her Windwheel state, she will deal additional elemental DMG of that type.Elemental Absorption may only occur once per use of this skill."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/be/Talent_Yoohoo_Art_Mujina_Flurry.png",
+                "name": "Yoohoo Art: Mujina Flurry",
+                "type": "Elemental Burst",
+                "desc": "The other super special technique of the Yoohoo Ninja Arts!\nIt summons a pair of helping hands for Sayu.\nDeals Anemo DMG to nearby opponents and heals all nearby party members. The amount of HP restored is based on Sayu's ATK. This skill then summons a Muji-Muji Daruma.\nMuji-Muji Daruma: At specific intervals, the Daruma will take one of several actions based on the situation around it:\n\nIf the HP of nearby characters is above 70%, it will attack a nearby opponent, dealing Anemo DMG.\nIf there are active characters with 70% or less HP nearby, it will heal the active character with the lowest percentage HP left.\nIf there are no opponents nearby, it will heal active characters nearby even if they have 70% HP or more."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/0/07/Talent_Someone_More_Capable.png",
+                "name": "Someone More Capable",
+                "type": "1st Ascension Passive",
+                "desc": "When Sayu triggers a Swirl reaction while active, she heals all your characters and nearby allies for 300 HP. She will also heal an additional 1.2 HP for every point of Elemental Mastery she has.This effect can be triggered once every 2s."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/8/85/Talent_No_Work_Today%21.png",
+                "name": "No Work Today!",
+                "type": "4th Ascension Passive",
+                "desc": "The Muji-Muji Daruma created by Yoohoo Art: Mujina Flurry gains the following effects:\nWhen healing a character, it will also heal characters near that healed character for 20% the amount of HP.\nIncreases the AoE of its attack against opponents."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/bc/Talent_Yoohoo_Art_Silencer%27s_Secret.png",
+                "name": "Yoohoo Art: Silencer's Secret",
+                "type": "Utility Passive",
+                "desc": "When Sayu is in the party, your characters will not startle Crystalflies and certain other animals when getting near them.Check the \"Other\" sub-category of the \"Living Beings / Wildlife\" section in the Archive for creatures this skill works on."
+            }
+        ],
+        "lvup_mat": [
+            [
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/5e/Item_Teachings_of_Light.png",
+                    "amount": 9
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/fe/Item_Guide_to_Light.png",
+                    "amount": 63
+                },
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/95/Item_Philosophies_of_Light.png",
+                    "amount": 114
+                }
+            ],
+            [
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/Item_Whopperflower_Nectar.png",
+                    "amount": 18
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Item_Shimmering_Nectar.png",
+                    "amount": 66
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Energy_Nectar.png",
+                    "amount": 93
+                }
+            ],
+            [
+                {
+                    "rarity": 5,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e1/Item_Gilded_Scale.png",
+                    "amount": 18
+                }
+            ]
+        ],
+        "constellation": [
+            {
+                "level": 1,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/2/22/Constellation_Multi-Task_no_Jutsu.png",
+                "name": "Multi-Task no Jutsu",
+                "effect": "The Muji-Muji Daruma created by Yoohoo Art: Mujina Flurry will ignore HP limits and can simultaneously attack nearby opponents and heal characters."
+            },
+            {
+                "level": 2,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/31/Constellation_Egress_Prep.png",
+                "name": "Egress Prep",
+                "effect": "Yoohoo Art: Fuuin Dash gains the following effects:\nDMG of Fuufuu Whirlwind Kick in Tapping (mobile)/Press (PC & PlayStation) Mode increased by 3.3%.\nEvery 0.5s in the Fuufuu Windwheel state will increase the DMG of this Fuufuu Whirlwind Kick by 3.3%. The maximum DMG increase possible through this method is 66%."
+            },
+            {
+                "level": 3,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/8/8c/Constellation_Eh%2C_the_Bunshin_Can_Handle_It.png",
+                "name": "Eh, the Bunshin Can Handle It",
+                "effect": "Increases the Level of Yoohoo Art: Mujina Flurry by 3.Maximum upgrade level is 15."
+            },
+            {
+                "level": 4,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/9e/Constellation_Skiving_New_and_Improved.png",
+                "name": "Skiving: New and Improved",
+                "effect": "Sayu recovers 1.2 Energy when she triggers a Swirl reaction.This effect occurs once every 2s."
+            },
+            {
+                "level": 5,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/a/aa/Constellation_Speed_Comes_First.png",
+                "name": "Speed Comes First",
+                "effect": "Increases the Level of Yoohoo Art: Fuuin Dash by 3.Maximum upgrade level is 15."
+            },
+            {
+                "level": 6,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/2/22/Constellation_Sleep_O%27Clock.png",
+                "name": "Sleep O'Clock",
+                "effect": "The Muji-Muji Daruma created by Sayu's Yoohoo Art: Mujina Flurry will now also benefit from her Elemental Mastery. Each point of Sayu's Elemental Mastery will produce the following effects:\nIncreases the damage dealt by the Muji-Muji Daruma's attacks by 0.2% ATK. A maximum of 400% ATK can be gained via this method.\nIncreases the HP restored by the Muji-Muji Daruma by 3. A maximum of 6,000 additional HP can be restored in this manner."
+            }
+        ],
+        "ascensions": [
+            [
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0f/Item_Crystal_Marrow.png",
+                    "amount": 3
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/Item_Whopperflower_Nectar.png",
+                    "amount": 3
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1d/Item_Marionette_Core.png",
+                    "amount": 2
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0f/Item_Crystal_Marrow.png",
+                    "amount": 10
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/Item_Whopperflower_Nectar.png",
+                    "amount": 15
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1d/Item_Marionette_Core.png",
+                    "amount": 4
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0f/Item_Crystal_Marrow.png",
+                    "amount": 20
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Item_Shimmering_Nectar.png",
+                    "amount": 12
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1d/Item_Marionette_Core.png",
+                    "amount": 8
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0f/Item_Crystal_Marrow.png",
+                    "amount": 30
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Item_Shimmering_Nectar.png",
+                    "amount": 18
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1d/Item_Marionette_Core.png",
+                    "amount": 12
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0f/Item_Crystal_Marrow.png",
+                    "amount": 45
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Energy_Nectar.png",
+                    "amount": 12
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1d/Item_Marionette_Core.png",
+                    "amount": 20
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0f/Item_Crystal_Marrow.png",
+                    "amount": 60
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Energy_Nectar.png",
+                    "amount": 24
+                }
+            ]
+        ]
+    }
 }

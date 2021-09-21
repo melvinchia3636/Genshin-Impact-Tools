@@ -14,13 +14,13 @@
         },
         "voice_actors": {
             "english": "Brianna Knickerbocker",
-            "chinese": "Dian Tao (陶典)",
-            "japanese": "Rie Takahashi (高橋李依)",
-            "korean": "Kim Ha-ru (김하루)"
+            "chinese": "Dian Tao (\u9676\u5178)",
+            "japanese": "Rie Takahashi (\u9ad8\u6a4b\u674e\u4f9d)",
+            "korean": "Kim Ha-ru (\uae40\ud558\ub8e8)"
         },
         "introduction": {
             "quote": "Hu Tao is the 77th Director of the Wangsheng Funeral Parlor, a person vital to managing Liyue's funerary affairs.She does her utmost to flawlessly carry out a person's last rites and preserve the world's balance of yin and yang.Aside from this, she is also a talented poet whose many \"masterpieces\" have passed around Liyue's populace by word of mouth.",
-            "content": "C+V Here"
+            "content": "Hu Tao ( Chinese: \u80e1\u6843 H\u00fa T\u00e1o, \"Walnut\" ) is a playable Pyro  character in Genshin Impact. She is the 77th Director of the Wangsheng Funeral Parlor."
         },
         "personality": {
             "quote": "The 77th Director of the Wangsheng Funeral Parlor. She took over the business at a rather young age.",
@@ -36,5 +36,321 @@
         ]
     },
     "name": "Hu Tao",
-    "nickname": "Fragrance in Thaw"
+    "nickname": "Fragrance in Thaw",
+    "combat_info": {
+        "base_stats": {
+            "special": "CRIT DMG",
+            "data": {
+                "0": {
+                    "1": [
+                        "1,211",
+                        "8",
+                        "68",
+                        "\u2014"
+                    ],
+                    "20": [
+                        "3,141",
+                        "21",
+                        "177"
+                    ]
+                },
+                "1": {
+                    "20": [
+                        "4,179",
+                        "29",
+                        "235",
+                        "\u2014"
+                    ],
+                    "40": [
+                        "6,253",
+                        "43",
+                        "352"
+                    ]
+                },
+                "2": {
+                    "40": [
+                        "6,990",
+                        "48",
+                        "394",
+                        "9.6%"
+                    ],
+                    "50": [
+                        "8,042",
+                        "55",
+                        "453"
+                    ]
+                },
+                "3": {
+                    "50": [
+                        "9,026",
+                        "62",
+                        "508",
+                        "19.2%"
+                    ],
+                    "60": [
+                        "10,089",
+                        "69",
+                        "568"
+                    ]
+                },
+                "4": {
+                    "60": [
+                        "10,826",
+                        "74",
+                        "610",
+                        "19.2%"
+                    ],
+                    "70": [
+                        "11,899",
+                        "81",
+                        "670"
+                    ]
+                },
+                "5": {
+                    "70": [
+                        "12,637",
+                        "86",
+                        "712",
+                        "28.8%"
+                    ],
+                    "80": [
+                        "13,721",
+                        "94",
+                        "773"
+                    ]
+                },
+                "6": {
+                    "80": [
+                        "14,459",
+                        "99",
+                        "815",
+                        "38.4%"
+                    ],
+                    "90": [
+                        "15,552",
+                        "106",
+                        "876"
+                    ]
+                }
+            }
+        },
+        "talents": [
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/df/Talent_Secret_Spear_of_Wangsheng.png",
+                "name": "Secret Spear of Wangsheng",
+                "type": "Normal Attack",
+                "desc": "Normal Attack: Performs up to six consecutive spear strikes.\nCharged Attack: Consumes a certain amount of Stamina to lunge forward, dealing damage to enemies along the way.\nPlunging Attack: Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/be/Talent_Guide_to_Afterlife.png",
+                "name": "Guide to Afterlife",
+                "type": "Elemental Skill",
+                "desc": "Hu Tao consumes a part of her HP, knocking nearby enemies back and entering the Paramita Papilio State.\nParamita Papilio State:\n\nIncreases Hu Tao's ATK based on her Max HP at the time of entering this state. ATK Bonus gained this way cannot exceed 400% of Hu Tao's Base ATK.\nHu Tao's attack DMG is converted to Pyro DMG, which cannot be overridden by any other elemental infusion.\nIncreases Hu Tao's resistance to interruption.\nIn the Paramita Papilio state, Hu Tao's Charged Attacks apply the Blood Blossom effect to enemies it hits.\nBlood Blossom Effect:\nEnemies affected by Blood Blossom will take Pyro DMG every 4s.This DMG is considered Elemental Skill DMG.Each enemy can be affected by only one Blood Blossom effect at a time, and its duration may only be refreshed by Hu Tao herself.\n\nParamita Papilio ends when its duration is over, or when Hu Tao has left the battlefield or fallen."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/1/11/Talent_Spirit_Soother.png",
+                "name": "Spirit Soother",
+                "type": "Elemental Burst",
+                "desc": "Hu Tao commands a blazing spirit to deal Pyro DMG in a large AoE. Upon striking the enemy, regenerates a percentage of Hu Tao's Max HP. This effect can be triggered up to 5 times based on the number of enemies hit.\nIf Hu Tao's HP is below or equal to 50% when the enemy is hit, both the DMG and HP Regeneration are increased."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/1/13/Talent_Flutter_By.png",
+                "name": "Flutter By",
+                "type": "1st Ascension Passive",
+                "desc": "When a Paramita Papilio state activated by Guide to Afterlife ends, all allies in the party (excluding Hu Tao herself) will have their CRIT Rate increased by 12% for 8s."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/2/24/Talent_Sanguine_Rouge.png",
+                "name": "Sanguine Rouge",
+                "type": "4th Ascension Passive",
+                "desc": "When Hu Tao's HP is equal to or less than 50%, her Pyro DMG Bonus is increased by 33%."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/6/68/Talent_The_More_the_Merrier.png",
+                "name": "The More the Merrier",
+                "type": "Utility Passive",
+                "desc": "When Hu Tao cooks a dish perfectly, she has a 18% chance to receive an additional \"Suspicious\" dish of the same type."
+            }
+        ],
+        "lvup_mat": [
+            [
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Teachings_of_Diligence.png",
+                    "amount": 9
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9f/Item_Guide_to_Diligence.png",
+                    "amount": 63
+                },
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c2/Item_Philosophies_of_Diligence.png",
+                    "amount": 114
+                }
+            ],
+            [
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/Item_Whopperflower_Nectar.png",
+                    "amount": 18
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Item_Shimmering_Nectar.png",
+                    "amount": 66
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Energy_Nectar.png",
+                    "amount": 93
+                }
+            ],
+            [
+                {
+                    "rarity": 5,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/48/Item_Shard_of_a_Foul_Legacy.png",
+                    "amount": 18
+                }
+            ]
+        ],
+        "constellation": [
+            {
+                "level": 1,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/0/08/Constellation_Crimson_Bouquet.png",
+                "name": "Crimson Bouquet",
+                "effect": "While in a Paramita Papilio state activated by Guide to Afterlife, Hu Tao's Charge Attacks do not consume Stamina."
+            },
+            {
+                "level": 2,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/b6/Constellation_Ominous_Rainfall.png",
+                "name": "Ominous Rainfall",
+                "effect": "Increases the Blood Blossom DMG by an amount equal to 10% of Hu Tao's Max HP at the time the effect is applied.Additionally, Spirit Soother will also apply the Blood Blossom effect."
+            },
+            {
+                "level": 3,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/7f/Constellation_Lingering_Carmine.png",
+                "name": "Lingering Carmine",
+                "effect": "Increases the Level of Guide to Afterlife by 3.Maximum upgrade level is 15."
+            },
+            {
+                "level": 4,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/57/Constellation_Garden_of_Eternal_Rest.png",
+                "name": "Garden of Eternal Rest",
+                "effect": "Upon defeating an enemy affected by a Blood Blossom that Hu Tao applied herself, all nearby allies in the party (excluding Hu Tao herself) will have their CRIT Rate increased by 12% for 15s."
+            },
+            {
+                "level": 5,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/f/f2/Constellation_Floral_Incense.png",
+                "name": "Floral Incense",
+                "effect": "Increases the Level of Spirit Soother by 3.Maximum upgrade level is 15."
+            },
+            {
+                "level": 6,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/0/09/Constellation_Butterfly%27s_Embrace.png",
+                "name": "Butterfly's Embrace",
+                "effect": "Triggers when Hu Tao's HP drops below 25%, or when she suffers a lethal strike:Hu Tao will not fall as a result of the DMG sustained. Additionally, for the next 10s, all of her Elemental and Physical RES is increased by 200%, her CRIT Rate is increased by 100%, and her resistance to interruption is greatly increased.This effect triggers automatically when Hu Tao has 1 HP left.Can only occur once every 60s."
+            }
+        ],
+        "ascensions": [
+            [
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/37/Item_Silk_Flower.png",
+                    "amount": 3
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/Item_Whopperflower_Nectar.png",
+                    "amount": 3
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f1/Item_Juvenile_Jade.png",
+                    "amount": 2
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/37/Item_Silk_Flower.png",
+                    "amount": 10
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/Item_Whopperflower_Nectar.png",
+                    "amount": 15
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f1/Item_Juvenile_Jade.png",
+                    "amount": 4
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/37/Item_Silk_Flower.png",
+                    "amount": 20
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Item_Shimmering_Nectar.png",
+                    "amount": 12
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f1/Item_Juvenile_Jade.png",
+                    "amount": 8
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/37/Item_Silk_Flower.png",
+                    "amount": 30
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Item_Shimmering_Nectar.png",
+                    "amount": 18
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f1/Item_Juvenile_Jade.png",
+                    "amount": 12
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/37/Item_Silk_Flower.png",
+                    "amount": 45
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Energy_Nectar.png",
+                    "amount": 12
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f1/Item_Juvenile_Jade.png",
+                    "amount": 20
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/37/Item_Silk_Flower.png",
+                    "amount": 60
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Energy_Nectar.png",
+                    "amount": 24
+                }
+            ]
+        ]
+    }
 }

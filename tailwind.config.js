@@ -14,7 +14,8 @@ module.exports = {
                 mediumblue: "#326483",
                 reallylightblue: "#6495af",
                 detailsblue: "#ACCACB",
-                quoteblue: "#4C7F9B"
+                quoteblue: "#4C7F9B",
+                cardblue: "rgba(146, 181, 201, 0.3)"
             }
         }
     },

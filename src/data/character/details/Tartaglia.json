@@ -14,13 +14,13 @@
         },
         "voice_actors": {
             "english": "Griffin Burns",
-            "chinese": "Yudong (鱼冻)",
-            "japanese": "Ryōhei Kimura (木村良平)",
-            "korean": "Nam Doh-hyeong (남도형)"
+            "chinese": "Yudong (\u9c7c\u51bb)",
+            "japanese": "Ry\u014dhei Kimura (\u6728\u6751\u826f\u5e73)",
+            "korean": "Nam Doh-hyeong (\ub0a8\ub3c4\ud615)"
         },
         "introduction": {
-            "quote": "Meet Tartaglia — the cunning Snezhnayan whose unpredictable personality keeps people guessing his every move.\nDon't be under any illusion as to what he might be thinking or what his intentions are. Just remember this: Behind that innocent, childlike exterior lies a finely honed instrument of war.",
-            "content": "C+V Here"
+            "quote": "Meet Tartaglia \u2014 the cunning Snezhnayan whose unpredictable personality keeps people guessing his every move.\nDon't be under any illusion as to what he might be thinking or what his intentions are. Just remember this: Behind that innocent, childlike exterior lies a finely honed instrument of war.",
+            "content": "Tartaglia, also known by his alias \" Childe \", is a playable Hydro  character in Genshin Impact. He is the most recent, the Eleventh, of the Eleven Harbingers of the Fatui. Following danger wherever he goes, Childe is always eager for a challenge, making him extremely dangerous despite being the youngest member."
         },
         "personality": {
             "quote": "No. 11 of The Harbingers, also known as \"Childe.\" His name is highly feared on the battlefield.",
@@ -28,9 +28,9 @@
                 "Tartaglia describes himself as \"kind of a bad guy\", living for the thrill of a fight and causing chaos.\n",
                 "As a child, Tartaglia was frightened and hesitant, but he secretly desired to become an adventurer like the ones his father told him about as they fished together. After falling into The Abyss and meeting and training with Skirk, Tartaglia's personality drastically changed.\n",
                 "Although he appears to relatively friendly on the surface, Tartaglia is a bloodthirsty warrior. The Abyss and his old master, Skirk, made him self-confident, solipsistic, and brash, thriving on the sensation of being alive. A warrior at heart, he constantly seeks ways to grow stronger, regardless of how he obtains said power. Tartaglia considers those who wish to become strong like him to be friends and takes pleasure in battling them on the battlefield. He lusts for combat and grows excited by fighting strong opponents, even if it could mean dying in the process. He uses bows because he is weakest with them, making his victories with them all the more exhilarating.\n",
-                "Because of his pride, Tartaglia is exceptionally reliable at accomplishing the tasks given to him, no matter how difficult they may be or if they go against his values. This, combined with his straightforward nature, makes him rather easy to manipulate. Despite disliking how his plan in Liyue Harbor could potentially harm innocents, he puts it into motion to fulfill his mission in Liyue — only to learn he was meant to fail as part of an even larger plan he was not privy to, much to his consternation.\n",
+                "Because of his pride, Tartaglia is exceptionally reliable at accomplishing the tasks given to him, no matter how difficult they may be or if they go against his values. This, combined with his straightforward nature, makes him rather easy to manipulate. Despite disliking how his plan in Liyue Harbor could potentially harm innocents, he puts it into motion to fulfill his mission in Liyue \u2014 only to learn he was meant to fail as part of an even larger plan he was not privy to, much to his consternation.\n",
                 "Amongst the rest of the Harbingers, Tartaglia is considered an oddball. While his fellow Harbingers prefer clandestine operations and staying behind the scenes, Tartaglia favors being front and center. On top of his lust for battle and tendency to cause havoc, he is a public figure known for attending social gatherings and even participates as an actor in plays and theater. As a result, Childe's coworkers are wary of him, while he holds them in disdain for their schemes and \"intangible\" methods. While he is quite capable of scheming, he only resorts to such approaches when necessary due to his straightforward nature. He also appears to treat his subordinates less harshly than the rest of the Harbingers, stating that he doesn't use lethal force against the recruits in his care, nor does he threaten any of them.\n",
-                "Tartaglia dedicates himself to those he cares about wholeheartedly. He is unquestionably loyal to the Tsaritsa and holds her in high esteem, seeing himself as her weapon of war. He also cares deeply for his family; he sends money, gifts, and letters home often. Tartaglia is exceptionally proud of his three younger siblings and dotes on them frequently, especially his youngest brother Teucer — he is willing to lie and even put himself in mortal danger, so as long as it makes him happy.  While this is callous, Tartaglia prioritizes his brother's safety over his own. He sees the Traveler as a friend, and enjoys sparring with them. Despite Zhongli deceiving him (and often using him as financial support), he remains on good terms with the former Archon.\n",
+                "Tartaglia dedicates himself to those he cares about wholeheartedly. He is unquestionably loyal to the Tsaritsa and holds her in high esteem, seeing himself as her weapon of war. He also cares deeply for his family; he sends money, gifts, and letters home often. Tartaglia is exceptionally proud of his three younger siblings and dotes on them frequently, especially his youngest brother Teucer \u2014 he is willing to lie and even put himself in mortal danger, so as long as it makes him happy.  While this is callous, Tartaglia prioritizes his brother's safety over his own. He sees the Traveler as a friend, and enjoys sparring with them. Despite Zhongli deceiving him (and often using him as financial support), he remains on good terms with the former Archon.\n",
                 "Tartaglia enjoys fishing, having grown to appreciate fishing with his father before his drastic change. He uses it as a way to meditate, honing his endurance and contemplating his combat techniques. He has no particular preference for meals, declaring that all food is delicious, stating that a true warrior shouldn't fuss over what they eat in a manner similar to the weapon they use.\n"
             ]
         },
@@ -41,5 +41,321 @@
         ]
     },
     "name": "Tartaglia",
-    "nickname": "Childe"
+    "nickname": "Childe",
+    "combat_info": {
+        "base_stats": {
+            "special": "Hydro DMG Bonus",
+            "data": {
+                "0": {
+                    "1": [
+                        "1,020",
+                        "23",
+                        "63",
+                        "\u2014"
+                    ],
+                    "20": [
+                        "2,646",
+                        "61",
+                        "165"
+                    ]
+                },
+                "1": {
+                    "20": [
+                        "3,521",
+                        "81",
+                        "219",
+                        "\u2014"
+                    ],
+                    "40": [
+                        "5,268",
+                        "121",
+                        "328"
+                    ]
+                },
+                "2": {
+                    "40": [
+                        "5,889",
+                        "135",
+                        "366",
+                        "7.2%"
+                    ],
+                    "50": [
+                        "6,776",
+                        "156",
+                        "421"
+                    ]
+                },
+                "3": {
+                    "50": [
+                        "7,604",
+                        "175",
+                        "473",
+                        "14.4%"
+                    ],
+                    "60": [
+                        "8,500",
+                        "195",
+                        "528"
+                    ]
+                },
+                "4": {
+                    "60": [
+                        "9,121",
+                        "210",
+                        "567",
+                        "14.4%"
+                    ],
+                    "70": [
+                        "10,025",
+                        "231",
+                        "623"
+                    ]
+                },
+                "5": {
+                    "70": [
+                        "10,647",
+                        "245",
+                        "662",
+                        "21.6%"
+                    ],
+                    "80": [
+                        "11,561",
+                        "266",
+                        "719"
+                    ]
+                },
+                "6": {
+                    "80": [
+                        "12,182",
+                        "280",
+                        "757",
+                        "28.8%"
+                    ],
+                    "90": [
+                        "13,103",
+                        "301",
+                        "815"
+                    ]
+                }
+            }
+        },
+        "talents": [
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/36/Talent_Cutting_Torrent.png",
+                "name": "Cutting Torrent",
+                "type": "Normal Attack",
+                "desc": "Normal Attack: Perform up to 6 consecutive shots with a bow.\nCharged Attack: Perform a more precise Aimed Shot with increased DMG. While aiming, the power of Hydro will accumulate on the arrowhead. An arrow fully charged with the torrent will deal Hydro DMG and apply the Riptide status.\nRiptide: Opponents affected by Riptide will suffer from AoE Hydro DMG effects when attacked by Tartaglia in various ways. DMG dealt in this way is considered Normal Attack DMG.\n\nRiptide Flash: A fully-charged Aimed Shot that hits an opponent affected by Riptide deals consecutive bouts of AoE DMG. Can occur once every 0.7s.\nRiptide Burst: Defeating an opponent affected by Riptide creates a Hydro burst that inflicts the Riptide status on nearby opponents hit.\nPlunging Attack: Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.When Tartaglia is in Foul Legacy: Raging Tide's Melee Stance, he cannot perform a plunging attack."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Talent_Foul_Legacy_Raging_Tide.png",
+                "name": "Foul Legacy: Raging Tide",
+                "type": "Elemental Skill",
+                "desc": "Unleashes a set of weaponry made of pure water, dealing Hydro DMG to surrounding opponents and entering Melee Stance.\nIn this Stance, Tartaglia's Normal and Charged Attacks are converted to Hydro DMG that cannot be overridden by any other elemental infusion and change as follows:\nNormal Attack: Perform up to 6 consecutive Hydro strikes.\nCharged Attack: Consumes a certain amount of Stamina to unleash a cross slash, dealing Hydro DMG.\nRiptide Slash: Hitting an opponent affected by Riptide with a melee attack unleashes a Riptide Slash that deals AoE Hydro DMG. DMG dealt in this way is considered Elemental Skill DMG, and can only occur once every 1.5s.\nAfter 30s, or when the ability is unleashed again, this skill will end. Tartaglia will return to his Ranged Stance and this ability will enter CD. The longer Tartaglia stays in his Melee Stance, the longer the CD. If the return to a ranged stance occurs automatically after 30s, the CD is even longer."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/0/03/Talent_Havoc_Obliteration.png",
+                "name": "Havoc: Obliteration",
+                "type": "Elemental Burst",
+                "desc": "Performs different attacks based on what stance Tartaglia is in when casting.\nRanged Stance: Flash of Havoc: Swiftly fires a Hydro-imbued magic arrow, dealing AoE Hydro DMG and applying the Riptide status. Returns a portion of its Energy Cost after use.\nMelee Stance: Light of Obliteration: Performs a slash with a large AoE, dealing massive Hydro DMG to all surrounding opponents, which triggers Riptide Blast.\nRiptide Blast: When the obliterating waters hit an opponent affected by Riptide, it clears their Riptide status and triggers a Hydro Explosion that deals AoE Hydro DMG. DMG dealt in this way is considered Elemental Burst DMG."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/e/ea/Talent_Never_Ending.png",
+                "name": "Never Ending",
+                "type": "1st Ascension Passive",
+                "desc": "Extends Riptide duration by 8s."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/d8/Talent_Sword_of_Torrents.png",
+                "name": "Sword of Torrents",
+                "type": "4th Ascension Passive",
+                "desc": "When Tartaglia is in Foul Legacy: Raging Tide's Melee stance, on dealing a CRIT hit, Normal and Charged Attacks apply the Riptide status effects to opponents."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/45/Talent_Master_of_Weaponry.png",
+                "name": "Master of Weaponry",
+                "type": "Utility Passive",
+                "desc": "Increases your own party members' Normal Attack Level by 1."
+            }
+        ],
+        "lvup_mat": [
+            [
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3a/Item_Teachings_of_Freedom.png",
+                    "amount": 9
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1a/Item_Guide_to_Freedom.png",
+                    "amount": 63
+                },
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Item_Philosophies_of_Freedom.png",
+                    "amount": 114
+                }
+            ],
+            [
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b2/Item_Recruit%27s_Insignia.png",
+                    "amount": 18
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Sergeant%27s_Insignia.png",
+                    "amount": 66
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/db/Item_Lieutenant%27s_Insignia.png",
+                    "amount": 93
+                }
+            ],
+            [
+                {
+                    "rarity": 5,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/48/Item_Shard_of_a_Foul_Legacy.png",
+                    "amount": 18
+                }
+            ]
+        ],
+        "constellation": [
+            {
+                "level": 1,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/f/ff/Constellation_Foul_Legacy_Tide_Withholder.png",
+                "name": "Foul Legacy: Tide Withholder",
+                "effect": "Decreases the CD of Foul Legacy: Raging Tide by 20%"
+            },
+            {
+                "level": 2,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/0/0e/Constellation_Foul_Legacy_Understream.png",
+                "name": "Foul Legacy: Understream",
+                "effect": "When opponents affected by Riptide are defeated, Tartaglia regenerates 4 Elemental Energy."
+            },
+            {
+                "level": 3,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/6/6d/Constellation_Abyssal_Mayhem_Vortex_of_Turmoil.png",
+                "name": "Abyssal Mayhem: Vortex of Turmoil",
+                "effect": "Increases the Level of Foul Legacy: Raging Tide by 3.Maximum upgrade level is 15."
+            },
+            {
+                "level": 4,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/9d/Constellation_Abyssal_Mayhem_Hydrospout.png",
+                "name": "Abyssal Mayhem: Hydrospout",
+                "effect": "If Tartaglia is in Foul Legacy: Raging Tide's Melee Stance, triggers Riptide Slash against opponents on the field affected by Riptide every 4s, otherwise, triggers Riptide Flash.Riptide Slashes and Riptide Flashes triggered by this Constellation effect are not subject to the time intervals that would typically apply to these two Riptide effects, nor do they have any effect on those time intervals."
+            },
+            {
+                "level": 5,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/2/20/Constellation_Havoc_Formless_Blade.png",
+                "name": "Havoc: Formless Blade",
+                "effect": "Increases the Level of Havoc: Obliteration by 3.Maximum upgrade level is 15."
+            },
+            {
+                "level": 6,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/5a/Constellation_Havoc_Annihilation.png",
+                "name": "Havoc: Annihilation",
+                "effect": "When Havoc: Obliteration is cast in Melee Stance, the CD of Foul Legacy: Raging Tide is reset.This effect will only take place once Tartaglia returns to his Ranged Stance."
+            }
+        ],
+        "ascensions": [
+            [
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Item_Starconch.png",
+                    "amount": 3
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b2/Item_Recruit%27s_Insignia.png",
+                    "amount": 3
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Item_Cleansing_Heart.png",
+                    "amount": 2
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Item_Starconch.png",
+                    "amount": 10
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b2/Item_Recruit%27s_Insignia.png",
+                    "amount": 15
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Item_Cleansing_Heart.png",
+                    "amount": 4
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Item_Starconch.png",
+                    "amount": 20
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Sergeant%27s_Insignia.png",
+                    "amount": 12
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Item_Cleansing_Heart.png",
+                    "amount": 8
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Item_Starconch.png",
+                    "amount": 30
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Sergeant%27s_Insignia.png",
+                    "amount": 18
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Item_Cleansing_Heart.png",
+                    "amount": 12
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Item_Starconch.png",
+                    "amount": 45
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/db/Item_Lieutenant%27s_Insignia.png",
+                    "amount": 12
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Item_Cleansing_Heart.png",
+                    "amount": 20
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Item_Starconch.png",
+                    "amount": 60
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/db/Item_Lieutenant%27s_Insignia.png",
+                    "amount": 24
+                }
+            ]
+        ]
+    }
 }

@@ -13,13 +13,13 @@
         },
         "voice_actors": {
             "english": "Christie Cate",
-            "chinese": "Yanning (宴宁)",
-            "japanese": "Yukari Tamura (田村ゆかり)",
-            "korean": "Lee Seul (이슬)"
+            "chinese": "Yanning (\u5bb4\u5b81)",
+            "japanese": "Yukari Tamura (\u7530\u6751\u3086\u304b\u308a)",
+            "korean": "Lee Seul (\uc774\uc2ac)"
         },
         "introduction": {
             "quote": "An apprentice and herb gatherer at Bubu Pharmacy. \"Blessed\" by the adepti with a body that cannot die, this petite zombie cannot do anything without first giving herself orders to do it.Qiqi's memory is like a sieve. Out of necessity, she always carries around a notebook in which she writes anything important that she is sure to forget later.But on her worst days, she even forgets to look at her notebook...",
-            "content": "C+V Here"
+            "content": "Qiqi ( Chinese: \u4e03\u4e03 Q\u012bq\u012b, lit. \"Seven-Seven\" ) is a playable Cryo  character in Genshin Impact. Resurrected as a zombie by the adepti, she has ended up in Baizhu's care and now works at Bubu Pharmacy in Liyue Harbor."
         },
         "personality": {
             "quote": "An apprentice and herb gatherer at Bubu Pharmacy. An undead with a bone-white complexion, she seldom has much in the way of words or emotion.",
@@ -37,5 +37,321 @@
         ]
     },
     "name": "Qiqi",
-    "nickname": "Icy Resurrection"
+    "nickname": "Icy Resurrection",
+    "combat_info": {
+        "base_stats": {
+            "special": "Healing Bonus",
+            "data": {
+                "0": {
+                    "1": [
+                        "963",
+                        "22",
+                        "72",
+                        "\u2014"
+                    ],
+                    "20": [
+                        "2,498",
+                        "58",
+                        "186"
+                    ]
+                },
+                "1": {
+                    "20": [
+                        "3,323",
+                        "77",
+                        "248",
+                        "\u2014"
+                    ],
+                    "40": [
+                        "4,973",
+                        "115",
+                        "371"
+                    ]
+                },
+                "2": {
+                    "40": [
+                        "5,559",
+                        "129",
+                        "415",
+                        "5.5%"
+                    ],
+                    "50": [
+                        "6,396",
+                        "148",
+                        "477"
+                    ]
+                },
+                "3": {
+                    "50": [
+                        "7,178",
+                        "167",
+                        "535",
+                        "11.1%"
+                    ],
+                    "60": [
+                        "8,023",
+                        "186",
+                        "598"
+                    ]
+                },
+                "4": {
+                    "60": [
+                        "8,610",
+                        "200",
+                        "642",
+                        "11.1%"
+                    ],
+                    "70": [
+                        "9,463",
+                        "220",
+                        "706"
+                    ]
+                },
+                "5": {
+                    "70": [
+                        "10,050",
+                        "233",
+                        "749",
+                        "16.6%"
+                    ],
+                    "80": [
+                        "10,912",
+                        "253",
+                        "814"
+                    ]
+                },
+                "6": {
+                    "80": [
+                        "11,499",
+                        "267",
+                        "857",
+                        "22.2%"
+                    ],
+                    "90": [
+                        "12,368",
+                        "287",
+                        "922"
+                    ]
+                }
+            }
+        },
+        "talents": [
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Talent_Ancient_Sword_Art.png",
+                "name": "Ancient Sword Art",
+                "type": "Normal Attack",
+                "desc": "Normal Attack: Perform up to 5 rapid strikes.\nCharged Attack: Consumes a certain amount Stamina to unleash 2 rapid sword strikes.\nPlunging Attack: Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/7f/Talent_Adeptus_Art_Herald_of_Frost.png",
+                "name": "Adeptus Art: Herald of Frost",
+                "type": "Elemental Skill",
+                "desc": "Using the Icevein Talisman, Qiqi brings forth the Herald of Frost, dealing Cryo DMG to surrounding opponents.\nHerald of Frost:\n\nOn hit, Qiqi's Normal and Charged Attacks regenerate HP for your own party members and nearby teammates. Healing scales based on Qiqi's ATK.\nPeriodically regenerates your active character's HP.\nFollows the character around, dealing Cryo DMG to opponents in their path."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/7c/Talent_Adeptus_Art_Preserver_of_Fortune.png",
+                "name": "Adeptus Art: Preserver of Fortune",
+                "type": "Elemental Burst",
+                "desc": "Qiqi releases the adeptus power sealed within her body, marking nearby opponents with a Fortune-Preserving Talisman that deals Cryo DMG.\nFortune-Preserving Talisman:\n\nWhen opponents affected by this Talisman take DMG, the character that dealt this DMG regenerates HP."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Talent_Life-Prolonging_Methods.png",
+                "name": "Life-Prolonging Methods",
+                "type": "1st Ascension Passive",
+                "desc": "When a character under the effects of Adeptus Art: Herald of Frost triggers an Elemental Reaction, their Incoming Healing Bonus is increased by 20% for 8s."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/37/Talent_A_Glimpse_into_Arcanum.png",
+                "name": "A Glimpse into Arcanum",
+                "type": "4th Ascension Passive",
+                "desc": "When Qiqi hits opponents with her Normal and Charged Attacks, she has a 50% chance to apply a Fortune-Preserving Talisman to them for 6s.  This effect can only occur once every 30s."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/5e/Talent_Former_Life_Memories.png",
+                "name": "Former Life Memories",
+                "type": "Utility Passive",
+                "desc": "Displays the location of nearby resources unique to Liyue on the mini-map."
+            }
+        ],
+        "lvup_mat": [
+            [
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9e/Item_Teachings_of_Prosperity.png",
+                    "amount": 9
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/67/Item_Guide_to_Prosperity.png",
+                    "amount": 63
+                },
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bd/Item_Philosophies_of_Prosperity.png",
+                    "amount": 114
+                }
+            ],
+            [
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/74/Item_Divining_Scroll.png",
+                    "amount": 18
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Sealed_Scroll.png",
+                    "amount": 66
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Item_Forbidden_Curse_Scroll.png",
+                    "amount": 93
+                }
+            ],
+            [
+                {
+                    "rarity": 5,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/66/Item_Tail_of_Boreas.png",
+                    "amount": 18
+                }
+            ]
+        ],
+        "constellation": [
+            {
+                "level": 1,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/1/10/Constellation_Ascetics_of_Frost.png",
+                "name": "Ascetics of Frost",
+                "effect": "When the Herald of Frost hits an opponent marked by a Fortune-Preserving Talisman, Qiqi regenerates 2 Energy."
+            },
+            {
+                "level": 2,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/ba/Constellation_Frozen_to_the_Bone.png",
+                "name": "Frozen to the Bone",
+                "effect": "Qiqi's Normal and Charge Attack DMG against opponents affected by Cryo is increased by 15%."
+            },
+            {
+                "level": 3,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/c/c6/Constellation_Ascendant_Praise.png",
+                "name": "Ascendant Praise",
+                "effect": "Increases the Level of Adeptus Art: Preserver of Fortune by 3.Maximum upgrade level is 15."
+            },
+            {
+                "level": 4,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/6/61/Constellation_Divine_Suppression.png",
+                "name": "Divine Suppression",
+                "effect": "Targets marked by the Fortune-Preserving Talisman have their ATK decreased by 20%."
+            },
+            {
+                "level": 5,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/e/ec/Constellation_Crimson_Lotus_Bloom.png",
+                "name": "Crimson Lotus Bloom",
+                "effect": "Increases the Level of Adeptus Art: Herald of Frost by 3.Maximum upgrade level is 15."
+            },
+            {
+                "level": 6,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/b9/Constellation_Rite_of_Resurrection.png",
+                "name": "Rite of Resurrection",
+                "effect": "Using Adeptus Art: Preserver of Fortune revives all fallen party members nearby and regenerates 50% of their HP.This effect can only occur once every 15 mins."
+            }
+        ],
+        "ascensions": [
+            [
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/5d/Item_Violetgrass.png",
+                    "amount": 3
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/74/Item_Divining_Scroll.png",
+                    "amount": 3
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Item_Hoarfrost_Core.png",
+                    "amount": 2
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/5d/Item_Violetgrass.png",
+                    "amount": 10
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/74/Item_Divining_Scroll.png",
+                    "amount": 15
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Item_Hoarfrost_Core.png",
+                    "amount": 4
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/5d/Item_Violetgrass.png",
+                    "amount": 20
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Sealed_Scroll.png",
+                    "amount": 12
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Item_Hoarfrost_Core.png",
+                    "amount": 8
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/5d/Item_Violetgrass.png",
+                    "amount": 30
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Sealed_Scroll.png",
+                    "amount": 18
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Item_Hoarfrost_Core.png",
+                    "amount": 12
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/5d/Item_Violetgrass.png",
+                    "amount": 45
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Item_Forbidden_Curse_Scroll.png",
+                    "amount": 12
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Item_Hoarfrost_Core.png",
+                    "amount": 20
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/5d/Item_Violetgrass.png",
+                    "amount": 60
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Item_Forbidden_Curse_Scroll.png",
+                    "amount": 24
+                }
+            ]
+        ]
+    }
 }

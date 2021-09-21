@@ -19,20 +19,20 @@
         },
         "voice_actors": {
             "english": "Erica Mendez[1]",
-            "chinese": "Xiao N (小N)[2]",
-            "japanese": "Saori Hayami (早見沙織)[3]",
-            "korean": "Lee Yu-ri (이유리)[4]"
+            "chinese": "Xiao N (\u5c0fN)[2]",
+            "japanese": "Saori Hayami (\u65e9\u898b\u6c99\u7e54)[3]",
+            "korean": "Lee Yu-ri (\uc774\uc720\ub9ac)[4]"
         },
         "introduction": {
             "quote": "Daughter of the Yashiro Commission's Kamisato Clan from Inazuma. Dignified and elegant, wise and determined.Sincere and pleasant to others. Universally loved by the Inazuma people, she has earned the title of Shirasagi Himegimi.",
-            "content": "C+V Here"
+            "content": "Kamisato Ayaka ( Japanese: \u795e\u304b\u307f\u91cc\u3055\u3068\u7dbe\u3042\u3084\u83ef\u304b ) [Note 1] is a playable Cryo  character in Genshin Impact. She is the eldest daughter of the Kamisato Clan and sister of Kamisato Ayato. Being beautiful, elegant, and graceful, the common-folk have nothing to bad-mouth Ayaka about. Because of her social status as the eldest daughter of the Kamisato Clan of the Yashiro Commission and as the Shirasagi Himegimi, Ayaka is seen as a model of perfection."
         },
         "personality": {
             "quote": "Daughter of the Yashiro Commission's Kamisato Clan. Dignified and elegant, as well as wise and strong.",
             "content": [
-                "Ayaka is a kind-hearted girl with a pleasant temperament who treats others with politeness and courtesy. She holds the people of Inazuma dear to her heart and often goes out of her way to personally assist in all kinds of matters; being a member of the Yashiro Commission, she feels that she must meet the people's needs. She is a perfectionist with an earnest personality. Her dedication often moves people, and those close to her gave her the honorary title of Shirasagi Himegimi  (Japanese: 白しら鷺さぎの 姫ひめ君ぎみ Shirasagi no Himegimi, \"White Heron Princess\"). People in the neighborhood always talk about her with sincere admiration.\n",
-                "Thanks to the influence of Ayaka's excellent upbringing, her heart is as pure as crystallized ice. Just like the splendid colors reflected as the ice crystals spin in the winter air, such is Ayaka's spirit. While the people of Inazuma love her, it is also well known that she has very few friends due to her upbringing — Thoma is her only known friend until she met the Traveler. She is also busy to the point that she doesn't have much free time, to begin with, so she has trouble mingling with others. When not burdened with her duties, she shows a tender, cute side to her.\n",
-                "But if you want to capture a heart hanging high in the sky, you must have the ability to climb up the clouds. In other words, Ayaka is eager to associate with people capable of achieving great feats — in her eyes, friendships are dictated by fate, the same way she was destined to wield her frost-covered sword.[6]\n"
+                "Ayaka is a kind-hearted girl with a pleasant temperament who treats others with politeness and courtesy. She holds the people of Inazuma dear to her heart and often goes out of her way to personally assist in all kinds of matters; being a member of the Yashiro Commission, she feels that she must meet the people's needs. She is a perfectionist with an earnest personality. Her dedication often moves people, and those close to her gave her the honorary title of Shirasagi Himegimi  (Japanese: \u767d\u3057\u3089\u9dfa\u3055\u304e\u306e\u2003\u59eb\u3072\u3081\u541b\u304e\u307f Shirasagi no Himegimi, \"White Heron Princess\"). People in the neighborhood always talk about her with sincere admiration.\n",
+                "Thanks to the influence of Ayaka's excellent upbringing, her heart is as pure as crystallized ice. Just like the splendid colors reflected as the ice crystals spin in the winter air, such is Ayaka's spirit. While the people of Inazuma love her, it is also well known that she has very few friends due to her upbringing \u2014 Thoma is her only known friend until she met the Traveler. She is also busy to the point that she doesn't have much free time, to begin with, so she has trouble mingling with others. When not burdened with her duties, she shows a tender, cute side to her.\n",
+                "But if you want to capture a heart hanging high in the sky, you must have the ability to climb up the clouds. In other words, Ayaka is eager to associate with people capable of achieving great feats \u2014 in her eyes, friendships are dictated by fate, the same way she was destined to wield her frost-covered sword.[6]\n"
             ]
         },
         "appearance": [
@@ -41,5 +41,327 @@
         ]
     },
     "name": "Kamisato Ayaka",
-    "nickname": "Frostflake Heron"
+    "nickname": "Frostflake Heron",
+    "combat_info": {
+        "base_stats": {
+            "special": "CRIT DMG",
+            "data": {
+                "0": {
+                    "1": [
+                        "1,001",
+                        "27",
+                        "61",
+                        "\u2014"
+                    ],
+                    "20": [
+                        "2,597",
+                        "79",
+                        "158"
+                    ]
+                },
+                "1": {
+                    "20": [
+                        "3,455",
+                        "92",
+                        "211",
+                        "\u2014"
+                    ],
+                    "40": [
+                        "5,170",
+                        "138",
+                        "315"
+                    ]
+                },
+                "2": {
+                    "40": [
+                        "5,779",
+                        "154",
+                        "352",
+                        "9.6%"
+                    ],
+                    "50": [
+                        "6,649",
+                        "177",
+                        "405"
+                    ]
+                },
+                "3": {
+                    "50": [
+                        "7,462",
+                        "198",
+                        "455",
+                        "19.2%"
+                    ],
+                    "60": [
+                        "8,341",
+                        "222",
+                        "509"
+                    ]
+                },
+                "4": {
+                    "60": [
+                        "8,951",
+                        "238",
+                        "546",
+                        "19.2%"
+                    ],
+                    "70": [
+                        "9,838",
+                        "262",
+                        "600"
+                    ]
+                },
+                "5": {
+                    "70": [
+                        "10,448",
+                        "278",
+                        "637",
+                        "28.8%"
+                    ],
+                    "80": [
+                        "11,345",
+                        "302",
+                        "692"
+                    ]
+                },
+                "6": {
+                    "80": [
+                        "11,954",
+                        "318",
+                        "729",
+                        "38.4%"
+                    ],
+                    "90": [
+                        "12,858",
+                        "342",
+                        "784"
+                    ]
+                }
+            }
+        },
+        "talents": [
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Talent_Kamisato_Art_Kabuki.png",
+                "name": "Kamisato Art: Kabuki",
+                "type": "Normal Attack",
+                "desc": "Normal Attack: Perform up to 5 rapid strikes.\nCharged Attack: Consumes a certain amount of Stamina to unleash a flurry of sword ki.\nPlunging Attack: Plunges from mid-air to strike the ground below, damaging enemies along the path and dealing AoE DMG upon impact."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/56/Talent_Kamisato_Art_Hyouka.png",
+                "name": "Kamisato Art: Hyouka",
+                "type": "Elemental Skill",
+                "desc": "Summons blooming ice to launch nearby opponents, dealing AoE Cryo DMG."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/1/11/Talent_Kamisato_Art_Soumetsu.png",
+                "name": "Kamisato Art: Soumetsu",
+                "type": "Elemental Burst",
+                "desc": "Summons forth a snowstorm with flawless poise, unleashing a Frostflake Seki no To that moves forward continuously.Frostflake Seki no To\nA storm of whirling icy winds that slashes repeatedly at every enemy it touches, dealing Cryo DMG\nThe snowstorm explodes after its duration ends, dealing AoE Cryo DMG."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/d8/Talent_Kamisato_Art_Senho.png",
+                "name": "Kamisato Art: Senho",
+                "type": "Alternate Sprint",
+                "desc": "Ayaka consumes Stamina and cloaks herself in a frozen fog that moves with her. In Senho form, she moves swiftly upon water.When she reappears, the following effects occur:\nAyaka unleashes frigid energy to apply Cryo on nearby opponents.\nColdness condenses around Ayaka's blade, infusing her attacks with Cryo for a brief period."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/d9/Talent_Amatsumi_Kunitsumi_Sanctification.png",
+                "name": "Amatsumi Kunitsumi Sanctification",
+                "type": "1st Ascension Passive",
+                "desc": "After using Kamisato Art: Hyouka, Kamisato Ayaka's Normal and Charged attacks deal 30% increased DMG for 6s."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/db/Talent_Kanten_Senmyou_Blessing.png",
+                "name": "Kanten Senmyou Blessing",
+                "type": "4th Ascension Passive",
+                "desc": "When the Cryo application at the end of Kamisato Art: Senho hits an opponent, Kamisato Ayaka gains the following effects:\nRestores 10 Stamina\nGains 18% Cryo DMG Bonus for 10s."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Talent_Fruits_of_Shinsa.png",
+                "name": "Fruits of Shinsa",
+                "type": "Utility Passive",
+                "desc": "When Ayaka crafts Weapon Ascension Materials, she has a 10% chance to receive double the product."
+            }
+        ],
+        "lvup_mat": [
+            [
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f2/Item_Teachings_of_Elegance.png",
+                    "amount": 9
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/df/Item_Guide_to_Elegance.png",
+                    "amount": 63
+                },
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/6f/Item_Philosophies_of_Elegance.png",
+                    "amount": 114
+                }
+            ],
+            [
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e2/Item_Old_Handguard.png",
+                    "amount": 18
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Kageuchi_Handguard.png",
+                    "amount": 66
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4e/Item_Famed_Handguard.png",
+                    "amount": 93
+                }
+            ],
+            [
+                {
+                    "rarity": 5,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b1/Item_Bloodjade_Branch.png",
+                    "amount": 18
+                }
+            ]
+        ],
+        "constellation": [
+            {
+                "level": 1,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/e/eb/Constellation_Snowswept_Sakura.png",
+                "name": "Snowswept Sakura",
+                "effect": "When Kamisato Ayaka's Normal or Charged Attacks deal Cryo DMG to opponents, it has a 50% chance of decreasing the CD of Kamisato Art: Hyouka by 0.3s. This effect can occur once every 0.1s."
+            },
+            {
+                "level": 2,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/4a/Constellation_Blizzard_Blade_Seki_no_To.png",
+                "name": "Blizzard Blade Seki no To",
+                "effect": "When casting Kamisato Art: Soumetsu, unleashes 2 smaller additional Frostflake Seki no To, each dealing 20% of the original storm's DMG."
+            },
+            {
+                "level": 3,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/d3/Constellation_Frostbloom_Kamifubuki.png",
+                "name": "Frostbloom Kamifubuki",
+                "effect": "Increases the Level of Kamisato Art: Soumetsu by 3. Maximum upgrade level is 15."
+            },
+            {
+                "level": 4,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/f/f7/Constellation_Ebb_and_Flow.png",
+                "name": "Ebb and Flow",
+                "effect": "Opponents damaged by Kamisato Art: Soumetsu's Frostflake Seki no To will have their DEF decreased by 30% for 6s."
+            },
+            {
+                "level": 5,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/d2/Constellation_Blossom_Cloud_Irutsuki.png",
+                "name": "Blossom Cloud Irutsuki",
+                "effect": "Increases the Level of Kamisato Art: Hyouka by 3. Maximum upgrade level is 15."
+            },
+            {
+                "level": 6,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/d5/Constellation_Dance_of_Suigetsu.png",
+                "name": "Dance of Suigetsu",
+                "effect": "Kamisato Ayaka gains Usurahi Butou every 10s, increasing her Charged Attack DMG by 298%. This buff will be cleared 0.5s after Ayaka's Charged ATK hits an opponent, after which the timer for this ability will restart."
+            }
+        ],
+        "ascensions": [
+            [
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3d/Item_Sakura_Bloom.png",
+                    "amount": 3
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e2/Item_Old_Handguard.png",
+                    "amount": 3
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c1/Item_Perpetual_Heart.png",
+                    "amount": 2
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3d/Item_Sakura_Bloom.png",
+                    "amount": 10
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e2/Item_Old_Handguard.png",
+                    "amount": 15
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c1/Item_Perpetual_Heart.png",
+                    "amount": 4
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3d/Item_Sakura_Bloom.png",
+                    "amount": 20
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Kageuchi_Handguard.png",
+                    "amount": 12
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c1/Item_Perpetual_Heart.png",
+                    "amount": 8
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3d/Item_Sakura_Bloom.png",
+                    "amount": 30
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Kageuchi_Handguard.png",
+                    "amount": 18
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c1/Item_Perpetual_Heart.png",
+                    "amount": 12
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3d/Item_Sakura_Bloom.png",
+                    "amount": 45
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4e/Item_Famed_Handguard.png",
+                    "amount": 12
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c1/Item_Perpetual_Heart.png",
+                    "amount": 20
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3d/Item_Sakura_Bloom.png",
+                    "amount": 60
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4e/Item_Famed_Handguard.png",
+                    "amount": 24
+                }
+            ]
+        ]
+    }
 }

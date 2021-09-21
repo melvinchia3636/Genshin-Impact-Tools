@@ -14,12 +14,12 @@
         "voice_actors": {
             "english": "Laila Berzins",
             "chinese": "kinsen",
-            "japanese": "Yoshitsugu Matsuoka (松岡禎丞)",
-            "korean": "Sim Kyu-hyuk (심규혁)"
+            "japanese": "Yoshitsugu Matsuoka (\u677e\u5ca1\u798e\u4e1e)",
+            "korean": "Sim Kyu-hyuk (\uc2ec\uaddc\ud601)"
         },
         "introduction": {
             "quote": "One of the mighty and illuminated adepti guarding Liyue, also heralded as the \"Vigilant Yaksha.\"Despite his youthful appearance, tales of his exploits have been documented for millennia.He is especially fond of Wangshu Inn's Almond Tofu.This is because it tastes just like the sweet dreams he used to devour.",
-            "content": "C+V Here"
+            "content": "Xiao ( Chinese: \u9b48 Xi\u0101o, \"Demon\" ) is a playable Anemo  character in Genshin Impact. He is an adeptus and the only remaining member of the Five foremost Yakshas dispatched by Morax to subdue the demonic spirits that plagued Liyue. He currently resides in Wangshu Inn and secludes himself from crowds and human interactions. He was available as a playable character during the 2nd Closed Beta Test and was released on the Invitation to Mundane Life event wish on February 3, 2021."
         },
         "personality": {
             "quote": "A yaksha adeptus who defends Liyue. Also heralded as the \"Conqueror of Demons\" and \"Vigilant Yaksha.\"",
@@ -37,5 +37,321 @@
         ]
     },
     "name": "Xiao",
-    "nickname": "Vigilant Yaksha"
+    "nickname": "Vigilant Yaksha",
+    "combat_info": {
+        "base_stats": {
+            "special": "CRIT Rate",
+            "data": {
+                "0": {
+                    "1": [
+                        "991",
+                        "27",
+                        "62",
+                        "\u2014"
+                    ],
+                    "20": [
+                        "2,572",
+                        "71",
+                        "161"
+                    ]
+                },
+                "1": {
+                    "20": [
+                        "3,422",
+                        "94",
+                        "215",
+                        "\u2014"
+                    ],
+                    "40": [
+                        "5,120",
+                        "141",
+                        "321"
+                    ]
+                },
+                "2": {
+                    "40": [
+                        "5,724",
+                        "157",
+                        "359",
+                        "4.8%"
+                    ],
+                    "50": [
+                        "6,586",
+                        "181",
+                        "413"
+                    ]
+                },
+                "3": {
+                    "50": [
+                        "7,391",
+                        "203",
+                        "464",
+                        "9.6%"
+                    ],
+                    "60": [
+                        "8,262",
+                        "227",
+                        "519"
+                    ]
+                },
+                "4": {
+                    "60": [
+                        "8,866",
+                        "243",
+                        "556",
+                        "9.6%"
+                    ],
+                    "70": [
+                        "9,744",
+                        "267",
+                        "612"
+                    ]
+                },
+                "5": {
+                    "70": [
+                        "10,348",
+                        "284",
+                        "649",
+                        "14.4%"
+                    ],
+                    "80": [
+                        "11,236",
+                        "308",
+                        "705"
+                    ]
+                },
+                "6": {
+                    "80": [
+                        "11,840",
+                        "325",
+                        "743",
+                        "19.2%"
+                    ],
+                    "90": [
+                        "12,736",
+                        "349",
+                        "799"
+                    ]
+                }
+            }
+        },
+        "talents": [
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Talent_Whirlwind_Thrust.png",
+                "name": "Whirlwind Thrust",
+                "type": "Normal Attack",
+                "desc": "Normal Attack: Performs up to 6 consecutive spear strikes.\nCharged Attack: Consumes a certain amount of Stamina to perform an upward thrust.\nPlunging Attack: Plunges from mid-air to strike the ground from below, damaging opponents along the path and dealing AoE DMG upon impact.Xiao does not take DMG from performing Plunging Attacks."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/da/Talent_Lemniscatic_Wind_Cycling.png",
+                "name": "Lemniscatic Wind Cycling",
+                "type": "Elemental Skill",
+                "desc": "Xiao lunges forward, dealing Anemo DMG to opponents in his path.\nCan be used in mid-air.\nStarts with 2 charges."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Talent_Bane_of_All_Evil.png",
+                "name": "Bane of All Evil",
+                "type": "Elemental Burst",
+                "desc": "Xiao dons the Yaksha Mask that set gods and demons trembling millennia ago.\nYaksha's Mask:\n\nGreatly increases Xiao's jumping ability.\nIncreases his attack AoE and attack DMG.\nConverts attack DMG into Anemo DMG, which cannot be overridden by any other elemental infusion.\nIn this state, Xiao will continuously lose HP.\n\nThe effects of this skill end when Xiao leaves the field."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/df/Talent_Conqueror_of_Evil_Tamer_of_Demons.png",
+                "name": "Conqueror of Evil: Tamer of Demons",
+                "type": "1st Ascension Passive",
+                "desc": "While under the effects of Bane of All Evil, all DMG dealt by Xiao increases by 5%. DMG increases by a further 5% for every 3s the ability persists. The maximum DMG Bonus is 25%."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/d8/Talent_Dissolution_Eon_Heaven_Fall.png",
+                "name": "Dissolution Eon: Heaven Fall",
+                "type": "4th Ascension Passive",
+                "desc": "Using Lemniscatic Wind Cycling increases the DMG of subsequent uses of Lemniscatic Wind Cycling by 15%. This effect lasts for 7s, and has a maximum of 3 stacks. Gaining a new stack refreshes the effect's duration."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Talent_Transcension_Gravity_Defier.png",
+                "name": "Transcension: Gravity Defier",
+                "type": "Utility Passive",
+                "desc": "Decreases climbing Stamina consumption for your own party members by 20%.Not stackable with Passive Talents that provide the exact same effects."
+            }
+        ],
+        "lvup_mat": [
+            [
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9e/Item_Teachings_of_Prosperity.png",
+                    "amount": 9
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/67/Item_Guide_to_Prosperity.png",
+                    "amount": 63
+                },
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bd/Item_Philosophies_of_Prosperity.png",
+                    "amount": 114
+                }
+            ],
+            [
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/Item_Slime_Condensate.png",
+                    "amount": 18
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Slime_Secretions.png",
+                    "amount": 66
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d8/Item_Slime_Concentrate.png",
+                    "amount": 93
+                }
+            ],
+            [
+                {
+                    "rarity": 5,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/5d/Item_Shadow_of_the_Warrior.png",
+                    "amount": 18
+                }
+            ]
+        ],
+        "constellation": [
+            {
+                "level": 1,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/e/e7/Constellation_Dissolution_Eon_-_Destroyer_of_Worlds.png",
+                "name": "Dissolution Eon: Destroyer of Worlds",
+                "effect": "Increases Lemniscatic Wind Cycling's charges by 1."
+            },
+            {
+                "level": 2,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/f/f7/Constellation_Annihilation_Eon_-_Blossom_of_Kaleidos.png",
+                "name": "Annihilation Eon: Blossom of Kaleidos",
+                "effect": "When in the party and not on the field, Xiao's Energy Recharge is increased by 25%."
+            },
+            {
+                "level": 3,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/6/69/Constellation_Conqueror_of_Evil_-_Wrath_Deity.png",
+                "name": "Conqueror of Evil: Wrath Deity",
+                "effect": "Increases the Level of Lemniscatic Wind Cycling by 3.Maximum upgrade level is 15."
+            },
+            {
+                "level": 4,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/2/24/Constellation_Transcension_-_Extinction_of_Suffering.png",
+                "name": "Transcension: Extinction of Suffering",
+                "effect": "When Xiao's HP falls below 50%, he gains a 100% DEF Bonus."
+            },
+            {
+                "level": 5,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/f/f9/Constellation_Evolution_Eon_-_Origin_of_Ignorance.png",
+                "name": "Evolution Eon: Origin of Ignorance",
+                "effect": "Increases the Level of Bane of All Evil by 3.Maximum upgrade level is 15."
+            },
+            {
+                "level": 6,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/d7/Constellation_Conqueror_of_Evil_-_Guardian_Yaksha.png",
+                "name": "Conqueror of Evil: Guardian Yaksha",
+                "effect": "While under the effects of Bane of All Evil, hitting at least 2 opponents with Xiao's Plunging Attack will immediately grant him 1 charge of Lemniscatic Wind Cycling, and for the next 1s, he may use Lemniscatic Wind Cycling while ignoring its CD."
+            }
+        ],
+        "ascensions": [
+            [
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2d/Item_Qingxin.png",
+                    "amount": 3
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/Item_Slime_Condensate.png",
+                    "amount": 3
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f1/Item_Juvenile_Jade.png",
+                    "amount": 2
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2d/Item_Qingxin.png",
+                    "amount": 10
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/Item_Slime_Condensate.png",
+                    "amount": 15
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f1/Item_Juvenile_Jade.png",
+                    "amount": 4
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2d/Item_Qingxin.png",
+                    "amount": 20
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Slime_Secretions.png",
+                    "amount": 12
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f1/Item_Juvenile_Jade.png",
+                    "amount": 8
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2d/Item_Qingxin.png",
+                    "amount": 30
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Slime_Secretions.png",
+                    "amount": 18
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f1/Item_Juvenile_Jade.png",
+                    "amount": 12
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2d/Item_Qingxin.png",
+                    "amount": 45
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d8/Item_Slime_Concentrate.png",
+                    "amount": 12
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f1/Item_Juvenile_Jade.png",
+                    "amount": 20
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2d/Item_Qingxin.png",
+                    "amount": 60
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d8/Item_Slime_Concentrate.png",
+                    "amount": 24
+                }
+            ]
+        ]
+    }
 }

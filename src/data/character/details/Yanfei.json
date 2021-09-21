@@ -13,18 +13,18 @@
         },
         "voice_actors": {
             "english": "Lizzie Freeman",
-            "chinese": "Ziwu Su (苏子芜)",
-            "japanese": "Yumiri Hanamori (花守 ゆみり)",
-            "korean": "Cho Kyung-yi (조경이)"
+            "chinese": "Ziwu Su (\u82cf\u5b50\u829c)",
+            "japanese": "Yumiri Hanamori (\u82b1\u5b88 \u3086\u307f\u308a)",
+            "korean": "Cho Kyung-yi (\uc870\uacbd\uc774)"
         },
         "introduction": {
             "quote": "A half-illuminated beast and highly-skilled legal adviser.She combines adherence to the legal codices and reasonable flexibility to find the perfect balance in her work. She devotes herself to protecting the fairness of contracts in Liyue with her identity as a legal adviser and her unique experience and methods.",
-            "content": "C+V Here"
+            "content": "Yanfei ( Chinese: \u70df\u7eef Y\u0101nf\u0113i, \"Smoky Scarlet\" ) is a playable Pyro  character in Genshin Impact. She is the child of an adeptus father and human mother. After she grew up, her parents left to go on an adventure, placing her in the care of Madame Ping. She resides in Liyue, serving as a legal advisor for its people."
         },
         "personality": {
             "quote": "A well-known legal adviser active in Liyue Harbor. A brilliant young lady in whose veins runs the blood of an illuminated beast.",
             "content": [
-                "Yanfei enjoys appraisal, reading and is very knowledgeable on many topics — most notably the law, due to her career as a legal advisor. With a strong sense of justice, Yanfei does not mind traveling to help her clients should they have trouble in different parts of Liyue. She claims to have extensive knowledge of the laws of the other nations in Teyvat — though, she notes Fontaine's law to be the most difficult. She is well known by the people of Liyue for her knowledge and is considered the premier legal advisor of Liyue, a title that garners her many a client across the nation. Even Ningguang, the Tianquan of the Liyue Qixing, states that Yanfei's memorization of the law allows her to quickly close loopholes in existing laws faster than she would have been able to herself. When resolving disputes, Yanfei always gets all legal evidence beforehand to make a compelling and convincing argument. Although she can handle any case, she dislikes having to deal with civil suits. As many in Liyue do, Yanfei places a high value on the importance of contracts, though she is noted to place a higher value on them more than the average person due to the nature of her job.\n",
+                "Yanfei enjoys appraisal, reading and is very knowledgeable on many topics \u2014 most notably the law, due to her career as a legal advisor. With a strong sense of justice, Yanfei does not mind traveling to help her clients should they have trouble in different parts of Liyue. She claims to have extensive knowledge of the laws of the other nations in Teyvat \u2014 though, she notes Fontaine's law to be the most difficult. She is well known by the people of Liyue for her knowledge and is considered the premier legal advisor of Liyue, a title that garners her many a client across the nation. Even Ningguang, the Tianquan of the Liyue Qixing, states that Yanfei's memorization of the law allows her to quickly close loopholes in existing laws faster than she would have been able to herself. When resolving disputes, Yanfei always gets all legal evidence beforehand to make a compelling and convincing argument. Although she can handle any case, she dislikes having to deal with civil suits. As many in Liyue do, Yanfei places a high value on the importance of contracts, though she is noted to place a higher value on them more than the average person due to the nature of her job.\n",
                 "Despite having the blood of an adeptus in her veins, Yanfei is not particularly concerned about her adeptal heritage and is one of the few who did not sign a contract with Rex Lapis due to being born in an era of peace. She is very active and often talks a lot, a stark contrast to her father, who Madame Ping knew to be more solemn. She spends her time much like an average human does, and unlike most adepti, Yanfei doesn't consider herself above mortals in any way.\n",
                 "Despite her playful nature, Yanfei takes her job seriously and practically, ensuring she and all involved parties of a case are well accounted for. She is also willing to do pro bono work as long as she isn't required to be deeply involved. Yanfei dreams of a day where people live honest and happy lives, and there is no longer a need for legal advisors. Should such a day ever come, Yanfei's backup plan is to become a rapper.\n",
                 "Yanfei enjoys tofu because of its versatility and availability. She dislikes cold food and she rarely eats them since her father told her that food was best served hot.\n"
@@ -37,5 +37,321 @@
         ]
     },
     "name": "Yanfei",
-    "nickname": "Wise Innocence"
+    "nickname": "Wise Innocence",
+    "combat_info": {
+        "base_stats": {
+            "special": "Pyro DMG Bonus",
+            "data": {
+                "0": {
+                    "1": [
+                        "784",
+                        "20",
+                        "49",
+                        "\u2014"
+                    ],
+                    "20": [
+                        "2,014",
+                        "52",
+                        "126"
+                    ]
+                },
+                "1": {
+                    "20": [
+                        "2,600",
+                        "67",
+                        "163",
+                        "\u2014"
+                    ],
+                    "40": [
+                        "3,895",
+                        "100",
+                        "244"
+                    ]
+                },
+                "2": {
+                    "40": [
+                        "4,311",
+                        "111",
+                        "271",
+                        "6.0%"
+                    ],
+                    "50": [
+                        "4,959",
+                        "127",
+                        "311"
+                    ]
+                },
+                "3": {
+                    "50": [
+                        "5,514",
+                        "141",
+                        "346",
+                        "12.0%"
+                    ],
+                    "60": [
+                        "6,161",
+                        "158",
+                        "387"
+                    ]
+                },
+                "4": {
+                    "60": [
+                        "6,578",
+                        "169",
+                        "413",
+                        "12.0%"
+                    ],
+                    "70": [
+                        "7,225",
+                        "185",
+                        "453"
+                    ]
+                },
+                "5": {
+                    "70": [
+                        "7,641",
+                        "196",
+                        "480",
+                        "18.0%"
+                    ],
+                    "80": [
+                        "8,289",
+                        "213",
+                        "520"
+                    ]
+                },
+                "6": {
+                    "80": [
+                        "8,705",
+                        "223",
+                        "546",
+                        "24.0%"
+                    ],
+                    "90": [
+                        "9,352",
+                        "240",
+                        "587"
+                    ]
+                }
+            }
+        },
+        "talents": [
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/1/14/Talent_Seal_of_Approval.png",
+                "name": "Seal of Approval",
+                "type": "Normal Attack",
+                "desc": "Normal Attack: Shoots fireballs that deal up to three counts of Pyro DMG. When Yanfei's Normal Attacks hit enemies, they will grant her a single Scarlet Seal. Yanfei may possess a maximum of 3 Scarlet Seals, and each time this effect is triggered, the duration of currently possessed Scarlet Seals will refresh. Each Scarlet Seal will decrease Yanfei's Stamina consumption and will disappear when she leaves the field.\nCharged Attack: Consumes Stamina and all Scarlet Seals before dealing AoE Pyro DMG to the opponents after a short casting time. This Charged Attack's AoE and DMG will increase according to the amount of Scarlet Seals consumed.\nPlunging Attack: Gathering the power of Pyro, Yanfei plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Pyro DMG upon impact with the ground."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/a/a3/Talent_Signed_Edict.png",
+                "name": "Signed Edict",
+                "type": "Elemental Skill",
+                "desc": "Summons blistering flames that deal AoE Pyro DMG.If this attack hits an enemy, Yanfei is granted the maximum number of Scarlet Seals."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/96/Talent_Done_Deal.png",
+                "name": "Done Deal",
+                "type": "Elemental Burst",
+                "desc": "Triggers a spray of intense flames that rush at nearby opponents, dealing AoE Pyro DMG, granting Yanfei the maximum number of Scarlet Seals, and applying Brilliance to her.BrilliancePeriodically grants Yanfei a Scarlet Seal. Increases the DMG of her Charged Attacks. The Brilliance effect stops when Yanfei leaves the field or falls in battle."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/73/Talent_Proviso.png",
+                "name": "Proviso",
+                "type": "1st Ascension Passive",
+                "desc": "When Yanfei consumes Scarlet Seals by using a Charged Attack, each Scarlet Seal will increase Yanfei's Pyro DMG Bonus by 5%. This effect lasts for 6s. When a Charged Attack is used again during the effect's duration, it will dispel the previous effect."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/1/19/Talent_Blazing_Eye.png",
+                "name": "Blazing Eye",
+                "type": "4th Ascension Passive",
+                "desc": "When Yanfei's Charged Attack deals a CRIT Hit to opponents, she will deal an additional instance of AoE Pyro DMG equal to 80% of her ATK. This DMG counts as Charged Attack DMG."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/0/08/Talent_Encyclopedic_Expertise.png",
+                "name": "Encyclopedic Expertise",
+                "type": "Utility Passive",
+                "desc": "Displays the location of nearby resources unique to Liyue on the mini-map."
+            }
+        ],
+        "lvup_mat": [
+            [
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/7f/Item_Teachings_of_Gold.png",
+                    "amount": 9
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/43/Item_Guide_to_Gold.png",
+                    "amount": 63
+                },
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/Item_Philosophies_of_Gold.png",
+                    "amount": 114
+                }
+            ],
+            [
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c9/Item_Treasure_Hoarder_Insignia.png",
+                    "amount": 18
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Item_Silver_Raven_Insignia.png",
+                    "amount": 66
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Golden_Raven_Insignia.png",
+                    "amount": 93
+                }
+            ],
+            [
+                {
+                    "rarity": 5,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b1/Item_Bloodjade_Branch.png",
+                    "amount": 18
+                }
+            ]
+        ],
+        "constellation": [
+            {
+                "level": 1,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/79/Constellation_The_Law_Knows_No_Kindness.png",
+                "name": "The Law Knows No Kindness",
+                "effect": "When Yanfei uses her Charged Attack, each existing Scarlet Seal additionally reduces the stamina cost of this Charged Attack by 10% and increases resistance against interruption during its release."
+            },
+            {
+                "level": 2,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/e/e2/Constellation_Right_of_Final_Interpretation.png",
+                "name": "Right of Final Interpretation",
+                "effect": "Increases Yanfei's Charged Attack CRIT Rate by 20% against enemies below 50% HP."
+            },
+            {
+                "level": 3,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/e/e4/Constellation_Samadhi_Fire-Forged.png",
+                "name": "Samadhi Fire-Forged",
+                "effect": "Increases the Level of Signed Edict by 3.Maximum upgrade level is 15."
+            },
+            {
+                "level": 4,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/58/Constellation_Supreme_Amnesty.png",
+                "name": "Supreme Amnesty",
+                "effect": "When Done Deal is used:Creates a shield that absorbs up to 45% of Yanfei's Max HP for 15s.This shield absorbs Pyro DMG 250% more effectively."
+            },
+            {
+                "level": 5,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/9f/Constellation_Abiding_Affidavit.png",
+                "name": "Abiding Affidavit",
+                "effect": "Increases the Level of Done Deal by 3.Maximum upgrade level is 15."
+            },
+            {
+                "level": 6,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/c/c5/Constellation_Extra_Clause.png",
+                "name": "Extra Clause",
+                "effect": "Increases the maximum number of Scarlet Seals by 1."
+            }
+        ],
+        "ascensions": [
+            [
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/84/Item_Noctilucous_Jade.png",
+                    "amount": 3
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c9/Item_Treasure_Hoarder_Insignia.png",
+                    "amount": 3
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f1/Item_Juvenile_Jade.png",
+                    "amount": 2
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/84/Item_Noctilucous_Jade.png",
+                    "amount": 10
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c9/Item_Treasure_Hoarder_Insignia.png",
+                    "amount": 15
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f1/Item_Juvenile_Jade.png",
+                    "amount": 4
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/84/Item_Noctilucous_Jade.png",
+                    "amount": 20
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Item_Silver_Raven_Insignia.png",
+                    "amount": 12
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f1/Item_Juvenile_Jade.png",
+                    "amount": 8
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/84/Item_Noctilucous_Jade.png",
+                    "amount": 30
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Item_Silver_Raven_Insignia.png",
+                    "amount": 18
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f1/Item_Juvenile_Jade.png",
+                    "amount": 12
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/84/Item_Noctilucous_Jade.png",
+                    "amount": 45
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Golden_Raven_Insignia.png",
+                    "amount": 12
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f1/Item_Juvenile_Jade.png",
+                    "amount": 20
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/84/Item_Noctilucous_Jade.png",
+                    "amount": 60
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Golden_Raven_Insignia.png",
+                    "amount": 24
+                }
+            ]
+        ]
+    }
 }

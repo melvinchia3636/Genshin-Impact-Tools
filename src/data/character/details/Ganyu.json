@@ -13,13 +13,13 @@
         },
         "voice_actors": {
             "english": "Jennifer Losi",
-            "chinese": "Su Lin (林簌)",
-            "japanese": "Reina Ueda (上田麗奈)",
-            "korean": "Kim Sun-hye (김선혜)"
+            "chinese": "Su Lin (\u6797\u7c0c)",
+            "japanese": "Reina Ueda (\u4e0a\u7530\u9e97\u5948)",
+            "korean": "Kim Sun-hye (\uae40\uc120\ud61c)"
         },
         "introduction": {
             "quote": "The secretary to the Liyue Qixing. The blood of both human and illuminated beast flows within her veins.\nGraceful and quiet by nature, yet the gentle disposition of qilin sees not even the slightest conflict with even the most arduous of workloads.After all, Ganyu firmly believes that all the work she does is in honor of her contract with Rex Lapis, seeking the well-being of all living things within Liyue.",
-            "content": "C+V Here"
+            "content": "Ganyu ( Chinese: \u7518\u96e8 G\u0101ny\u01d4, \"Sweet Rain\" ) is a playable Cryo  character in Genshin Impact. She serves as an emissary and secretary for the Liyue Qixing. She first appears in Teyvat Chapter Storyline Chapter 1, Act 2: Farewell, the Archaic Lord."
         },
         "personality": {
             "quote": "The secretary at Yuehai Pavilion. The blood of the qilin, an illuminated beast, flows within her veins.",
@@ -36,5 +36,321 @@
         ]
     },
     "name": "Ganyu",
-    "nickname": "Plenilune Gaze"
+    "nickname": "Plenilune Gaze",
+    "combat_info": {
+        "base_stats": {
+            "special": "CRIT DMG",
+            "data": {
+                "0": {
+                    "1": [
+                        "763",
+                        "26",
+                        "49",
+                        "\u2014"
+                    ],
+                    "20": [
+                        "1,978",
+                        "68",
+                        "127"
+                    ]
+                },
+                "1": {
+                    "20": [
+                        "2,632",
+                        "90",
+                        "169",
+                        "\u2014"
+                    ],
+                    "40": [
+                        "3,939",
+                        "135",
+                        "253"
+                    ]
+                },
+                "2": {
+                    "40": [
+                        "4,403",
+                        "151",
+                        "283",
+                        "9.6%"
+                    ],
+                    "50": [
+                        "5,066",
+                        "173",
+                        "326"
+                    ]
+                },
+                "3": {
+                    "50": [
+                        "5,686",
+                        "194",
+                        "366",
+                        "19.2%"
+                    ],
+                    "60": [
+                        "6,355",
+                        "217",
+                        "409"
+                    ]
+                },
+                "4": {
+                    "60": [
+                        "6,820",
+                        "233",
+                        "439",
+                        "19.2%"
+                    ],
+                    "70": [
+                        "7,495",
+                        "256",
+                        "482"
+                    ]
+                },
+                "5": {
+                    "70": [
+                        "7,960",
+                        "272",
+                        "512",
+                        "28.8%"
+                    ],
+                    "80": [
+                        "8,643",
+                        "295",
+                        "556"
+                    ]
+                },
+                "6": {
+                    "80": [
+                        "9,108",
+                        "311",
+                        "586",
+                        "38.4%"
+                    ],
+                    "90": [
+                        "9,797",
+                        "335",
+                        "630"
+                    ]
+                }
+            }
+        },
+        "talents": [
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/1/13/Talent_Liutian_Archery.png",
+                "name": "Liutian Archery",
+                "type": "Normal Attack",
+                "desc": "Normal Attack: Perform up to 6 consecutive shots with a bow.\nCharged Attack: Perform a more precise Aimed Shot with increased DMG. While aiming, an icy aura will accumulate on the arrowhead before the arrow is fired. Has different effects based on how long the energy has been charged:\n\nCharge Level 1: Fires off an icy arrow that deals Cryo DMG.\nCharge Level 2: Fires off a Frostflake Arrow that deals Cryo DMG.\nThe Frostflake Arrow blooms after hitting its target, dealing AoE Cryo DMG.\nPlunging Attack: Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/d1/Talent_Trail_of_the_Qilin.png",
+                "name": "Trail of the Qilin",
+                "type": "Elemental Skill",
+                "desc": "Leaving a single Ice Lotus behind, Ganyu dashes backward, shunning all impurity and dealing AoE Cryo DMG.\nIce Lotus: \n\nContinuously taunts surrounding opponents, attracting them to attack it.\nEndurance scales based on Ganyu's Max HP.\nBlooms profusely when destroyed or once its duration ends, dealing AoE Cryo DMG."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/47/Talent_Celestial_Shower.png",
+                "name": "Celestial Shower",
+                "type": "Elemental Burst",
+                "desc": "Coalesces atmospheric frost and snow to summon a Sacred Cryo Pearl that exorcises evil.\nDuring its ability duration, the Sacred Cryo Pearl will continuously rain down shards of ice, striking opponents within an AoE and dealing Cryo DMG."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/a/a3/Talent_Undivided_Heart.png",
+                "name": "Undivided Heart",
+                "type": "1st Ascension Passive",
+                "desc": "After firing a Frostflake Arrow, the CRIT Rate of subsequent Frostflake Arrows and their resulting bloom effects is increased by 20% for 5s."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/Talent_Harmony_between_Heaven_and_Earth.png",
+                "name": "Harmony between Heaven and Earth",
+                "type": "4th Ascension Passive",
+                "desc": "Celestial Shower grants a 20% Cryo DMG Bonus to active members in the AoE."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/c/cf/Talent_Preserved_for_the_Hunt.png",
+                "name": "Preserved for the Hunt",
+                "type": "Utility Passive",
+                "desc": "Refunds 15% of the ores used when crafting Bow-type weapons."
+            }
+        ],
+        "lvup_mat": [
+            [
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Teachings_of_Diligence.png",
+                    "amount": 9
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9f/Item_Guide_to_Diligence.png",
+                    "amount": 63
+                },
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c2/Item_Philosophies_of_Diligence.png",
+                    "amount": 114
+                }
+            ],
+            [
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/Item_Whopperflower_Nectar.png",
+                    "amount": 18
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Item_Shimmering_Nectar.png",
+                    "amount": 66
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Energy_Nectar.png",
+                    "amount": 93
+                }
+            ],
+            [
+                {
+                    "rarity": 5,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/5d/Item_Shadow_of_the_Warrior.png",
+                    "amount": 18
+                }
+            ]
+        ],
+        "constellation": [
+            {
+                "level": 1,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/74/Constellation_Dew-Drinker.png",
+                "name": "Dew-Drinker",
+                "effect": "Taking DMG from a Charge Level 2 Frostflake Arrow or Frostflake Arrow Bloom decreases opponents' Cryo RES by 15% for 6s.A hit regenerates 2 Energy for Ganyu. This effect can only occur once per Charge Level 2 Frostflake Arrow, regardless if Frostflake Arrow itself or its Bloom hit the target."
+            },
+            {
+                "level": 2,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/d9/Constellation_The_Auspicious.png",
+                "name": "The Auspicious",
+                "effect": "Trail of the Qilin gains 1 additional charge."
+            },
+            {
+                "level": 3,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Constellation_Cloud-Strider.png",
+                "name": "Cloud-Strider",
+                "effect": "Increases the Level of Celestial Shower by 3.Maximum upgrade level is 15."
+            },
+            {
+                "level": 4,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/e/e0/Constellation_Westward_Sojourn.png",
+                "name": "Westward Sojourn",
+                "effect": "Opponents standing within the AoE of Celestial Shower take increased DMG. This effect strengthens over time.Increased DMG taken begins at 5% and increases by 5% every 3s, up to a maximum of 25%.The effect lingers for 3s after the opponent leaves the AoE."
+            },
+            {
+                "level": 5,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/57/Constellation_The_Merciful.png",
+                "name": "The Merciful",
+                "effect": "Increases the Level of Trail of the Qilin by 3.Maximum upgrade level is 15."
+            },
+            {
+                "level": 6,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Constellation_The_Clement.png",
+                "name": "The Clement",
+                "effect": "Using Trail of the Qilin causes the next Frostflake Arrow shot within 30s to not require charging."
+            }
+        ],
+        "ascensions": [
+            [
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2d/Item_Qingxin.png",
+                    "amount": 3
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/Item_Whopperflower_Nectar.png",
+                    "amount": 3
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Item_Hoarfrost_Core.png",
+                    "amount": 2
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2d/Item_Qingxin.png",
+                    "amount": 10
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/Item_Whopperflower_Nectar.png",
+                    "amount": 15
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Item_Hoarfrost_Core.png",
+                    "amount": 4
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2d/Item_Qingxin.png",
+                    "amount": 20
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Item_Shimmering_Nectar.png",
+                    "amount": 12
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Item_Hoarfrost_Core.png",
+                    "amount": 8
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2d/Item_Qingxin.png",
+                    "amount": 30
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Item_Shimmering_Nectar.png",
+                    "amount": 18
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Item_Hoarfrost_Core.png",
+                    "amount": 12
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2d/Item_Qingxin.png",
+                    "amount": 45
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Energy_Nectar.png",
+                    "amount": 12
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Item_Hoarfrost_Core.png",
+                    "amount": 20
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2d/Item_Qingxin.png",
+                    "amount": 60
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Energy_Nectar.png",
+                    "amount": 24
+                }
+            ]
+        ]
+    }
 }

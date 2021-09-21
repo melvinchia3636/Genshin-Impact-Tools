@@ -14,18 +14,18 @@
         },
         "family": {
             "english": "Brittany CoxOz: Ben Pronsky",
-            "chinese": "MaceOz: Yuantao Li (李元韬)",
-            "japanese": "Maaya Uchida (内田真礼)",
-            "korean": "Park Go-woon (박고운)"
+            "chinese": "MaceOz: Yuantao Li (\u674e\u5143\u97ec)",
+            "japanese": "Maaya Uchida (\u5185\u7530\u771f\u793c)",
+            "korean": "Park Go-woon (\ubc15\uace0\uc6b4)"
         },
         "voice_actors": {
-            "chinese_name": "菲谢尔 Fēixièěr",
-            "japanese_name": "フィッシュル Fisshuru",
-            "korean_name": "피슬 Piseul"
+            "chinese_name": "\u83f2\u8c22\u5c14 F\u0113ixi\u00e8\u011br",
+            "japanese_name": "\u30d5\u30a3\u30c3\u30b7\u30e5\u30eb Fisshuru",
+            "korean_name": "\ud53c\uc2ac Piseul"
         },
         "introduction": {
             "quote": "A mysterious girl who calls herself \"Prinzessin der Verurteilung\" and travels with a night raven named Oz. Currently serves as an investigator in the Adventurers' Guild.Through her unique abilities, eccentric character, and (while she would never admit it herself) hard work, Fischl has become a rising star among the Adventurers' Guild's investigators, earning the recognition of all.",
-            "content": "C+V Here"
+            "content": "Fischl is a playable Electro  character in Genshin Impact. Fischl is an investigator for Mondstadt's Adventurers' Guild, accompanied by the night raven Oz. Fischl claims to hail from a world beyond Teyvat. She is a daring adventurer with seemly outlandish theories that happen to turn out to be true."
         },
         "personality": {
             "quote": "A mysterious girl who calls herself \"Prinzessin der Verurteilung\" and travels with a night raven named Oz.",
@@ -44,5 +44,321 @@
         ]
     },
     "name": "Fischl",
-    "nickname": "Prinzessin der Verurteilung"
+    "nickname": "Prinzessin der Verurteilung",
+    "combat_info": {
+        "base_stats": {
+            "special": "ATK",
+            "data": {
+                "0": {
+                    "1": [
+                        "770",
+                        "20",
+                        "50",
+                        "\u2014"
+                    ],
+                    "20": [
+                        "1,979",
+                        "53",
+                        "128"
+                    ]
+                },
+                "1": {
+                    "20": [
+                        "2,555",
+                        "68",
+                        "165",
+                        "\u2014"
+                    ],
+                    "40": [
+                        "3,827",
+                        "102",
+                        "247"
+                    ]
+                },
+                "2": {
+                    "40": [
+                        "4,236",
+                        "113",
+                        "274",
+                        "6.0%"
+                    ],
+                    "50": [
+                        "4,872",
+                        "130",
+                        "315"
+                    ]
+                },
+                "3": {
+                    "50": [
+                        "5,418",
+                        "144",
+                        "350",
+                        "12.0%"
+                    ],
+                    "60": [
+                        "6,054",
+                        "161",
+                        "391"
+                    ]
+                },
+                "4": {
+                    "60": [
+                        "6,463",
+                        "172",
+                        "418",
+                        "12.0%"
+                    ],
+                    "70": [
+                        "7,099",
+                        "189",
+                        "459"
+                    ]
+                },
+                "5": {
+                    "70": [
+                        "7,508",
+                        "200",
+                        "485",
+                        "18.0%"
+                    ],
+                    "80": [
+                        "8,144",
+                        "216",
+                        "526"
+                    ]
+                },
+                "6": {
+                    "80": [
+                        "8,553",
+                        "227",
+                        "553",
+                        "24.0%"
+                    ],
+                    "90": [
+                        "9,189",
+                        "244",
+                        "594"
+                    ]
+                }
+            }
+        },
+        "talents": [
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/37/Talent_Bolts_of_Downfall.png",
+                "name": "Bolts of Downfall",
+                "type": "Normal Attack",
+                "desc": "Normal Attack: Perform up to 5 consecutive shots with a bow.\nCharged Attack: Perform a more precise Aimed Shot with increased DMG. While aiming, the dark lightning spirits of Immernachtreich shall heed the call of their Prinzessin and indwell the enchanted arrowhead. When fully indwelt, the Rachs\u00fcchtig Blitz shall deal immense Electro DMG.\nPlunging Attack: Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/b3/Talent_Nightrider.png",
+                "name": "Nightrider",
+                "type": "Elemental Skill",
+                "desc": "Summons Oz. The night raven forged of darkness and lightning descends upon the land, dealing Electro DMG in a small AoE.\nFor the ability's duration, Oz will continuously attack nearby opponents with Freikugel.\nHold to adjust the location Oz will be summoned to.\nPress again any time during the ability's duration to once again summon him to Fischl's side."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/f/ff/Talent_Midnight_Phantasmagoria.png",
+                "name": "Midnight Phantasmagoria",
+                "type": "Elemental Burst",
+                "desc": "Summons Oz to spread his twin wings of twilight and defend Fischl. Has the following properties during the ability's duration:\nFischl takes on Oz's form, greatly increasing her Movement Speed.\nStrikes nearby opponents with lightning, dealing Electro DMG to opponents she comes in contact with. Each opponent can only be struck once.\nOnce this ability's effects end, Oz will remain on the battlefield and attack his Prinzessin's foes. If Oz is already on the field, then this will reset the duration of his presence."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/2/28/Talent_Stellar_Predator.png",
+                "name": "Stellar Predator",
+                "type": "1st Ascension Passive",
+                "desc": "When Fischl hits Oz with a fully-charged Aimed Shot, Oz brings down Thundering Retribution, dealing AoE Electro DMG equal to 152.7% of the arrow's DMG."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/75/Talent_Undone_Be_Thy_Sinful_Hex.png",
+                "name": "Undone Be Thy Sinful Hex",
+                "type": "4th Ascension Passive",
+                "desc": "If your active character triggers an Electro-related Elemental Reaction when Oz is on the field, the opponent shall be stricken with Thundering Retribution, dealing Electro DMG equal to 80% of Fischl's ATK."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/6/60/Talent_Mein_Hausgarten.png",
+                "name": "Mein Hausgarten",
+                "type": "Utility Passive",
+                "desc": "When dispatched on an expedition in Mondstadt, time consumed is reduced by 25%."
+            }
+        ],
+        "lvup_mat": [
+            [
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b4/Item_Teachings_of_Ballad.png",
+                    "amount": 9
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Guide_to_Ballad.png",
+                    "amount": 63
+                },
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/7e/Item_Philosophies_of_Ballad.png",
+                    "amount": 114
+                }
+            ],
+            [
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/Item_Firm_Arrowhead.png",
+                    "amount": 18
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0d/Item_Sharp_Arrowhead.png",
+                    "amount": 66
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/22/Item_Weathered_Arrowhead.png",
+                    "amount": 93
+                }
+            ],
+            [
+                {
+                    "rarity": 5,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/81/Item_Spirit_Locket_of_Boreas.png",
+                    "amount": 18
+                }
+            ]
+        ],
+        "constellation": [
+            {
+                "level": 1,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/7c/Constellation_Gaze_of_the_Deep.png",
+                "name": "Gaze of the Deep",
+                "effect": "Even when Oz is not present in combat, he can still watch over Fischl through his raven eyes. When Fischl performs a Normal Attack against an opponent, Oz fires a joint attack, dealing DMG equal to 22% of Fischl's ATK."
+            },
+            {
+                "level": 2,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/6/69/Constellation_Devourer_of_All_Sins.png",
+                "name": "Devourer of All Sins",
+                "effect": "When Nightrider is used, it deals an additional 200% ATK as DMG, and its AoE is increased by 50%."
+            },
+            {
+                "level": 3,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/7b/Constellation_Wings_of_Nightmare.png",
+                "name": "Wings of Nightmare",
+                "effect": "Increases the Level of Nightrider by 3.Maximum upgrade level is 15."
+            },
+            {
+                "level": 4,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/78/Constellation_Her_Pilgrimage_of_Bleak.png",
+                "name": "Her Pilgrimage of Bleak",
+                "effect": "When Midnight Phantasmagoria is used, it deals 222% of ATK as Electro DMG to surrounding opponents.When the skill duration ends, Fischl regenerates 20% of her HP."
+            },
+            {
+                "level": 5,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/5f/Constellation_Against_the_Fleeing_Light.png",
+                "name": "Against the Fleeing Light",
+                "effect": "Increases the Level of Midnight Phantasmagoria by 3.Maximum upgrade level is 15."
+            },
+            {
+                "level": 6,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/4e/Constellation_Evernight_Raven.png",
+                "name": "Evernight Raven",
+                "effect": "Extends the duration of Oz's presence on the field by 2s. Additionally, Oz performs joint attacks with your active character when present, dealing 30% of Fischl's ATK as Electro DMG."
+            }
+        ],
+        "ascensions": [
+            [
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/17/Item_Small_Lamp_Grass.png",
+                    "amount": 3
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/Item_Firm_Arrowhead.png",
+                    "amount": 3
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ee/Item_Lightning_Prism.png",
+                    "amount": 2
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/17/Item_Small_Lamp_Grass.png",
+                    "amount": 10
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/Item_Firm_Arrowhead.png",
+                    "amount": 15
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ee/Item_Lightning_Prism.png",
+                    "amount": 4
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/17/Item_Small_Lamp_Grass.png",
+                    "amount": 20
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0d/Item_Sharp_Arrowhead.png",
+                    "amount": 12
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ee/Item_Lightning_Prism.png",
+                    "amount": 8
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/17/Item_Small_Lamp_Grass.png",
+                    "amount": 30
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0d/Item_Sharp_Arrowhead.png",
+                    "amount": 18
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ee/Item_Lightning_Prism.png",
+                    "amount": 12
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/17/Item_Small_Lamp_Grass.png",
+                    "amount": 45
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/22/Item_Weathered_Arrowhead.png",
+                    "amount": 12
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ee/Item_Lightning_Prism.png",
+                    "amount": 20
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/17/Item_Small_Lamp_Grass.png",
+                    "amount": 60
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/22/Item_Weathered_Arrowhead.png",
+                    "amount": 24
+                }
+            ]
+        ]
+    }
 }
