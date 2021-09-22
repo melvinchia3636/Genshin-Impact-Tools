@@ -23,6 +23,7 @@ import noelle from "./noelle.png";
 import qiqi from "./qiqi.png";
 import razor from "./razor.png";
 import rosaria from "./rosaria.png";
+import sangonomiya from "./sangonomiya.png";
 import sayu from "./sayu.png";
 import sucrose from "./sucrose.png";
 import tartaglia from "./tartaglia.png";
@@ -65,6 +66,7 @@ export {
     qiqi,
     razor,
     rosaria,
+    sangonomiya,
     sayu,
     sucrose,
     tartaglia,

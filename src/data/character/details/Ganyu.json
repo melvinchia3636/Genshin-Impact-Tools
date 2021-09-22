@@ -256,6 +256,11 @@
         "ascensions": [
             [
                 {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/87/Item_Shivada_Jade_Sliver.png",
+                    "amount": 1
+                },
+                {
                     "rarity": 1,
                     "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2d/Item_Qingxin.png",
                     "amount": 3
@@ -267,6 +272,11 @@
                 }
             ],
             [
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9a/Item_Shivada_Jade_Fragment.png",
+                    "amount": 3
+                },
                 {
                     "rarity": 4,
                     "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Item_Hoarfrost_Core.png",
@@ -284,6 +294,11 @@
                 }
             ],
             [
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9a/Item_Shivada_Jade_Fragment.png",
+                    "amount": 6
+                },
                 {
                     "rarity": 4,
                     "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Item_Hoarfrost_Core.png",
@@ -303,6 +318,11 @@
             [
                 {
                     "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/41/Item_Shivada_Jade_Chunk.png",
+                    "amount": 3
+                },
+                {
+                    "rarity": 4,
                     "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Item_Hoarfrost_Core.png",
                     "amount": 8
                 },
@@ -320,6 +340,11 @@
             [
                 {
                     "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/41/Item_Shivada_Jade_Chunk.png",
+                    "amount": 6
+                },
+                {
+                    "rarity": 4,
                     "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Item_Hoarfrost_Core.png",
                     "amount": 12
                 },
@@ -335,6 +360,11 @@
                 }
             ],
             [
+                {
+                    "rarity": 5,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e9/Item_Shivada_Jade_Gemstone.png",
+                    "amount": 6
+                },
                 {
                     "rarity": 4,
                     "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Item_Hoarfrost_Core.png",

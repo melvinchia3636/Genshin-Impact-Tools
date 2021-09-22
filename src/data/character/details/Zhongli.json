@@ -256,6 +256,11 @@
         "ascensions": [
             [
                 {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/33/Item_Prithiva_Topaz_Sliver.png",
+                    "amount": 1
+                },
+                {
                     "rarity": 1,
                     "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/aa/Item_Cor_Lapis.png",
                     "amount": 3
@@ -267,6 +272,11 @@
                 }
             ],
             [
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3e/Item_Prithiva_Topaz_Fragment.png",
+                    "amount": 3
+                },
                 {
                     "rarity": 4,
                     "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bc/Item_Basalt_Pillar.png",
@@ -284,6 +294,11 @@
                 }
             ],
             [
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3e/Item_Prithiva_Topaz_Fragment.png",
+                    "amount": 6
+                },
                 {
                     "rarity": 4,
                     "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bc/Item_Basalt_Pillar.png",
@@ -303,6 +318,11 @@
             [
                 {
                     "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4b/Item_Prithiva_Topaz_Chunk.png",
+                    "amount": 3
+                },
+                {
+                    "rarity": 4,
                     "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bc/Item_Basalt_Pillar.png",
                     "amount": 8
                 },
@@ -320,6 +340,11 @@
             [
                 {
                     "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4b/Item_Prithiva_Topaz_Chunk.png",
+                    "amount": 6
+                },
+                {
+                    "rarity": 4,
                     "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bc/Item_Basalt_Pillar.png",
                     "amount": 12
                 },
@@ -335,6 +360,11 @@
                 }
             ],
             [
+                {
+                    "rarity": 5,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/eb/Item_Prithiva_Topaz_Gemstone.png",
+                    "amount": 6
+                },
                 {
                     "rarity": 4,
                     "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bc/Item_Basalt_Pillar.png",

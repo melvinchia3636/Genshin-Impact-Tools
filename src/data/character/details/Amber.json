@@ -260,6 +260,11 @@
         "ascensions": [
             [
                 {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/51/Item_Agnidus_Agate_Sliver.png",
+                    "amount": 1
+                },
+                {
                     "rarity": 1,
                     "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/17/Item_Small_Lamp_Grass.png",
                     "amount": 3
@@ -271,6 +276,11 @@
                 }
             ],
             [
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ec/Item_Agnidus_Agate_Fragment.png",
+                    "amount": 3
+                },
                 {
                     "rarity": 4,
                     "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b2/Item_Everflame_Seed.png",
@@ -288,6 +298,11 @@
                 }
             ],
             [
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ec/Item_Agnidus_Agate_Fragment.png",
+                    "amount": 6
+                },
                 {
                     "rarity": 4,
                     "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b2/Item_Everflame_Seed.png",
@@ -307,6 +322,11 @@
             [
                 {
                     "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/00/Item_Agnidus_Agate_Chunk.png",
+                    "amount": 3
+                },
+                {
+                    "rarity": 4,
                     "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b2/Item_Everflame_Seed.png",
                     "amount": 8
                 },
@@ -324,6 +344,11 @@
             [
                 {
                     "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/00/Item_Agnidus_Agate_Chunk.png",
+                    "amount": 6
+                },
+                {
+                    "rarity": 4,
                     "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b2/Item_Everflame_Seed.png",
                     "amount": 12
                 },
@@ -339,6 +364,11 @@
                 }
             ],
             [
+                {
+                    "rarity": 5,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0d/Item_Agnidus_Agate_Gemstone.png",
+                    "amount": 6
+                },
                 {
                     "rarity": 4,
                     "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b2/Item_Everflame_Seed.png",

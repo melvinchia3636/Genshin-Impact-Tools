@@ -256,6 +256,11 @@
         "ascensions": [
             [
                 {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/51/Item_Agnidus_Agate_Sliver.png",
+                    "amount": 1
+                },
+                {
                     "rarity": 1,
                     "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/37/Item_Silk_Flower.png",
                     "amount": 3
@@ -267,6 +272,11 @@
                 }
             ],
             [
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ec/Item_Agnidus_Agate_Fragment.png",
+                    "amount": 3
+                },
                 {
                     "rarity": 4,
                     "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f1/Item_Juvenile_Jade.png",
@@ -284,6 +294,11 @@
                 }
             ],
             [
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ec/Item_Agnidus_Agate_Fragment.png",
+                    "amount": 6
+                },
                 {
                     "rarity": 4,
                     "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f1/Item_Juvenile_Jade.png",
@@ -303,6 +318,11 @@
             [
                 {
                     "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/00/Item_Agnidus_Agate_Chunk.png",
+                    "amount": 3
+                },
+                {
+                    "rarity": 4,
                     "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f1/Item_Juvenile_Jade.png",
                     "amount": 8
                 },
@@ -320,6 +340,11 @@
             [
                 {
                     "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/00/Item_Agnidus_Agate_Chunk.png",
+                    "amount": 6
+                },
+                {
+                    "rarity": 4,
                     "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f1/Item_Juvenile_Jade.png",
                     "amount": 12
                 },
@@ -335,6 +360,11 @@
                 }
             ],
             [
+                {
+                    "rarity": 5,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0d/Item_Agnidus_Agate_Gemstone.png",
+                    "amount": 6
+                },
                 {
                     "rarity": 4,
                     "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f1/Item_Juvenile_Jade.png",

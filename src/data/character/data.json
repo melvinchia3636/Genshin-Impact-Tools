@@ -1,5 +1,13 @@
 [
     {
+        "name": "Sangonomiya",
+        "gender": "female",
+        "birthday": "February 22nd",
+        "rarity": 5,
+        "vision": "hydro",
+        "weapon": "catalyst"
+    },
+    {
         "name": "Diluc",
         "gender": "male",
         "birthday": "April 30th",

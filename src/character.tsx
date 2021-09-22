@@ -8,6 +8,9 @@ import * as CharacterImages from "./assets/characters/icon";
 import Scrollbar from "react-smooth-scrollbar";
 import Navbar from "./navbar";
 import VisibilitySensor from "react-visibility-sensor";
+import Slider from "rc-slider";
+import "rc-slider/assets/index.css";
+import ReactMarkdown from "react-markdown";
 
 const elements = Object.fromEntries(Object.entries(Elements));
 const weapons = Object.fromEntries(Object.entries(Weapons));
@@ -57,7 +60,7 @@ const CharBanner: React.FC<ICharBanner> = ({data}: ICharBanner):JSX.Element => {
     catch {banner = "";}
     const icon = require(`./assets/characters/icon/${data.name.replace(/\s/g, "_").toLowerCase()}.png`).default;
 
-    return <div style={banner ? {backgroundImage: `url(${banner})`} : {}} className="w-full bg-no-repeat bg-cover bg-bottom rounded-bl-xl flex items-center justify-between">
+    return <div style={banner ? {backgroundImage: `linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(${banner})`} : {}} className="w-full bg-no-repeat bg-cover bg-bottom rounded-bl-xl flex items-center justify-between">
         <div className="flex items-center">
             <img src={icon} className="p-8"/>
             <div>
@@ -85,7 +88,7 @@ const CharacterIndex:React.FC<ICharIndex> = ({setSelectedChar}: ICharIndex): JSX
             })()}
             <div className="flex flex-col gap-2 mt-8">
                 <div className="w-full flex pl-2 pr-6 items-center text-genshin-lighterblue overflow-hidden">
-                    <p className="text-md mb-1 mt-1 w-4/12">Character Name</p>
+                    <p className="text-md mb-1 mt-1 w-6/12">Character Name</p>
                     <p className="text-md mb-1 mt-1 w-2/12">Rarity</p>
                     <p className="text-md mb-1 mt-1 w-3/12 flex">Weapon</p>
                     <p className="text-md mb-1 mt-1 w-3/12 flex">Gender</p>
@@ -93,7 +96,7 @@ const CharacterIndex:React.FC<ICharIndex> = ({setSelectedChar}: ICharIndex): JSX
                 </div>
                 {CharacterData.filter(e => e.vision === Object.entries(elements)[currentSection][0].toLocaleLowerCase()).map(({ name, weapon, rarity, gender, birthday }) => 
                     <div key={name} className="bg-genshin-reallylightblue bg-opacity-30 transition-all duration-300 cursor-pointer item w-full flex p-2 pr-6 items-center rounded-md text-genshin-white overflow-hidden" onClick={() => setSelectedChar(name)}>
-                        <div className="flex items-center w-4/12">
+                        <div className="flex items-center w-6/12">
                             <div className="rounded-sm rounded-br-2xl p-2 shadow-md" style={{background: (rarity === 4 ? "#966DB1" : "#d08434")}}><img className="w-10 h-10" src={images[name.toLowerCase().replace(/\s/g, "_")]}/></div>
                             <h2 className="text-2xl ml-4">{name}</h2>
                         </div>
@@ -270,6 +273,10 @@ const Profile: React.FC<IProfile> = ({data, setIsAuto, changeSubSection, first}:
 };
 
 const CombatInfo: React.FC<ICombatInfo> = ({data, setIsAuto, changeSubSection, first}: ICombatInfo):JSX.Element => {
+
+    const [ascensionPhase, setAscensionPhase] = useState(0);
+    const [baseStats, setBaseStats] = useState(["1", data.combat_info.base_stats.data["0"]["1"]]);
+    const ascLevel = [20, 40, 50, 60, 70, 80];
     
     return <div className="w-full ml-6 h-screen overflow-y-auto" style={{flexShrink: 9999}}>
         <CharBanner data={data}/>
@@ -290,26 +297,33 @@ const CombatInfo: React.FC<ICombatInfo> = ({data, setIsAuto, changeSubSection, f
                     <div className="flex gap-4 mt-6 pl-1 justify-between">
                         <div className="flex flex-col gap-2">
                             <p className="text-genshin-detailsblue text-xl tracking-wider">HP</p>
-                            <p className="text-genshin-white text-4xl tracking-wide" style={{fontSize: "2.4rem"}}>10,448</p>
+                            <p className="text-genshin-white text-4xl tracking-wide" style={{fontSize: "2.4rem"}}>{baseStats[1][0]}</p>
                         </div>
                         <div className="flex flex-col gap-2">
                             <p className="text-genshin-detailsblue text-xl tracking-wider">ATK</p>
-                            <p className="text-genshin-white text-4xl tracking-wide" style={{fontSize: "2.4rem"}}>278</p>
+                            <p className="text-genshin-white text-4xl tracking-wide" style={{fontSize: "2.4rem"}}>{baseStats[1][1]}</p>
                         </div>
                         <div className="flex flex-col gap-2">
                             <p className="text-genshin-detailsblue text-xl tracking-wider">DEF</p>
-                            <p className="text-genshin-white text-4xl tracking-wide" style={{fontSize: "2.4rem"}}>637</p>
+                            <p className="text-genshin-white text-4xl tracking-wide" style={{fontSize: "2.4rem"}}>{baseStats[1][2]}</p>
                         </div>
                         <div className="flex flex-col gap-2">
                             <p className="text-genshin-detailsblue text-xl tracking-wider">{data.combat_info.base_stats.special}</p>
-                            <p className="text-genshin-white text-4xl tracking-wide" style={{fontSize: "2.4rem"}}>28.8%</p>
+                            <p className="text-genshin-white text-4xl tracking-wide" style={{fontSize: "2.4rem"}}>{baseStats[1][3]}</p>
                         </div>
                     </div>
-                    <div className="flex gap-4 mt-10 pl-1 justify-between">
-                        <p className="text-genshin-white titlecase tracking-wider" style={{fontSize: "1.4rem"}}>Ascension Phase</p>
+                    <div className="flex mt-10 pl-1 justify-between items-center">
+                        <p className="text-genshin-white titlecase tracking-wider whitespace-nowrap w-full" style={{fontSize: "1.4rem"}}>Ascension Phase</p>
+                        <div className="flex w-full items-center">
+                            <div className="mr-6 text-genshin-white text-2xl">{ascensionPhase}</div>
+                            <Slider min={0} max={6} onChange={e => {setAscensionPhase(e); setBaseStats([Object.keys(data.combat_info.base_stats.data[e+""])[0], Object.values(data.combat_info.base_stats.data[e+""])[0]]);}}/>
+                        </div>
                     </div>
-                    <div className="flex gap-4 mt-6 pl-1 justify-between">
-                        <p className="text-genshin-white titlecase tracking-wider" style={{fontSize: "1.4rem"}}>Level</p>
+                    <div className="flex mt-6 pl-1 justify-between">
+                        <p className="text-genshin-white titlecase tracking-wider w-full" style={{fontSize: "1.4rem"}}>Level</p>
+                        <div className="flex gap-8 w-full items-center">
+                            {Object.keys(data.combat_info.base_stats.data[ascensionPhase+""]).map(e => <div key={e} className={"transition-all cursor-pointer " + (e+"" === baseStats[0] ? "text-genshin-white text-2xl" : "text-genshin-detailsblue text-xl")} onClick={() => setBaseStats([e+"", data.combat_info.base_stats.data[ascensionPhase+""][e+""]])}>{e}</div>)}
+                        </div>
                     </div>
                 </>
             </VisibilitySensor>
@@ -336,13 +350,134 @@ const CombatInfo: React.FC<ICombatInfo> = ({data, setIsAuto, changeSubSection, f
                                         <p className="text-genshin-detailsblue text-lg">{type}</p>
                                     </div>
                                 </div>
-                                <div className="text-genshin-white font-rubik mt-4 text-lg">{desc}</div>
+                                <div><ReactMarkdown className="react-markdown">{desc}</ReactMarkdown></div>
                             </div>
                         )}
                     </div>
-                    <div className="flex items-center gap-3 pt-12" id="1-2">
+                    <div className="flex items-center gap-3 pt-16">
                         <Bullet color="#ACCACB"/>
                         <span className="text-genshin-detailsblue text-3xl">Talent Leveling Materials</span>
+                    </div>
+                    <div className="flex flex-col gap-4 mt-6 pl-1">
+                        <div className="bg-genshin-cardblue p-6 rounded-xl">
+                            <h3 className="text-genshin-white text-2xl">Talent Level-Up Materials</h3>
+                            <div className="flex justify-center gap-4 mt-5">
+                                {data.combat_info.lvup_mat[0].map(({ rarity, image, amount }: {[key: string]: string}) => <div key="image" className="bg-no-repeat bg-cover rounded-md" style={{backgroundImage: `url(${require(`./assets/items/rarity/${rarity}.png`).default})`}}>
+                                    <div className="flex flex-col items-center">
+                                        <img src={image} className="w-28"/>
+                                        <p className="mt-2 text-genshin-blue">{amount}</p>
+                                    </div>
+                                </div>)}
+                            </div>
+                        </div>
+                        <div className="bg-genshin-cardblue p-6 rounded-xl">
+                            <h3 className="text-genshin-white text-2xl">Common Ascension Materials</h3>
+                            <div className="flex justify-center gap-4 mt-5">
+                                {data.combat_info.lvup_mat[1].map(({ rarity, image, amount }: {[key: string]: string}) => <div key="image" className="bg-no-repeat bg-cover rounded-md" style={{backgroundImage: `url(${require(`./assets/items/rarity/${rarity}.png`).default})`}}>
+                                    <div className="flex flex-col items-center">
+                                        <img src={image} className="w-28"/>
+                                        <p className="mt-2 text-genshin-blue">{amount}</p>
+                                    </div>
+                                </div>)}
+                            </div>
+                        </div>
+                        <div className="bg-genshin-cardblue p-6 rounded-xl">
+                            <h3 className="text-genshin-white text-2xl">Weekly Boss Materials</h3>
+                            <div className="flex justify-center gap-4 mt-5">
+                                {data.combat_info.lvup_mat[2].map(({ rarity, image, amount }: {[key: string]: string}) => <div key="image" className="bg-no-repeat bg-cover rounded-md" style={{backgroundImage: `url(${require(`./assets/items/rarity/${rarity}.png`).default})`}}>
+                                    <div className="flex flex-col items-center">
+                                        <img src={image} className="w-28"/>
+                                        <p className="mt-2 text-genshin-blue">{amount}</p>
+                                    </div>
+                                </div>)}
+                            </div>
+                        </div>
+                    </div>
+                </>
+            </VisibilitySensor>
+            <VisibilitySensor
+                onChange={(isVisible) => {
+                    if (isVisible && !first) {
+                        setIsAuto(true);
+                        changeSubSection(2);
+                    }
+                }}
+            >
+                <>
+                    <div className="flex items-center gap-3 pt-12" id="1-2">
+                        <Bullet color="#ACCACB"/>
+                        <span className="text-genshin-detailsblue text-3xl">Constellation</span>
+                    </div>
+                    <div className="flex flex-col gap-4 mt-6 pl-1">
+                        {data.combat_info.constellation.map(({level, icon, name, effect}: {[key: string]: string}) => 
+                            <div key="name" className="bg-genshin-cardblue p-6 rounded-xl">
+                                <div className="flex items-center gap-4">
+                                    <img src={icon} className="w-16 h-16"/>
+                                    <div className="mt-1">
+                                        <h3 className="text-genshin-white text-3xl">{name}</h3>
+                                        <p className="text-genshin-detailsblue text-lg">Level {level}</p>
+                                    </div>
+                                </div>
+                                <div><ReactMarkdown className="react-markdown">{effect}</ReactMarkdown></div>
+                            </div>
+                        )}
+                    </div>
+                </>
+            </VisibilitySensor>
+            <VisibilitySensor
+                onChange={(isVisible) => {
+                    if (isVisible && !first) {
+                        setIsAuto(true);
+                        changeSubSection(3);
+                    }
+                }}
+            >
+                <>
+                    <div className="flex items-center gap-3 pt-12" id="1-3">
+                        <Bullet color="#ACCACB"/>
+                        <span className="text-genshin-detailsblue text-3xl">Ascensions</span>
+                    </div>
+                    <div className="flex flex-col gap-4 mt-6 pl-1">
+                        <div className="w-full flex px-6 items-center text-genshin-lighterblue overflow-hidden">
+                            <p className="text-md mb-1 mt-1 w-1/12 flex justify-center">Rank</p>
+                            <p className="text-md mb-1 mt-1 w-3/12 flex justify-center">Level</p>
+                            <p className="text-md mb-1 mt-1 w-3/12 flex">Cost</p>
+                            <p className="text-md mb-1 mt-1 w-9/12 flex -ml-6">Materials</p>
+                        </div>
+                        {data.combat_info.ascensions.map((e: any, i: number) => <div key="hmm" className="bg-genshin-cardblue transition-all duration-300 cursor-pointer w-full flex p-6 items-center rounded-md text-genshin-white overflow-hidden">
+                            <p className="text-md mb-1 mt-1 w-1/12 flex justify-center ml-1">{i+1}</p>
+                            <p className="text-md mb-1 mt-1 w-3/12 flex font-rubik justify-center ml-1">{ascLevel[i]}</p>
+                            <p className="text-md mb-1 mt-1 w-3/12 flex font-rubik ml-1">{((i+1)*20000).toLocaleString("en-US")}</p>
+                            <div className="flex gap-4 w-9/12 justify-end">
+                                {i ? e.map(({ rarity, image, amount }: {[key: string]: string}) => <div key="image" className="bg-no-repeat bg-cover rounded-md flex-shrink-0" style={{backgroundImage: `url(${require(`./assets/items/rarity/${rarity}.png`).default})`}}>
+                                    <div className="flex flex-col items-center">
+                                        <img src={image} className="w-20"/>
+                                        <p className="mt-2 text-genshin-blue text-sm">{amount}</p>
+                                    </div>
+                                </div>) : <>
+                                    <div className="bg-no-repeat bg-cover rounded-md flex-shrink-0" style={{backgroundImage: `url(${require(`./assets/items/rarity/${e[0].rarity}.png`).default})`}}>
+                                        <div className="flex flex-col items-center">
+                                            <img src={e[0].image} className="w-20"/>
+                                            <p className="mt-2 text-genshin-blue text-sm">{e[0].amount}</p>
+                                        </div>
+                                    </div>
+                                    <div className="bg-no-repeat bg-cover rounded-md flex-shrink-0 w-20">
+                                    </div>
+                                    <div className="bg-no-repeat bg-cover rounded-md flex-shrink-0" style={{backgroundImage: `url(${require(`./assets/items/rarity/${e[1].rarity}.png`).default})`}}>
+                                        <div className="flex flex-col items-center">
+                                            <img src={e[1].image} className="w-20"/>
+                                            <p className="mt-2 text-genshin-blue text-sm">{e[1].amount}</p>
+                                        </div>
+                                    </div>
+                                    <div className="bg-no-repeat bg-cover rounded-md flex-shrink-0" style={{backgroundImage: `url(${require(`./assets/items/rarity/${e[2].rarity}.png`).default})`}}>
+                                        <div className="flex flex-col items-center">
+                                            <img src={e[2].image} className="w-20"/>
+                                            <p className="mt-2 text-genshin-blue text-sm">{e[2].amount}</p>
+                                        </div>
+                                    </div>
+                                </>}
+                            </div>
+                        </div>)}
                     </div>
                 </>
             </VisibilitySensor>

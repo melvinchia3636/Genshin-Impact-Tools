@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
 
 html, body {
     width: 100%;
@@ -96,4 +96,39 @@ body {
 
 .titlecase {
     text-transform: capitalize;
+}
+
+.react-markdown {
+    margin-top: 1rem;
+
+    & * {
+        color: #F0F3E5;
+        font-family: Rubik;
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+        letter-spacing: 0.025em;
+    }
+
+    & h4 {
+        display: block;
+        margin-top: 1rem;
+        font-weight: 700;
+        font-size: 1.3rem;
+        letter-spacing: 0.04em;
+    }
+
+    & h5 {
+        margin-top: 1rem;
+    }
+
+    & strong {
+        font-weight: 600;
+        font-size: 1.2rem;
+        letter-spacing: 0.04em;
+    }
+
+    & ul {
+        list-style: disc;
+        margin-left: 1.2rem
+    }
 }

@@ -257,6 +257,11 @@
         "ascensions": [
             [
                 {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f8/Item_Varunada_Lazurite_Sliver.png",
+                    "amount": 1
+                },
+                {
                     "rarity": 1,
                     "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/37/Item_Silk_Flower.png",
                     "amount": 3
@@ -268,6 +273,11 @@
                 }
             ],
             [
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f6/Item_Varunada_Lazurite_Fragment.png",
+                    "amount": 3
+                },
                 {
                     "rarity": 4,
                     "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Item_Cleansing_Heart.png",
@@ -285,6 +295,11 @@
                 }
             ],
             [
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f6/Item_Varunada_Lazurite_Fragment.png",
+                    "amount": 6
+                },
                 {
                     "rarity": 4,
                     "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Item_Cleansing_Heart.png",
@@ -304,6 +319,11 @@
             [
                 {
                     "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Varunada_Lazurite_Chunk.png",
+                    "amount": 3
+                },
+                {
+                    "rarity": 4,
                     "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Item_Cleansing_Heart.png",
                     "amount": 8
                 },
@@ -321,6 +341,11 @@
             [
                 {
                     "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Varunada_Lazurite_Chunk.png",
+                    "amount": 6
+                },
+                {
+                    "rarity": 4,
                     "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Item_Cleansing_Heart.png",
                     "amount": 12
                 },
@@ -336,6 +361,11 @@
                 }
             ],
             [
+                {
+                    "rarity": 5,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a4/Item_Varunada_Lazurite_Gemstone.png",
+                    "amount": 6
+                },
                 {
                     "rarity": 4,
                     "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Item_Cleansing_Heart.png",

@@ -1,0 +1,396 @@
+{
+    "name": "Sangonomiya Kokomi",
+    "nickname": "Pearl of Wisdom",
+    "profile": {
+        "bio": {
+            "rarity": 5,
+            "weapon": "catalyst",
+            "element": "Hydro",
+            "sex": "Female",
+            "birthday": "February 22nd",
+            "constellation": "Dracaena Somnolenta (Story Quest)",
+            "nation": "Inazuma",
+            "special_dish": "A Stunning Stratagem",
+            "release_date": "September 21, 2021"
+        },
+        "voice_actors": {
+            "english": "Risa Mei",
+            "chinese": "Guiniang (\u9f9f\u5a18)",
+            "japanese": "Suzuko Mimori (\u4e09\u68ee\u3059\u305a\u3053)",
+            "korean": "Yeo Yun-mi (\uc5ec\uc724\ubbf8)"
+        },
+        "introduction": {
+            "quote": "Kokomi is the Divine Priestess of Watatsumi Island, and also serves as its supreme leader.She is well-versed in the art of war, is good at strategizing, and has keen insights into military affairs. She is also adept at handling domestic affairs, diplomacy, and other matters.\nStill, this unfathomable leader has a mysterious side to her...",
+            "content": "Sangonomiya Kokomi (Japanese: \u73ca\u745a\u5bae\u306e\u5fc3\u6d77 Sangonomiya Kokomi) is a playable Hydro character in Genshin Impact.\nThe young Divine Priestess of Watatsumi Island and a desendent of the Sangonomiya Clan. Kokomi is in charge of most of Watatsumi's affairs, shouldering heavy responsibilities alone in hopes for giving Watatsumi Island's people the hopes and happiness that they desire."
+        },
+        "personality": {
+            "quote": "The Divine Priestess of Watatsumi Island. All of the island's affairs are at this young lady's fingertips.",
+            "content": [
+                "As the Divine Priestess of Watatsumi Island, Kokomi handles almost all of the affairs on the island herself. While she is not content with such a burden, having preferred to be a military advisor, she nonetheless takes the mantle to give her people the hope and happiness they deserve. Like Jean, Kokomi easily burns herself out completing her tasks and tries to keep it hidden from others to avoid worrying them.\n",
+                "Along with handling all sorts of affairs, Kokomi is a skilled strategist that thinks of all potential scenarios and how to handle them as a result of reading plenty of military books, although she also enjoys casual reading. Kujou Sara remarks that her planning prevented the Tenryou Commission from claiming full victory over the Sangonomiya Resistance. She continues this habit even outside of military affairs. As a result of the role she plays, she is universally beloved by her people.\n",
+                "She loves Bird Egg Sushi, but dislikes seafood, which she keeps a secret from most.\n"
+            ]
+        },
+        "appearance": [
+            "Kokomi is a young woman with long, light salmon colored hair with light blue ends. Her hair is tied in a bow ponytail and held up with an indigo, fin-like decoration. Her irises consist of a gradient from pink at the bottom to dark indigo at the top, and lack distinct pupils.\n",
+            "Her attire is primarily navy, indigo, and white. She wears a navy-blue kimono-like coat with white accents that resemble waves. The ends of her sleeves are frilled and decorated with shell-like details, while the hem at the top is scalloped to look like fins. There is a coral-colored bow adorned with a pearl on each of her upper arms. A similar bow is found at the bottom of her sleeves and are attached to indigo tassels. On her back, she has two large white loops around a red, three-looped bow, all kept in place with a large lilac shell. She also has two fin-like coattails that transition from lilac to salmon.\n",
+            "Kokomi wears a near-white lilac bodysuit under her coat which ends with shorts that have a scalloped hem. Her stomach is uncovered and decorated with a light blue gem. The sides have cutouts with light blue bows and pearls, and are connected to her thigh high stockings. These stockings have a darker lilac scalloped hem as well as a rhombus cutout at the top.\n",
+            "At the front of her bodysuit, there is a large navy-blue bow with white stripes over two lilac drapes with lighter lilac stripes and red and blue accents. Her Hydro Vision is placed at the center of the bow.\n",
+            "She wears white half gloves and two pearls on each hand.\n",
+            "She also wears geta-like sandals with navy soles with light lilac details, coral-colored straps, and a blue bow with a pearl for each shoe.\n",
+            "On her neck, she wears a large navy and indigo choker with a scalloped hem. In the center of the choker is a round blue gem with an indigo shell to each side. Hanging from this blue gem are three blue loops of cord and a blue, drop-shaped gemstone.\n"
+        ]
+    },
+    "combat_info": {
+        "base_stats": {
+            "special": "Hydro DMG Bonus",
+            "data": {
+                "0": {
+                    "1": [
+                        "1,049",
+                        "18",
+                        "51",
+                        "\u2014"
+                    ],
+                    "20": [
+                        "2,720",
+                        "47",
+                        "133"
+                    ]
+                },
+                "1": {
+                    "20": [
+                        "3,619",
+                        "63",
+                        "177",
+                        "\u2014"
+                    ],
+                    "40": [
+                        "5,416",
+                        "94",
+                        "264"
+                    ]
+                },
+                "2": {
+                    "40": [
+                        "6,055",
+                        "105",
+                        "295",
+                        "7.2%"
+                    ],
+                    "50": [
+                        "6,966",
+                        "121",
+                        "340"
+                    ]
+                },
+                "3": {
+                    "50": [
+                        "7,818",
+                        "136",
+                        "381",
+                        "14.4%"
+                    ],
+                    "60": [
+                        "8,738",
+                        "152",
+                        "426"
+                    ]
+                },
+                "4": {
+                    "60": [
+                        "9,377",
+                        "163",
+                        "457",
+                        "14.4%"
+                    ],
+                    "70": [
+                        "10,306",
+                        "179",
+                        "503"
+                    ]
+                },
+                "5": {
+                    "70": [
+                        "10,945",
+                        "190",
+                        "534",
+                        "21.6%"
+                    ],
+                    "80": [
+                        "11,885",
+                        "207",
+                        "580"
+                    ]
+                },
+                "6": {
+                    "80": [
+                        "12,524",
+                        "218",
+                        "611",
+                        "28.8%"
+                    ],
+                    "90": [
+                        "13,471",
+                        "234",
+                        "657"
+                    ]
+                }
+            }
+        },
+        "talents": [
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/37/Talent_The_Shape_of_Water.png",
+                "name": "The Shape of Water",
+                "type": "Normal Attack",
+                "desc": "Normal Attack: Performs up to 3 consecutive attacks that take the form of swimming fish, dealing Hydro DMG.Charged Attack: Consumes a certain amount of Stamina to deal AoE Hydro DMG after a short casting time.Plunging Attack: Gathering the might of Hydro, Kokomi plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Hydro DMG upon impact with the ground."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/6/6e/Talent_Kurage%27s_Oath.png",
+                "name": "Kurage's Oath",
+                "type": "Elemental Skill",
+                "desc": "Summons a \"bake-kurage\" created from water that can heal her allies.Using this skill will apply the Wet status to Sangonomiya Kokomi.\nBake-Kurage:\nDeals Hydro DMG to surrounding opponents and heal nearby active characters at fixed intervals. This healing is based on Kokomi's Max HP."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Talent_Nereid%27s_Ascension.png",
+                "name": "Nereid's Ascension",
+                "type": "Elemental Burst",
+                "desc": "The might of Watatsumi descends, dealing Hydro DMG to surrounding opponents, before robing Kokomi in a Ceremonial Garment made from the flowing waters of Sangonomiya.\nCeremonial Garment\n\nSangonomiya Kokomi's Normal Attack, Charged Attack and Bake-Kurage DMG are increased based on her Max HP.\nWhen her Normal and Charged Attacks hit opponents, Kokomi will restore HP for all nearby party members, and the amount restored is based on her Max HP.\nIncreases Sangonomiya Kokomi's resistance to interruption and allows her to move on the water's surface.\nThese effects will be cleared once Sangonomiya Kokomi leaves the field."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/c/cd/Talent_Tamanooya%27s_Casket.png",
+                "name": "Tamanooya's Casket",
+                "type": "1st Ascension Passive",
+                "desc": "If Sangonomiya Kokomi's own Bake-Kurage are on the field when she uses Nereid's Ascension, the Bake-Kurage's duration will be refreshed."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/5f/Talent_Song_of_Pearls.png",
+                "name": "Song of Pearls",
+                "type": "4th Ascension Passive",
+                "desc": "While donning the Ceremonial Garment created by Nereid's Ascension, the Normal and Charged Attack DMG Bonus Sangonomiya Kokomi gains based on her Max HP will receive a further increase based on 15% of her Healing Bonus."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/49/Talent_Princess_of_Watatsumi.png",
+                "name": "Princess of Watatsumi",
+                "type": "Utility Passive",
+                "desc": "Decreases swimming Stamina consumption for your own party members by 20%.Not stackable with Passive Talents that provide the exact same effects."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/d5/Talent_Flawless_Strategy.png",
+                "name": "Flawless Strategy",
+                "type": "Passive",
+                "desc": "Sangonomiya Kokomi has a 25% Healing Bonus, but a 100% decrease in CRIT Rate."
+            }
+        ],
+        "lvup_mat": [
+            [
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4e/Item_Teachings_of_Transience.png",
+                    "amount": 9
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b0/Item_Guide_to_Transience.png",
+                    "amount": 63
+                },
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/27/Item_Philosophies_of_Transience.png",
+                    "amount": 114
+                }
+            ],
+            [
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d2/Item_Spectral_Husk.png",
+                    "amount": 18
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/67/Item_Spectral_Heart.png",
+                    "amount": 66
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ea/Item_Spectral_Nucleus.png",
+                    "amount": 93
+                }
+            ],
+            [
+                {
+                    "rarity": 5,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/16/Item_Hellfire_Butterfly.png",
+                    "amount": 18
+                }
+            ]
+        ],
+        "constellation": [
+            {
+                "level": 1,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/6/6b/Constellation_At_Water%27s_Edge.png",
+                "name": "At Water's Edge",
+                "effect": "While donning the Ceremonial Garment created by Nereid's Ascension, the final Normal Attack in Sangonomiya Kokomi's combo will unleash a swimming fish to deal 30% of her Max HP as Hydro DMG.This DMG is not considered Normal Attack DMG."
+            },
+            {
+                "level": 2,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/9d/Constellation_The_Clouds_Like_Waves_Rippling.png",
+                "name": "The Clouds Like Waves Rippling",
+                "effect": "Sangonomiya Kokomi gains the following Healing Bonuses with regard to characters with 50% or less HP via the following methods:\nKurage's Oath Bake-Kurage: 4.5% of Kokomi's Max HP.\nNereid's Ascension Normal and Charged Attacks: 0.6% of Kokomi's Max HP."
+            },
+            {
+                "level": 3,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/c/cd/Constellation_The_Moon%2C_A_Ship_O%27er_the_Seas.png",
+                "name": "The Moon, A Ship O'er the Seas",
+                "effect": "Increases the Level of Nereid's Ascension by 3.Maximum upgrade level is 15."
+            },
+            {
+                "level": 4,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/f/fc/Constellation_The_Moon_Overlooks_the_Waters.png",
+                "name": "The Moon Overlooks the Waters",
+                "effect": "While donning the Ceremonial Garment created by Nereid's Ascension, Sangonomiya Kokomi's Normal Attack SPD is increased by 10%, and Normal Attacks that hit opponents will restore 0.8 Energy for her.This effect can occur once every 0.2s."
+            },
+            {
+                "level": 5,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/e/e4/Constellation_All_Streams_Flow_to_the_Sea.png",
+                "name": "All Streams Flow to the Sea",
+                "effect": "Increases the Level of Kurage's Oath by 3.Maximum upgrade level is 15."
+            },
+            {
+                "level": 6,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/3b/Constellation_Sango_Isshin.png",
+                "name": "Sango Isshin",
+                "effect": "While donning the Ceremonial Garment created by Nereid's Ascension, Sangonomiya Kokomi gains a 40% Hydro DMG Bonus for 4s after her Normal and Charged Attacks heal a character with 80% or more HP."
+            }
+        ],
+        "ascensions": [
+            [
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f8/Item_Varunada_Lazurite_Sliver.png",
+                    "amount": 1
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/07/Item_Sango_Pearl.png",
+                    "amount": 3
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d2/Item_Spectral_Husk.png",
+                    "amount": 3
+                }
+            ],
+            [
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f6/Item_Varunada_Lazurite_Fragment.png",
+                    "amount": 3
+                },
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/fa/Item_Dew_of_Repudiation.png",
+                    "amount": 2
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/07/Item_Sango_Pearl.png",
+                    "amount": 10
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d2/Item_Spectral_Husk.png",
+                    "amount": 15
+                }
+            ],
+            [
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f6/Item_Varunada_Lazurite_Fragment.png",
+                    "amount": 6
+                },
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/fa/Item_Dew_of_Repudiation.png",
+                    "amount": 4
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/07/Item_Sango_Pearl.png",
+                    "amount": 20
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/67/Item_Spectral_Heart.png",
+                    "amount": 12
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Varunada_Lazurite_Chunk.png",
+                    "amount": 3
+                },
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/fa/Item_Dew_of_Repudiation.png",
+                    "amount": 8
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/07/Item_Sango_Pearl.png",
+                    "amount": 30
+                },
+                {
+                    "rarity": 2,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/67/Item_Spectral_Heart.png",
+                    "amount": 18
+                }
+            ],
+            [
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Varunada_Lazurite_Chunk.png",
+                    "amount": 6
+                },
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/fa/Item_Dew_of_Repudiation.png",
+                    "amount": 12
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/07/Item_Sango_Pearl.png",
+                    "amount": 45
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ea/Item_Spectral_Nucleus.png",
+                    "amount": 12
+                }
+            ],
+            [
+                {
+                    "rarity": 5,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a4/Item_Varunada_Lazurite_Gemstone.png",
+                    "amount": 6
+                },
+                {
+                    "rarity": 4,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/fa/Item_Dew_of_Repudiation.png",
+                    "amount": 20
+                },
+                {
+                    "rarity": 1,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/07/Item_Sango_Pearl.png",
+                    "amount": 60
+                },
+                {
+                    "rarity": 3,
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ea/Item_Spectral_Nucleus.png",
+                    "amount": 24
+                }
+            ]
+        ]
+    }
+}

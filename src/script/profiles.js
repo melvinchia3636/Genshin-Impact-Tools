@@ -7,12 +7,9 @@ function downloadObjectAsJson(exportObj, exportName){
     downloadAnchorNode.click();
     downloadAnchorNode.remove();
 }; downloadObjectAsJson({
+    name: $(".pi-title").text(),
+    nickname: $(".pi-header").text(),
     profile: {
-        images: {
-            card: $("[title='Card']").attr("href"),
-            portrait: $("[title='Portrait']").attr("href"),
-            in_game: $("[title='In Game']").attr("href"),
-        },
         bio: {
             rarity: parseInt($("[data-source=\"rarity\"] img").attr("alt").split(" ")[0]),
             weapon: $("[data-source=\"weapon\"] a").last().text().toLowerCase(),
