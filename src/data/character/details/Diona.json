@@ -385,5 +385,131 @@
                 }
             ]
         ]
+    },
+    "availability": {
+        "availability": "- Standard Wish **Wanderlust Invocation** (Indefinite) since **Version 1.2**\n- All **Character Event Wishes** and **Weapon Event Wishes** since Version 1.2\n- **Energy Amplifier Initiation** event (April 30, 2021 - May 17, 2021)",
+        "paimon_bargain": null,
+        "event_wishes": [
+            {
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b9/Wish_Farewell_of_Snezhnaya_2020-11-11.jpg",
+                "name": "Farewell of Snezhnaya/2020-11-11",
+                "item": [
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/53/Character_Tartaglia_Thumb.png",
+                        "text": "Tartaglia",
+                        "icon": "Hydro"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b9/Character_Diona_Thumb.png",
+                        "text": "Diona",
+                        "icon": "Cryo"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2b/Character_Ningguang_Thumb.png",
+                        "text": "Ningguang",
+                        "icon": "Geo"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/61/Character_Beidou_Thumb.png",
+                        "text": "Beidou",
+                        "icon": "Electro"
+                    }
+                ]
+            },
+            {
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/36/Wish_Invitation_to_Mundane_Life_2021-02-03.jpg",
+                "name": "Invitation to Mundane Life/2021-02-03",
+                "item": [
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b9/Character_Xiao_Thumb.png",
+                        "text": "Xiao",
+                        "icon": "Anemo"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b9/Character_Diona_Thumb.png",
+                        "text": "Diona",
+                        "icon": "Cryo"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/61/Character_Beidou_Thumb.png",
+                        "text": "Beidou",
+                        "icon": "Electro"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9d/Character_Xinyan_Thumb.png",
+                        "text": "Xinyan",
+                        "icon": "Pyro"
+                    }
+                ]
+            },
+            {
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/00/Wish_Gentry_of_Hermitage_2021-04-28.png",
+                "name": "Gentry of Hermitage/2021-04-28",
+                "item": [
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c2/Character_Zhongli_Thumb.png",
+                        "text": "Zhongli",
+                        "icon": "Geo"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1f/Character_Yanfei_Thumb.png",
+                        "text": "Yanfei",
+                        "icon": "Pyro"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/ab/Character_Noelle_Thumb.png",
+                        "text": "Noelle",
+                        "icon": "Geo"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b9/Character_Diona_Thumb.png",
+                        "text": "Diona",
+                        "icon": "Cryo"
+                    }
+                ]
+            },
+            {
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/10/Wish_Tapestry_of_Golden_Flames_2021-08-10.png",
+                "name": "Tapestry of Golden Flames/2021-08-10",
+                "item": [
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/05/Character_Yoimiya_Thumb.png",
+                        "text": "Yoimiya",
+                        "icon": "Pyro"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b9/Character_Diona_Thumb.png",
+                        "text": "Diona",
+                        "icon": "Cryo"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9d/Character_Xinyan_Thumb.png",
+                        "text": "Xinyan",
+                        "icon": "Pyro"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ec/Character_Sayu_Thumb.png",
+                        "text": "Sayu",
+                        "icon": "Anemo"
+                    }
+                ]
+            }
+        ]
     }
 }

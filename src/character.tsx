@@ -43,6 +43,13 @@ interface ICombatInfo {
     first: boolean
 }
 
+interface IAvailability {
+    data: any
+    setIsAuto: any
+    changeSubSection: any
+    first: boolean
+}
+
 interface ICharBanner {
     data: any
 }
@@ -279,9 +286,9 @@ const CombatInfo: React.FC<ICombatInfo> = ({data, setIsAuto, changeSubSection, f
     const ascLevel = [20, 40, 50, 60, 70, 80];
     
     return <div className="w-full ml-6 h-screen overflow-y-auto" style={{flexShrink: 9999}}>
-        <CharBanner data={data}/>
         <div className="pb-12 pl-4 pr-12">
             <VisibilitySensor
+                partialVisibility
                 onChange={(isVisible) => {
                     if (isVisible && !first) {
                         setIsAuto(true);
@@ -290,6 +297,7 @@ const CombatInfo: React.FC<ICombatInfo> = ({data, setIsAuto, changeSubSection, f
                 }}
             >
                 <>
+                    <CharBanner data={data}/>
                     <div className="flex items-center gap-3 pt-12" id="1-0">
                         <Bullet color="#ACCACB"/>
                         <span className="text-genshin-detailsblue text-3xl">Basic Stats</span>
@@ -485,6 +493,30 @@ const CombatInfo: React.FC<ICombatInfo> = ({data, setIsAuto, changeSubSection, f
     </div>;
 };
 
+const Availability: React.FC<IAvailability> = ({data, setIsAuto, changeSubSection, first}: IAvailability):JSX.Element => {
+
+    return <div className="w-full ml-6 h-screen overflow-y-auto" style={{flexShrink: 9999}}>
+        <CharBanner data={data}/>
+        <div className="pb-12 pl-4 pr-12">
+            <VisibilitySensor
+                onChange={(isVisible) => {
+                    if (isVisible && !first) {
+                        setIsAuto(true);
+                        changeSubSection(0);
+                    }
+                }}
+            >
+                <>
+                    <div className="flex items-center gap-3 pt-12" id="2-0">
+                        <Bullet color="#ACCACB"/>
+                        <span className="text-genshin-detailsblue text-3xl">Availability</span>
+                    </div>
+                </>
+            </VisibilitySensor>
+        </div>
+    </div>;
+};
+
 const CharacterInfo: React.FC<ICharInfo> = ({selectedChar, setSelectedChar}: ICharInfo): JSX.Element => {
     const tabs = {
         "Profile": [
@@ -573,6 +605,7 @@ const CharacterInfo: React.FC<ICharInfo> = ({selectedChar, setSelectedChar}: ICh
         </Scrollbar>
         {currentSection === 0 ? <Profile data={data} setIsAuto={setIsAuto} changeSubSection={changeSubSection} first={first}/> : ""}
         {currentSection === 1 ? <CombatInfo data={data} setIsAuto={setIsAuto} changeSubSection={changeSubSection} first={first}/> : ""}
+        {currentSection === 2 ? <Availability data={data} setIsAuto={setIsAuto} changeSubSection={changeSubSection} first={first}/> : ""}
     </div>;
 };
 

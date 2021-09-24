@@ -385,5 +385,105 @@
                 }
             ]
         ]
+    },
+    "availability": {
+        "availability": "- Complete the Quest **Sparks Amongst the Pages**\n- Standard Wish **Wanderlust Invocation** (Indefinite)",
+        "paimon_bargain": [
+            {
+                "date": "November 2020",
+                "item": [
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/7b/Character_Bennett_Thumb.png",
+                        "text": "Bennett",
+                        "icon": "Pyro"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/51/Character_Lisa_Thumb.png",
+                        "text": "Lisa",
+                        "icon": "Electro"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/6f/Weapon_Blackcliff_Longsword.png",
+                        "text": "Lv. 1",
+                        "icon": null
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d7/Weapon_Blackcliff_Slasher.png",
+                        "text": "Lv. 1",
+                        "icon": null
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d5/Weapon_Blackcliff_Pole.png",
+                        "text": "Lv. 1",
+                        "icon": null
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a6/Weapon_Blackcliff_Agate.png",
+                        "text": "Lv. 1",
+                        "icon": null
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b8/Weapon_Blackcliff_Warbow.png",
+                        "text": "Lv. 1",
+                        "icon": null
+                    }
+                ]
+            },
+            {
+                "date": "May 2021",
+                "item": [
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/7b/Character_Bennett_Thumb.png",
+                        "text": "Bennett",
+                        "icon": "Pyro"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/51/Character_Lisa_Thumb.png",
+                        "text": "Lisa",
+                        "icon": "Electro"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/6f/Weapon_Blackcliff_Longsword.png",
+                        "text": "Lv. 1",
+                        "icon": null
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d7/Weapon_Blackcliff_Slasher.png",
+                        "text": "Lv. 1",
+                        "icon": null
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d5/Weapon_Blackcliff_Pole.png",
+                        "text": "Lv. 1",
+                        "icon": null
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a6/Weapon_Blackcliff_Agate.png",
+                        "text": "Lv. 1",
+                        "icon": null
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b8/Weapon_Blackcliff_Warbow.png",
+                        "text": "Lv. 1",
+                        "icon": null
+                    }
+                ]
+            }
+        ],
+        "event_wishes": null
     }
 }

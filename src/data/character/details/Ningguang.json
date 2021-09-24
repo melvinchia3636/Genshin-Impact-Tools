@@ -381,5 +381,196 @@
                 }
             ]
         ]
+    },
+    "availability": {
+        "availability": "- Standard Wish **Wanderlust Invocation** (Indefinite)\n- **Beginners' Wish** (Indefinite until all 20 wishes have been made)\n- All **Character Event Wishes** and **Weapon Event Wishes**\n- **Stand by Me** event (February 10, 2021 - March 7, 2021)",
+        "paimon_bargain": [
+            {
+                "date": "March 2021",
+                "item": [
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2b/Character_Ningguang_Thumb.png",
+                        "text": "Ningguang",
+                        "icon": "Geo"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4a/Character_Xingqiu_Thumb.png",
+                        "text": "Xingqiu",
+                        "icon": "Hydro"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/6f/Weapon_Blackcliff_Longsword.png",
+                        "text": "Lv. 1",
+                        "icon": null
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d7/Weapon_Blackcliff_Slasher.png",
+                        "text": "Lv. 1",
+                        "icon": null
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d5/Weapon_Blackcliff_Pole.png",
+                        "text": "Lv. 1",
+                        "icon": null
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a6/Weapon_Blackcliff_Agate.png",
+                        "text": "Lv. 1",
+                        "icon": null
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b8/Weapon_Blackcliff_Warbow.png",
+                        "text": "Lv. 1",
+                        "icon": null
+                    }
+                ]
+            },
+            {
+                "date": "September 2021",
+                "item": [
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2b/Character_Ningguang_Thumb.png",
+                        "text": "Ningguang",
+                        "icon": "Geo"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4a/Character_Xingqiu_Thumb.png",
+                        "text": "Xingqiu",
+                        "icon": "Hydro"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/6f/Weapon_Blackcliff_Longsword.png",
+                        "text": "Lv. 1",
+                        "icon": null
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d7/Weapon_Blackcliff_Slasher.png",
+                        "text": "Lv. 1",
+                        "icon": null
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d5/Weapon_Blackcliff_Pole.png",
+                        "text": "Lv. 1",
+                        "icon": null
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a6/Weapon_Blackcliff_Agate.png",
+                        "text": "Lv. 1",
+                        "icon": null
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b8/Weapon_Blackcliff_Warbow.png",
+                        "text": "Lv. 1",
+                        "icon": null
+                    }
+                ]
+            }
+        ],
+        "event_wishes": [
+            {
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b9/Wish_Farewell_of_Snezhnaya_2020-11-11.jpg",
+                "name": "Farewell of Snezhnaya/2020-11-11",
+                "item": [
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/53/Character_Tartaglia_Thumb.png",
+                        "text": "Tartaglia",
+                        "icon": "Hydro"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b9/Character_Diona_Thumb.png",
+                        "text": "Diona",
+                        "icon": "Cryo"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2b/Character_Ningguang_Thumb.png",
+                        "text": "Ningguang",
+                        "icon": "Geo"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/61/Character_Beidou_Thumb.png",
+                        "text": "Beidou",
+                        "icon": "Electro"
+                    }
+                ]
+            },
+            {
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/05/Wish_Dance_of_Lanterns_2021-02-17.jpg",
+                "name": "Dance of Lanterns/2021-02-17",
+                "item": [
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/06/Character_Keqing_Thumb.png",
+                        "text": "Keqing",
+                        "icon": "Electro"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/7b/Character_Bennett_Thumb.png",
+                        "text": "Bennett",
+                        "icon": "Pyro"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2b/Character_Ningguang_Thumb.png",
+                        "text": "Ningguang",
+                        "icon": "Geo"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/72/Character_Barbara_Thumb.png",
+                        "text": "Barbara",
+                        "icon": "Hydro"
+                    }
+                ]
+            },
+            {
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/ff/Wish_The_Heron%27s_Court_2021-07-21.png",
+                "name": "The Heron's Court/2021-07-21",
+                "item": [
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/fd/Character_Kamisato_Ayaka_Thumb.png",
+                        "text": "Ayaka",
+                        "icon": "Cryo"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2b/Character_Ningguang_Thumb.png",
+                        "text": "Ningguang",
+                        "icon": "Geo"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/68/Character_Chongyun_Thumb.png",
+                        "text": "Chongyun",
+                        "icon": "Cryo"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1f/Character_Yanfei_Thumb.png",
+                        "text": "Yanfei",
+                        "icon": "Pyro"
+                    }
+                ]
+            }
+        ]
     }
 }

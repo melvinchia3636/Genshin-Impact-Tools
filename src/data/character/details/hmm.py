@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup as bs
 import os
 import json
+import re
 
 def add_name():
 	for i in [i.split('.')[0] for i in os.listdir(".") if i.endswith(".json")]:
@@ -46,15 +47,64 @@ def add_combat_info():
 			"talents": (d := [i.select("td") for i in table2.select("tr")[1:]]) and (data := [d[i:i+2] for i in range(0, len(d), 2)]) and [(lambda i, j: {"icon": (image := i[0].select_one("img").attrs.get('data-src') or i[0].select_one("img").attrs.get('src')) and image.split("/revision")[0],"name": i[1].text.strip(),"type": i[2].text.strip(),"desc": j[0].text.strip()})(*i) for i in data],
 			"lvup_mat": [[{"rarity": int(i.select_one("img")['alt'].split()[1]),"image": i.select_one(".card_image img")['data-src'].split("/revision")[0],"amount": int(i.select_one(".card_text").text)} for i in i.select('td .card_container')] for i in table3.select("tr")[1:]],
 			"constellation": [(col := i.select("td")) and {"level": int(col[0].text.strip()),"icon": col[1].select_one("img")['data-src'].split("/revision")[0],"name": col[2].text.strip(),"effect": col[3].text.strip()} for i in table4.select("tr")[1:]],
-			
 			"ascensions": [[{"rarity": int(i.select_one("img")['alt'].split()[1]),"image": i.select_one(".card_image img")['data-src'].split("/revision")[0],"amount": int(i.select_one(".card_text").text)} for i in i.select("td")[1:]] for i in table5.select("tr")[1:]]
 		}
 		json.dump(rdata, open(i+'.json', 'w', encoding="utf-8"), indent=4)
 
-add_combat_info()
+def modify_combat_info():
+	for i in [i.split('.')[0] for i in os.listdir(".") if i.endswith(".json")]:
+		print(i)
+		rdata = json.load(open(i+'.json', 'r', encoding="utf-8"))
+		rdata['combat_info']["base_stats"]['data'] = {k: (d := list(v.items())) and {d[0][0]: d[0][1], d[1][0]: d[1][1]+[d[0][1][3]]} for k, v in rdata['combat_info']["base_stats"]['data'].items()}
+		json.dump(rdata, open(i+'.json', 'w', encoding="utf-8"), indent=4)
 
-'''for i in [i.split('.')[0] for i in os.listdir(".") if i.endswith(".json")]:
+for i in [i.split('.')[0] for i in os.listdir(".") if i.endswith(".json")]:
 	print(i)
+	soup = bs(requests.get("https://genshin-impact.fandom.com/wiki/"+i+"?action=edit").content, 'lxml')
+	source = soup.find("textarea").text
+	availaibility = re.findall(r"==Availability==\n((?:\s|.)*?)\n\n", source)[0]
+	if availaibility == "===Event Wishes===\n{{Featured}}":
+		availaibility = ""
+	else: 
+		availaibility = re.sub(r"\[\[(.*?)\]\]", r"**\1**", availaibility.replace("**", "\t- ").replace("*", '- '))
+	soup = bs(requests.get("https://genshin-impact.fandom.com/wiki/"+i).content, 'lxml')
+	if (bargain := soup.find("span", {"id": "Paimon.27s_Bargains"})):
+		if "not available" in (bargain := bargain.parent.next_sibling.next_sibling).text:
+			paimon = None	
+		else:
+			table = bargain.next_sibling.next_sibling
+			paimon = [(d := i.select("td")) and {
+				"date": d[0].text.strip(),
+				"item": (t := d[1].select("div.card_container")) and [{
+					"rarity": int(i.select_one("img")['alt'].split()[1]),
+					"image": i.select_one(".card_image img")['data-src'].split("/revision")[0],
+					"text": i.select_one(".card_text").text,
+					"icon": (img := i.select_one('.card_icon img')) and (img['alt'] if img else None)
+				} for i in t]
+			} for i in table.select("tbody tr")[1:]]
+	else: paimon = None
+
+	if (wishes := soup.find("span", {"id": "Event_Wishes"})):
+		if "not" in (wishes := wishes.parent.next_sibling.next_sibling).text:
+			wishes = None	
+		else:
+			table = wishes.next_sibling.next_sibling
+			wishes = [(d := i.select("td")) and {
+				"image": d[0].select_one("img")['data-src'].split("/revision")[0],
+				"name": d[1].text.strip(),
+				"item": (t := d[2].select("div.card_container")) and [{
+					"rarity": int(i.select_one("img")['alt'].split()[1]),
+					"image": i.select_one(".card_image img")['data-src'].split("/revision")[0],
+					"text": i.select_one(".card_text").text,
+					"icon": (img := i.select_one('.card_icon img')) and (img['alt'] if img else None)
+				} for i in t]
+			} for i in table.select("tbody tr")[1:]]
+	else: wishes = None
+
 	rdata = json.load(open(i+'.json', 'r', encoding="utf-8"))
-	rdata['combat_info']["base_stats"]['data'] = {k: (d := list(v.items())) and {d[0][0]: d[0][1], d[1][0]: d[1][1]+[d[0][1][3]]} for k, v in rdata['combat_info']["base_stats"]['data'].items()}
-	json.dump(rdata, open(i+'.json', 'w', encoding="utf-8"), indent=4)'''
+	rdata['availability'] = {
+		"availability": availaibility,
+		"paimon_bargain": paimon,
+		"event_wishes": wishes
+	}
+	json.dump(rdata, open(i+'.json', 'w', encoding="utf-8"), indent=4)

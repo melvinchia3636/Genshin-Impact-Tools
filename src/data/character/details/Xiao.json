@@ -383,5 +383,41 @@
                 }
             ]
         ]
+    },
+    "availability": {
+        "availability": "",
+        "paimon_bargain": null,
+        "event_wishes": [
+            {
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/36/Wish_Invitation_to_Mundane_Life_2021-02-03.jpg",
+                "name": "Invitation to Mundane Life/2021-02-03",
+                "item": [
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b9/Character_Xiao_Thumb.png",
+                        "text": "Xiao",
+                        "icon": "Anemo"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b9/Character_Diona_Thumb.png",
+                        "text": "Diona",
+                        "icon": "Cryo"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/61/Character_Beidou_Thumb.png",
+                        "text": "Beidou",
+                        "icon": "Electro"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9d/Character_Xinyan_Thumb.png",
+                        "text": "Xinyan",
+                        "icon": "Pyro"
+                    }
+                ]
+            }
+        ]
     }
 }

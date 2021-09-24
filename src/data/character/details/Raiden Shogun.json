@@ -384,5 +384,41 @@
                 }
             ]
         ]
+    },
+    "availability": {
+        "availability": "===Event Wishes ===\n{{Featured}}",
+        "paimon_bargain": null,
+        "event_wishes": [
+            {
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1b/Wish_Reign_of_Serenity_2021-09-01.png",
+                "name": "Reign of Serenity/2021-09-01",
+                "item": [
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/52/Character_Raiden_Shogun_Thumb.png",
+                        "text": "Raiden Shogun",
+                        "icon": "Electro"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/61/Character_Sucrose_Thumb.png",
+                        "text": "Sucrose",
+                        "icon": "Anemo"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/96/Character_Kujou_Sara_Thumb.png",
+                        "text": "Kujou Sara",
+                        "icon": "Electro"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a0/Character_Xiangling_Thumb.png",
+                        "text": "Xiangling",
+                        "icon": "Pyro"
+                    }
+                ]
+            }
+        ]
     }
 }

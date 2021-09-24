@@ -345,5 +345,10 @@
                 }
             ]
         ]
+    },
+    "availability": {
+        "availability": "All Travelers who have reached **Adventure Rank** 20 or above will be able to claim Aloy for free directly through the in-game **mail**. PlayStation 4/5 users are able to obtain Aloy early during **Version/2.1|Version 2.1**, starting from September 1 while all platforms will be eligible during **Version/2.2|Version 2.2**, starting from October 13.<ref name=\"Howto\" />",
+        "paimon_bargain": null,
+        "event_wishes": null
     }
 }

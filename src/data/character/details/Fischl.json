@@ -390,5 +390,226 @@
                 }
             ]
         ]
+    },
+    "availability": {
+        "availability": "- Standard Wish **Wanderlust Invocation** (Indefinite)\n- **Beginners' Wish** (Indefinite until all 20 wishes have been made)\n- All **Character Event Wishes** and **Weapon Event Wishes**\n- **Unreconciled Stars#Prinzessin's Pact|Unreconciled Stars** event (November 16, 2020 - November 30, 2020)",
+        "paimon_bargain": [
+            {
+                "date": "January 2021",
+                "item": [
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/14/Character_Fischl_Thumb.png",
+                        "text": "Fischl",
+                        "icon": "Electro"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a0/Character_Xiangling_Thumb.png",
+                        "text": "Xiangling",
+                        "icon": "Pyro"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/6f/Weapon_Blackcliff_Longsword.png",
+                        "text": "Lv. 1",
+                        "icon": null
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d7/Weapon_Blackcliff_Slasher.png",
+                        "text": "Lv. 1",
+                        "icon": null
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d5/Weapon_Blackcliff_Pole.png",
+                        "text": "Lv. 1",
+                        "icon": null
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a6/Weapon_Blackcliff_Agate.png",
+                        "text": "Lv. 1",
+                        "icon": null
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b8/Weapon_Blackcliff_Warbow.png",
+                        "text": "Lv. 1",
+                        "icon": null
+                    }
+                ]
+            },
+            {
+                "date": "July 2021",
+                "item": [
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/14/Character_Fischl_Thumb.png",
+                        "text": "Fischl",
+                        "icon": "Electro"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a0/Character_Xiangling_Thumb.png",
+                        "text": "Xiangling",
+                        "icon": "Pyro"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/6f/Weapon_Blackcliff_Longsword.png",
+                        "text": "Lv. 1",
+                        "icon": null
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d7/Weapon_Blackcliff_Slasher.png",
+                        "text": "Lv. 1",
+                        "icon": null
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d5/Weapon_Blackcliff_Pole.png",
+                        "text": "Lv. 1",
+                        "icon": null
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a6/Weapon_Blackcliff_Agate.png",
+                        "text": "Lv. 1",
+                        "icon": null
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b8/Weapon_Blackcliff_Warbow.png",
+                        "text": "Lv. 1",
+                        "icon": null
+                    }
+                ]
+            }
+        ],
+        "event_wishes": [
+            {
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e9/Wish_Ballad_in_Goblets_2020-09-28.jpg",
+                "name": "Ballad in Goblets/2020-09-28",
+                "item": [
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8d/Character_Venti_Thumb.png",
+                        "text": "Venti",
+                        "icon": "Anemo"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/14/Character_Fischl_Thumb.png",
+                        "text": "Fischl",
+                        "icon": "Electro"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a0/Character_Xiangling_Thumb.png",
+                        "text": "Xiangling",
+                        "icon": "Pyro"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/72/Character_Barbara_Thumb.png",
+                        "text": "Barbara",
+                        "icon": "Hydro"
+                    }
+                ]
+            },
+            {
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/03/Wish_Secretum_Secretorum_2020-12-23.jpg",
+                "name": "Secretum Secretorum/2020-12-23",
+                "item": [
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/00/Character_Albedo_Thumb.png",
+                        "text": "Albedo",
+                        "icon": "Geo"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/14/Character_Fischl_Thumb.png",
+                        "text": "Fischl",
+                        "icon": "Electro"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/61/Character_Sucrose_Thumb.png",
+                        "text": "Sucrose",
+                        "icon": "Anemo"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/7b/Character_Bennett_Thumb.png",
+                        "text": "Bennett",
+                        "icon": "Pyro"
+                    }
+                ]
+            },
+            {
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/65/Wish_Farewell_of_Snezhnaya_2021-04-06.png",
+                "name": "Farewell of Snezhnaya/2021-04-06",
+                "item": [
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/53/Character_Tartaglia_Thumb.png",
+                        "text": "Tartaglia",
+                        "icon": "Hydro"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f6/Character_Rosaria_Thumb.png",
+                        "text": "Rosaria",
+                        "icon": "Cryo"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/14/Character_Fischl_Thumb.png",
+                        "text": "Fischl",
+                        "icon": "Electro"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/72/Character_Barbara_Thumb.png",
+                        "text": "Barbara",
+                        "icon": "Hydro"
+                    }
+                ]
+            },
+            {
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8d/Wish_Sparkling_Steps_2021-06-09.png",
+                "name": "Sparkling Steps/2021-06-09",
+                "item": [
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c3/Character_Klee_Thumb.png",
+                        "text": "Klee",
+                        "icon": "Pyro"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/61/Character_Sucrose_Thumb.png",
+                        "text": "Sucrose",
+                        "icon": "Anemo"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/14/Character_Fischl_Thumb.png",
+                        "text": "Fischl",
+                        "icon": "Electro"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/72/Character_Barbara_Thumb.png",
+                        "text": "Barbara",
+                        "icon": "Hydro"
+                    }
+                ]
+            }
+        ]
     }
 }

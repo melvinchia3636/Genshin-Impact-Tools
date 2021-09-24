@@ -383,5 +383,226 @@
                 }
             ]
         ]
+    },
+    "availability": {
+        "availability": "- Standard Wish **Wanderlust Invocation** (Indefinite)\n- **Beginners' Wish** (Indefinite until all 20 wishes have been made)\n- All **Character Event Wishes** and **Weapon Event Wishes**\n- **Stand by Me** event (February 10, 2021 - March 7, 2021)\n- **Thunder Sojourn** event (**Version 2.0**)",
+        "paimon_bargain": [
+            {
+                "date": "February 2021",
+                "item": [
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/61/Character_Beidou_Thumb.png",
+                        "text": "Beidou",
+                        "icon": "Electro"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/ab/Character_Noelle_Thumb.png",
+                        "text": "Noelle",
+                        "icon": "Geo"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cd/Weapon_Royal_Longsword.png",
+                        "text": "Lv. 1",
+                        "icon": null
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Weapon_Royal_Greatsword.png",
+                        "text": "Lv. 1",
+                        "icon": null
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/fd/Weapon_Royal_Spear.png",
+                        "text": "Lv. 1",
+                        "icon": null
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/99/Weapon_Royal_Grimoire.png",
+                        "text": "Lv. 1",
+                        "icon": null
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/99/Weapon_Royal_Bow.png",
+                        "text": "Lv. 1",
+                        "icon": null
+                    }
+                ]
+            },
+            {
+                "date": "August 2021",
+                "item": [
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/61/Character_Beidou_Thumb.png",
+                        "text": "Beidou",
+                        "icon": "Electro"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/ab/Character_Noelle_Thumb.png",
+                        "text": "Noelle",
+                        "icon": "Geo"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cd/Weapon_Royal_Longsword.png",
+                        "text": "Lv. 1",
+                        "icon": null
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Weapon_Royal_Greatsword.png",
+                        "text": "Lv. 1",
+                        "icon": null
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/fd/Weapon_Royal_Spear.png",
+                        "text": "Lv. 1",
+                        "icon": null
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/99/Weapon_Royal_Grimoire.png",
+                        "text": "Lv. 1",
+                        "icon": null
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/99/Weapon_Royal_Bow.png",
+                        "text": "Lv. 1",
+                        "icon": null
+                    }
+                ]
+            }
+        ],
+        "event_wishes": [
+            {
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b9/Wish_Farewell_of_Snezhnaya_2020-11-11.jpg",
+                "name": "Farewell of Snezhnaya/2020-11-11",
+                "item": [
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/53/Character_Tartaglia_Thumb.png",
+                        "text": "Tartaglia",
+                        "icon": "Hydro"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b9/Character_Diona_Thumb.png",
+                        "text": "Diona",
+                        "icon": "Cryo"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2b/Character_Ningguang_Thumb.png",
+                        "text": "Ningguang",
+                        "icon": "Geo"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/61/Character_Beidou_Thumb.png",
+                        "text": "Beidou",
+                        "icon": "Electro"
+                    }
+                ]
+            },
+            {
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/36/Wish_Invitation_to_Mundane_Life_2021-02-03.jpg",
+                "name": "Invitation to Mundane Life/2021-02-03",
+                "item": [
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b9/Character_Xiao_Thumb.png",
+                        "text": "Xiao",
+                        "icon": "Anemo"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b9/Character_Diona_Thumb.png",
+                        "text": "Diona",
+                        "icon": "Cryo"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/61/Character_Beidou_Thumb.png",
+                        "text": "Beidou",
+                        "icon": "Electro"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9d/Character_Xinyan_Thumb.png",
+                        "text": "Xinyan",
+                        "icon": "Pyro"
+                    }
+                ]
+            },
+            {
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Wish_Born_of_Ocean_Swell_2021-05-18.png",
+                "name": "Born of Ocean Swell/2021-05-18",
+                "item": [
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d3/Character_Eula_Thumb.png",
+                        "text": "Eula",
+                        "icon": "Cryo"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9d/Character_Xinyan_Thumb.png",
+                        "text": "Xinyan",
+                        "icon": "Pyro"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4a/Character_Xingqiu_Thumb.png",
+                        "text": "Xingqiu",
+                        "icon": "Hydro"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/61/Character_Beidou_Thumb.png",
+                        "text": "Beidou",
+                        "icon": "Electro"
+                    }
+                ]
+            },
+            {
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/58/Wish_Drifting_Luminescence_2021-09-21.png",
+                "name": "Drifting Luminescence/2021-09-21",
+                "item": [
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cc/Character_Sangonomiya_Kokomi_Thumb.png",
+                        "text": "Kokomi",
+                        "icon": "Hydro"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4a/Character_Xingqiu_Thumb.png",
+                        "text": "Xingqiu",
+                        "icon": "Hydro"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/61/Character_Beidou_Thumb.png",
+                        "text": "Beidou",
+                        "icon": "Electro"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f6/Character_Rosaria_Thumb.png",
+                        "text": "Rosaria",
+                        "icon": "Cryo"
+                    }
+                ]
+            }
+        ]
     }
 }

@@ -387,5 +387,41 @@
                 }
             ]
         ]
+    },
+    "availability": {
+        "availability": "",
+        "paimon_bargain": null,
+        "event_wishes": [
+            {
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/03/Wish_Secretum_Secretorum_2020-12-23.jpg",
+                "name": "Secretum Secretorum/2020-12-23",
+                "item": [
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/00/Character_Albedo_Thumb.png",
+                        "text": "Albedo",
+                        "icon": "Geo"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/14/Character_Fischl_Thumb.png",
+                        "text": "Fischl",
+                        "icon": "Electro"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/61/Character_Sucrose_Thumb.png",
+                        "text": "Sucrose",
+                        "icon": "Anemo"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/7b/Character_Bennett_Thumb.png",
+                        "text": "Bennett",
+                        "icon": "Pyro"
+                    }
+                ]
+            }
+        ]
     }
 }

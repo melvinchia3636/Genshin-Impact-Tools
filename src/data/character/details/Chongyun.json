@@ -385,5 +385,101 @@
                 }
             ]
         ]
+    },
+    "availability": {
+        "availability": "- Standard Wish **Wanderlust Invocation** (Indefinite)\n- **Beginners' Wish** (Indefinite until all 20 wishes have been made)\n- All **Character Event Wishes** and **Weapon Event Wishes**\n- **Stand by Me** event (February 10, 2021 - March 7, 2021)",
+        "paimon_bargain": null,
+        "event_wishes": [
+            {
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/41/Wish_Gentry_of_Hermitage_2020-12-01.png",
+                "name": "Gentry of Hermitage/2020-12-01",
+                "item": [
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c2/Character_Zhongli_Thumb.png",
+                        "text": "Zhongli",
+                        "icon": "Geo"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9d/Character_Xinyan_Thumb.png",
+                        "text": "Xinyan",
+                        "icon": "Pyro"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/68/Character_Chongyun_Thumb.png",
+                        "text": "Chongyun",
+                        "icon": "Cryo"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1d/Character_Razor_Thumb.png",
+                        "text": "Razor",
+                        "icon": "Electro"
+                    }
+                ]
+            },
+            {
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Wish_Moment_of_Bloom_2021-03-02.jpg",
+                "name": "Moment of Bloom/2021-03-02",
+                "item": [
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a4/Character_Hu_Tao_Thumb.png",
+                        "text": "Hu Tao",
+                        "icon": "Pyro"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4a/Character_Xingqiu_Thumb.png",
+                        "text": "Xingqiu",
+                        "icon": "Hydro"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a0/Character_Xiangling_Thumb.png",
+                        "text": "Xiangling",
+                        "icon": "Pyro"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/68/Character_Chongyun_Thumb.png",
+                        "text": "Chongyun",
+                        "icon": "Cryo"
+                    }
+                ]
+            },
+            {
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/ff/Wish_The_Heron%27s_Court_2021-07-21.png",
+                "name": "The Heron's Court/2021-07-21",
+                "item": [
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/fd/Character_Kamisato_Ayaka_Thumb.png",
+                        "text": "Ayaka",
+                        "icon": "Cryo"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2b/Character_Ningguang_Thumb.png",
+                        "text": "Ningguang",
+                        "icon": "Geo"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/68/Character_Chongyun_Thumb.png",
+                        "text": "Chongyun",
+                        "icon": "Cryo"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1f/Character_Yanfei_Thumb.png",
+                        "text": "Yanfei",
+                        "icon": "Pyro"
+                    }
+                ]
+            }
+        ]
     }
 }

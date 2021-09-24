@@ -382,5 +382,41 @@
                 }
             ]
         ]
+    },
+    "availability": {
+        "availability": "",
+        "paimon_bargain": null,
+        "event_wishes": [
+            {
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/54/Wish_Adrift_in_the_Harbor_2021-01-12.jpg",
+                "name": "Adrift in the Harbor/2021-01-12",
+                "item": [
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0a/Character_Ganyu_Thumb.png",
+                        "text": "Ganyu",
+                        "icon": "Cryo"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/ab/Character_Noelle_Thumb.png",
+                        "text": "Noelle",
+                        "icon": "Geo"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4a/Character_Xingqiu_Thumb.png",
+                        "text": "Xingqiu",
+                        "icon": "Hydro"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a0/Character_Xiangling_Thumb.png",
+                        "text": "Xiangling",
+                        "icon": "Pyro"
+                    }
+                ]
+            }
+        ]
     }
 }

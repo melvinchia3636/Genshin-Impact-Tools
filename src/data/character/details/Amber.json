@@ -386,5 +386,152 @@
                 }
             ]
         ]
+    },
+    "availability": {
+        "availability": "- Complete the Quest **Wind-Riding Knight**\n- Standard Wish **Wanderlust Invocation** (Indefinite)",
+        "paimon_bargain": [
+            {
+                "date": "September 2020",
+                "item": [
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1d/Character_Razor_Thumb.png",
+                        "text": "Razor",
+                        "icon": "Electro"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c6/Character_Amber_Thumb.png",
+                        "text": "Amber",
+                        "icon": "Pyro"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cd/Weapon_Royal_Longsword.png",
+                        "text": "Lv. 1",
+                        "icon": null
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Weapon_Royal_Greatsword.png",
+                        "text": "Lv. 1",
+                        "icon": null
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d5/Weapon_Blackcliff_Pole.png",
+                        "text": "Lv. 1",
+                        "icon": null
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/99/Weapon_Royal_Grimoire.png",
+                        "text": "Lv. 1",
+                        "icon": null
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/99/Weapon_Royal_Bow.png",
+                        "text": "Lv. 1",
+                        "icon": null
+                    }
+                ]
+            },
+            {
+                "date": "October 2020",
+                "item": [
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1d/Character_Razor_Thumb.png",
+                        "text": "Razor",
+                        "icon": "Electro"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c6/Character_Amber_Thumb.png",
+                        "text": "Amber",
+                        "icon": "Pyro"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cd/Weapon_Royal_Longsword.png",
+                        "text": "Lv. 1",
+                        "icon": null
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Weapon_Royal_Greatsword.png",
+                        "text": "Lv. 1",
+                        "icon": null
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d5/Weapon_Blackcliff_Pole.png",
+                        "text": "Lv. 1",
+                        "icon": null
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/99/Weapon_Royal_Grimoire.png",
+                        "text": "Lv. 1",
+                        "icon": null
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/99/Weapon_Royal_Bow.png",
+                        "text": "Lv. 1",
+                        "icon": null
+                    }
+                ]
+            },
+            {
+                "date": "April 2021",
+                "item": [
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1d/Character_Razor_Thumb.png",
+                        "text": "Razor",
+                        "icon": "Electro"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c6/Character_Amber_Thumb.png",
+                        "text": "Amber",
+                        "icon": "Pyro"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cd/Weapon_Royal_Longsword.png",
+                        "text": "Lv. 1",
+                        "icon": null
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Weapon_Royal_Greatsword.png",
+                        "text": "Lv. 1",
+                        "icon": null
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/fd/Weapon_Royal_Spear.png",
+                        "text": "Lv. 1",
+                        "icon": null
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/99/Weapon_Royal_Grimoire.png",
+                        "text": "Lv. 1",
+                        "icon": null
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/99/Weapon_Royal_Bow.png",
+                        "text": "Lv. 1",
+                        "icon": null
+                    }
+                ]
+            }
+        ],
+        "event_wishes": null
     }
 }

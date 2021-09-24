@@ -384,5 +384,41 @@
                 }
             ]
         ]
+    },
+    "availability": {
+        "availability": "",
+        "paimon_bargain": null,
+        "event_wishes": [
+            {
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e3/Wish_Leaves_in_the_Wind_2021-06-29.png",
+                "name": "Leaves in the Wind/2021-06-29",
+                "item": [
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Character_Kaedehara_Kazuha_Thumb.png",
+                        "text": "Kazuha",
+                        "icon": "Anemo"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/7b/Character_Bennett_Thumb.png",
+                        "text": "Bennett",
+                        "icon": "Pyro"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1d/Character_Razor_Thumb.png",
+                        "text": "Razor",
+                        "icon": "Electro"
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f6/Character_Rosaria_Thumb.png",
+                        "text": "Rosaria",
+                        "icon": "Cryo"
+                    }
+                ]
+            }
+        ]
     }
 }

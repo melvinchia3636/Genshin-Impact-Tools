@@ -383,5 +383,10 @@
                 }
             ]
         ]
+    },
+    "availability": {
+        "availability": "- Standard Wish **Wanderlust Invocation** (Indefinite)\n- **Beginners' Wish** (Indefinite until all 20 wishes have been made)\n- All **Character Event Wishes**",
+        "paimon_bargain": null,
+        "event_wishes": null
     }
 }
