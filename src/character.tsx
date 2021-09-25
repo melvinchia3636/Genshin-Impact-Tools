@@ -51,6 +51,13 @@ interface IAvailability {
     first: boolean
 }
 
+interface IStories {
+    data: any
+    setIsAuto: any
+    changeSubSection: any
+    first: boolean
+}
+
 interface ICharBanner {
     data: any
 }
@@ -514,7 +521,8 @@ const Availability: React.FC<IAvailability> = ({data, setIsAuto, changeSubSectio
                     <div className="flex flex-col gap-4 mt-6 pl-10">
 
                         {data.availability.availability ? <div><ReactMarkdown className="mt-0 react-markdown">{data.availability.availability}</ReactMarkdown></div> : ""}
-                        <div className="flex items-center gap-3 pt-4">
+                        <div className="flex items-center gap-3 pt-2">
+                            <Bullet size={22} color="#ACCACB"/>
                             <span className="text-genshin-detailsblue text-2xl">Paimon’s Bargains</span>
                         </div>
                         <div className="text-genshin-white font-rubik text-lg tracking-wider -mt-2">{data.name} was {data.availability.paimon_bargain?.length ? "" : "not"} available in {data.availability.paimon_bargain?.length || ""} <strong className="font-rubik">Paimon’s Bargains</strong> Starglitter Exchange.</div>
@@ -530,7 +538,8 @@ const Availability: React.FC<IAvailability> = ({data, setIsAuto, changeSubSectio
                                 </div>)}
                             </div>
                         </div>)}
-                        <div className="flex items-center gap-3 pt-4">
+                        <div className="flex items-center gap-3 pt-2">
+                            <Bullet size={22} color="#ACCACB"/>
                             <span className="text-genshin-detailsblue text-2xl">Event Wishes</span>
                         </div>
                         <div className="text-genshin-white font-rubik text-lg tracking-wider -mt-2">{data.name} was {data.availability.event_wishes?.length ? "" : "not"} promoted or featured with a drop-rate boost in {data.availability.event_wishes?.length || "any"} <strong className="font-rubik">Event Wishes</strong>.</div>
@@ -549,6 +558,56 @@ const Availability: React.FC<IAvailability> = ({data, setIsAuto, changeSubSectio
                                 </div>
                             </div>
                         </div>)}
+                    </div>
+                </>
+            </VisibilitySensor>
+        </div>
+    </div>;
+};
+
+const Stories: React.FC<IStories> = ({data, setIsAuto, changeSubSection, first}: IStories):JSX.Element => {
+    return <div className="w-full ml-6 h-screen overflow-y-auto" style={{flexShrink: 9999}}>
+        <CharBanner data={data}/>
+        <div className="pb-12 pl-4 pr-12">
+            <VisibilitySensor
+                onChange={(isVisible) => {
+                    if (isVisible && !first) {
+                        setIsAuto(true);
+                        changeSubSection(0);
+                    }
+                }}
+            >
+                <>
+                    <div className="flex items-center gap-3 pt-12" id="3-0">
+                        <Bullet color="#ACCACB"/>
+                        <span className="text-genshin-detailsblue text-3xl">Character Stories</span>
+                    </div>
+                    <div className="flex flex-col gap-4 mt-6 pl-10">
+                        {Object.entries<string[]>(data.stories.stories).map(([title, content]: [string, string[]]) => <div key={title}>
+                            <div className="flex items-center gap-3 pt-2">
+                                <Bullet size={22} color="#ACCACB"/>
+                                <span className="text-genshin-detailsblue text-2xl">{title}</span>
+                            </div>
+                            {content.map((e: string) => <div key={e}><ReactMarkdown className="react-markdown">{e}</ReactMarkdown></div>)}
+                        </div>)}
+                    </div>
+                </>
+            </VisibilitySensor>
+            <VisibilitySensor
+                onChange={(isVisible) => {
+                    if (isVisible && !first) {
+                        setIsAuto(true);
+                        changeSubSection(1);
+                    }
+                }}
+            >
+                <>
+                    <div className="flex items-center gap-3 pt-12" id="3-1">
+                        <Bullet color="#ACCACB"/>
+                        <span className="text-genshin-detailsblue text-3xl">Namecard</span>
+                    </div>
+                    <div className="flex flex-col gap-4 mt-6 pl-10">
+                        
                     </div>
                 </>
             </VisibilitySensor>
@@ -645,6 +704,7 @@ const CharacterInfo: React.FC<ICharInfo> = ({selectedChar, setSelectedChar}: ICh
         {currentSection === 0 ? <Profile data={data} setIsAuto={setIsAuto} changeSubSection={changeSubSection} first={first}/> : ""}
         {currentSection === 1 ? <CombatInfo data={data} setIsAuto={setIsAuto} changeSubSection={changeSubSection} first={first}/> : ""}
         {currentSection === 2 ? <Availability data={data} setIsAuto={setIsAuto} changeSubSection={changeSubSection} first={first}/> : ""}
+        {currentSection === 3 ? <Stories data={data} setIsAuto={setIsAuto} changeSubSection={changeSubSection} first={first}/> : ""}
     </div>;
 };
 

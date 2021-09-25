@@ -110,14 +110,73 @@ def availability():
 		}
 		json.dump(rdata, open(i+'.json', 'w', encoding="utf-8"), indent=4)
 
+def banner_image():
+	for i in [i.split('.')[0] for i in os.listdir(".") if i.endswith(".json")]:
+		print(i)
+		images = set()
+		rdata = json.load(open(i+'.json', 'r', encoding="utf-8"))
+		if rdata['availability']['event_wishes']:
+			for j in rdata['availability']['event_wishes']:
+				images.add(j['image'])
+				j['image'] = j['image'].split("/")[-1]
+		for j in list(images):
+			open("../../../assets/wishes/"+j.split("/")[-1], 'wb').write(requests.get(j).content)
+		json.dump(rdata, open(i+'.json', 'w', encoding="utf-8"), indent=4)
+
 for i in [i.split('.')[0] for i in os.listdir(".") if i.endswith(".json")]:
 	print(i)
-	images = set()
+
+	#raw data
+	soup = bs(requests.get("https://genshin-impact.fandom.com/wiki/"+i+"/Story?action=edit").content, 'lxml')
+	source = soup.find("textarea").text
+	
+	#character stories
+	details = re.findall(r"==Character Stories==((?:.|\s)*?)(?:==Namecard|==Quests and Events==)", source)[0]
+	if "===" in details:
+		details = (d := [i.strip() for i in details.split("===") if i.strip()]) and dict([d[i: i+2] for i in range(0, len(d), 2)])
+		for d in details:
+			details[d] = re.split(r"<br />|\n\n", re.sub(r"\[\[(.*?)\]\]", r"**\1**", details[d]))
+	else: 
+		details = dict([[v[0], re.split(r"<br />|\n\n", re.sub(r"\[\[(.*?)\]\]", r"**\1**", bs(v[1], "lxml").text.strip()))] for v in re.findall(r"\|title\d\s+=\s*(?P<title>.*?)\s*\|text\d\s*=\s*(?P<content>.*?)\n", details)])
+
 	rdata = json.load(open(i+'.json', 'r', encoding="utf-8"))
-	if rdata['availability']['event_wishes']:
-		for j in rdata['availability']['event_wishes']:
-			images.add(j['image'])
-			j['image'] = j['image'].split("/")[-1]
-	for j in list(images):
-		open("../../../assets/wishes/"+j.split("/")[-1], 'wb').write(requests.get(j).content)
+	
+	#namecard
+	if (namecard_name := re.findall(r"{{Namecard\|(.*?)}}", source)):
+		soup = bs(requests.get("https://genshin-impact.fandom.com/api.php?action=parse&text='{{{{Namecard|{}}}}}'&format=json".format(namecard_name[0])).json()['parse']['text']["*"], 'lxml').find("table")
+		namecard = {
+			"name": namecard_name[0],
+			"image": soup.find("img")['src'].split("/revision")[0], 
+			**dict([(c := i.contents) and [c[0].text[:-1].lower(), "".join(i if isinstance(i, str) else i.text for i in c[2:]).strip()] for i in soup.select('td')[-2:]])
+		}
+	else: namecard = None
+
+	#constellation
+	soup = bs(requests.get("https://genshin-impact.fandom.com/api.php?action=parse&text='{}'&format=json".format(re.findall(r"{{Constellation Lore(?:\s|.)*?}}", source)[0])).json()['parse']['text']["*"], 'lxml').find("table")
+
+	constellation = {
+		"image": (image := soup.select("img")[2]['src'].split("/revision")[0]).split("/")[-1],
+		"meaning": soup.select("td")[-1].contents[-1]
+	}
+	if not os.path.exists("../../../assets/characters/constellation/"+image.split("/")[-1]):
+		open("../../../assets/characters/constellation/"+image.split("/")[-1], 'wb').write(requests.get(image).content)
+	
+	#quests and events
+	quests_events = [s and s for i in re.split(r"===(.*?)===", re.sub(r"<!--(?:.|\s)*?-->", "", re.sub(r"\[\[(.*?)\]\]", r"**\1**", re.sub(r"\*+\s*", lambda i: (len(i.group().strip())-1)*"  "+"- ", re.findall(r"==Quests and Events==((?:.|\s)*?)==[0-9A-Za-z\s]*?==\s", source)[0].strip())))) if (s := i.strip()) and "A list of quests" not in s and "not appeared" not in s]
+	if len(quests_events) % 2: quests_events.pop()
+	quests_events = dict([quests_events[i:i+2] for i in range(0, len(quests_events), 2)])
+
+	#character interactions
+	if (interactions := re.findall(r"==Character Interactions==((?:.|\s)*?)==[0-9A-Za-z\s]*?==\s", source)):
+		interactions = dict([[re.findall("\[\[(.*?)\]\]", i)[0].strip(), dict(zip(["stories", "voices"], [re.findall("\{\{(.*?)\}\}", i.split("<br />")[0])[0].split("|")[1] for i in [j, k]]))] for (i, j, k) in [i[1:].strip().split("||") for i in interactions[0].strip().split("\n") if i.startswith("|") and i != "|-" and "||" in i]])
+	else: interactions = None
+
+	rdata['stories'] = {
+		'stories': details, 
+		'namecard': namecard,
+		'constellation': constellation,
+		'quests_events': quests_events,
+		'interactions': interactions
+	}
+
 	json.dump(rdata, open(i+'.json', 'w', encoding="utf-8"), indent=4)
