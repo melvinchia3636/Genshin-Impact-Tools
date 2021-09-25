@@ -383,7 +383,7 @@
         ]
     },
     "availability": {
-        "availability": "- Standard Wish **Wanderlust Invocation** (Indefinite)\n- **Beginners' Wish** (Indefinite until all 20 wishes have been made)\n\t- On this **Wish**, Noelle is guaranteed to be obtained on the 8th wish<ref>[https://www.hoyolab.com/genshin/article/497840 Statistical model for Genshin Impact's droprates]</ref> and cannot be obtained more than once.\n- All **Character Event Wishes** and **Weapon Event Wishes**",
+        "availability": "- Standard Wish **Wanderlust Invocation** (Indefinite)\n- **Beginners' Wish** (Indefinite until all 20 wishes have been made)\n\t- On this **Wish**, Noelle is guaranteed to be obtained on the 8th wish and cannot be obtained more than once.\n- All **Character Event Wishes** and **Weapon Event Wishes**",
         "paimon_bargain": [
             {
                 "date": "February 2021",
@@ -482,7 +482,7 @@
         ],
         "event_wishes": [
             {
-                "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0c/Wish_Sparkling_Steps_2020-10-20.jpg",
+                "image": "Wish_Sparkling_Steps_2020-10-20.jpg",
                 "name": "Sparkling Steps/2020-10-20",
                 "item": [
                     {
@@ -512,7 +512,7 @@
                 ]
             },
             {
-                "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/54/Wish_Adrift_in_the_Harbor_2021-01-12.jpg",
+                "image": "Wish_Adrift_in_the_Harbor_2021-01-12.jpg",
                 "name": "Adrift in the Harbor/2021-01-12",
                 "item": [
                     {
@@ -542,7 +542,7 @@
                 ]
             },
             {
-                "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8d/Wish_Ballad_in_Goblets_2021-03-17.jpg",
+                "image": "Wish_Ballad_in_Goblets_2021-03-17.jpg",
                 "name": "Ballad in Goblets/2021-03-17",
                 "item": [
                     {
@@ -572,7 +572,7 @@
                 ]
             },
             {
-                "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/00/Wish_Gentry_of_Hermitage_2021-04-28.png",
+                "image": "Wish_Gentry_of_Hermitage_2021-04-28.png",
                 "name": "Gentry of Hermitage/2021-04-28",
                 "item": [
                     {

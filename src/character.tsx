@@ -27,6 +27,7 @@ interface ICharInfo {
 
 interface IBullet {
     color: string
+    size?: number
 }
 
 interface IProfile {
@@ -54,8 +55,8 @@ interface ICharBanner {
     data: any
 }
 
-const Bullet:React.FC<IBullet> = ({color}: IBullet): JSX.Element => {
-    return <svg className="transition-all" width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+const Bullet:React.FC<IBullet> = ({color, size}: IBullet): JSX.Element => {
+    return <svg className="transition-all" width={size || "27"} height={size || "27"} viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
         <rect x="0.707107" y="13.3553" width="17.8873" height="17.8873" transform="rotate(-45 0.707107 13.3553)" stroke={color}/>
         <path d="M23.3554 13.3553L13.3553 3.35531V23.3554L23.3554 13.3553Z" fill={color}/>
     </svg>;
@@ -228,7 +229,7 @@ const Profile: React.FC<IProfile> = ({data, setIsAuto, changeSubSection, first}:
                         </div>
                     </div>
                     <div className="flex flex-col gap-6 mt-8 pl-1">
-                        <div className="text-genshin-white font-rubik text-lg tracking-wider ">{data.profile.introduction.content}</div>
+                        <div className="text-genshin-white font-rubik text-lg tracking-wider">{data.profile.introduction.content}</div>
                     </div>
                 </>
             </VisibilitySensor>
@@ -494,7 +495,6 @@ const CombatInfo: React.FC<ICombatInfo> = ({data, setIsAuto, changeSubSection, f
 };
 
 const Availability: React.FC<IAvailability> = ({data, setIsAuto, changeSubSection, first}: IAvailability):JSX.Element => {
-
     return <div className="w-full ml-6 h-screen overflow-y-auto" style={{flexShrink: 9999}}>
         <CharBanner data={data}/>
         <div className="pb-12 pl-4 pr-12">
@@ -510,6 +510,45 @@ const Availability: React.FC<IAvailability> = ({data, setIsAuto, changeSubSectio
                     <div className="flex items-center gap-3 pt-12" id="2-0">
                         <Bullet color="#ACCACB"/>
                         <span className="text-genshin-detailsblue text-3xl">Availability</span>
+                    </div>
+                    <div className="flex flex-col gap-4 mt-6 pl-10">
+
+                        {data.availability.availability ? <div><ReactMarkdown className="mt-0 react-markdown">{data.availability.availability}</ReactMarkdown></div> : ""}
+                        <div className="flex items-center gap-3 pt-4">
+                            <span className="text-genshin-detailsblue text-2xl">Paimon’s Bargains</span>
+                        </div>
+                        <div className="text-genshin-white font-rubik text-lg tracking-wider -mt-2">{data.name} was {data.availability.paimon_bargain?.length ? "" : "not"} available in {data.availability.paimon_bargain?.length || ""} <strong className="font-rubik">Paimon’s Bargains</strong> Starglitter Exchange.</div>
+                        {data.availability.paimon_bargain?.map(({date, item}: {date: string, item: {[key: string]: string}[]}) => <div key={date} className="bg-genshin-cardblue p-4 rounded-xl">
+                            <h3 className="text-genshin-white text-xl">{date}</h3>
+                            <div className="flex justify-center gap-2 mt-2">
+                                {item.map(({ rarity, image, text }: {[key: string]: string}) => <div key="image" className="bg-no-repeat bg-cover rounded-md" style={{backgroundImage: `url(${require(`./assets/items/rarity/${rarity}.png`).default})`}}>
+                                    <div className="flex flex-col items-end">
+                                        <img src={image} className="w-22"/>
+                                        <img className="h-3 -mt-3" src="https://static.wikia.nocookie.net/gensin-impact/images/7/79/Card_Corner.png"/>
+                                        <p className="text-genshin-blue text-xs w-full text-center">{text}</p>
+                                    </div>
+                                </div>)}
+                            </div>
+                        </div>)}
+                        <div className="flex items-center gap-3 pt-4">
+                            <span className="text-genshin-detailsblue text-2xl">Event Wishes</span>
+                        </div>
+                        <div className="text-genshin-white font-rubik text-lg tracking-wider -mt-2">{data.name} was {data.availability.event_wishes?.length ? "" : "not"} promoted or featured with a drop-rate boost in {data.availability.event_wishes?.length || "any"} <strong className="font-rubik">Event Wishes</strong>.</div>
+                        {data.availability.event_wishes?.map(({image, name, item}: {image: string, name: string, item: {[key: string]: string}[]}) => <div key={name} className="bg-genshin-cardblue p-4 rounded-xl">
+                            <h3 className="text-genshin-white text-xl">{name.replace("/", " / ")}</h3>
+                            <div className="flex mt-2">
+                                <div><img src={require("./assets/wishes/"+image).default} className="w-full h-full object-cover"/></div>
+                                <div className="grid grid-cols-2 ml-2 justify-center gap-2">
+                                    {item.map(({ rarity, image, text }: {[key: string]: string}) => <div key="image" className="bg-no-repeat bg-cover rounded-md" style={{backgroundImage: `url(${require(`./assets/items/rarity/${rarity}.png`).default})`}}>
+                                        <div className="flex flex-col items-end">
+                                            <img src={image} className="w-56"/>
+                                            <img className="h-3 -mt-3" src="https://static.wikia.nocookie.net/gensin-impact/images/7/79/Card_Corner.png"/>
+                                            <p className="text-genshin-blue text-xs w-full text-center">{text}</p>
+                                        </div>
+                                    </div>)}
+                                </div>
+                            </div>
+                        </div>)}
                     </div>
                 </>
             </VisibilitySensor>
