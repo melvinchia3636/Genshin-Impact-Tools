@@ -24,7 +24,7 @@
         },
         "introduction": {
             "quote": "Albedo \u2014 an alchemist based in Mondstadt, in the service of the Knights of Favonius.\"Genius,\" \"Kreideprinz,\" or \"Captain of the Investigation Team\"... Such titles and honors are of no consequence to him when there is so much more research to conduct.The pursuit of fortune and connections cannot hold a candle to his heart's desire \u2014 acquiring the limitless, obscure knowledge left behind by previous generations of scholars.",
-            "content": "Albedo, also known as the \"Kreideprinz\" is a playable Geo character in Genshin Impact.The mysterious Albedo is the Chief Alchemist and Captain of the Investigation Team of the Knights of Favonius through a recommendation from the adventurer Alice, with Sucrose as his assistant. He holds an infinite desire to learn about the world of Teyvat, carefully studying every object around him."
+            "content": "Albedo, also known as the \"Kreideprinz\" is a playable Geo character in Genshin Impact. The mysterious Albedo is the Chief Alchemist and Captain of the Investigation Team of the Knights of Favonius through a recommendation from the adventurer Alice, with Sucrose as his assistant. He holds an infinite desire to learn about the world of Teyvat, carefully studying every object around him."
         },
         "personality": {
             "quote": "A genius known as the Kreideprinz, he is the Chief Alchemist and Captain of the Investigation Team of the Knights of Favonius.",
@@ -43,183 +43,6 @@
     "name": "Albedo",
     "nickname": "Kreideprinz",
     "combat_info": {
-        "base_stats": {
-            "special": "Geo DMG Bonus",
-            "data": {
-                "0": {
-                    "1": [
-                        "1,030",
-                        "20",
-                        "68",
-                        "\u2014"
-                    ],
-                    "20": [
-                        "2,671",
-                        "51",
-                        "177"
-                    ]
-                },
-                "1": {
-                    "20": [
-                        "3,554",
-                        "68",
-                        "235",
-                        "\u2014"
-                    ],
-                    "40": [
-                        "5,317",
-                        "101",
-                        "352"
-                    ]
-                },
-                "2": {
-                    "40": [
-                        "5,944",
-                        "113",
-                        "394",
-                        "7.2%"
-                    ],
-                    "50": [
-                        "6,839",
-                        "130",
-                        "453"
-                    ]
-                },
-                "3": {
-                    "50": [
-                        "7,675",
-                        "146",
-                        "508",
-                        "14.4%"
-                    ],
-                    "60": [
-                        "8,579",
-                        "163",
-                        "568"
-                    ]
-                },
-                "4": {
-                    "60": [
-                        "9,207",
-                        "175",
-                        "610",
-                        "14.4%"
-                    ],
-                    "70": [
-                        "10,119",
-                        "192",
-                        "670"
-                    ]
-                },
-                "5": {
-                    "70": [
-                        "10,746",
-                        "204",
-                        "712",
-                        "21.6%"
-                    ],
-                    "80": [
-                        "11,669",
-                        "222",
-                        "773"
-                    ]
-                },
-                "6": {
-                    "80": [
-                        "12,296",
-                        "233",
-                        "815",
-                        "28.8%"
-                    ],
-                    "90": [
-                        "13,226",
-                        "251",
-                        "876"
-                    ]
-                }
-            }
-        },
-        "talents": [
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/35/Talent_Favonius_Bladework_-_Weiss.png",
-                "name": "Favonius Bladework - Weiss",
-                "type": "Normal Attack",
-                "desc": "Normal Attack: Perform up to 5 rapid strikes.Charged Attack: Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.Plunging Attack: Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/0/0e/Talent_Abiogenesis_Solar_Isotoma.png",
-                "name": "Abiogenesis: Solar Isotoma",
-                "type": "Elemental Skill",
-                "desc": "Albedo creates a Solar Isotoma using alchemy, which deals AoE Geo DMG on appearance.Solar Isotoma has the following properties:\nWhen enemies within the Solar Isotoma zone take damage, the Solar Isotoma will generate Transient Blossoms which deal AoE Geo DMG. DMG dealt scales off Albedo's DEF. Transient Blossoms can only be generated once every 2s.\nWhen a character is located at the locus of the Solar Isotoma, the Solar Isotoma will accumulate Geo power to form a crystallized platform that lifts the character up to a certain height. Only one crystallized platform can exist at a time.\nSolar Isotoma is a Geo Construct.\nHold to designate the location of the skill."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/0/0a/Talent_Rite_of_Progeniture_Tectonic_Tide.png",
-                "name": "Rite of Progeniture: Tectonic Tide",
-                "type": "Elemental Burst",
-                "desc": "Under Albedo's command, Geo crystals surge and burst forth, dealing AoE Geo DMG in front of him.If a Solar Isotoma created by Albedo himself is on the field, 7 Fatal Blossoms will be generated in the Solar Isotoma field, bursting violently into bloom and dealing AoE Geo DMG.Tecotonic Tide DMG and Fatal Blossom DMG will not generate Transient Blossoms."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/56/Talent_Calcite_Might.png",
-                "name": "Calcite Might",
-                "type": "1st Ascension Passive",
-                "desc": "Transient Blossoms generated by Abiogenesis: Solar Isotoma deal 25% more DMG to opponents whose HP is below 50%."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/8/80/Talent_Homuncular_Nature.png",
-                "name": "Homuncular Nature",
-                "type": "4th Ascension Passive",
-                "desc": "Using Rite of Progeniture: Tectonic Tide increases the Elemental Mastery of nearby party members by 125 for 10s."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/32/Talent_Flash_of_Genius_%28Albedo%29.png",
-                "name": "Flash of Genius (Albedo)",
-                "type": "Utility Passive",
-                "desc": "When Albedo crafts Weapon Ascension Materials, he has a 10% chance to receive double the product."
-            }
-        ],
-        "lvup_mat": [
-            [
-                {
-                    "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b4/Item_Teachings_of_Ballad.png",
-                    "amount": 9
-                },
-                {
-                    "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Guide_to_Ballad.png",
-                    "amount": 63
-                },
-                {
-                    "rarity": 4,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/7e/Item_Philosophies_of_Ballad.png",
-                    "amount": 114
-                }
-            ],
-            [
-                {
-                    "rarity": 1,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/74/Item_Divining_Scroll.png",
-                    "amount": 18
-                },
-                {
-                    "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Sealed_Scroll.png",
-                    "amount": 66
-                },
-                {
-                    "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Item_Forbidden_Curse_Scroll.png",
-                    "amount": 93
-                }
-            ],
-            [
-                {
-                    "rarity": 5,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/Item_Tusk_of_Monoceros_Caeli.png",
-                    "amount": 18
-                }
-            ]
-        ],
         "constellation": [
             {
                 "level": 1,
@@ -258,6 +81,94 @@
                 "effect": "Active party members within the Solar Isotoma field who are protected by a shield created by Crystallize have their DMG increased by 17%."
             }
         ],
+        "base_stats": {
+            "data": {
+                "0": {
+                    "1": [
+                        "1,030",
+                        "20",
+                        "68"
+                    ],
+                    "20": [
+                        "2,671",
+                        "51",
+                        "177"
+                    ]
+                },
+                "1": {
+                    "20": [
+                        "3,554",
+                        "68",
+                        "235"
+                    ],
+                    "40": [
+                        "5,317",
+                        "101",
+                        "352"
+                    ]
+                },
+                "2": {
+                    "40": [
+                        "5,944",
+                        "113",
+                        "394"
+                    ],
+                    "50": [
+                        "6,839",
+                        "130",
+                        "453"
+                    ]
+                },
+                "3": {
+                    "50": [
+                        "7,675",
+                        "146",
+                        "508"
+                    ],
+                    "60": [
+                        "8,579",
+                        "163",
+                        "568"
+                    ]
+                },
+                "4": {
+                    "60": [
+                        "9,207",
+                        "175",
+                        "610"
+                    ],
+                    "70": [
+                        "10,119",
+                        "192",
+                        "670"
+                    ]
+                },
+                "5": {
+                    "70": [
+                        "10,746",
+                        "204",
+                        "712"
+                    ],
+                    "80": [
+                        "11,669",
+                        "222",
+                        "773"
+                    ]
+                },
+                "6": {
+                    "80": [
+                        "12,296",
+                        "233",
+                        "815"
+                    ],
+                    "90": [
+                        "13,226",
+                        "251",
+                        "876"
+                    ]
+                }
+            }
+        },
         "ascensions": [
             [
                 {
@@ -386,6 +297,215 @@
                     "amount": 24
                 }
             ]
+        ],
+        "talents": [
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/35/Talent_Favonius_Bladework_-_Weiss.png",
+                "name": "Favonius Bladework - Weiss",
+                "type": "Normal Attack",
+                "desc": "Normal Attack: Perform up to 5 rapid strikes.Charged Attack: Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.Plunging Attack: Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/0/0e/Talent_Abiogenesis_Solar_Isotoma.png",
+                "name": "Abiogenesis: Solar Isotoma",
+                "type": "Elemental Skill",
+                "desc": "Albedo creates a Solar Isotoma using alchemy, which deals AoE Geo DMG on appearance.Solar Isotoma has the following properties:\nWhen enemies within the Solar Isotoma zone take damage, the Solar Isotoma will generate Transient Blossoms which deal AoE Geo DMG. DMG dealt scales off Albedo's DEF. Transient Blossoms can only be generated once every 2s.\nWhen a character is located at the locus of the Solar Isotoma, the Solar Isotoma will accumulate Geo power to form a crystallized platform that lifts the character up to a certain height. Only one crystallized platform can exist at a time.\nSolar Isotoma is a Geo Construct.\nHold to designate the location of the skill."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/0/0a/Talent_Rite_of_Progeniture_Tectonic_Tide.png",
+                "name": "Rite of Progeniture: Tectonic Tide",
+                "type": "Elemental Burst",
+                "desc": "Under Albedo's command, Geo crystals surge and burst forth, dealing AoE Geo DMG in front of him.If a Solar Isotoma created by Albedo himself is on the field, 7 Fatal Blossoms will be generated in the Solar Isotoma field, bursting violently into bloom and dealing AoE Geo DMG.Tecotonic Tide DMG and Fatal Blossom DMG will not generate Transient Blossoms."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/56/Talent_Calcite_Might.png",
+                "name": "Calcite Might",
+                "type": "1st Ascension Passive",
+                "desc": "Transient Blossoms generated by Abiogenesis: Solar Isotoma deal 25% more DMG to opponents whose HP is below 50%."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/8/80/Talent_Homuncular_Nature.png",
+                "name": "Homuncular Nature",
+                "type": "4th Ascension Passive",
+                "desc": "Using Rite of Progeniture: Tectonic Tide increases the Elemental Mastery of nearby party members by 125 for 10s."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/32/Talent_Flash_of_Genius_%28Albedo%29.png",
+                "name": "Flash of Genius (Albedo)",
+                "type": "Utility Passive",
+                "desc": "When Albedo crafts Weapon Ascension Materials, he has a 10% chance to receive double the product."
+            }
+        ],
+        "talent_levening_mat": [
+            {
+                "ascensions_req": "2",
+                "cost": "12,500",
+                "materials": [
+                    {
+                        "rarity": 1,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/74/Item_Divining_Scroll.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b4/Item_Teachings_of_Ballad.png",
+                        "amount": 3
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "3",
+                "cost": "17,500",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Sealed_Scroll.png",
+                        "amount": 3
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Guide_to_Ballad.png",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "3",
+                "cost": "25,000",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Sealed_Scroll.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Guide_to_Ballad.png",
+                        "amount": 4
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "4",
+                "cost": "30,000",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Sealed_Scroll.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Guide_to_Ballad.png",
+                        "amount": 6
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "4",
+                "cost": "37,500",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Sealed_Scroll.png",
+                        "amount": 9
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Guide_to_Ballad.png",
+                        "amount": 9
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "5",
+                "cost": "120,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Item_Forbidden_Curse_Scroll.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/7e/Item_Philosophies_of_Ballad.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/Item_Tusk_of_Monoceros_Caeli.png",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "5",
+                "cost": "260,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Item_Forbidden_Curse_Scroll.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/7e/Item_Philosophies_of_Ballad.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/Item_Tusk_of_Monoceros_Caeli.png",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "6",
+                "cost": "450,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Item_Forbidden_Curse_Scroll.png",
+                        "amount": 9
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/7e/Item_Philosophies_of_Ballad.png",
+                        "amount": 12
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/Item_Tusk_of_Monoceros_Caeli.png",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "6",
+                "cost": "700,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Item_Forbidden_Curse_Scroll.png",
+                        "amount": 12
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/7e/Item_Philosophies_of_Ballad.png",
+                        "amount": 16
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/Item_Tusk_of_Monoceros_Caeli.png",
+                        "amount": 2
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/04/Item_Crown_of_Insight.png",
+                        "amount": 1
+                    }
+                ]
+            }
         ]
     },
     "availability": {
@@ -519,7 +639,7 @@
         },
         "quests_events": {
             "Story Quests": "- **Princeps Cretaceus Chapter** (**Albedo**'s **Story Quest**)\n  - Act I: **Traveler Observation Report**\n    - **The Genius Researcher and the Seed of Another World**\n    - **The First Experiment: Elements**\n    - **The Second Experiment: The World**\n    - **The Third Experiment: Life**\n    - **The Final Experiment: Withering Glory**",
-            "Events": "- **The Chalk Prince and the Dragon**\n  - All parts\n- **Invitation of Windblume**\n  - Act III: **Realm of Fog and Wind**\n- **Midsummer Island Adventure**\n  - Part III: **Dodo-King of the Sea: Lying in Wait**\n  - Part IV: **The Final Riddle: A Secret Uncovered**"
+            "Events": "- **The Chalk Prince and the Dragon**\n  - All parts\n- **Invitation of Windblume**\n  - Act III: **Realm of Fog and Wind**\n- **Midsummer Island Adventure**\n  - Part III: **Dodo-King of the Sea: Lying in Wait**\n  - Part IV: **The Final Riddle: A Secret Uncovered**\n- **Side by Side We Venture**"
         },
         "interactions": {
             "Amber": {

@@ -45,183 +45,6 @@
     "name": "Kaeya",
     "nickname": "Frostwind Swordsman",
     "combat_info": {
-        "base_stats": {
-            "special": "Energy Recharge",
-            "data": {
-                "0": {
-                    "1": [
-                        "976",
-                        "19",
-                        "66",
-                        "\u2014"
-                    ],
-                    "20": [
-                        "2,506",
-                        "48",
-                        "171"
-                    ]
-                },
-                "1": {
-                    "20": [
-                        "3,235",
-                        "62",
-                        "220",
-                        "\u2014"
-                    ],
-                    "40": [
-                        "4,846",
-                        "93",
-                        "330"
-                    ]
-                },
-                "2": {
-                    "40": [
-                        "5,364",
-                        "103",
-                        "365",
-                        "6.7%"
-                    ],
-                    "50": [
-                        "6,170",
-                        "118",
-                        "420"
-                    ]
-                },
-                "3": {
-                    "50": [
-                        "6,860",
-                        "131",
-                        "467",
-                        "13.3%"
-                    ],
-                    "60": [
-                        "7,666",
-                        "147",
-                        "522"
-                    ]
-                },
-                "4": {
-                    "60": [
-                        "8,184",
-                        "157",
-                        "557",
-                        "13.3%"
-                    ],
-                    "70": [
-                        "8,990",
-                        "172",
-                        "612"
-                    ]
-                },
-                "5": {
-                    "70": [
-                        "9,508",
-                        "182",
-                        "647",
-                        "20.0%"
-                    ],
-                    "80": [
-                        "10,312",
-                        "198",
-                        "702"
-                    ]
-                },
-                "6": {
-                    "80": [
-                        "10,830",
-                        "208",
-                        "737",
-                        "26.7%"
-                    ],
-                    "90": [
-                        "11,636",
-                        "223",
-                        "792"
-                    ]
-                }
-            }
-        },
-        "talents": [
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/8/8d/Talent_Ceremonial_Bladework.png",
-                "name": "Ceremonial Bladework",
-                "type": "Normal Attack",
-                "desc": "Normal Attack: Performs up to 5 rapid strikes.\nCharged Attack: Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.\nPlunging Attack: Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/51/Talent_Frostgnaw.png",
-                "name": "Frostgnaw",
-                "type": "Elemental Skill",
-                "desc": "Unleashes a frigid blast, dealing Cryo DMG to opponents in front of Kaeya."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/2/29/Talent_Glacial_Waltz.png",
-                "name": "Glacial Waltz",
-                "type": "Elemental Burst",
-                "desc": "Coalescing the frost in the air, Kaeya summons 3 icicles that revolve 4 times around him for 8 seconds.These icicles will follow the character around and deal Cryo DMG to opponents in their path for so long as they persist."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Talent_Cold-Blooded_Strike.png",
-                "name": "Cold-Blooded Strike",
-                "type": "1st Ascension Passive",
-                "desc": "Every hit with Frostgnaw regenerates HP for Kaeya equal to 15% of his ATK."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/6/6f/Talent_Glacial_Heart.png",
-                "name": "Glacial Heart",
-                "type": "4th Ascension Passive",
-                "desc": "Opponents Frozen by Frostgnaw will drop additional Elemental Particles. Frostgnaw may only produce a maximum of 2 additional Elemental Particles per use."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/8/8e/Talent_Hidden_Strength.png",
-                "name": "Hidden Strength",
-                "type": "Utility Passive",
-                "desc": "Decreases sprinting Stamina consumption of your characters in the party by 20%.\nNot stackable with Passive Talents that provide the exact same effects."
-            }
-        ],
-        "lvup_mat": [
-            [
-                {
-                    "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b4/Item_Teachings_of_Ballad.png",
-                    "amount": 9
-                },
-                {
-                    "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Guide_to_Ballad.png",
-                    "amount": 63
-                },
-                {
-                    "rarity": 4,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/7e/Item_Philosophies_of_Ballad.png",
-                    "amount": 114
-                }
-            ],
-            [
-                {
-                    "rarity": 1,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c9/Item_Treasure_Hoarder_Insignia.png",
-                    "amount": 18
-                },
-                {
-                    "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Item_Silver_Raven_Insignia.png",
-                    "amount": 66
-                },
-                {
-                    "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Golden_Raven_Insignia.png",
-                    "amount": 93
-                }
-            ],
-            [
-                {
-                    "rarity": 5,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/81/Item_Spirit_Locket_of_Boreas.png",
-                    "amount": 18
-                }
-            ]
-        ],
         "constellation": [
             {
                 "level": 1,
@@ -260,6 +83,94 @@
                 "effect": "Glacial Waltz will generate 1 additional icicle, and will regenerate 15 Energy when cast."
             }
         ],
+        "base_stats": {
+            "data": {
+                "0": {
+                    "1": [
+                        "976",
+                        "19",
+                        "66"
+                    ],
+                    "20": [
+                        "2,506",
+                        "48",
+                        "171"
+                    ]
+                },
+                "1": {
+                    "20": [
+                        "3,235",
+                        "62",
+                        "220"
+                    ],
+                    "40": [
+                        "4,846",
+                        "93",
+                        "330"
+                    ]
+                },
+                "2": {
+                    "40": [
+                        "5,364",
+                        "103",
+                        "365"
+                    ],
+                    "50": [
+                        "6,170",
+                        "118",
+                        "420"
+                    ]
+                },
+                "3": {
+                    "50": [
+                        "6,860",
+                        "131",
+                        "467"
+                    ],
+                    "60": [
+                        "7,666",
+                        "147",
+                        "522"
+                    ]
+                },
+                "4": {
+                    "60": [
+                        "8,184",
+                        "157",
+                        "557"
+                    ],
+                    "70": [
+                        "8,990",
+                        "172",
+                        "612"
+                    ]
+                },
+                "5": {
+                    "70": [
+                        "9,508",
+                        "182",
+                        "647"
+                    ],
+                    "80": [
+                        "10,312",
+                        "198",
+                        "702"
+                    ]
+                },
+                "6": {
+                    "80": [
+                        "10,830",
+                        "208",
+                        "737"
+                    ],
+                    "90": [
+                        "11,636",
+                        "223",
+                        "792"
+                    ]
+                }
+            }
+        },
         "ascensions": [
             [
                 {
@@ -388,6 +299,215 @@
                     "amount": 24
                 }
             ]
+        ],
+        "talents": [
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/8/8d/Talent_Ceremonial_Bladework.png",
+                "name": "Ceremonial Bladework",
+                "type": "Normal Attack",
+                "desc": "Normal Attack: Performs up to 5 rapid strikes.\nCharged Attack: Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.\nPlunging Attack: Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/51/Talent_Frostgnaw.png",
+                "name": "Frostgnaw",
+                "type": "Elemental Skill",
+                "desc": "Unleashes a frigid blast, dealing Cryo DMG to opponents in front of Kaeya."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/2/29/Talent_Glacial_Waltz.png",
+                "name": "Glacial Waltz",
+                "type": "Elemental Burst",
+                "desc": "Coalescing the frost in the air, Kaeya summons 3 icicles that revolve 4 times around him for 8 seconds.These icicles will follow the character around and deal Cryo DMG to opponents in their path for so long as they persist."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Talent_Cold-Blooded_Strike.png",
+                "name": "Cold-Blooded Strike",
+                "type": "1st Ascension Passive",
+                "desc": "Every hit with Frostgnaw regenerates HP for Kaeya equal to 15% of his ATK."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/6/6f/Talent_Glacial_Heart.png",
+                "name": "Glacial Heart",
+                "type": "4th Ascension Passive",
+                "desc": "Opponents Frozen by Frostgnaw will drop additional Elemental Particles. Frostgnaw may only produce a maximum of 2 additional Elemental Particles per use."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/8/8e/Talent_Hidden_Strength.png",
+                "name": "Hidden Strength",
+                "type": "Utility Passive",
+                "desc": "Decreases sprinting Stamina consumption of your characters in the party by 20%.\nNot stackable with Passive Talents that provide the exact same effects."
+            }
+        ],
+        "talent_levening_mat": [
+            {
+                "ascensions_req": "2",
+                "cost": "12,500",
+                "materials": [
+                    {
+                        "rarity": 1,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c9/Item_Treasure_Hoarder_Insignia.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b4/Item_Teachings_of_Ballad.png",
+                        "amount": 3
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "3",
+                "cost": "17,500",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Item_Silver_Raven_Insignia.png",
+                        "amount": 3
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Guide_to_Ballad.png",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "3",
+                "cost": "25,000",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Item_Silver_Raven_Insignia.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Guide_to_Ballad.png",
+                        "amount": 4
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "4",
+                "cost": "30,000",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Item_Silver_Raven_Insignia.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Guide_to_Ballad.png",
+                        "amount": 6
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "4",
+                "cost": "37,500",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Item_Silver_Raven_Insignia.png",
+                        "amount": 9
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Guide_to_Ballad.png",
+                        "amount": 9
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "5",
+                "cost": "120,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Golden_Raven_Insignia.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/7e/Item_Philosophies_of_Ballad.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/81/Item_Spirit_Locket_of_Boreas.png",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "5",
+                "cost": "260,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Golden_Raven_Insignia.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/7e/Item_Philosophies_of_Ballad.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/81/Item_Spirit_Locket_of_Boreas.png",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "6",
+                "cost": "450,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Golden_Raven_Insignia.png",
+                        "amount": 9
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/7e/Item_Philosophies_of_Ballad.png",
+                        "amount": 12
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/81/Item_Spirit_Locket_of_Boreas.png",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "6",
+                "cost": "700,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Golden_Raven_Insignia.png",
+                        "amount": 12
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/7e/Item_Philosophies_of_Ballad.png",
+                        "amount": 16
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/81/Item_Spirit_Locket_of_Boreas.png",
+                        "amount": 2
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/04/Item_Crown_of_Insight.png",
+                        "amount": 1
+                    }
+                ]
+            }
         ]
     },
     "availability": {

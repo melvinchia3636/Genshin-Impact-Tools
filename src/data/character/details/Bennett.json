@@ -43,183 +43,6 @@
     "name": "Bennett",
     "nickname": "Trial by Fire",
     "combat_info": {
-        "base_stats": {
-            "special": "Energy Recharge",
-            "data": {
-                "0": {
-                    "1": [
-                        "1,039",
-                        "16",
-                        "65",
-                        "\u2014"
-                    ],
-                    "20": [
-                        "2,670",
-                        "41",
-                        "166"
-                    ]
-                },
-                "1": {
-                    "20": [
-                        "3,447",
-                        "53",
-                        "214",
-                        "\u2014"
-                    ],
-                    "40": [
-                        "5,163",
-                        "80",
-                        "321"
-                    ]
-                },
-                "2": {
-                    "40": [
-                        "5,715",
-                        "88",
-                        "356",
-                        "6.7%"
-                    ],
-                    "50": [
-                        "6,573",
-                        "101",
-                        "409"
-                    ]
-                },
-                "3": {
-                    "50": [
-                        "7,309",
-                        "113",
-                        "455",
-                        "13.3%"
-                    ],
-                    "60": [
-                        "8,168",
-                        "126",
-                        "508"
-                    ]
-                },
-                "4": {
-                    "60": [
-                        "8,719",
-                        "134",
-                        "542",
-                        "13.3%"
-                    ],
-                    "70": [
-                        "9,577",
-                        "148",
-                        "596"
-                    ]
-                },
-                "5": {
-                    "70": [
-                        "10,129",
-                        "156",
-                        "630",
-                        "20.0%"
-                    ],
-                    "80": [
-                        "10,987",
-                        "169",
-                        "684"
-                    ]
-                },
-                "6": {
-                    "80": [
-                        "11,539",
-                        "178",
-                        "718",
-                        "26.7%"
-                    ],
-                    "90": [
-                        "12,397",
-                        "191",
-                        "771"
-                    ]
-                }
-            }
-        },
-        "talents": [
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/38/Talent_Strike_of_Fortune.png",
-                "name": "Strike of Fortune",
-                "type": "Normal Attack",
-                "desc": "Normal Attack: Performs up to 5 rapid strikes.\nCharged Attack: Consumes a certain amount of Stamina to unleash 2 rapid sword swings.\nPlunging Attack: Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/6/66/Talent_Passion_Overload.png",
-                "name": "Passion Overload",
-                "type": "Elemental Skill",
-                "desc": "Bennett concentrates the spirit of Adventure and Pyro into his blade. Depending on how long he charges for, different effects occur.\nPress: A single, swift flame strike that deals Pyro DMG.\nHold (Short): Charges up, resulting in different effects when unleashed based on the Charge Level\n\nLevel 1: Strikes twice, dealing Pyro DMG and launching opponents.\nLevel 2: Unleashes 3 consecutive attacks that deal impressive Pyro DMG, but the last attack triggers an explosion that launches both Bennett and the enemy.Bennett takes no damage from being launched, but can take fall damage if he falls down a cliff."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/a/a2/Talent_Fantastic_Voyage.png",
-                "name": "Fantastic Voyage",
-                "type": "Elemental Burst",
-                "desc": "Bennett performs a jumping slam attack that deals Pyro DMG, creating an Inspiration Field for 12 seconds.\nInspiration Field:\n\nIf the health of a character within the AoE is equal to or falls below 70%, their health will regenerate each second. The amount of HP restores scales off Bennett's Max HP.\nIf the health of a character within the AoE is higher than 70%, they gain an ATK Bonus that scales based on Bennett's Base ATK.\nImbues characters within the AoE with Pyro."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/77/Talent_Rekindle.png",
-                "name": "Rekindle",
-                "type": "1st Ascension Passive",
-                "desc": "Decreases Passion Overload's CD by 20%."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/1/1a/Talent_Fearnaught.png",
-                "name": "Fearnaught",
-                "type": "4th Ascension Passive",
-                "desc": "When inside Fantastic Voyage's circle, Passion Overload's CD is decreased by 50% and Bennett cannot be launched by this skill's explosion."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/2/2a/Talent_It_Should_Be_Safe....png",
-                "name": "It Should Be Safe...",
-                "type": "Utility Passive",
-                "desc": "When dispatched on an expedition in Mondstadt, time consumed is reduced by 25%."
-            }
-        ],
-        "lvup_mat": [
-            [
-                {
-                    "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/33/Item_Teachings_of_Resistance.png",
-                    "amount": 9
-                },
-                {
-                    "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Item_Guide_to_Resistance.png",
-                    "amount": 63
-                },
-                {
-                    "rarity": 4,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Philosophies_of_Resistance.png",
-                    "amount": 114
-                }
-            ],
-            [
-                {
-                    "rarity": 1,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c9/Item_Treasure_Hoarder_Insignia.png",
-                    "amount": 18
-                },
-                {
-                    "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Item_Silver_Raven_Insignia.png",
-                    "amount": 66
-                },
-                {
-                    "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Golden_Raven_Insignia.png",
-                    "amount": 93
-                }
-            ],
-            [
-                {
-                    "rarity": 5,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Item_Dvalin's_Plume.png",
-                    "amount": 18
-                }
-            ]
-        ],
         "constellation": [
             {
                 "level": 1,
@@ -258,6 +81,94 @@
                 "effect": "Sword, Claymore, or Polearm-wielding characters inside Fantastic Voyage's radius gain a 15% Pyro DMG Bonus and their weapons are infused with Pyro."
             }
         ],
+        "base_stats": {
+            "data": {
+                "0": {
+                    "1": [
+                        "1,039",
+                        "16",
+                        "65"
+                    ],
+                    "20": [
+                        "2,670",
+                        "41",
+                        "166"
+                    ]
+                },
+                "1": {
+                    "20": [
+                        "3,447",
+                        "53",
+                        "214"
+                    ],
+                    "40": [
+                        "5,163",
+                        "80",
+                        "321"
+                    ]
+                },
+                "2": {
+                    "40": [
+                        "5,715",
+                        "88",
+                        "356"
+                    ],
+                    "50": [
+                        "6,573",
+                        "101",
+                        "409"
+                    ]
+                },
+                "3": {
+                    "50": [
+                        "7,309",
+                        "113",
+                        "455"
+                    ],
+                    "60": [
+                        "8,168",
+                        "126",
+                        "508"
+                    ]
+                },
+                "4": {
+                    "60": [
+                        "8,719",
+                        "134",
+                        "542"
+                    ],
+                    "70": [
+                        "9,577",
+                        "148",
+                        "596"
+                    ]
+                },
+                "5": {
+                    "70": [
+                        "10,129",
+                        "156",
+                        "630"
+                    ],
+                    "80": [
+                        "10,987",
+                        "169",
+                        "684"
+                    ]
+                },
+                "6": {
+                    "80": [
+                        "11,539",
+                        "178",
+                        "718"
+                    ],
+                    "90": [
+                        "12,397",
+                        "191",
+                        "771"
+                    ]
+                }
+            }
+        },
         "ascensions": [
             [
                 {
@@ -386,6 +297,215 @@
                     "amount": 24
                 }
             ]
+        ],
+        "talents": [
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/38/Talent_Strike_of_Fortune.png",
+                "name": "Strike of Fortune",
+                "type": "Normal Attack",
+                "desc": "Normal Attack: Performs up to 5 rapid strikes.\nCharged Attack: Consumes a certain amount of Stamina to unleash 2 rapid sword swings.\nPlunging Attack: Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/6/66/Talent_Passion_Overload.png",
+                "name": "Passion Overload",
+                "type": "Elemental Skill",
+                "desc": "Bennett concentrates the spirit of Adventure and Pyro into his blade. Depending on how long he charges for, different effects occur.\nPress: A single, swift flame strike that deals Pyro DMG.\nHold (Short): Charges up, resulting in different effects when unleashed based on the Charge Level\n\nLevel 1: Strikes twice, dealing Pyro DMG and launching opponents.\nLevel 2: Unleashes 3 consecutive attacks that deal impressive Pyro DMG, but the last attack triggers an explosion that launches both Bennett and the enemy.Bennett takes no damage from being launched, but can take fall damage if he falls down a cliff."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/a/a2/Talent_Fantastic_Voyage.png",
+                "name": "Fantastic Voyage",
+                "type": "Elemental Burst",
+                "desc": "Bennett performs a jumping slam attack that deals Pyro DMG, creating an Inspiration Field for 12 seconds.\nInspiration Field:\n\nIf the health of a character within the AoE is equal to or falls below 70%, their health will regenerate each second. The amount of HP restores scales off Bennett's Max HP.\nIf the health of a character within the AoE is higher than 70%, they gain an ATK Bonus that scales based on Bennett's Base ATK.\nImbues characters within the AoE with Pyro."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/77/Talent_Rekindle.png",
+                "name": "Rekindle",
+                "type": "1st Ascension Passive",
+                "desc": "Decreases Passion Overload's CD by 20%."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/1/1a/Talent_Fearnaught.png",
+                "name": "Fearnaught",
+                "type": "4th Ascension Passive",
+                "desc": "When inside Fantastic Voyage's circle, Passion Overload's CD is decreased by 50% and Bennett cannot be launched by this skill's explosion."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/2/2a/Talent_It_Should_Be_Safe....png",
+                "name": "It Should Be Safe...",
+                "type": "Utility Passive",
+                "desc": "When dispatched on an expedition in Mondstadt, time consumed is reduced by 25%."
+            }
+        ],
+        "talent_levening_mat": [
+            {
+                "ascensions_req": "2",
+                "cost": "12,500",
+                "materials": [
+                    {
+                        "rarity": 1,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c9/Item_Treasure_Hoarder_Insignia.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/33/Item_Teachings_of_Resistance.png",
+                        "amount": 3
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "3",
+                "cost": "17,500",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Item_Silver_Raven_Insignia.png",
+                        "amount": 3
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Item_Guide_to_Resistance.png",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "3",
+                "cost": "25,000",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Item_Silver_Raven_Insignia.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Item_Guide_to_Resistance.png",
+                        "amount": 4
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "4",
+                "cost": "30,000",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Item_Silver_Raven_Insignia.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Item_Guide_to_Resistance.png",
+                        "amount": 6
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "4",
+                "cost": "37,500",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Item_Silver_Raven_Insignia.png",
+                        "amount": 9
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Item_Guide_to_Resistance.png",
+                        "amount": 9
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "5",
+                "cost": "120,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Golden_Raven_Insignia.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Philosophies_of_Resistance.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Item_Dvalin%27s_Plume.png",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "5",
+                "cost": "260,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Golden_Raven_Insignia.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Philosophies_of_Resistance.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Item_Dvalin%27s_Plume.png",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "6",
+                "cost": "450,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Golden_Raven_Insignia.png",
+                        "amount": 9
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Philosophies_of_Resistance.png",
+                        "amount": 12
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Item_Dvalin%27s_Plume.png",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "6",
+                "cost": "700,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Golden_Raven_Insignia.png",
+                        "amount": 12
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Philosophies_of_Resistance.png",
+                        "amount": 16
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Item_Dvalin%27s_Plume.png",
+                        "amount": 2
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/04/Item_Crown_of_Insight.png",
+                        "amount": 1
+                    }
+                ]
+            }
         ]
     },
     "availability": {

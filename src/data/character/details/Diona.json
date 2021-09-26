@@ -41,183 +41,6 @@
     "name": "Diona",
     "nickname": "K\u00e4tzlein Cocktail",
     "combat_info": {
-        "base_stats": {
-            "special": "Cryo DMG Bonus",
-            "data": {
-                "0": {
-                    "1": [
-                        "802",
-                        "18",
-                        "50",
-                        "\u2014"
-                    ],
-                    "20": [
-                        "2,061",
-                        "46",
-                        "129"
-                    ]
-                },
-                "1": {
-                    "20": [
-                        "2,661",
-                        "59",
-                        "167",
-                        "\u2014"
-                    ],
-                    "40": [
-                        "3,985",
-                        "88",
-                        "250"
-                    ]
-                },
-                "2": {
-                    "40": [
-                        "4,411",
-                        "98",
-                        "277",
-                        "6.0%"
-                    ],
-                    "50": [
-                        "5,074",
-                        "113",
-                        "318"
-                    ]
-                },
-                "3": {
-                    "50": [
-                        "5,642",
-                        "125",
-                        "354",
-                        "12.0%"
-                    ],
-                    "60": [
-                        "6,305",
-                        "140",
-                        "396"
-                    ]
-                },
-                "4": {
-                    "60": [
-                        "6,731",
-                        "149",
-                        "422",
-                        "12.0%"
-                    ],
-                    "70": [
-                        "7,393",
-                        "164",
-                        "464"
-                    ]
-                },
-                "5": {
-                    "70": [
-                        "7,818",
-                        "174",
-                        "491",
-                        "18.0%"
-                    ],
-                    "80": [
-                        "8,481",
-                        "188",
-                        "532"
-                    ]
-                },
-                "6": {
-                    "80": [
-                        "8,907",
-                        "198",
-                        "559",
-                        "24.0%"
-                    ],
-                    "90": [
-                        "9,570",
-                        "212",
-                        "601"
-                    ]
-                }
-            }
-        },
-        "talents": [
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/77/Talent_K%C3%A4tzlein_Style.png",
-                "name": "K\u00e4tzlein Style",
-                "type": "Normal Attack",
-                "desc": "Normal Attack: Perform up to 5 consecutive shots with a bow.\nCharged Attack: Perform a more precise Aimed Shot with increased DMG. While aiming, biting frost will accumulate on the arrowhead. A fully charged frost arrow will deal Cryo Damage.\nPlunging Attack: Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG on impact."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/e/e9/Talent_Icy_Paws.png",
-                "name": "Icy Paws",
-                "type": "Elemental Skill",
-                "desc": "Fires an Icy Paw that deals Cryo DMG to opponents and forms a shield on hit. The shield's DMG Absorption scales based on Diona's Max HP, and its duration scales off the number of Icy Paws that hit their target.\nPress: Rapidly fires off 2 Icy Paws.\nHold: Dashes back quickly before firing 5 Icy Paws. The shield created by a Hold attack will gain a 75% DMG Absorption Bonus.\nThe shield has a 250% Cryo DMG Absorption Bonus, and will infuse Diona with Cryo at the point of formation for a short duration."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/57/Talent_Signature_Mix.png",
-                "name": "Signature Mix",
-                "type": "Elemental Burst",
-                "desc": "Tosses out a special cold brew that deals AoE Cryo DMG and creates a Drunken Mist in an AoE.\nEvery 2 seconds, for 12 seconds, Drunken Mist:\n\nDeals Cryo DMG to opponents within the field.\nRegenerates the HP of characters within the field."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/c/cc/Talent_Cat's_Tail_Secret_Menu.png",
-                "name": "Cat's Tail Secret Menu",
-                "type": "1st Ascension Passive",
-                "desc": "Characters shielded by Icy Paws have their Movement SPD increased by 10% and their Stamina Consumption decreased by 10%."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/53/Talent_Drunkards'_Farce.png",
-                "name": "Drunkards' Farce",
-                "type": "4th Ascension Passive",
-                "desc": "Opponents who enter the AoE of Signature Mix have 10% decreased ATK for 15s."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/da/Talent_Complimentary_Bar_Food.png",
-                "name": "Complimentary Bar Food",
-                "type": "Utility Passive",
-                "desc": "When a Perfect Cooking is achieved on a dish with restorative effects, Diona has a 12% chance to obtain double the product."
-            }
-        ],
-        "lvup_mat": [
-            [
-                {
-                    "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3a/Item_Teachings_of_Freedom.png",
-                    "amount": 9
-                },
-                {
-                    "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1a/Item_Guide_to_Freedom.png",
-                    "amount": 63
-                },
-                {
-                    "rarity": 4,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Item_Philosophies_of_Freedom.png",
-                    "amount": 114
-                }
-            ],
-            [
-                {
-                    "rarity": 1,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/Item_Firm_Arrowhead.png",
-                    "amount": 18
-                },
-                {
-                    "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0d/Item_Sharp_Arrowhead.png",
-                    "amount": 66
-                },
-                {
-                    "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/22/Item_Weathered_Arrowhead.png",
-                    "amount": 93
-                }
-            ],
-            [
-                {
-                    "rarity": 5,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/48/Item_Shard_of_a_Foul_Legacy.png",
-                    "amount": 18
-                }
-            ]
-        ],
         "constellation": [
             {
                 "level": 1,
@@ -251,11 +74,99 @@
             },
             {
                 "level": 6,
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Constellation_Cat's_Tail_Closing_Time.png",
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Constellation_Cat%27s_Tail_Closing_Time.png",
                 "name": "Cat's Tail Closing Time",
                 "effect": "Characters within Signature Mix's radius will gain the following effects based on their HP amounts:\nIncreases Incoming Healing Bonus by 30% when HP falls below or is equal to 50%.\nElemental Mastery increased by 200 when HP is above 50%."
             }
         ],
+        "base_stats": {
+            "data": {
+                "0": {
+                    "1": [
+                        "802",
+                        "18",
+                        "50"
+                    ],
+                    "20": [
+                        "2,061",
+                        "46",
+                        "129"
+                    ]
+                },
+                "1": {
+                    "20": [
+                        "2,661",
+                        "59",
+                        "167"
+                    ],
+                    "40": [
+                        "3,985",
+                        "88",
+                        "250"
+                    ]
+                },
+                "2": {
+                    "40": [
+                        "4,411",
+                        "98",
+                        "277"
+                    ],
+                    "50": [
+                        "5,074",
+                        "113",
+                        "318"
+                    ]
+                },
+                "3": {
+                    "50": [
+                        "5,642",
+                        "125",
+                        "354"
+                    ],
+                    "60": [
+                        "6,305",
+                        "140",
+                        "396"
+                    ]
+                },
+                "4": {
+                    "60": [
+                        "6,731",
+                        "149",
+                        "422"
+                    ],
+                    "70": [
+                        "7,393",
+                        "164",
+                        "464"
+                    ]
+                },
+                "5": {
+                    "70": [
+                        "7,818",
+                        "174",
+                        "491"
+                    ],
+                    "80": [
+                        "8,481",
+                        "188",
+                        "532"
+                    ]
+                },
+                "6": {
+                    "80": [
+                        "8,907",
+                        "198",
+                        "559"
+                    ],
+                    "90": [
+                        "9,570",
+                        "212",
+                        "601"
+                    ]
+                }
+            }
+        },
         "ascensions": [
             [
                 {
@@ -384,6 +295,215 @@
                     "amount": 24
                 }
             ]
+        ],
+        "talents": [
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/77/Talent_K%C3%A4tzlein_Style.png",
+                "name": "K\u00e4tzlein Style",
+                "type": "Normal Attack",
+                "desc": "Normal Attack: Perform up to 5 consecutive shots with a bow.\nCharged Attack: Perform a more precise Aimed Shot with increased DMG. While aiming, biting frost will accumulate on the arrowhead. A fully charged frost arrow will deal Cryo Damage.\nPlunging Attack: Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG on impact."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/e/e9/Talent_Icy_Paws.png",
+                "name": "Icy Paws",
+                "type": "Elemental Skill",
+                "desc": "Fires an Icy Paw that deals Cryo DMG to opponents and forms a shield on hit. The shield's DMG Absorption scales based on Diona's Max HP, and its duration scales off the number of Icy Paws that hit their target.\nPress: Rapidly fires off 2 Icy Paws.\nHold: Dashes back quickly before firing 5 Icy Paws. The shield created by a Hold attack will gain a 75% DMG Absorption Bonus.\nThe shield has a 250% Cryo DMG Absorption Bonus, and will infuse Diona with Cryo at the point of formation for a short duration."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/57/Talent_Signature_Mix.png",
+                "name": "Signature Mix",
+                "type": "Elemental Burst",
+                "desc": "Tosses out a special cold brew that deals AoE Cryo DMG and creates a Drunken Mist in an AoE.\nEvery 2 seconds, for 12 seconds, Drunken Mist:\n\nDeals Cryo DMG to opponents within the field.\nRegenerates the HP of characters within the field."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/c/cc/Talent_Cat%27s_Tail_Secret_Menu.png",
+                "name": "Cat's Tail Secret Menu",
+                "type": "1st Ascension Passive",
+                "desc": "Characters shielded by Icy Paws have their Movement SPD increased by 10% and their Stamina Consumption decreased by 10%."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/53/Talent_Drunkards%27_Farce.png",
+                "name": "Drunkards' Farce",
+                "type": "4th Ascension Passive",
+                "desc": "Opponents who enter the AoE of Signature Mix have 10% decreased ATK for 15s."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/da/Talent_Complimentary_Bar_Food.png",
+                "name": "Complimentary Bar Food",
+                "type": "Utility Passive",
+                "desc": "When a Perfect Cooking is achieved on a dish with restorative effects, Diona has a 12% chance to obtain double the product."
+            }
+        ],
+        "talent_levening_mat": [
+            {
+                "ascensions_req": "2",
+                "cost": "12,500",
+                "materials": [
+                    {
+                        "rarity": 1,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/Item_Firm_Arrowhead.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3a/Item_Teachings_of_Freedom.png",
+                        "amount": 3
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "3",
+                "cost": "17,500",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0d/Item_Sharp_Arrowhead.png",
+                        "amount": 3
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1a/Item_Guide_to_Freedom.png",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "3",
+                "cost": "25,000",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0d/Item_Sharp_Arrowhead.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1a/Item_Guide_to_Freedom.png",
+                        "amount": 4
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "4",
+                "cost": "30,000",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0d/Item_Sharp_Arrowhead.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1a/Item_Guide_to_Freedom.png",
+                        "amount": 6
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "4",
+                "cost": "37,500",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0d/Item_Sharp_Arrowhead.png",
+                        "amount": 9
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1a/Item_Guide_to_Freedom.png",
+                        "amount": 9
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "5",
+                "cost": "120,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/22/Item_Weathered_Arrowhead.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Item_Philosophies_of_Freedom.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/48/Item_Shard_of_a_Foul_Legacy.png",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "5",
+                "cost": "260,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/22/Item_Weathered_Arrowhead.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Item_Philosophies_of_Freedom.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/48/Item_Shard_of_a_Foul_Legacy.png",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "6",
+                "cost": "450,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/22/Item_Weathered_Arrowhead.png",
+                        "amount": 9
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Item_Philosophies_of_Freedom.png",
+                        "amount": 12
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/48/Item_Shard_of_a_Foul_Legacy.png",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "6",
+                "cost": "700,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/22/Item_Weathered_Arrowhead.png",
+                        "amount": 12
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Item_Philosophies_of_Freedom.png",
+                        "amount": 16
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/48/Item_Shard_of_a_Foul_Legacy.png",
+                        "amount": 2
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/04/Item_Crown_of_Insight.png",
+                        "amount": 1
+                    }
+                ]
+            }
         ]
     },
     "availability": {

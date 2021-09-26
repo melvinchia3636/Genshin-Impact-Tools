@@ -43,183 +43,6 @@
     "name": "Tartaglia",
     "nickname": "Childe",
     "combat_info": {
-        "base_stats": {
-            "special": "Hydro DMG Bonus",
-            "data": {
-                "0": {
-                    "1": [
-                        "1,020",
-                        "23",
-                        "63",
-                        "\u2014"
-                    ],
-                    "20": [
-                        "2,646",
-                        "61",
-                        "165"
-                    ]
-                },
-                "1": {
-                    "20": [
-                        "3,521",
-                        "81",
-                        "219",
-                        "\u2014"
-                    ],
-                    "40": [
-                        "5,268",
-                        "121",
-                        "328"
-                    ]
-                },
-                "2": {
-                    "40": [
-                        "5,889",
-                        "135",
-                        "366",
-                        "7.2%"
-                    ],
-                    "50": [
-                        "6,776",
-                        "156",
-                        "421"
-                    ]
-                },
-                "3": {
-                    "50": [
-                        "7,604",
-                        "175",
-                        "473",
-                        "14.4%"
-                    ],
-                    "60": [
-                        "8,500",
-                        "195",
-                        "528"
-                    ]
-                },
-                "4": {
-                    "60": [
-                        "9,121",
-                        "210",
-                        "567",
-                        "14.4%"
-                    ],
-                    "70": [
-                        "10,025",
-                        "231",
-                        "623"
-                    ]
-                },
-                "5": {
-                    "70": [
-                        "10,647",
-                        "245",
-                        "662",
-                        "21.6%"
-                    ],
-                    "80": [
-                        "11,561",
-                        "266",
-                        "719"
-                    ]
-                },
-                "6": {
-                    "80": [
-                        "12,182",
-                        "280",
-                        "757",
-                        "28.8%"
-                    ],
-                    "90": [
-                        "13,103",
-                        "301",
-                        "815"
-                    ]
-                }
-            }
-        },
-        "talents": [
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/36/Talent_Cutting_Torrent.png",
-                "name": "Cutting Torrent",
-                "type": "Normal Attack",
-                "desc": "Normal Attack: Perform up to 6 consecutive shots with a bow.\nCharged Attack: Perform a more precise Aimed Shot with increased DMG. While aiming, the power of Hydro will accumulate on the arrowhead. An arrow fully charged with the torrent will deal Hydro DMG and apply the Riptide status.\nRiptide: Opponents affected by Riptide will suffer from AoE Hydro DMG effects when attacked by Tartaglia in various ways. DMG dealt in this way is considered Normal Attack DMG.\n\nRiptide Flash: A fully-charged Aimed Shot that hits an opponent affected by Riptide deals consecutive bouts of AoE DMG. Can occur once every 0.7s.\nRiptide Burst: Defeating an opponent affected by Riptide creates a Hydro burst that inflicts the Riptide status on nearby opponents hit.\nPlunging Attack: Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.When Tartaglia is in Foul Legacy: Raging Tide's Melee Stance, he cannot perform a plunging attack."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Talent_Foul_Legacy_Raging_Tide.png",
-                "name": "Foul Legacy: Raging Tide",
-                "type": "Elemental Skill",
-                "desc": "Unleashes a set of weaponry made of pure water, dealing Hydro DMG to surrounding opponents and entering Melee Stance.\nIn this Stance, Tartaglia's Normal and Charged Attacks are converted to Hydro DMG that cannot be overridden by any other elemental infusion and change as follows:\nNormal Attack: Perform up to 6 consecutive Hydro strikes.\nCharged Attack: Consumes a certain amount of Stamina to unleash a cross slash, dealing Hydro DMG.\nRiptide Slash: Hitting an opponent affected by Riptide with a melee attack unleashes a Riptide Slash that deals AoE Hydro DMG. DMG dealt in this way is considered Elemental Skill DMG, and can only occur once every 1.5s.\nAfter 30s, or when the ability is unleashed again, this skill will end. Tartaglia will return to his Ranged Stance and this ability will enter CD. The longer Tartaglia stays in his Melee Stance, the longer the CD. If the return to a ranged stance occurs automatically after 30s, the CD is even longer."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/0/03/Talent_Havoc_Obliteration.png",
-                "name": "Havoc: Obliteration",
-                "type": "Elemental Burst",
-                "desc": "Performs different attacks based on what stance Tartaglia is in when casting.\nRanged Stance: Flash of Havoc: Swiftly fires a Hydro-imbued magic arrow, dealing AoE Hydro DMG and applying the Riptide status. Returns a portion of its Energy Cost after use.\nMelee Stance: Light of Obliteration: Performs a slash with a large AoE, dealing massive Hydro DMG to all surrounding opponents, which triggers Riptide Blast.\nRiptide Blast: When the obliterating waters hit an opponent affected by Riptide, it clears their Riptide status and triggers a Hydro Explosion that deals AoE Hydro DMG. DMG dealt in this way is considered Elemental Burst DMG."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/e/ea/Talent_Never_Ending.png",
-                "name": "Never Ending",
-                "type": "1st Ascension Passive",
-                "desc": "Extends Riptide duration by 8s."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/d8/Talent_Sword_of_Torrents.png",
-                "name": "Sword of Torrents",
-                "type": "4th Ascension Passive",
-                "desc": "When Tartaglia is in Foul Legacy: Raging Tide's Melee stance, on dealing a CRIT hit, Normal and Charged Attacks apply the Riptide status effects to opponents."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/45/Talent_Master_of_Weaponry.png",
-                "name": "Master of Weaponry",
-                "type": "Utility Passive",
-                "desc": "Increases your own party members' Normal Attack Level by 1."
-            }
-        ],
-        "lvup_mat": [
-            [
-                {
-                    "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3a/Item_Teachings_of_Freedom.png",
-                    "amount": 9
-                },
-                {
-                    "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1a/Item_Guide_to_Freedom.png",
-                    "amount": 63
-                },
-                {
-                    "rarity": 4,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Item_Philosophies_of_Freedom.png",
-                    "amount": 114
-                }
-            ],
-            [
-                {
-                    "rarity": 1,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b2/Item_Recruit's_Insignia.png",
-                    "amount": 18
-                },
-                {
-                    "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Sergeant's_Insignia.png",
-                    "amount": 66
-                },
-                {
-                    "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/db/Item_Lieutenant's_Insignia.png",
-                    "amount": 93
-                }
-            ],
-            [
-                {
-                    "rarity": 5,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/48/Item_Shard_of_a_Foul_Legacy.png",
-                    "amount": 18
-                }
-            ]
-        ],
         "constellation": [
             {
                 "level": 1,
@@ -258,6 +81,94 @@
                 "effect": "When Havoc: Obliteration is cast in Melee Stance, the CD of Foul Legacy: Raging Tide is reset.This effect will only take place once Tartaglia returns to his Ranged Stance."
             }
         ],
+        "base_stats": {
+            "data": {
+                "0": {
+                    "1": [
+                        "1,020",
+                        "23",
+                        "63"
+                    ],
+                    "20": [
+                        "2,646",
+                        "61",
+                        "165"
+                    ]
+                },
+                "1": {
+                    "20": [
+                        "3,521",
+                        "81",
+                        "219"
+                    ],
+                    "40": [
+                        "5,268",
+                        "121",
+                        "328"
+                    ]
+                },
+                "2": {
+                    "40": [
+                        "5,889",
+                        "135",
+                        "366"
+                    ],
+                    "50": [
+                        "6,776",
+                        "156",
+                        "421"
+                    ]
+                },
+                "3": {
+                    "50": [
+                        "7,604",
+                        "175",
+                        "473"
+                    ],
+                    "60": [
+                        "8,500",
+                        "195",
+                        "528"
+                    ]
+                },
+                "4": {
+                    "60": [
+                        "9,121",
+                        "210",
+                        "567"
+                    ],
+                    "70": [
+                        "10,025",
+                        "231",
+                        "623"
+                    ]
+                },
+                "5": {
+                    "70": [
+                        "10,647",
+                        "245",
+                        "662"
+                    ],
+                    "80": [
+                        "11,561",
+                        "266",
+                        "719"
+                    ]
+                },
+                "6": {
+                    "80": [
+                        "12,182",
+                        "280",
+                        "757"
+                    ],
+                    "90": [
+                        "13,103",
+                        "301",
+                        "815"
+                    ]
+                }
+            }
+        },
         "ascensions": [
             [
                 {
@@ -272,7 +183,7 @@
                 },
                 {
                     "rarity": 1,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b2/Item_Recruit's_Insignia.png",
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b2/Item_Recruit%27s_Insignia.png",
                     "amount": 3
                 }
             ],
@@ -294,7 +205,7 @@
                 },
                 {
                     "rarity": 1,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b2/Item_Recruit's_Insignia.png",
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b2/Item_Recruit%27s_Insignia.png",
                     "amount": 15
                 }
             ],
@@ -316,7 +227,7 @@
                 },
                 {
                     "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Sergeant's_Insignia.png",
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Sergeant%27s_Insignia.png",
                     "amount": 12
                 }
             ],
@@ -338,7 +249,7 @@
                 },
                 {
                     "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Sergeant's_Insignia.png",
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Sergeant%27s_Insignia.png",
                     "amount": 18
                 }
             ],
@@ -360,7 +271,7 @@
                 },
                 {
                     "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/db/Item_Lieutenant's_Insignia.png",
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/db/Item_Lieutenant%27s_Insignia.png",
                     "amount": 12
                 }
             ],
@@ -382,10 +293,219 @@
                 },
                 {
                     "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/db/Item_Lieutenant's_Insignia.png",
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/db/Item_Lieutenant%27s_Insignia.png",
                     "amount": 24
                 }
             ]
+        ],
+        "talents": [
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/36/Talent_Cutting_Torrent.png",
+                "name": "Cutting Torrent",
+                "type": "Normal Attack",
+                "desc": "Normal Attack: Perform up to 6 consecutive shots with a bow.\nCharged Attack: Perform a more precise Aimed Shot with increased DMG. While aiming, the power of Hydro will accumulate on the arrowhead. An arrow fully charged with the torrent will deal Hydro DMG and apply the Riptide status.\nRiptide: Opponents affected by Riptide will suffer from AoE Hydro DMG effects when attacked by Tartaglia in various ways. DMG dealt in this way is considered Normal Attack DMG.\n\nRiptide Flash: A fully-charged Aimed Shot that hits an opponent affected by Riptide deals consecutive bouts of AoE DMG. Can occur once every 0.7s.\nRiptide Burst: Defeating an opponent affected by Riptide creates a Hydro burst that inflicts the Riptide status on nearby opponents hit.\nPlunging Attack: Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.When Tartaglia is in Foul Legacy: Raging Tide's Melee Stance, he cannot perform a plunging attack."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Talent_Foul_Legacy_Raging_Tide.png",
+                "name": "Foul Legacy: Raging Tide",
+                "type": "Elemental Skill",
+                "desc": "Unleashes a set of weaponry made of pure water, dealing Hydro DMG to surrounding opponents and entering Melee Stance.\nIn this Stance, Tartaglia's Normal and Charged Attacks are converted to Hydro DMG that cannot be overridden by any other elemental infusion and change as follows:\nNormal Attack: Perform up to 6 consecutive Hydro strikes.\nCharged Attack: Consumes a certain amount of Stamina to unleash a cross slash, dealing Hydro DMG.\nRiptide Slash: Hitting an opponent affected by Riptide with a melee attack unleashes a Riptide Slash that deals AoE Hydro DMG. DMG dealt in this way is considered Elemental Skill DMG, and can only occur once every 1.5s.\nAfter 30s, or when the ability is unleashed again, this skill will end. Tartaglia will return to his Ranged Stance and this ability will enter CD. The longer Tartaglia stays in his Melee Stance, the longer the CD. If the return to a ranged stance occurs automatically after 30s, the CD is even longer."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/0/03/Talent_Havoc_Obliteration.png",
+                "name": "Havoc: Obliteration",
+                "type": "Elemental Burst",
+                "desc": "Performs different attacks based on what stance Tartaglia is in when casting.\nRanged Stance: Flash of Havoc: Swiftly fires a Hydro-imbued magic arrow, dealing AoE Hydro DMG and applying the Riptide status. Returns a portion of its Energy Cost after use.\nMelee Stance: Light of Obliteration: Performs a slash with a large AoE, dealing massive Hydro DMG to all surrounding opponents, which triggers Riptide Blast.\nRiptide Blast: When the obliterating waters hit an opponent affected by Riptide, it clears their Riptide status and triggers a Hydro Explosion that deals AoE Hydro DMG. DMG dealt in this way is considered Elemental Burst DMG."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/e/ea/Talent_Never_Ending.png",
+                "name": "Never Ending",
+                "type": "1st Ascension Passive",
+                "desc": "Extends Riptide duration by 8s."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/d8/Talent_Sword_of_Torrents.png",
+                "name": "Sword of Torrents",
+                "type": "4th Ascension Passive",
+                "desc": "When Tartaglia is in Foul Legacy: Raging Tide's Melee stance, on dealing a CRIT hit, Normal and Charged Attacks apply the Riptide status effects to opponents."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/45/Talent_Master_of_Weaponry.png",
+                "name": "Master of Weaponry",
+                "type": "Utility Passive",
+                "desc": "Increases your own party members' Normal Attack Level by 1."
+            }
+        ],
+        "talent_levening_mat": [
+            {
+                "ascensions_req": "2",
+                "cost": "12,500",
+                "materials": [
+                    {
+                        "rarity": 1,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b2/Item_Recruit%27s_Insignia.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3a/Item_Teachings_of_Freedom.png",
+                        "amount": 3
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "3",
+                "cost": "17,500",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Sergeant%27s_Insignia.png",
+                        "amount": 3
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1a/Item_Guide_to_Freedom.png",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "3",
+                "cost": "25,000",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Sergeant%27s_Insignia.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1a/Item_Guide_to_Freedom.png",
+                        "amount": 4
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "4",
+                "cost": "30,000",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Sergeant%27s_Insignia.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1a/Item_Guide_to_Freedom.png",
+                        "amount": 6
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "4",
+                "cost": "37,500",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Sergeant%27s_Insignia.png",
+                        "amount": 9
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1a/Item_Guide_to_Freedom.png",
+                        "amount": 9
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "5",
+                "cost": "120,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/db/Item_Lieutenant%27s_Insignia.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Item_Philosophies_of_Freedom.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/48/Item_Shard_of_a_Foul_Legacy.png",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "5",
+                "cost": "260,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/db/Item_Lieutenant%27s_Insignia.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Item_Philosophies_of_Freedom.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/48/Item_Shard_of_a_Foul_Legacy.png",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "6",
+                "cost": "450,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/db/Item_Lieutenant%27s_Insignia.png",
+                        "amount": 9
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Item_Philosophies_of_Freedom.png",
+                        "amount": 12
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/48/Item_Shard_of_a_Foul_Legacy.png",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "6",
+                "cost": "700,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/db/Item_Lieutenant%27s_Insignia.png",
+                        "amount": 12
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Item_Philosophies_of_Freedom.png",
+                        "amount": 16
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/48/Item_Shard_of_a_Foul_Legacy.png",
+                        "amount": 2
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/04/Item_Crown_of_Insight.png",
+                        "amount": 1
+                    }
+                ]
+            }
         ]
     },
     "availability": {

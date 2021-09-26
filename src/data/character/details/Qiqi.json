@@ -39,183 +39,6 @@
     "name": "Qiqi",
     "nickname": "Icy Resurrection",
     "combat_info": {
-        "base_stats": {
-            "special": "Healing Bonus",
-            "data": {
-                "0": {
-                    "1": [
-                        "963",
-                        "22",
-                        "72",
-                        "\u2014"
-                    ],
-                    "20": [
-                        "2,498",
-                        "58",
-                        "186"
-                    ]
-                },
-                "1": {
-                    "20": [
-                        "3,323",
-                        "77",
-                        "248",
-                        "\u2014"
-                    ],
-                    "40": [
-                        "4,973",
-                        "115",
-                        "371"
-                    ]
-                },
-                "2": {
-                    "40": [
-                        "5,559",
-                        "129",
-                        "415",
-                        "5.5%"
-                    ],
-                    "50": [
-                        "6,396",
-                        "148",
-                        "477"
-                    ]
-                },
-                "3": {
-                    "50": [
-                        "7,178",
-                        "167",
-                        "535",
-                        "11.1%"
-                    ],
-                    "60": [
-                        "8,023",
-                        "186",
-                        "598"
-                    ]
-                },
-                "4": {
-                    "60": [
-                        "8,610",
-                        "200",
-                        "642",
-                        "11.1%"
-                    ],
-                    "70": [
-                        "9,463",
-                        "220",
-                        "706"
-                    ]
-                },
-                "5": {
-                    "70": [
-                        "10,050",
-                        "233",
-                        "749",
-                        "16.6%"
-                    ],
-                    "80": [
-                        "10,912",
-                        "253",
-                        "814"
-                    ]
-                },
-                "6": {
-                    "80": [
-                        "11,499",
-                        "267",
-                        "857",
-                        "22.2%"
-                    ],
-                    "90": [
-                        "12,368",
-                        "287",
-                        "922"
-                    ]
-                }
-            }
-        },
-        "talents": [
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Talent_Ancient_Sword_Art.png",
-                "name": "Ancient Sword Art",
-                "type": "Normal Attack",
-                "desc": "Normal Attack: Perform up to 5 rapid strikes.\nCharged Attack: Consumes a certain amount Stamina to unleash 2 rapid sword strikes.\nPlunging Attack: Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/7f/Talent_Adeptus_Art_Herald_of_Frost.png",
-                "name": "Adeptus Art: Herald of Frost",
-                "type": "Elemental Skill",
-                "desc": "Using the Icevein Talisman, Qiqi brings forth the Herald of Frost, dealing Cryo DMG to surrounding opponents.\nHerald of Frost:\n\nOn hit, Qiqi's Normal and Charged Attacks regenerate HP for your own party members and nearby teammates. Healing scales based on Qiqi's ATK.\nPeriodically regenerates your active character's HP.\nFollows the character around, dealing Cryo DMG to opponents in their path."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/7c/Talent_Adeptus_Art_Preserver_of_Fortune.png",
-                "name": "Adeptus Art: Preserver of Fortune",
-                "type": "Elemental Burst",
-                "desc": "Qiqi releases the adeptus power sealed within her body, marking nearby opponents with a Fortune-Preserving Talisman that deals Cryo DMG.\nFortune-Preserving Talisman:\n\nWhen opponents affected by this Talisman take DMG, the character that dealt this DMG regenerates HP."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Talent_Life-Prolonging_Methods.png",
-                "name": "Life-Prolonging Methods",
-                "type": "1st Ascension Passive",
-                "desc": "When a character under the effects of Adeptus Art: Herald of Frost triggers an Elemental Reaction, their Incoming Healing Bonus is increased by 20% for 8s."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/37/Talent_A_Glimpse_into_Arcanum.png",
-                "name": "A Glimpse into Arcanum",
-                "type": "4th Ascension Passive",
-                "desc": "When Qiqi hits opponents with her Normal and Charged Attacks, she has a 50% chance to apply a Fortune-Preserving Talisman to them for 6s.  This effect can only occur once every 30s."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/5e/Talent_Former_Life_Memories.png",
-                "name": "Former Life Memories",
-                "type": "Utility Passive",
-                "desc": "Displays the location of nearby resources unique to Liyue on the mini-map."
-            }
-        ],
-        "lvup_mat": [
-            [
-                {
-                    "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9e/Item_Teachings_of_Prosperity.png",
-                    "amount": 9
-                },
-                {
-                    "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/67/Item_Guide_to_Prosperity.png",
-                    "amount": 63
-                },
-                {
-                    "rarity": 4,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bd/Item_Philosophies_of_Prosperity.png",
-                    "amount": 114
-                }
-            ],
-            [
-                {
-                    "rarity": 1,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/74/Item_Divining_Scroll.png",
-                    "amount": 18
-                },
-                {
-                    "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Sealed_Scroll.png",
-                    "amount": 66
-                },
-                {
-                    "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Item_Forbidden_Curse_Scroll.png",
-                    "amount": 93
-                }
-            ],
-            [
-                {
-                    "rarity": 5,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/66/Item_Tail_of_Boreas.png",
-                    "amount": 18
-                }
-            ]
-        ],
         "constellation": [
             {
                 "level": 1,
@@ -254,6 +77,94 @@
                 "effect": "Using Adeptus Art: Preserver of Fortune revives all fallen party members nearby and regenerates 50% of their HP.This effect can only occur once every 15 mins."
             }
         ],
+        "base_stats": {
+            "data": {
+                "0": {
+                    "1": [
+                        "963",
+                        "22",
+                        "72"
+                    ],
+                    "20": [
+                        "2,498",
+                        "58",
+                        "186"
+                    ]
+                },
+                "1": {
+                    "20": [
+                        "3,323",
+                        "77",
+                        "248"
+                    ],
+                    "40": [
+                        "4,973",
+                        "115",
+                        "371"
+                    ]
+                },
+                "2": {
+                    "40": [
+                        "5,559",
+                        "129",
+                        "415"
+                    ],
+                    "50": [
+                        "6,396",
+                        "148",
+                        "477"
+                    ]
+                },
+                "3": {
+                    "50": [
+                        "7,178",
+                        "167",
+                        "535"
+                    ],
+                    "60": [
+                        "8,023",
+                        "186",
+                        "598"
+                    ]
+                },
+                "4": {
+                    "60": [
+                        "8,610",
+                        "200",
+                        "642"
+                    ],
+                    "70": [
+                        "9,463",
+                        "220",
+                        "706"
+                    ]
+                },
+                "5": {
+                    "70": [
+                        "10,050",
+                        "233",
+                        "749"
+                    ],
+                    "80": [
+                        "10,912",
+                        "253",
+                        "814"
+                    ]
+                },
+                "6": {
+                    "80": [
+                        "11,499",
+                        "267",
+                        "857"
+                    ],
+                    "90": [
+                        "12,368",
+                        "287",
+                        "922"
+                    ]
+                }
+            }
+        },
         "ascensions": [
             [
                 {
@@ -382,6 +293,215 @@
                     "amount": 24
                 }
             ]
+        ],
+        "talents": [
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Talent_Ancient_Sword_Art.png",
+                "name": "Ancient Sword Art",
+                "type": "Normal Attack",
+                "desc": "Normal Attack: Perform up to 5 rapid strikes.\nCharged Attack: Consumes a certain amount Stamina to unleash 2 rapid sword strikes.\nPlunging Attack: Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/7f/Talent_Adeptus_Art_Herald_of_Frost.png",
+                "name": "Adeptus Art: Herald of Frost",
+                "type": "Elemental Skill",
+                "desc": "Using the Icevein Talisman, Qiqi brings forth the Herald of Frost, dealing Cryo DMG to surrounding opponents.\nHerald of Frost:\n\nOn hit, Qiqi's Normal and Charged Attacks regenerate HP for your own party members and nearby teammates. Healing scales based on Qiqi's ATK.\nPeriodically regenerates your active character's HP.\nFollows the character around, dealing Cryo DMG to opponents in their path."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/7c/Talent_Adeptus_Art_Preserver_of_Fortune.png",
+                "name": "Adeptus Art: Preserver of Fortune",
+                "type": "Elemental Burst",
+                "desc": "Qiqi releases the adeptus power sealed within her body, marking nearby opponents with a Fortune-Preserving Talisman that deals Cryo DMG.\nFortune-Preserving Talisman:\n\nWhen opponents affected by this Talisman take DMG, the character that dealt this DMG regenerates HP."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Talent_Life-Prolonging_Methods.png",
+                "name": "Life-Prolonging Methods",
+                "type": "1st Ascension Passive",
+                "desc": "When a character under the effects of Adeptus Art: Herald of Frost triggers an Elemental Reaction, their Incoming Healing Bonus is increased by 20% for 8s."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/37/Talent_A_Glimpse_into_Arcanum.png",
+                "name": "A Glimpse into Arcanum",
+                "type": "4th Ascension Passive",
+                "desc": "When Qiqi hits opponents with her Normal and Charged Attacks, she has a 50% chance to apply a Fortune-Preserving Talisman to them for 6s.  This effect can only occur once every 30s."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/5e/Talent_Former_Life_Memories.png",
+                "name": "Former Life Memories",
+                "type": "Utility Passive",
+                "desc": "Displays the location of nearby resources unique to Liyue on the mini-map."
+            }
+        ],
+        "talent_levening_mat": [
+            {
+                "ascensions_req": "2",
+                "cost": "12,500",
+                "materials": [
+                    {
+                        "rarity": 1,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/74/Item_Divining_Scroll.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9e/Item_Teachings_of_Prosperity.png",
+                        "amount": 3
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "3",
+                "cost": "17,500",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Sealed_Scroll.png",
+                        "amount": 3
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/67/Item_Guide_to_Prosperity.png",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "3",
+                "cost": "25,000",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Sealed_Scroll.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/67/Item_Guide_to_Prosperity.png",
+                        "amount": 4
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "4",
+                "cost": "30,000",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Sealed_Scroll.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/67/Item_Guide_to_Prosperity.png",
+                        "amount": 6
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "4",
+                "cost": "37,500",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Sealed_Scroll.png",
+                        "amount": 9
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/67/Item_Guide_to_Prosperity.png",
+                        "amount": 9
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "5",
+                "cost": "120,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Item_Forbidden_Curse_Scroll.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bd/Item_Philosophies_of_Prosperity.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/66/Item_Tail_of_Boreas.png",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "5",
+                "cost": "260,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Item_Forbidden_Curse_Scroll.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bd/Item_Philosophies_of_Prosperity.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/66/Item_Tail_of_Boreas.png",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "6",
+                "cost": "450,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Item_Forbidden_Curse_Scroll.png",
+                        "amount": 9
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bd/Item_Philosophies_of_Prosperity.png",
+                        "amount": 12
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/66/Item_Tail_of_Boreas.png",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "6",
+                "cost": "700,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Item_Forbidden_Curse_Scroll.png",
+                        "amount": 12
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bd/Item_Philosophies_of_Prosperity.png",
+                        "amount": 16
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/66/Item_Tail_of_Boreas.png",
+                        "amount": 2
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/04/Item_Crown_of_Insight.png",
+                        "amount": 1
+                    }
+                ]
+            }
         ]
     },
     "availability": {

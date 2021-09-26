@@ -41,183 +41,6 @@
     "name": "Venti",
     "nickname": "Windborne Bard",
     "combat_info": {
-        "base_stats": {
-            "special": "Energy Recharge",
-            "data": {
-                "0": {
-                    "1": [
-                        "820",
-                        "20",
-                        "52",
-                        "\u2014"
-                    ],
-                    "20": [
-                        "2,127",
-                        "53",
-                        "135"
-                    ]
-                },
-                "1": {
-                    "20": [
-                        "2,830",
-                        "71",
-                        "180",
-                        "\u2014"
-                    ],
-                    "40": [
-                        "4,234",
-                        "106",
-                        "269"
-                    ]
-                },
-                "2": {
-                    "40": [
-                        "4,734",
-                        "118",
-                        "301",
-                        "8.0%"
-                    ],
-                    "50": [
-                        "5,446",
-                        "136",
-                        "346"
-                    ]
-                },
-                "3": {
-                    "50": [
-                        "6,112",
-                        "153",
-                        "388",
-                        "16.0%"
-                    ],
-                    "60": [
-                        "6,832",
-                        "171",
-                        "434"
-                    ]
-                },
-                "4": {
-                    "60": [
-                        "7,331",
-                        "183",
-                        "465",
-                        "16.0%"
-                    ],
-                    "70": [
-                        "8,058",
-                        "201",
-                        "512"
-                    ]
-                },
-                "5": {
-                    "70": [
-                        "8,557",
-                        "214",
-                        "543",
-                        "24.0%"
-                    ],
-                    "80": [
-                        "9,292",
-                        "232",
-                        "590"
-                    ]
-                },
-                "6": {
-                    "80": [
-                        "9,790",
-                        "245",
-                        "622",
-                        "32.0%"
-                    ],
-                    "90": [
-                        "10,531",
-                        "263",
-                        "669"
-                    ]
-                }
-            }
-        },
-        "talents": [
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/a/a9/Talent_Divine_Marksmanship.png",
-                "name": "Divine Marksmanship",
-                "type": "Normal Attack",
-                "desc": "Normal Attack: Perform up to 6 consecutive shots with a bow.\nCharged Attack: Perform a more precise Aimed Shot with increased DMG. While aiming, favorable winds will accumulate on the arrowhead. A fully charged wind arrow will deal Anemo DMG.\nPlunging Attack: Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/1/17/Talent_Skyward_Sonnet.png",
-                "name": "Skyward Sonnet",
-                "type": "Elemental Skill",
-                "desc": "O wind upon which all hymns and songs fly, bear these earth-walkers up into the sky!\nPress: Summons a Wind Domain at the opponent's location, dealing AoE Anemo DMG and launching opponents into the air.\nHold: Summons an even larger Wind Domain with Venti as the epicenter, dealing AoE Anemo DMG and launching affected opponents into the air. After unleashing the Hold version of this ability, Venti rides the wind into the air.\nOpponents hit by Skyward Sonnet will fall to the ground slowly."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/32/Talent_Wind's_Grand_Ode.png",
-                "name": "Wind's Grand Ode",
-                "type": "Elemental Burst",
-                "desc": "Fires off an arrow made of countless coalesced winds, creating a huge Stormeye that sucks in objects and opponents and deals continuous Anemo DMG.Elemental Absorption: If the Stormeye comes into contact with Hydro/Pyro/Cryo/Electro elements, it will deal additional elemental DMG of that type.Elemental Absorption may only occur once per use."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/70/Talent_Embrace_of_Winds.png",
-                "name": "Embrace of Winds",
-                "type": "1st Ascension Passive",
-                "desc": "Holding Skyward Sonnet creates an upcurrent that lasts for 20s."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/b2/Talent_Stormeye.png",
-                "name": "Stormeye",
-                "type": "4th Ascension Passive",
-                "desc": "Regenerates 15 Energy for Venti after the effects of Wind's Grand Ode end. If an Elemental Absorption occurred, this also restores 15 Energy to all characters of that corresponding element."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/0/05/Talent_Windrider.png",
-                "name": "Windrider",
-                "type": "Utility Passive",
-                "desc": "Decreases gliding Stamina consumption for your own party members by 20%.Not stackable with Passive Talents that provide the exact same effects."
-            }
-        ],
-        "lvup_mat": [
-            [
-                {
-                    "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b4/Item_Teachings_of_Ballad.png",
-                    "amount": 9
-                },
-                {
-                    "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Guide_to_Ballad.png",
-                    "amount": 63
-                },
-                {
-                    "rarity": 4,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/7e/Item_Philosophies_of_Ballad.png",
-                    "amount": 114
-                }
-            ],
-            [
-                {
-                    "rarity": 1,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/Item_Slime_Condensate.png",
-                    "amount": 18
-                },
-                {
-                    "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Slime_Secretions.png",
-                    "amount": 66
-                },
-                {
-                    "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d8/Item_Slime_Concentrate.png",
-                    "amount": 93
-                }
-            ],
-            [
-                {
-                    "rarity": 5,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/66/Item_Tail_of_Boreas.png",
-                    "amount": 18
-                }
-            ]
-        ],
         "constellation": [
             {
                 "level": 1,
@@ -256,6 +79,94 @@
                 "effect": "Targets who take DMG from Wind's Grand Ode have their Anemo RES decreased by 20%.If an Elemental Absorption occurred, then their RES towards the corresponding Element is also decreased by 20%."
             }
         ],
+        "base_stats": {
+            "data": {
+                "0": {
+                    "1": [
+                        "820",
+                        "20",
+                        "52"
+                    ],
+                    "20": [
+                        "2,127",
+                        "53",
+                        "135"
+                    ]
+                },
+                "1": {
+                    "20": [
+                        "2,830",
+                        "71",
+                        "180"
+                    ],
+                    "40": [
+                        "4,234",
+                        "106",
+                        "269"
+                    ]
+                },
+                "2": {
+                    "40": [
+                        "4,734",
+                        "118",
+                        "301"
+                    ],
+                    "50": [
+                        "5,446",
+                        "136",
+                        "346"
+                    ]
+                },
+                "3": {
+                    "50": [
+                        "6,112",
+                        "153",
+                        "388"
+                    ],
+                    "60": [
+                        "6,832",
+                        "171",
+                        "434"
+                    ]
+                },
+                "4": {
+                    "60": [
+                        "7,331",
+                        "183",
+                        "465"
+                    ],
+                    "70": [
+                        "8,058",
+                        "201",
+                        "512"
+                    ]
+                },
+                "5": {
+                    "70": [
+                        "8,557",
+                        "214",
+                        "543"
+                    ],
+                    "80": [
+                        "9,292",
+                        "232",
+                        "590"
+                    ]
+                },
+                "6": {
+                    "80": [
+                        "9,790",
+                        "245",
+                        "622"
+                    ],
+                    "90": [
+                        "10,531",
+                        "263",
+                        "669"
+                    ]
+                }
+            }
+        },
         "ascensions": [
             [
                 {
@@ -384,6 +295,215 @@
                     "amount": 24
                 }
             ]
+        ],
+        "talents": [
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/a/a9/Talent_Divine_Marksmanship.png",
+                "name": "Divine Marksmanship",
+                "type": "Normal Attack",
+                "desc": "Normal Attack: Perform up to 6 consecutive shots with a bow.\nCharged Attack: Perform a more precise Aimed Shot with increased DMG. While aiming, favorable winds will accumulate on the arrowhead. A fully charged wind arrow will deal Anemo DMG.\nPlunging Attack: Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/1/17/Talent_Skyward_Sonnet.png",
+                "name": "Skyward Sonnet",
+                "type": "Elemental Skill",
+                "desc": "O wind upon which all hymns and songs fly, bear these earth-walkers up into the sky!\nPress: Summons a Wind Domain at the opponent's location, dealing AoE Anemo DMG and launching opponents into the air.\nHold: Summons an even larger Wind Domain with Venti as the epicenter, dealing AoE Anemo DMG and launching affected opponents into the air. After unleashing the Hold version of this ability, Venti rides the wind into the air.\nOpponents hit by Skyward Sonnet will fall to the ground slowly."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/32/Talent_Wind%27s_Grand_Ode.png",
+                "name": "Wind's Grand Ode",
+                "type": "Elemental Burst",
+                "desc": "Fires off an arrow made of countless coalesced winds, creating a huge Stormeye that sucks in objects and opponents and deals continuous Anemo DMG.Elemental Absorption: If the Stormeye comes into contact with Hydro/Pyro/Cryo/Electro elements, it will deal additional elemental DMG of that type.Elemental Absorption may only occur once per use."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/70/Talent_Embrace_of_Winds.png",
+                "name": "Embrace of Winds",
+                "type": "1st Ascension Passive",
+                "desc": "Holding Skyward Sonnet creates an upcurrent that lasts for 20s."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/b2/Talent_Stormeye.png",
+                "name": "Stormeye",
+                "type": "4th Ascension Passive",
+                "desc": "Regenerates 15 Energy for Venti after the effects of Wind's Grand Ode end. If an Elemental Absorption occurred, this also restores 15 Energy to all characters of that corresponding element."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/0/05/Talent_Windrider.png",
+                "name": "Windrider",
+                "type": "Utility Passive",
+                "desc": "Decreases gliding Stamina consumption for your own party members by 20%.Not stackable with Passive Talents that provide the exact same effects."
+            }
+        ],
+        "talent_levening_mat": [
+            {
+                "ascensions_req": "2",
+                "cost": "12,500",
+                "materials": [
+                    {
+                        "rarity": 1,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/Item_Slime_Condensate.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b4/Item_Teachings_of_Ballad.png",
+                        "amount": 3
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "3",
+                "cost": "17,500",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Slime_Secretions.png",
+                        "amount": 3
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Guide_to_Ballad.png",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "3",
+                "cost": "25,000",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Slime_Secretions.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Guide_to_Ballad.png",
+                        "amount": 4
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "4",
+                "cost": "30,000",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Slime_Secretions.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Guide_to_Ballad.png",
+                        "amount": 6
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "4",
+                "cost": "37,500",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Slime_Secretions.png",
+                        "amount": 9
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Guide_to_Ballad.png",
+                        "amount": 9
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "5",
+                "cost": "120,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d8/Item_Slime_Concentrate.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/7e/Item_Philosophies_of_Ballad.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/66/Item_Tail_of_Boreas.png",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "5",
+                "cost": "260,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d8/Item_Slime_Concentrate.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/7e/Item_Philosophies_of_Ballad.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/66/Item_Tail_of_Boreas.png",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "6",
+                "cost": "450,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d8/Item_Slime_Concentrate.png",
+                        "amount": 9
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/7e/Item_Philosophies_of_Ballad.png",
+                        "amount": 12
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/66/Item_Tail_of_Boreas.png",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "6",
+                "cost": "700,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d8/Item_Slime_Concentrate.png",
+                        "amount": 12
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/7e/Item_Philosophies_of_Ballad.png",
+                        "amount": 16
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/66/Item_Tail_of_Boreas.png",
+                        "amount": 2
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/04/Item_Crown_of_Insight.png",
+                        "amount": 1
+                    }
+                ]
+            }
         ]
     },
     "availability": {

@@ -46,183 +46,6 @@
     "name": "Fischl",
     "nickname": "Prinzessin der Verurteilung",
     "combat_info": {
-        "base_stats": {
-            "special": "ATK",
-            "data": {
-                "0": {
-                    "1": [
-                        "770",
-                        "20",
-                        "50",
-                        "\u2014"
-                    ],
-                    "20": [
-                        "1,979",
-                        "53",
-                        "128"
-                    ]
-                },
-                "1": {
-                    "20": [
-                        "2,555",
-                        "68",
-                        "165",
-                        "\u2014"
-                    ],
-                    "40": [
-                        "3,827",
-                        "102",
-                        "247"
-                    ]
-                },
-                "2": {
-                    "40": [
-                        "4,236",
-                        "113",
-                        "274",
-                        "6.0%"
-                    ],
-                    "50": [
-                        "4,872",
-                        "130",
-                        "315"
-                    ]
-                },
-                "3": {
-                    "50": [
-                        "5,418",
-                        "144",
-                        "350",
-                        "12.0%"
-                    ],
-                    "60": [
-                        "6,054",
-                        "161",
-                        "391"
-                    ]
-                },
-                "4": {
-                    "60": [
-                        "6,463",
-                        "172",
-                        "418",
-                        "12.0%"
-                    ],
-                    "70": [
-                        "7,099",
-                        "189",
-                        "459"
-                    ]
-                },
-                "5": {
-                    "70": [
-                        "7,508",
-                        "200",
-                        "485",
-                        "18.0%"
-                    ],
-                    "80": [
-                        "8,144",
-                        "216",
-                        "526"
-                    ]
-                },
-                "6": {
-                    "80": [
-                        "8,553",
-                        "227",
-                        "553",
-                        "24.0%"
-                    ],
-                    "90": [
-                        "9,189",
-                        "244",
-                        "594"
-                    ]
-                }
-            }
-        },
-        "talents": [
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/37/Talent_Bolts_of_Downfall.png",
-                "name": "Bolts of Downfall",
-                "type": "Normal Attack",
-                "desc": "Normal Attack: Perform up to 5 consecutive shots with a bow.\nCharged Attack: Perform a more precise Aimed Shot with increased DMG. While aiming, the dark lightning spirits of Immernachtreich shall heed the call of their Prinzessin and indwell the enchanted arrowhead. When fully indwelt, the Rachs\u00fcchtig Blitz shall deal immense Electro DMG.\nPlunging Attack: Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/b3/Talent_Nightrider.png",
-                "name": "Nightrider",
-                "type": "Elemental Skill",
-                "desc": "Summons Oz. The night raven forged of darkness and lightning descends upon the land, dealing Electro DMG in a small AoE.\nFor the ability's duration, Oz will continuously attack nearby opponents with Freikugel.\nHold to adjust the location Oz will be summoned to.\nPress again any time during the ability's duration to once again summon him to Fischl's side."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/f/ff/Talent_Midnight_Phantasmagoria.png",
-                "name": "Midnight Phantasmagoria",
-                "type": "Elemental Burst",
-                "desc": "Summons Oz to spread his twin wings of twilight and defend Fischl. Has the following properties during the ability's duration:\nFischl takes on Oz's form, greatly increasing her Movement Speed.\nStrikes nearby opponents with lightning, dealing Electro DMG to opponents she comes in contact with. Each opponent can only be struck once.\nOnce this ability's effects end, Oz will remain on the battlefield and attack his Prinzessin's foes. If Oz is already on the field, then this will reset the duration of his presence."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/2/28/Talent_Stellar_Predator.png",
-                "name": "Stellar Predator",
-                "type": "1st Ascension Passive",
-                "desc": "When Fischl hits Oz with a fully-charged Aimed Shot, Oz brings down Thundering Retribution, dealing AoE Electro DMG equal to 152.7% of the arrow's DMG."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/75/Talent_Undone_Be_Thy_Sinful_Hex.png",
-                "name": "Undone Be Thy Sinful Hex",
-                "type": "4th Ascension Passive",
-                "desc": "If your active character triggers an Electro-related Elemental Reaction when Oz is on the field, the opponent shall be stricken with Thundering Retribution, dealing Electro DMG equal to 80% of Fischl's ATK."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/6/60/Talent_Mein_Hausgarten.png",
-                "name": "Mein Hausgarten",
-                "type": "Utility Passive",
-                "desc": "When dispatched on an expedition in Mondstadt, time consumed is reduced by 25%."
-            }
-        ],
-        "lvup_mat": [
-            [
-                {
-                    "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b4/Item_Teachings_of_Ballad.png",
-                    "amount": 9
-                },
-                {
-                    "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Guide_to_Ballad.png",
-                    "amount": 63
-                },
-                {
-                    "rarity": 4,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/7e/Item_Philosophies_of_Ballad.png",
-                    "amount": 114
-                }
-            ],
-            [
-                {
-                    "rarity": 1,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/Item_Firm_Arrowhead.png",
-                    "amount": 18
-                },
-                {
-                    "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0d/Item_Sharp_Arrowhead.png",
-                    "amount": 66
-                },
-                {
-                    "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/22/Item_Weathered_Arrowhead.png",
-                    "amount": 93
-                }
-            ],
-            [
-                {
-                    "rarity": 5,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/81/Item_Spirit_Locket_of_Boreas.png",
-                    "amount": 18
-                }
-            ]
-        ],
         "constellation": [
             {
                 "level": 1,
@@ -261,6 +84,94 @@
                 "effect": "Extends the duration of Oz's presence on the field by 2s. Additionally, Oz performs joint attacks with your active character when present, dealing 30% of Fischl's ATK as Electro DMG."
             }
         ],
+        "base_stats": {
+            "data": {
+                "0": {
+                    "1": [
+                        "770",
+                        "20",
+                        "50"
+                    ],
+                    "20": [
+                        "1,979",
+                        "53",
+                        "128"
+                    ]
+                },
+                "1": {
+                    "20": [
+                        "2,555",
+                        "68",
+                        "165"
+                    ],
+                    "40": [
+                        "3,827",
+                        "102",
+                        "247"
+                    ]
+                },
+                "2": {
+                    "40": [
+                        "4,236",
+                        "113",
+                        "274"
+                    ],
+                    "50": [
+                        "4,872",
+                        "130",
+                        "315"
+                    ]
+                },
+                "3": {
+                    "50": [
+                        "5,418",
+                        "144",
+                        "350"
+                    ],
+                    "60": [
+                        "6,054",
+                        "161",
+                        "391"
+                    ]
+                },
+                "4": {
+                    "60": [
+                        "6,463",
+                        "172",
+                        "418"
+                    ],
+                    "70": [
+                        "7,099",
+                        "189",
+                        "459"
+                    ]
+                },
+                "5": {
+                    "70": [
+                        "7,508",
+                        "200",
+                        "485"
+                    ],
+                    "80": [
+                        "8,144",
+                        "216",
+                        "526"
+                    ]
+                },
+                "6": {
+                    "80": [
+                        "8,553",
+                        "227",
+                        "553"
+                    ],
+                    "90": [
+                        "9,189",
+                        "244",
+                        "594"
+                    ]
+                }
+            }
+        },
         "ascensions": [
             [
                 {
@@ -389,6 +300,215 @@
                     "amount": 24
                 }
             ]
+        ],
+        "talents": [
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/37/Talent_Bolts_of_Downfall.png",
+                "name": "Bolts of Downfall",
+                "type": "Normal Attack",
+                "desc": "Normal Attack: Perform up to 5 consecutive shots with a bow.\nCharged Attack: Perform a more precise Aimed Shot with increased DMG. While aiming, the dark lightning spirits of Immernachtreich shall heed the call of their Prinzessin and indwell the enchanted arrowhead. When fully indwelt, the Rachs\u00fcchtig Blitz shall deal immense Electro DMG.\nPlunging Attack: Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/b3/Talent_Nightrider.png",
+                "name": "Nightrider",
+                "type": "Elemental Skill",
+                "desc": "Summons Oz. The night raven forged of darkness and lightning descends upon the land, dealing Electro DMG in a small AoE.\nFor the ability's duration, Oz will continuously attack nearby opponents with Freikugel.\nHold to adjust the location Oz will be summoned to.\nPress again any time during the ability's duration to once again summon him to Fischl's side."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/f/ff/Talent_Midnight_Phantasmagoria.png",
+                "name": "Midnight Phantasmagoria",
+                "type": "Elemental Burst",
+                "desc": "Summons Oz to spread his twin wings of twilight and defend Fischl. Has the following properties during the ability's duration:\nFischl takes on Oz's form, greatly increasing her Movement Speed.\nStrikes nearby opponents with lightning, dealing Electro DMG to opponents she comes in contact with. Each opponent can only be struck once.\nOnce this ability's effects end, Oz will remain on the battlefield and attack his Prinzessin's foes. If Oz is already on the field, then this will reset the duration of his presence."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/2/28/Talent_Stellar_Predator.png",
+                "name": "Stellar Predator",
+                "type": "1st Ascension Passive",
+                "desc": "When Fischl hits Oz with a fully-charged Aimed Shot, Oz brings down Thundering Retribution, dealing AoE Electro DMG equal to 152.7% of the arrow's DMG."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/75/Talent_Undone_Be_Thy_Sinful_Hex.png",
+                "name": "Undone Be Thy Sinful Hex",
+                "type": "4th Ascension Passive",
+                "desc": "If your active character triggers an Electro-related Elemental Reaction when Oz is on the field, the opponent shall be stricken with Thundering Retribution, dealing Electro DMG equal to 80% of Fischl's ATK."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/6/60/Talent_Mein_Hausgarten.png",
+                "name": "Mein Hausgarten",
+                "type": "Utility Passive",
+                "desc": "When dispatched on an expedition in Mondstadt, time consumed is reduced by 25%."
+            }
+        ],
+        "talent_levening_mat": [
+            {
+                "ascensions_req": "2",
+                "cost": "12,500",
+                "materials": [
+                    {
+                        "rarity": 1,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/Item_Firm_Arrowhead.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b4/Item_Teachings_of_Ballad.png",
+                        "amount": 3
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "3",
+                "cost": "17,500",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0d/Item_Sharp_Arrowhead.png",
+                        "amount": 3
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Guide_to_Ballad.png",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "3",
+                "cost": "25,000",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0d/Item_Sharp_Arrowhead.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Guide_to_Ballad.png",
+                        "amount": 4
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "4",
+                "cost": "30,000",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0d/Item_Sharp_Arrowhead.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Guide_to_Ballad.png",
+                        "amount": 6
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "4",
+                "cost": "37,500",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0d/Item_Sharp_Arrowhead.png",
+                        "amount": 9
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Guide_to_Ballad.png",
+                        "amount": 9
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "5",
+                "cost": "120,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/22/Item_Weathered_Arrowhead.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/7e/Item_Philosophies_of_Ballad.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/81/Item_Spirit_Locket_of_Boreas.png",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "5",
+                "cost": "260,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/22/Item_Weathered_Arrowhead.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/7e/Item_Philosophies_of_Ballad.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/81/Item_Spirit_Locket_of_Boreas.png",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "6",
+                "cost": "450,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/22/Item_Weathered_Arrowhead.png",
+                        "amount": 9
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/7e/Item_Philosophies_of_Ballad.png",
+                        "amount": 12
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/81/Item_Spirit_Locket_of_Boreas.png",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "6",
+                "cost": "700,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/22/Item_Weathered_Arrowhead.png",
+                        "amount": 12
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/7e/Item_Philosophies_of_Ballad.png",
+                        "amount": 16
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/81/Item_Spirit_Locket_of_Boreas.png",
+                        "amount": 2
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/04/Item_Crown_of_Insight.png",
+                        "amount": 1
+                    }
+                ]
+            }
         ]
     },
     "availability": {

@@ -20,7 +20,7 @@
         },
         "introduction": {
             "quote": "The Raiden Shogun is the awesome and terrible power of thunder incarnate, the exalted ruler of the Inazuma Shogunate.\nWith the might of lightning at her disposal, she commits herself to the solitary pursuit of eternity.",
-            "content": "The Raiden Shogun (Japanese: \u96f7\u96fb\u5c06\u8ecd Raiden Shougun), real name Raiden Ei (Japanese: \u96f7\u3089\u3044\u96fb\u3067\u3093\u5f71\u3048\u3044 Raiden Ei), is a playable Electro character in Genshin Impact. She controls a puppet while meditating inside the Plane of Euthymia. Her current form is the vessel of Beelzebul, the current Electro Archon of Inazuma."
+            "content": "The Raiden Shogun ( Japanese: \u96f7\u3089\u3044\u96fb\u3067\u3093\u5c06\u3057\u3087\u3046\u8ecd\u3050\u3093 Raiden Shougun ), real name Raiden Ei ( Japanese: \u96f7\u3089\u3044\u96fb\u3067\u3093\u5f71\u3048\u3044 Raiden Ei ), is a playable Electro  character in Genshin Impact. She controls a puppet while meditating inside the Plane of Euthymia. Her current form is the vessel of Beelzebul, the current Electro Archon of Inazuma."
         },
         "personality": {
             "quote": "Her Excellency, the Almighty Narukami Ogosho, who promised the people of Inazuma an unchanging Eternity",
@@ -40,183 +40,6 @@
     "name": "Raiden Shogun",
     "nickname": "Plane of Euthymia",
     "combat_info": {
-        "base_stats": {
-            "special": "Energy Recharge",
-            "data": {
-                "0": {
-                    "1": [
-                        "1,005",
-                        "26",
-                        "61",
-                        "\u2014"
-                    ],
-                    "20": [
-                        "2,606",
-                        "68",
-                        "159"
-                    ]
-                },
-                "1": {
-                    "20": [
-                        "3,468",
-                        "91",
-                        "212",
-                        "\u2014"
-                    ],
-                    "40": [
-                        "5,189",
-                        "136",
-                        "317"
-                    ]
-                },
-                "2": {
-                    "40": [
-                        "5,801",
-                        "152",
-                        "355",
-                        "8.0%"
-                    ],
-                    "50": [
-                        "6,675",
-                        "175",
-                        "408"
-                    ]
-                },
-                "3": {
-                    "50": [
-                        "7,491",
-                        "196",
-                        "458",
-                        "16.0%"
-                    ],
-                    "60": [
-                        "8,373",
-                        "219",
-                        "512"
-                    ]
-                },
-                "4": {
-                    "60": [
-                        "8,985",
-                        "235",
-                        "549",
-                        "16.0%"
-                    ],
-                    "70": [
-                        "9,875",
-                        "258",
-                        "604"
-                    ]
-                },
-                "5": {
-                    "70": [
-                        "10,487",
-                        "274",
-                        "641",
-                        "24.0%"
-                    ],
-                    "80": [
-                        "11,388",
-                        "298",
-                        "696"
-                    ]
-                },
-                "6": {
-                    "80": [
-                        "12,000",
-                        "314",
-                        "737",
-                        "32.0%"
-                    ],
-                    "90": [
-                        "12,907",
-                        "337",
-                        "789"
-                    ]
-                }
-            }
-        },
-        "talents": [
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/8/8f/Talent_Origin.png",
-                "name": "Origin",
-                "type": "Normal Attack",
-                "desc": "Normal Attack: Performs up to 5 consecutive spear strikes.\nCharged Attack: Consumes a certain amount of Stamina to perform an upward slash.\nPlunging Attack: Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Talent_Transcendence_Baleful_Omen.png",
-                "name": "Transcendence: Baleful Omen",
-                "type": "Elemental Skill",
-                "desc": "The Raiden Shogun unveils a shard of her Euthymia, dealing Electro DMG to nearby opponents, and granting nearby party members the Eye of Stormy Judgment.\nEye of Stormy Judgment\n\nWhen characters with this buff attack and deal DMG to opponents, the Eye will unleash a coordinated attack, dealing AoE Electro DMG at the opponent's position.\nCharacters who gain the Eye of Stormy Judgment will have their Elemental Burst DMG increased based on the Energy Cost of the Elemental Burst during the Eye's duration.The Eye can initiate one coordinated attack every 0.9s per party.Coordinated attacks generated by characters not controlled by you deal 20% of the normal DMG."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/e/e0/Talent_Secret_Art_Musou_Shinsetsu.png",
-                "name": "Secret Art: Musou Shinsetsu",
-                "type": "Elemental Burst",
-                "desc": "Gathering truths unnumbered and wishes uncounted, the Raiden Shogun unleashes the Musou no Hitotachi and deals AoE Electro DMG, using Musou Isshin in combat for a certain duration afterward. The DMG dealt by Musou no Hitotachi and Musou Isshin's attacks will be increased based on the number of Chakra Desiderata's Resolve stacks consumed when this skill is used.\nMusou Isshin\nWhile in this state, the Raiden Shogun will wield her tachi in battle, while her Normal, Charged, and Plunging Attacks will be infused with Electro DMG, which cannot be overridden. When such attacks hit opponents, she will regenerate Energy for all nearby party members. Energy can be restored this way once every 1s, and this effect can be triggered 5 times throughout this skill's duration.While in this state, the Raiden Shogun's resistance to interruption is increased, and she is immune to Electro-Charged reaction DMG.While Musou Isshin is active, the Raiden Shogun's Normal, Charged, and Plunging Attack DMG will be considered Elemental Burst DMG.The effects of Musou Isshin will be cleared when the Raiden Shogun leaves the field.\nChakra Desiderata\nWhen nearby party members (excluding the Raiden Shogun herself) use their Elemental Bursts, the Raiden Shogun will build up Resolve stacks based on the Energy Cost of these Elemental Bursts.\nThe maximum number of Resolve stacks is 60. The Resolve gained by Chakra Desiderata will be cleared 300s after the Raiden Shogun leaves the field."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/bc/Talent_Wishes_Unnumbered.png",
-                "name": "Wishes Unnumbered",
-                "type": "1st Ascension Passive",
-                "desc": "When nearby party members gain Elemental Orbs or Particles, Chakra Desiderata gains 2 Resolve stacks.This effect can occur once every 3s."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Talent_Enlightened_One.png",
-                "name": "Enlightened One",
-                "type": "4th Ascension Passive",
-                "desc": "Each 1% above 100% Energy Recharge that the Raiden Shogun possesses grants her:\n0.6% greater Energy restoration from Musou Isshin\n0.4% Electro DMG Bonus"
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/0/0e/Talent_All-Preserver.png",
-                "name": "All-Preserver",
-                "type": "Utility Passive",
-                "desc": "Mora expended when ascending Swords and Polearms is decreased by 50%."
-            }
-        ],
-        "lvup_mat": [
-            [
-                {
-                    "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/5e/Item_Teachings_of_Light.png",
-                    "amount": 9
-                },
-                {
-                    "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/fe/Item_Guide_to_Light.png",
-                    "amount": 63
-                },
-                {
-                    "rarity": 4,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/95/Item_Philosophies_of_Light.png",
-                    "amount": 114
-                }
-            ],
-            [
-                {
-                    "rarity": 1,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e2/Item_Old_Handguard.png",
-                    "amount": 18
-                },
-                {
-                    "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Kageuchi_Handguard.png",
-                    "amount": 66
-                },
-                {
-                    "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4e/Item_Famed_Handguard.png",
-                    "amount": 93
-                }
-            ],
-            [
-                {
-                    "rarity": 5,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Item_Molten_Moment.png",
-                    "amount": 18
-                }
-            ]
-        ],
         "constellation": [
             {
                 "level": 1,
@@ -244,7 +67,7 @@
             },
             {
                 "level": 5,
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/8/85/Constellation_Shogun's_Descent.png",
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/8/85/Constellation_Shogun%27s_Descent.png",
                 "name": "Shogun's Descent",
                 "effect": "Increases the Level of Transcendence: Baleful Omen by 3.Maximum upgrade level is 15."
             },
@@ -255,6 +78,94 @@
                 "effect": "While in the Musou Isshin state applied by Secret Art: Musou Shinsetsu, attacks by the Raiden Shogun that are considered part of her Elemental Burst will decrease all nearby party members' (but not including the Raiden Shogun herself) Elemental Burst CD by 1s when they hit opponents.\nThis effect can trigger once every 1s, and can trigger a total of 5 times during the state's duration."
             }
         ],
+        "base_stats": {
+            "data": {
+                "0": {
+                    "1": [
+                        "1,005",
+                        "26",
+                        "61"
+                    ],
+                    "20": [
+                        "2,606",
+                        "68",
+                        "159"
+                    ]
+                },
+                "1": {
+                    "20": [
+                        "3,468",
+                        "91",
+                        "212"
+                    ],
+                    "40": [
+                        "5,189",
+                        "136",
+                        "317"
+                    ]
+                },
+                "2": {
+                    "40": [
+                        "5,801",
+                        "152",
+                        "355"
+                    ],
+                    "50": [
+                        "6,675",
+                        "175",
+                        "408"
+                    ]
+                },
+                "3": {
+                    "50": [
+                        "7,491",
+                        "196",
+                        "458"
+                    ],
+                    "60": [
+                        "8,373",
+                        "219",
+                        "512"
+                    ]
+                },
+                "4": {
+                    "60": [
+                        "8,985",
+                        "235",
+                        "549"
+                    ],
+                    "70": [
+                        "9,875",
+                        "258",
+                        "604"
+                    ]
+                },
+                "5": {
+                    "70": [
+                        "10,487",
+                        "274",
+                        "641"
+                    ],
+                    "80": [
+                        "11,388",
+                        "298",
+                        "696"
+                    ]
+                },
+                "6": {
+                    "80": [
+                        "12,000",
+                        "314",
+                        "737"
+                    ],
+                    "90": [
+                        "12,907",
+                        "337",
+                        "789"
+                    ]
+                }
+            }
+        },
         "ascensions": [
             [
                 {
@@ -383,6 +294,215 @@
                     "amount": 24
                 }
             ]
+        ],
+        "talents": [
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/8/8f/Talent_Origin.png",
+                "name": "Origin",
+                "type": "Normal Attack",
+                "desc": "Normal Attack: Performs up to 5 consecutive spear strikes.\nCharged Attack: Consumes a certain amount of Stamina to perform an upward slash.\nPlunging Attack: Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Talent_Transcendence_Baleful_Omen.png",
+                "name": "Transcendence: Baleful Omen",
+                "type": "Elemental Skill",
+                "desc": "The Raiden Shogun unveils a shard of her Euthymia, dealing Electro DMG to nearby opponents, and granting nearby party members the Eye of Stormy Judgment.\nEye of Stormy Judgment\n\nWhen characters with this buff attack and deal DMG to opponents, the Eye will unleash a coordinated attack, dealing AoE Electro DMG at the opponent's position.\nCharacters who gain the Eye of Stormy Judgment will have their Elemental Burst DMG increased based on the Energy Cost of the Elemental Burst during the Eye's duration.The Eye can initiate one coordinated attack every 0.9s per party.Coordinated attacks generated by characters not controlled by you deal 20% of the normal DMG."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/e/e0/Talent_Secret_Art_Musou_Shinsetsu.png",
+                "name": "Secret Art: Musou Shinsetsu",
+                "type": "Elemental Burst",
+                "desc": "Gathering truths unnumbered and wishes uncounted, the Raiden Shogun unleashes the Musou no Hitotachi and deals AoE Electro DMG, using Musou Isshin in combat for a certain duration afterward. The DMG dealt by Musou no Hitotachi and Musou Isshin's attacks will be increased based on the number of Chakra Desiderata's Resolve stacks consumed when this skill is used.\nMusou Isshin\nWhile in this state, the Raiden Shogun will wield her tachi in battle, while her Normal, Charged, and Plunging Attacks will be infused with Electro DMG, which cannot be overridden. When such attacks hit opponents, she will regenerate Energy for all nearby party members. Energy can be restored this way once every 1s, and this effect can be triggered 5 times throughout this skill's duration.While in this state, the Raiden Shogun's resistance to interruption is increased, and she is immune to Electro-Charged reaction DMG.While Musou Isshin is active, the Raiden Shogun's Normal, Charged, and Plunging Attack DMG will be considered Elemental Burst DMG.The effects of Musou Isshin will be cleared when the Raiden Shogun leaves the field.\nChakra Desiderata\nWhen nearby party members (excluding the Raiden Shogun herself) use their Elemental Bursts, the Raiden Shogun will build up Resolve stacks based on the Energy Cost of these Elemental Bursts.\nThe maximum number of Resolve stacks is 60. The Resolve gained by Chakra Desiderata will be cleared 300s after the Raiden Shogun leaves the field."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/bc/Talent_Wishes_Unnumbered.png",
+                "name": "Wishes Unnumbered",
+                "type": "1st Ascension Passive",
+                "desc": "When nearby party members gain Elemental Orbs or Particles, Chakra Desiderata gains 2 Resolve stacks.This effect can occur once every 3s."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Talent_Enlightened_One.png",
+                "name": "Enlightened One",
+                "type": "4th Ascension Passive",
+                "desc": "Each 1% above 100% Energy Recharge that the Raiden Shogun possesses grants her:\n0.6% greater Energy restoration from Musou Isshin\n0.4% Electro DMG Bonus"
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/0/0e/Talent_All-Preserver.png",
+                "name": "All-Preserver",
+                "type": "Utility Passive",
+                "desc": "Mora expended when ascending Swords and Polearms is decreased by 50%."
+            }
+        ],
+        "talent_levening_mat": [
+            {
+                "ascensions_req": "2",
+                "cost": "12,500",
+                "materials": [
+                    {
+                        "rarity": 1,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e2/Item_Old_Handguard.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/5e/Item_Teachings_of_Light.png",
+                        "amount": 3
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "3",
+                "cost": "17,500",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Kageuchi_Handguard.png",
+                        "amount": 3
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/fe/Item_Guide_to_Light.png",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "3",
+                "cost": "25,000",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Kageuchi_Handguard.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/fe/Item_Guide_to_Light.png",
+                        "amount": 4
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "4",
+                "cost": "30,000",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Kageuchi_Handguard.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/fe/Item_Guide_to_Light.png",
+                        "amount": 6
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "4",
+                "cost": "37,500",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Kageuchi_Handguard.png",
+                        "amount": 9
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/fe/Item_Guide_to_Light.png",
+                        "amount": 9
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "5",
+                "cost": "120,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4e/Item_Famed_Handguard.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/95/Item_Philosophies_of_Light.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Item_Molten_Moment.png",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "5",
+                "cost": "260,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4e/Item_Famed_Handguard.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/95/Item_Philosophies_of_Light.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Item_Molten_Moment.png",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "6",
+                "cost": "450,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4e/Item_Famed_Handguard.png",
+                        "amount": 9
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/95/Item_Philosophies_of_Light.png",
+                        "amount": 12
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Item_Molten_Moment.png",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "6",
+                "cost": "700,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4e/Item_Famed_Handguard.png",
+                        "amount": 12
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/95/Item_Philosophies_of_Light.png",
+                        "amount": 16
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Item_Molten_Moment.png",
+                        "amount": 2
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/04/Item_Crown_of_Insight.png",
+                        "amount": 1
+                    }
+                ]
+            }
         ]
     },
     "availability": {
@@ -396,7 +516,7 @@
                     {
                         "rarity": 5,
                         "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/52/Character_Raiden_Shogun_Thumb.png",
-                        "text": "Raiden Shogun",
+                        "text": "Raiden",
                         "icon": "Electro"
                     },
                     {

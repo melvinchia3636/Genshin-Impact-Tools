@@ -39,183 +39,6 @@
     "name": "Xiao",
     "nickname": "Vigilant Yaksha",
     "combat_info": {
-        "base_stats": {
-            "special": "CRIT Rate",
-            "data": {
-                "0": {
-                    "1": [
-                        "991",
-                        "27",
-                        "62",
-                        "\u2014"
-                    ],
-                    "20": [
-                        "2,572",
-                        "71",
-                        "161"
-                    ]
-                },
-                "1": {
-                    "20": [
-                        "3,422",
-                        "94",
-                        "215",
-                        "\u2014"
-                    ],
-                    "40": [
-                        "5,120",
-                        "141",
-                        "321"
-                    ]
-                },
-                "2": {
-                    "40": [
-                        "5,724",
-                        "157",
-                        "359",
-                        "4.8%"
-                    ],
-                    "50": [
-                        "6,586",
-                        "181",
-                        "413"
-                    ]
-                },
-                "3": {
-                    "50": [
-                        "7,391",
-                        "203",
-                        "464",
-                        "9.6%"
-                    ],
-                    "60": [
-                        "8,262",
-                        "227",
-                        "519"
-                    ]
-                },
-                "4": {
-                    "60": [
-                        "8,866",
-                        "243",
-                        "556",
-                        "9.6%"
-                    ],
-                    "70": [
-                        "9,744",
-                        "267",
-                        "612"
-                    ]
-                },
-                "5": {
-                    "70": [
-                        "10,348",
-                        "284",
-                        "649",
-                        "14.4%"
-                    ],
-                    "80": [
-                        "11,236",
-                        "308",
-                        "705"
-                    ]
-                },
-                "6": {
-                    "80": [
-                        "11,840",
-                        "325",
-                        "743",
-                        "19.2%"
-                    ],
-                    "90": [
-                        "12,736",
-                        "349",
-                        "799"
-                    ]
-                }
-            }
-        },
-        "talents": [
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Talent_Whirlwind_Thrust.png",
-                "name": "Whirlwind Thrust",
-                "type": "Normal Attack",
-                "desc": "Normal Attack: Performs up to 6 consecutive spear strikes.\nCharged Attack: Consumes a certain amount of Stamina to perform an upward thrust.\nPlunging Attack: Plunges from mid-air to strike the ground from below, damaging opponents along the path and dealing AoE DMG upon impact.Xiao does not take DMG from performing Plunging Attacks."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/da/Talent_Lemniscatic_Wind_Cycling.png",
-                "name": "Lemniscatic Wind Cycling",
-                "type": "Elemental Skill",
-                "desc": "Xiao lunges forward, dealing Anemo DMG to opponents in his path.\nCan be used in mid-air.\nStarts with 2 charges."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Talent_Bane_of_All_Evil.png",
-                "name": "Bane of All Evil",
-                "type": "Elemental Burst",
-                "desc": "Xiao dons the Yaksha Mask that set gods and demons trembling millennia ago.\nYaksha's Mask:\n\nGreatly increases Xiao's jumping ability.\nIncreases his attack AoE and attack DMG.\nConverts attack DMG into Anemo DMG, which cannot be overridden by any other elemental infusion.\nIn this state, Xiao will continuously lose HP.\n\nThe effects of this skill end when Xiao leaves the field."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/df/Talent_Conqueror_of_Evil_Tamer_of_Demons.png",
-                "name": "Conqueror of Evil: Tamer of Demons",
-                "type": "1st Ascension Passive",
-                "desc": "While under the effects of Bane of All Evil, all DMG dealt by Xiao increases by 5%. DMG increases by a further 5% for every 3s the ability persists. The maximum DMG Bonus is 25%."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/d8/Talent_Dissolution_Eon_Heaven_Fall.png",
-                "name": "Dissolution Eon: Heaven Fall",
-                "type": "4th Ascension Passive",
-                "desc": "Using Lemniscatic Wind Cycling increases the DMG of subsequent uses of Lemniscatic Wind Cycling by 15%. This effect lasts for 7s, and has a maximum of 3 stacks. Gaining a new stack refreshes the effect's duration."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Talent_Transcension_Gravity_Defier.png",
-                "name": "Transcension: Gravity Defier",
-                "type": "Utility Passive",
-                "desc": "Decreases climbing Stamina consumption for your own party members by 20%.Not stackable with Passive Talents that provide the exact same effects."
-            }
-        ],
-        "lvup_mat": [
-            [
-                {
-                    "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9e/Item_Teachings_of_Prosperity.png",
-                    "amount": 9
-                },
-                {
-                    "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/67/Item_Guide_to_Prosperity.png",
-                    "amount": 63
-                },
-                {
-                    "rarity": 4,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bd/Item_Philosophies_of_Prosperity.png",
-                    "amount": 114
-                }
-            ],
-            [
-                {
-                    "rarity": 1,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/Item_Slime_Condensate.png",
-                    "amount": 18
-                },
-                {
-                    "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Slime_Secretions.png",
-                    "amount": 66
-                },
-                {
-                    "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d8/Item_Slime_Concentrate.png",
-                    "amount": 93
-                }
-            ],
-            [
-                {
-                    "rarity": 5,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/5d/Item_Shadow_of_the_Warrior.png",
-                    "amount": 18
-                }
-            ]
-        ],
         "constellation": [
             {
                 "level": 1,
@@ -254,6 +77,94 @@
                 "effect": "While under the effects of Bane of All Evil, hitting at least 2 opponents with Xiao's Plunging Attack will immediately grant him 1 charge of Lemniscatic Wind Cycling, and for the next 1s, he may use Lemniscatic Wind Cycling while ignoring its CD."
             }
         ],
+        "base_stats": {
+            "data": {
+                "0": {
+                    "1": [
+                        "991",
+                        "27",
+                        "62"
+                    ],
+                    "20": [
+                        "2,572",
+                        "71",
+                        "161"
+                    ]
+                },
+                "1": {
+                    "20": [
+                        "3,422",
+                        "94",
+                        "215"
+                    ],
+                    "40": [
+                        "5,120",
+                        "141",
+                        "321"
+                    ]
+                },
+                "2": {
+                    "40": [
+                        "5,724",
+                        "157",
+                        "359"
+                    ],
+                    "50": [
+                        "6,586",
+                        "181",
+                        "413"
+                    ]
+                },
+                "3": {
+                    "50": [
+                        "7,391",
+                        "203",
+                        "464"
+                    ],
+                    "60": [
+                        "8,262",
+                        "227",
+                        "519"
+                    ]
+                },
+                "4": {
+                    "60": [
+                        "8,866",
+                        "243",
+                        "556"
+                    ],
+                    "70": [
+                        "9,744",
+                        "267",
+                        "612"
+                    ]
+                },
+                "5": {
+                    "70": [
+                        "10,348",
+                        "284",
+                        "649"
+                    ],
+                    "80": [
+                        "11,236",
+                        "308",
+                        "705"
+                    ]
+                },
+                "6": {
+                    "80": [
+                        "11,840",
+                        "325",
+                        "743"
+                    ],
+                    "90": [
+                        "12,736",
+                        "349",
+                        "799"
+                    ]
+                }
+            }
+        },
         "ascensions": [
             [
                 {
@@ -382,6 +293,215 @@
                     "amount": 24
                 }
             ]
+        ],
+        "talents": [
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Talent_Whirlwind_Thrust.png",
+                "name": "Whirlwind Thrust",
+                "type": "Normal Attack",
+                "desc": "Normal Attack: Performs up to 6 consecutive spear strikes.\nCharged Attack: Consumes a certain amount of Stamina to perform an upward thrust.\nPlunging Attack: Plunges from mid-air to strike the ground from below, damaging opponents along the path and dealing AoE DMG upon impact.Xiao does not take DMG from performing Plunging Attacks."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/da/Talent_Lemniscatic_Wind_Cycling.png",
+                "name": "Lemniscatic Wind Cycling",
+                "type": "Elemental Skill",
+                "desc": "Xiao lunges forward, dealing Anemo DMG to opponents in his path.\nCan be used in mid-air.\nStarts with 2 charges."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Talent_Bane_of_All_Evil.png",
+                "name": "Bane of All Evil",
+                "type": "Elemental Burst",
+                "desc": "Xiao dons the Yaksha Mask that set gods and demons trembling millennia ago.\nYaksha's Mask:\n\nGreatly increases Xiao's jumping ability.\nIncreases his attack AoE and attack DMG.\nConverts attack DMG into Anemo DMG, which cannot be overridden by any other elemental infusion.\nIn this state, Xiao will continuously lose HP.\n\nThe effects of this skill end when Xiao leaves the field."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/df/Talent_Conqueror_of_Evil_Tamer_of_Demons.png",
+                "name": "Conqueror of Evil: Tamer of Demons",
+                "type": "1st Ascension Passive",
+                "desc": "While under the effects of Bane of All Evil, all DMG dealt by Xiao increases by 5%. DMG increases by a further 5% for every 3s the ability persists. The maximum DMG Bonus is 25%."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/d8/Talent_Dissolution_Eon_Heaven_Fall.png",
+                "name": "Dissolution Eon: Heaven Fall",
+                "type": "4th Ascension Passive",
+                "desc": "Using Lemniscatic Wind Cycling increases the DMG of subsequent uses of Lemniscatic Wind Cycling by 15%. This effect lasts for 7s, and has a maximum of 3 stacks. Gaining a new stack refreshes the effect's duration."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Talent_Transcension_Gravity_Defier.png",
+                "name": "Transcension: Gravity Defier",
+                "type": "Utility Passive",
+                "desc": "Decreases climbing Stamina consumption for your own party members by 20%.Not stackable with Passive Talents that provide the exact same effects."
+            }
+        ],
+        "talent_levening_mat": [
+            {
+                "ascensions_req": "2",
+                "cost": "12,500",
+                "materials": [
+                    {
+                        "rarity": 1,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/Item_Slime_Condensate.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9e/Item_Teachings_of_Prosperity.png",
+                        "amount": 3
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "3",
+                "cost": "17,500",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Slime_Secretions.png",
+                        "amount": 3
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/67/Item_Guide_to_Prosperity.png",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "3",
+                "cost": "25,000",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Slime_Secretions.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/67/Item_Guide_to_Prosperity.png",
+                        "amount": 4
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "4",
+                "cost": "30,000",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Slime_Secretions.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/67/Item_Guide_to_Prosperity.png",
+                        "amount": 6
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "4",
+                "cost": "37,500",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Slime_Secretions.png",
+                        "amount": 9
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/67/Item_Guide_to_Prosperity.png",
+                        "amount": 9
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "5",
+                "cost": "120,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d8/Item_Slime_Concentrate.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bd/Item_Philosophies_of_Prosperity.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/5d/Item_Shadow_of_the_Warrior.png",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "5",
+                "cost": "260,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d8/Item_Slime_Concentrate.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bd/Item_Philosophies_of_Prosperity.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/5d/Item_Shadow_of_the_Warrior.png",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "6",
+                "cost": "450,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d8/Item_Slime_Concentrate.png",
+                        "amount": 9
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bd/Item_Philosophies_of_Prosperity.png",
+                        "amount": 12
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/5d/Item_Shadow_of_the_Warrior.png",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "6",
+                "cost": "700,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d8/Item_Slime_Concentrate.png",
+                        "amount": 12
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bd/Item_Philosophies_of_Prosperity.png",
+                        "amount": 16
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/5d/Item_Shadow_of_the_Warrior.png",
+                        "amount": 2
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/04/Item_Crown_of_Insight.png",
+                        "amount": 1
+                    }
+                ]
+            }
         ]
     },
     "availability": {

@@ -39,183 +39,6 @@
     "name": "Yanfei",
     "nickname": "Wise Innocence",
     "combat_info": {
-        "base_stats": {
-            "special": "Pyro DMG Bonus",
-            "data": {
-                "0": {
-                    "1": [
-                        "784",
-                        "20",
-                        "49",
-                        "\u2014"
-                    ],
-                    "20": [
-                        "2,014",
-                        "52",
-                        "126"
-                    ]
-                },
-                "1": {
-                    "20": [
-                        "2,600",
-                        "67",
-                        "163",
-                        "\u2014"
-                    ],
-                    "40": [
-                        "3,895",
-                        "100",
-                        "244"
-                    ]
-                },
-                "2": {
-                    "40": [
-                        "4,311",
-                        "111",
-                        "271",
-                        "6.0%"
-                    ],
-                    "50": [
-                        "4,959",
-                        "127",
-                        "311"
-                    ]
-                },
-                "3": {
-                    "50": [
-                        "5,514",
-                        "141",
-                        "346",
-                        "12.0%"
-                    ],
-                    "60": [
-                        "6,161",
-                        "158",
-                        "387"
-                    ]
-                },
-                "4": {
-                    "60": [
-                        "6,578",
-                        "169",
-                        "413",
-                        "12.0%"
-                    ],
-                    "70": [
-                        "7,225",
-                        "185",
-                        "453"
-                    ]
-                },
-                "5": {
-                    "70": [
-                        "7,641",
-                        "196",
-                        "480",
-                        "18.0%"
-                    ],
-                    "80": [
-                        "8,289",
-                        "213",
-                        "520"
-                    ]
-                },
-                "6": {
-                    "80": [
-                        "8,705",
-                        "223",
-                        "546",
-                        "24.0%"
-                    ],
-                    "90": [
-                        "9,352",
-                        "240",
-                        "587"
-                    ]
-                }
-            }
-        },
-        "talents": [
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/1/14/Talent_Seal_of_Approval.png",
-                "name": "Seal of Approval",
-                "type": "Normal Attack",
-                "desc": "Normal Attack: Shoots fireballs that deal up to three counts of Pyro DMG. When Yanfei's Normal Attacks hit enemies, they will grant her a single Scarlet Seal. Yanfei may possess a maximum of 3 Scarlet Seals, and each time this effect is triggered, the duration of currently possessed Scarlet Seals will refresh. Each Scarlet Seal will decrease Yanfei's Stamina consumption and will disappear when she leaves the field.\nCharged Attack: Consumes Stamina and all Scarlet Seals before dealing AoE Pyro DMG to the opponents after a short casting time. This Charged Attack's AoE and DMG will increase according to the amount of Scarlet Seals consumed.\nPlunging Attack: Gathering the power of Pyro, Yanfei plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Pyro DMG upon impact with the ground."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/a/a3/Talent_Signed_Edict.png",
-                "name": "Signed Edict",
-                "type": "Elemental Skill",
-                "desc": "Summons blistering flames that deal AoE Pyro DMG.If this attack hits an enemy, Yanfei is granted the maximum number of Scarlet Seals."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/96/Talent_Done_Deal.png",
-                "name": "Done Deal",
-                "type": "Elemental Burst",
-                "desc": "Triggers a spray of intense flames that rush at nearby opponents, dealing AoE Pyro DMG, granting Yanfei the maximum number of Scarlet Seals, and applying Brilliance to her.BrilliancePeriodically grants Yanfei a Scarlet Seal. Increases the DMG of her Charged Attacks. The Brilliance effect stops when Yanfei leaves the field or falls in battle."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/73/Talent_Proviso.png",
-                "name": "Proviso",
-                "type": "1st Ascension Passive",
-                "desc": "When Yanfei consumes Scarlet Seals by using a Charged Attack, each Scarlet Seal will increase Yanfei's Pyro DMG Bonus by 5%. This effect lasts for 6s. When a Charged Attack is used again during the effect's duration, it will dispel the previous effect."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/1/19/Talent_Blazing_Eye.png",
-                "name": "Blazing Eye",
-                "type": "4th Ascension Passive",
-                "desc": "When Yanfei's Charged Attack deals a CRIT Hit to opponents, she will deal an additional instance of AoE Pyro DMG equal to 80% of her ATK. This DMG counts as Charged Attack DMG."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/0/08/Talent_Encyclopedic_Expertise.png",
-                "name": "Encyclopedic Expertise",
-                "type": "Utility Passive",
-                "desc": "Displays the location of nearby resources unique to Liyue on the mini-map."
-            }
-        ],
-        "lvup_mat": [
-            [
-                {
-                    "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/7f/Item_Teachings_of_Gold.png",
-                    "amount": 9
-                },
-                {
-                    "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/43/Item_Guide_to_Gold.png",
-                    "amount": 63
-                },
-                {
-                    "rarity": 4,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/Item_Philosophies_of_Gold.png",
-                    "amount": 114
-                }
-            ],
-            [
-                {
-                    "rarity": 1,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c9/Item_Treasure_Hoarder_Insignia.png",
-                    "amount": 18
-                },
-                {
-                    "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Item_Silver_Raven_Insignia.png",
-                    "amount": 66
-                },
-                {
-                    "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Golden_Raven_Insignia.png",
-                    "amount": 93
-                }
-            ],
-            [
-                {
-                    "rarity": 5,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b1/Item_Bloodjade_Branch.png",
-                    "amount": 18
-                }
-            ]
-        ],
         "constellation": [
             {
                 "level": 1,
@@ -254,6 +77,94 @@
                 "effect": "Increases the maximum number of Scarlet Seals by 1."
             }
         ],
+        "base_stats": {
+            "data": {
+                "0": {
+                    "1": [
+                        "784",
+                        "20",
+                        "49"
+                    ],
+                    "20": [
+                        "2,014",
+                        "52",
+                        "126"
+                    ]
+                },
+                "1": {
+                    "20": [
+                        "2,600",
+                        "67",
+                        "163"
+                    ],
+                    "40": [
+                        "3,895",
+                        "100",
+                        "244"
+                    ]
+                },
+                "2": {
+                    "40": [
+                        "4,311",
+                        "111",
+                        "271"
+                    ],
+                    "50": [
+                        "4,959",
+                        "127",
+                        "311"
+                    ]
+                },
+                "3": {
+                    "50": [
+                        "5,514",
+                        "141",
+                        "346"
+                    ],
+                    "60": [
+                        "6,161",
+                        "158",
+                        "387"
+                    ]
+                },
+                "4": {
+                    "60": [
+                        "6,578",
+                        "169",
+                        "413"
+                    ],
+                    "70": [
+                        "7,225",
+                        "185",
+                        "453"
+                    ]
+                },
+                "5": {
+                    "70": [
+                        "7,641",
+                        "196",
+                        "480"
+                    ],
+                    "80": [
+                        "8,289",
+                        "213",
+                        "520"
+                    ]
+                },
+                "6": {
+                    "80": [
+                        "8,705",
+                        "223",
+                        "546"
+                    ],
+                    "90": [
+                        "9,352",
+                        "240",
+                        "587"
+                    ]
+                }
+            }
+        },
         "ascensions": [
             [
                 {
@@ -382,6 +293,215 @@
                     "amount": 24
                 }
             ]
+        ],
+        "talents": [
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/1/14/Talent_Seal_of_Approval.png",
+                "name": "Seal of Approval",
+                "type": "Normal Attack",
+                "desc": "Normal Attack: Shoots fireballs that deal up to three counts of Pyro DMG. When Yanfei's Normal Attacks hit enemies, they will grant her a single Scarlet Seal. Yanfei may possess a maximum of 3 Scarlet Seals, and each time this effect is triggered, the duration of currently possessed Scarlet Seals will refresh. Each Scarlet Seal will decrease Yanfei's Stamina consumption and will disappear when she leaves the field.\nCharged Attack: Consumes Stamina and all Scarlet Seals before dealing AoE Pyro DMG to the opponents after a short casting time. This Charged Attack's AoE and DMG will increase according to the amount of Scarlet Seals consumed.\nPlunging Attack: Gathering the power of Pyro, Yanfei plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Pyro DMG upon impact with the ground."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/a/a3/Talent_Signed_Edict.png",
+                "name": "Signed Edict",
+                "type": "Elemental Skill",
+                "desc": "Summons blistering flames that deal AoE Pyro DMG.If this attack hits an enemy, Yanfei is granted the maximum number of Scarlet Seals."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/96/Talent_Done_Deal.png",
+                "name": "Done Deal",
+                "type": "Elemental Burst",
+                "desc": "Triggers a spray of intense flames that rush at nearby opponents, dealing AoE Pyro DMG, granting Yanfei the maximum number of Scarlet Seals, and applying Brilliance to her.BrilliancePeriodically grants Yanfei a Scarlet Seal. Increases the DMG of her Charged Attacks. The Brilliance effect stops when Yanfei leaves the field or falls in battle."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/73/Talent_Proviso.png",
+                "name": "Proviso",
+                "type": "1st Ascension Passive",
+                "desc": "When Yanfei consumes Scarlet Seals by using a Charged Attack, each Scarlet Seal will increase Yanfei's Pyro DMG Bonus by 5%. This effect lasts for 6s. When a Charged Attack is used again during the effect's duration, it will dispel the previous effect."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/1/19/Talent_Blazing_Eye.png",
+                "name": "Blazing Eye",
+                "type": "4th Ascension Passive",
+                "desc": "When Yanfei's Charged Attack deals a CRIT Hit to opponents, she will deal an additional instance of AoE Pyro DMG equal to 80% of her ATK. This DMG counts as Charged Attack DMG."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/0/08/Talent_Encyclopedic_Expertise.png",
+                "name": "Encyclopedic Expertise",
+                "type": "Utility Passive",
+                "desc": "Displays the location of nearby resources unique to Liyue on the mini-map."
+            }
+        ],
+        "talent_levening_mat": [
+            {
+                "ascensions_req": "2",
+                "cost": "12,500",
+                "materials": [
+                    {
+                        "rarity": 1,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c9/Item_Treasure_Hoarder_Insignia.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/7f/Item_Teachings_of_Gold.png",
+                        "amount": 3
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "3",
+                "cost": "17,500",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Item_Silver_Raven_Insignia.png",
+                        "amount": 3
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/43/Item_Guide_to_Gold.png",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "3",
+                "cost": "25,000",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Item_Silver_Raven_Insignia.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/43/Item_Guide_to_Gold.png",
+                        "amount": 4
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "4",
+                "cost": "30,000",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Item_Silver_Raven_Insignia.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/43/Item_Guide_to_Gold.png",
+                        "amount": 6
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "4",
+                "cost": "37,500",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Item_Silver_Raven_Insignia.png",
+                        "amount": 9
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/43/Item_Guide_to_Gold.png",
+                        "amount": 9
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "5",
+                "cost": "120,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Golden_Raven_Insignia.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/Item_Philosophies_of_Gold.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b1/Item_Bloodjade_Branch.png",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "5",
+                "cost": "260,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Golden_Raven_Insignia.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/Item_Philosophies_of_Gold.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b1/Item_Bloodjade_Branch.png",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "6",
+                "cost": "450,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Golden_Raven_Insignia.png",
+                        "amount": 9
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/Item_Philosophies_of_Gold.png",
+                        "amount": 12
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b1/Item_Bloodjade_Branch.png",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "6",
+                "cost": "700,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Golden_Raven_Insignia.png",
+                        "amount": 12
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/Item_Philosophies_of_Gold.png",
+                        "amount": 16
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b1/Item_Bloodjade_Branch.png",
+                        "amount": 2
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/04/Item_Crown_of_Insight.png",
+                        "amount": 1
+                    }
+                ]
+            }
         ]
     },
     "availability": {

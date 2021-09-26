@@ -37,183 +37,6 @@
     "name": "Noelle",
     "nickname": "Chivalric Blossom",
     "combat_info": {
-        "base_stats": {
-            "special": "DEF",
-            "data": {
-                "0": {
-                    "1": [
-                        "1,012",
-                        "16",
-                        "67",
-                        "\u2014"
-                    ],
-                    "20": [
-                        "2,600",
-                        "41",
-                        "172"
-                    ]
-                },
-                "1": {
-                    "20": [
-                        "3,356",
-                        "53",
-                        "222",
-                        "\u2014"
-                    ],
-                    "40": [
-                        "5,027",
-                        "80",
-                        "333"
-                    ]
-                },
-                "2": {
-                    "40": [
-                        "5,564",
-                        "88",
-                        "368",
-                        "7.5%"
-                    ],
-                    "50": [
-                        "6,400",
-                        "101",
-                        "423"
-                    ]
-                },
-                "3": {
-                    "50": [
-                        "7,117",
-                        "113",
-                        "471",
-                        "15.0%"
-                    ],
-                    "60": [
-                        "7,953",
-                        "126",
-                        "526"
-                    ]
-                },
-                "4": {
-                    "60": [
-                        "8,490",
-                        "134",
-                        "562",
-                        "15.0%"
-                    ],
-                    "70": [
-                        "9,325",
-                        "148",
-                        "617"
-                    ]
-                },
-                "5": {
-                    "70": [
-                        "9,862",
-                        "156",
-                        "652",
-                        "22.5%"
-                    ],
-                    "80": [
-                        "10,698",
-                        "169",
-                        "708"
-                    ]
-                },
-                "6": {
-                    "80": [
-                        "11,235",
-                        "178",
-                        "743",
-                        "30.0%"
-                    ],
-                    "90": [
-                        "12,071",
-                        "191",
-                        "799"
-                    ]
-                }
-            }
-        },
-        "talents": [
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/38/Talent_Favonius_Bladework_-_Maid.png",
-                "name": "Favonius Bladework - Maid",
-                "type": "Normal Attack",
-                "desc": "Normal Attack: Performs up to 4 consecutive slashes.\nCharged Attack: Drains Stamina over time to perform continuous swirling attack on all nearby opponents. At the end of the sequence, performs an additional powerful slash.\nPlunging Attack: Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/5a/Talent_Breastplate.png",
-                "name": "Breastplate",
-                "type": "Elemental Skill",
-                "desc": "Summons protective stone armor, dealing Geo DMG to surrounding opponents and creating a shield. The shield's DMG Absorption scales based on Noelle's DEF.The shield has the following properties:\nWhen Noelle's Normal and Charged Attacks hit a target, they have a certain chance to regenerate HP for all characters.\nPossesses 150% DMG Absorption efficiency against all Elemental and Physical DMG.\nThe amount of HP healed when regeneration is triggered scales based on Noelle's DEF."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/7c/Talent_Sweeping_Time.png",
-                "name": "Sweeping Time",
-                "type": "Elemental Burst",
-                "desc": "Gathering the strength of stone around her weapon, Noelle strikes the opponents surrounding her within a large AoE, dealing Geo DMG.Afterwards, Noelle gains the following effects:\nLarger attack AoE\nConverts attack DMG to Geo DMG that cannot be overridden by any other elemental infusion.\nIncreased ATK that scales based on her DEF."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/b2/Talent_Devotion.png",
-                "name": "Devotion",
-                "type": "1st Ascension Passive",
-                "desc": "When Noelle is in the party but not on the field, this ability triggers automatically when your active character's HP falls below 30%:\nCreates a shield for your active character that lasts for 20s and absorbs DMG equal to 400% of Noelle's DEF. The shield has a 150% DMG Absorption effectiveness against all Elemental and Physical DMG. This effect can only occur once every 60s."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/9a/Talent_Nice_and_Clean.png",
-                "name": "Nice and Clean",
-                "type": "4th Ascension Passive",
-                "desc": "Every 4 Normal or Charged Attack hits will decrease the CD of Breastplate by 1s.Hitting multiple opponents with a single attack is only counted as 1 hit."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/dd/Talent_Maid's_Knighthood.png",
-                "name": "Maid's Knighthood",
-                "type": "Utility Passive",
-                "desc": "When a Perfect Cooking is achieved on a DEF-boosting dish, Noelle has a 12% chance to obtain double the product."
-            }
-        ],
-        "lvup_mat": [
-            [
-                {
-                    "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/33/Item_Teachings_of_Resistance.png",
-                    "amount": 9
-                },
-                {
-                    "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Item_Guide_to_Resistance.png",
-                    "amount": 63
-                },
-                {
-                    "rarity": 4,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Philosophies_of_Resistance.png",
-                    "amount": 114
-                }
-            ],
-            [
-                {
-                    "rarity": 1,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/69/Item_Damaged_Mask.png",
-                    "amount": 18
-                },
-                {
-                    "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Stained_Mask.png",
-                    "amount": 66
-                },
-                {
-                    "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Ominous_Mask.png",
-                    "amount": 93
-                }
-            ],
-            [
-                {
-                    "rarity": 5,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a8/Item_Dvalin's_Claw.png",
-                    "amount": 18
-                }
-            ]
-        ],
         "constellation": [
             {
                 "level": 1,
@@ -252,6 +75,94 @@
                 "effect": "Sweeping Time increases Noelle's ATK by an additional 50% of her DEF.Additionally, every opponent defeated during the skill's duration adds 1s to the duration, up to 10s."
             }
         ],
+        "base_stats": {
+            "data": {
+                "0": {
+                    "1": [
+                        "1,012",
+                        "16",
+                        "67"
+                    ],
+                    "20": [
+                        "2,600",
+                        "41",
+                        "172"
+                    ]
+                },
+                "1": {
+                    "20": [
+                        "3,356",
+                        "53",
+                        "222"
+                    ],
+                    "40": [
+                        "5,027",
+                        "80",
+                        "333"
+                    ]
+                },
+                "2": {
+                    "40": [
+                        "5,564",
+                        "88",
+                        "368"
+                    ],
+                    "50": [
+                        "6,400",
+                        "101",
+                        "423"
+                    ]
+                },
+                "3": {
+                    "50": [
+                        "7,117",
+                        "113",
+                        "471"
+                    ],
+                    "60": [
+                        "7,953",
+                        "126",
+                        "526"
+                    ]
+                },
+                "4": {
+                    "60": [
+                        "8,490",
+                        "134",
+                        "562"
+                    ],
+                    "70": [
+                        "9,325",
+                        "148",
+                        "617"
+                    ]
+                },
+                "5": {
+                    "70": [
+                        "9,862",
+                        "156",
+                        "652"
+                    ],
+                    "80": [
+                        "10,698",
+                        "169",
+                        "708"
+                    ]
+                },
+                "6": {
+                    "80": [
+                        "11,235",
+                        "178",
+                        "743"
+                    ],
+                    "90": [
+                        "12,071",
+                        "191",
+                        "799"
+                    ]
+                }
+            }
+        },
         "ascensions": [
             [
                 {
@@ -380,6 +291,215 @@
                     "amount": 24
                 }
             ]
+        ],
+        "talents": [
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/38/Talent_Favonius_Bladework_-_Maid.png",
+                "name": "Favonius Bladework - Maid",
+                "type": "Normal Attack",
+                "desc": "Normal Attack: Performs up to 4 consecutive slashes.\nCharged Attack: Drains Stamina over time to perform continuous swirling attack on all nearby opponents. At the end of the sequence, performs an additional powerful slash.\nPlunging Attack: Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/5a/Talent_Breastplate.png",
+                "name": "Breastplate",
+                "type": "Elemental Skill",
+                "desc": "Summons protective stone armor, dealing Geo DMG to surrounding opponents and creating a shield. The shield's DMG Absorption scales based on Noelle's DEF.The shield has the following properties:\nWhen Noelle's Normal and Charged Attacks hit a target, they have a certain chance to regenerate HP for all characters.\nPossesses 150% DMG Absorption efficiency against all Elemental and Physical DMG.\nThe amount of HP healed when regeneration is triggered scales based on Noelle's DEF."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/7c/Talent_Sweeping_Time.png",
+                "name": "Sweeping Time",
+                "type": "Elemental Burst",
+                "desc": "Gathering the strength of stone around her weapon, Noelle strikes the opponents surrounding her within a large AoE, dealing Geo DMG.Afterwards, Noelle gains the following effects:\nLarger attack AoE\nConverts attack DMG to Geo DMG that cannot be overridden by any other elemental infusion.\nIncreased ATK that scales based on her DEF."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/b2/Talent_Devotion.png",
+                "name": "Devotion",
+                "type": "1st Ascension Passive",
+                "desc": "When Noelle is in the party but not on the field, this ability triggers automatically when your active character's HP falls below 30%:\nCreates a shield for your active character that lasts for 20s and absorbs DMG equal to 400% of Noelle's DEF. The shield has a 150% DMG Absorption effectiveness against all Elemental and Physical DMG. This effect can only occur once every 60s."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/9a/Talent_Nice_and_Clean.png",
+                "name": "Nice and Clean",
+                "type": "4th Ascension Passive",
+                "desc": "Every 4 Normal or Charged Attack hits will decrease the CD of Breastplate by 1s.Hitting multiple opponents with a single attack is only counted as 1 hit."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/dd/Talent_Maid%27s_Knighthood.png",
+                "name": "Maid's Knighthood",
+                "type": "Utility Passive",
+                "desc": "When a Perfect Cooking is achieved on a DEF-boosting dish, Noelle has a 12% chance to obtain double the product."
+            }
+        ],
+        "talent_levening_mat": [
+            {
+                "ascensions_req": "2",
+                "cost": "12,500",
+                "materials": [
+                    {
+                        "rarity": 1,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/69/Item_Damaged_Mask.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/33/Item_Teachings_of_Resistance.png",
+                        "amount": 3
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "3",
+                "cost": "17,500",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Stained_Mask.png",
+                        "amount": 3
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Item_Guide_to_Resistance.png",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "3",
+                "cost": "25,000",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Stained_Mask.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Item_Guide_to_Resistance.png",
+                        "amount": 4
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "4",
+                "cost": "30,000",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Stained_Mask.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Item_Guide_to_Resistance.png",
+                        "amount": 6
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "4",
+                "cost": "37,500",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Stained_Mask.png",
+                        "amount": 9
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Item_Guide_to_Resistance.png",
+                        "amount": 9
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "5",
+                "cost": "120,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Ominous_Mask.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Philosophies_of_Resistance.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a8/Item_Dvalin%27s_Claw.png",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "5",
+                "cost": "260,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Ominous_Mask.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Philosophies_of_Resistance.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a8/Item_Dvalin%27s_Claw.png",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "6",
+                "cost": "450,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Ominous_Mask.png",
+                        "amount": 9
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Philosophies_of_Resistance.png",
+                        "amount": 12
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a8/Item_Dvalin%27s_Claw.png",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "6",
+                "cost": "700,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Ominous_Mask.png",
+                        "amount": 12
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Philosophies_of_Resistance.png",
+                        "amount": 16
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a8/Item_Dvalin%27s_Claw.png",
+                        "amount": 2
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/04/Item_Crown_of_Insight.png",
+                        "amount": 1
+                    }
+                ]
+            }
         ]
     },
     "availability": {

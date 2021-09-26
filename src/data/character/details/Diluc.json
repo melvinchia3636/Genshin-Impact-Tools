@@ -44,183 +44,6 @@
     "name": "Diluc",
     "nickname": "The Dark Side of Dawn",
     "combat_info": {
-        "base_stats": {
-            "special": "CRIT Rate",
-            "data": {
-                "0": {
-                    "1": [
-                        "1,011",
-                        "26",
-                        "61",
-                        "\u2014"
-                    ],
-                    "20": [
-                        "2,621",
-                        "68",
-                        "158"
-                    ]
-                },
-                "1": {
-                    "20": [
-                        "3,488",
-                        "90",
-                        "211",
-                        "\u2014"
-                    ],
-                    "40": [
-                        "5,219",
-                        "135",
-                        "315"
-                    ]
-                },
-                "2": {
-                    "40": [
-                        "5,834",
-                        "151",
-                        "352",
-                        "4.8%"
-                    ],
-                    "50": [
-                        "6,712",
-                        "173",
-                        "405"
-                    ]
-                },
-                "3": {
-                    "50": [
-                        "7,533",
-                        "194",
-                        "455",
-                        "9.6%"
-                    ],
-                    "60": [
-                        "8,421",
-                        "217",
-                        "509"
-                    ]
-                },
-                "4": {
-                    "60": [
-                        "9,036",
-                        "233",
-                        "546",
-                        "9.6%"
-                    ],
-                    "70": [
-                        "9,932",
-                        "256",
-                        "600"
-                    ]
-                },
-                "5": {
-                    "70": [
-                        "10,547",
-                        "272",
-                        "637",
-                        "14.4%"
-                    ],
-                    "80": [
-                        "11,453",
-                        "295",
-                        "692"
-                    ]
-                },
-                "6": {
-                    "80": [
-                        "12,068",
-                        "311",
-                        "729",
-                        "19.2%"
-                    ],
-                    "90": [
-                        "12,981",
-                        "335",
-                        "784"
-                    ]
-                }
-            }
-        },
-        "talents": [
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Talent_Tempered_Sword.png",
-                "name": "Tempered Sword",
-                "type": "Normal Attack",
-                "desc": "Normal Attack: Perform up to 4 consecutive strikes.\nCharged Attack: Drains Stamina over time to perform continuous slashes. At the end of the sequence, perform a more powerful slash.\nPlunging Attack: Plunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/53/Talent_Searing_Onslaught.png",
-                "name": "Searing Onslaught",
-                "type": "Elemental Skill",
-                "desc": "Performs a forward slash that deals Pyro DMG.\nThis skill can be used 3 times consecutively. Enters CD if not cast again within a short period (5s)."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/f/f5/Talent_Dawn.png",
-                "name": "Dawn",
-                "type": "Elemental Burst",
-                "desc": "Releases intense flames to knock nearby opponents back, dealing Pyro DMG. The flames then converge into the weapon, summoning a Phoenix that flies forward and deals massive Pyro DMG to all opponents in its path. The Phoenix explodes upon reaching its destination, causing a large amount of AoE Pyro DMG.The searing flames that run down his blade cause it to be infused with Pyro."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/5f/Talent_Relentless.png",
-                "name": "Relentless",
-                "type": "1st Ascension Passive",
-                "desc": "Diluc's Charged Attack Stamina Cost is decreased by 50%, and its duration is increased by 3s."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/c/c3/Talent_Blessing_of_Phoenix.png",
-                "name": "Blessing of Phoenix",
-                "type": "4th Ascension Passive",
-                "desc": "The Pyro Enchantment provided by Dawn lasts for 4s longer. Additionally. Diluc gains 20% Pyro DMG Bonus during the duration of this effect."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/a/af/Talent_Tradition_of_the_Dawn_Knight.png",
-                "name": "Tradition of the Dawn Knight",
-                "type": "Utility Passive",
-                "desc": "Refunds 15% of the ores used when crafting Claymore-type weapons."
-            }
-        ],
-        "lvup_mat": [
-            [
-                {
-                    "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/33/Item_Teachings_of_Resistance.png",
-                    "amount": 9
-                },
-                {
-                    "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Item_Guide_to_Resistance.png",
-                    "amount": 63
-                },
-                {
-                    "rarity": 4,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Philosophies_of_Resistance.png",
-                    "amount": 114
-                }
-            ],
-            [
-                {
-                    "rarity": 1,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b2/Item_Recruit's_Insignia.png",
-                    "amount": 18
-                },
-                {
-                    "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Sergeant's_Insignia.png",
-                    "amount": 66
-                },
-                {
-                    "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/db/Item_Lieutenant's_Insignia.png",
-                    "amount": 93
-                }
-            ],
-            [
-                {
-                    "rarity": 5,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Item_Dvalin's_Plume.png",
-                    "amount": 18
-                }
-            ]
-        ],
         "constellation": [
             {
                 "level": 1,
@@ -259,6 +82,94 @@
                 "effect": "After casting Searing Onslaught, the next 2 Normal Attacks within the next 6s will have their DMG and ATK SPD increased by 30%.Additionally, Searing Onslaught will not interrupt the Normal Attack combo."
             }
         ],
+        "base_stats": {
+            "data": {
+                "0": {
+                    "1": [
+                        "1,011",
+                        "26",
+                        "61"
+                    ],
+                    "20": [
+                        "2,621",
+                        "68",
+                        "158"
+                    ]
+                },
+                "1": {
+                    "20": [
+                        "3,488",
+                        "90",
+                        "211"
+                    ],
+                    "40": [
+                        "5,219",
+                        "135",
+                        "315"
+                    ]
+                },
+                "2": {
+                    "40": [
+                        "5,834",
+                        "151",
+                        "352"
+                    ],
+                    "50": [
+                        "6,712",
+                        "173",
+                        "405"
+                    ]
+                },
+                "3": {
+                    "50": [
+                        "7,533",
+                        "194",
+                        "455"
+                    ],
+                    "60": [
+                        "8,421",
+                        "217",
+                        "509"
+                    ]
+                },
+                "4": {
+                    "60": [
+                        "9,036",
+                        "233",
+                        "546"
+                    ],
+                    "70": [
+                        "9,932",
+                        "256",
+                        "600"
+                    ]
+                },
+                "5": {
+                    "70": [
+                        "10,547",
+                        "272",
+                        "637"
+                    ],
+                    "80": [
+                        "11,453",
+                        "295",
+                        "692"
+                    ]
+                },
+                "6": {
+                    "80": [
+                        "12,068",
+                        "311",
+                        "729"
+                    ],
+                    "90": [
+                        "12,981",
+                        "335",
+                        "784"
+                    ]
+                }
+            }
+        },
         "ascensions": [
             [
                 {
@@ -273,7 +184,7 @@
                 },
                 {
                     "rarity": 1,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b2/Item_Recruit's_Insignia.png",
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b2/Item_Recruit%27s_Insignia.png",
                     "amount": 3
                 }
             ],
@@ -295,7 +206,7 @@
                 },
                 {
                     "rarity": 1,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b2/Item_Recruit's_Insignia.png",
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b2/Item_Recruit%27s_Insignia.png",
                     "amount": 15
                 }
             ],
@@ -317,7 +228,7 @@
                 },
                 {
                     "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Sergeant's_Insignia.png",
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Sergeant%27s_Insignia.png",
                     "amount": 12
                 }
             ],
@@ -339,7 +250,7 @@
                 },
                 {
                     "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Sergeant's_Insignia.png",
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Sergeant%27s_Insignia.png",
                     "amount": 18
                 }
             ],
@@ -361,7 +272,7 @@
                 },
                 {
                     "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/db/Item_Lieutenant's_Insignia.png",
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/db/Item_Lieutenant%27s_Insignia.png",
                     "amount": 12
                 }
             ],
@@ -383,10 +294,219 @@
                 },
                 {
                     "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/db/Item_Lieutenant's_Insignia.png",
+                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/db/Item_Lieutenant%27s_Insignia.png",
                     "amount": 24
                 }
             ]
+        ],
+        "talents": [
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Talent_Tempered_Sword.png",
+                "name": "Tempered Sword",
+                "type": "Normal Attack",
+                "desc": "Normal Attack: Perform up to 4 consecutive strikes.\nCharged Attack: Drains Stamina over time to perform continuous slashes. At the end of the sequence, perform a more powerful slash.\nPlunging Attack: Plunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/53/Talent_Searing_Onslaught.png",
+                "name": "Searing Onslaught",
+                "type": "Elemental Skill",
+                "desc": "Performs a forward slash that deals Pyro DMG.\nThis skill can be used 3 times consecutively. Enters CD if not cast again within a short period (5s)."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/f/f5/Talent_Dawn.png",
+                "name": "Dawn",
+                "type": "Elemental Burst",
+                "desc": "Releases intense flames to knock nearby opponents back, dealing Pyro DMG. The flames then converge into the weapon, summoning a Phoenix that flies forward and deals massive Pyro DMG to all opponents in its path. The Phoenix explodes upon reaching its destination, causing a large amount of AoE Pyro DMG.The searing flames that run down his blade cause it to be infused with Pyro."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/5f/Talent_Relentless.png",
+                "name": "Relentless",
+                "type": "1st Ascension Passive",
+                "desc": "Diluc's Charged Attack Stamina Cost is decreased by 50%, and its duration is increased by 3s."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/c/c3/Talent_Blessing_of_Phoenix.png",
+                "name": "Blessing of Phoenix",
+                "type": "4th Ascension Passive",
+                "desc": "The Pyro Enchantment provided by Dawn lasts for 4s longer. Additionally. Diluc gains 20% Pyro DMG Bonus during the duration of this effect."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/a/af/Talent_Tradition_of_the_Dawn_Knight.png",
+                "name": "Tradition of the Dawn Knight",
+                "type": "Utility Passive",
+                "desc": "Refunds 15% of the ores used when crafting Claymore-type weapons."
+            }
+        ],
+        "talent_levening_mat": [
+            {
+                "ascensions_req": "2",
+                "cost": "12,500",
+                "materials": [
+                    {
+                        "rarity": 1,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b2/Item_Recruit%27s_Insignia.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/33/Item_Teachings_of_Resistance.png",
+                        "amount": 3
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "3",
+                "cost": "17,500",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Sergeant%27s_Insignia.png",
+                        "amount": 3
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Item_Guide_to_Resistance.png",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "3",
+                "cost": "25,000",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Sergeant%27s_Insignia.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Item_Guide_to_Resistance.png",
+                        "amount": 4
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "4",
+                "cost": "30,000",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Sergeant%27s_Insignia.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Item_Guide_to_Resistance.png",
+                        "amount": 6
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "4",
+                "cost": "37,500",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Sergeant%27s_Insignia.png",
+                        "amount": 9
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Item_Guide_to_Resistance.png",
+                        "amount": 9
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "5",
+                "cost": "120,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/db/Item_Lieutenant%27s_Insignia.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Philosophies_of_Resistance.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Item_Dvalin%27s_Plume.png",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "5",
+                "cost": "260,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/db/Item_Lieutenant%27s_Insignia.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Philosophies_of_Resistance.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Item_Dvalin%27s_Plume.png",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "6",
+                "cost": "450,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/db/Item_Lieutenant%27s_Insignia.png",
+                        "amount": 9
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Philosophies_of_Resistance.png",
+                        "amount": 12
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Item_Dvalin%27s_Plume.png",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "6",
+                "cost": "700,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/db/Item_Lieutenant%27s_Insignia.png",
+                        "amount": 12
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Philosophies_of_Resistance.png",
+                        "amount": 16
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Item_Dvalin%27s_Plume.png",
+                        "amount": 2
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/04/Item_Crown_of_Insight.png",
+                        "amount": 1
+                    }
+                ]
+            }
         ]
     },
     "availability": {

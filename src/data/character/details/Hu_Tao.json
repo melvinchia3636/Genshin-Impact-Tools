@@ -38,183 +38,6 @@
     "name": "Hu Tao",
     "nickname": "Fragrance in Thaw",
     "combat_info": {
-        "base_stats": {
-            "special": "CRIT DMG",
-            "data": {
-                "0": {
-                    "1": [
-                        "1,211",
-                        "8",
-                        "68",
-                        "\u2014"
-                    ],
-                    "20": [
-                        "3,141",
-                        "21",
-                        "177"
-                    ]
-                },
-                "1": {
-                    "20": [
-                        "4,179",
-                        "29",
-                        "235",
-                        "\u2014"
-                    ],
-                    "40": [
-                        "6,253",
-                        "43",
-                        "352"
-                    ]
-                },
-                "2": {
-                    "40": [
-                        "6,990",
-                        "48",
-                        "394",
-                        "9.6%"
-                    ],
-                    "50": [
-                        "8,042",
-                        "55",
-                        "453"
-                    ]
-                },
-                "3": {
-                    "50": [
-                        "9,026",
-                        "62",
-                        "508",
-                        "19.2%"
-                    ],
-                    "60": [
-                        "10,089",
-                        "69",
-                        "568"
-                    ]
-                },
-                "4": {
-                    "60": [
-                        "10,826",
-                        "74",
-                        "610",
-                        "19.2%"
-                    ],
-                    "70": [
-                        "11,899",
-                        "81",
-                        "670"
-                    ]
-                },
-                "5": {
-                    "70": [
-                        "12,637",
-                        "86",
-                        "712",
-                        "28.8%"
-                    ],
-                    "80": [
-                        "13,721",
-                        "94",
-                        "773"
-                    ]
-                },
-                "6": {
-                    "80": [
-                        "14,459",
-                        "99",
-                        "815",
-                        "38.4%"
-                    ],
-                    "90": [
-                        "15,552",
-                        "106",
-                        "876"
-                    ]
-                }
-            }
-        },
-        "talents": [
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/df/Talent_Secret_Spear_of_Wangsheng.png",
-                "name": "Secret Spear of Wangsheng",
-                "type": "Normal Attack",
-                "desc": "Normal Attack: Performs up to six consecutive spear strikes.\nCharged Attack: Consumes a certain amount of Stamina to lunge forward, dealing damage to enemies along the way.\nPlunging Attack: Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/be/Talent_Guide_to_Afterlife.png",
-                "name": "Guide to Afterlife",
-                "type": "Elemental Skill",
-                "desc": "Hu Tao consumes a part of her HP, knocking nearby enemies back and entering the Paramita Papilio State.\nParamita Papilio State:\n\nIncreases Hu Tao's ATK based on her Max HP at the time of entering this state. ATK Bonus gained this way cannot exceed 400% of Hu Tao's Base ATK.\nHu Tao's attack DMG is converted to Pyro DMG, which cannot be overridden by any other elemental infusion.\nIncreases Hu Tao's resistance to interruption.\nIn the Paramita Papilio state, Hu Tao's Charged Attacks apply the Blood Blossom effect to enemies it hits.\nBlood Blossom Effect:\nEnemies affected by Blood Blossom will take Pyro DMG every 4s.This DMG is considered Elemental Skill DMG.Each enemy can be affected by only one Blood Blossom effect at a time, and its duration may only be refreshed by Hu Tao herself.\n\nParamita Papilio ends when its duration is over, or when Hu Tao has left the battlefield or fallen."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/1/11/Talent_Spirit_Soother.png",
-                "name": "Spirit Soother",
-                "type": "Elemental Burst",
-                "desc": "Hu Tao commands a blazing spirit to deal Pyro DMG in a large AoE. Upon striking the enemy, regenerates a percentage of Hu Tao's Max HP. This effect can be triggered up to 5 times based on the number of enemies hit.\nIf Hu Tao's HP is below or equal to 50% when the enemy is hit, both the DMG and HP Regeneration are increased."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/1/13/Talent_Flutter_By.png",
-                "name": "Flutter By",
-                "type": "1st Ascension Passive",
-                "desc": "When a Paramita Papilio state activated by Guide to Afterlife ends, all allies in the party (excluding Hu Tao herself) will have their CRIT Rate increased by 12% for 8s."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/2/24/Talent_Sanguine_Rouge.png",
-                "name": "Sanguine Rouge",
-                "type": "4th Ascension Passive",
-                "desc": "When Hu Tao's HP is equal to or less than 50%, her Pyro DMG Bonus is increased by 33%."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/6/68/Talent_The_More_the_Merrier.png",
-                "name": "The More the Merrier",
-                "type": "Utility Passive",
-                "desc": "When Hu Tao cooks a dish perfectly, she has a 18% chance to receive an additional \"Suspicious\" dish of the same type."
-            }
-        ],
-        "lvup_mat": [
-            [
-                {
-                    "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Teachings_of_Diligence.png",
-                    "amount": 9
-                },
-                {
-                    "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9f/Item_Guide_to_Diligence.png",
-                    "amount": 63
-                },
-                {
-                    "rarity": 4,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c2/Item_Philosophies_of_Diligence.png",
-                    "amount": 114
-                }
-            ],
-            [
-                {
-                    "rarity": 1,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/Item_Whopperflower_Nectar.png",
-                    "amount": 18
-                },
-                {
-                    "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Item_Shimmering_Nectar.png",
-                    "amount": 66
-                },
-                {
-                    "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Energy_Nectar.png",
-                    "amount": 93
-                }
-            ],
-            [
-                {
-                    "rarity": 5,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/48/Item_Shard_of_a_Foul_Legacy.png",
-                    "amount": 18
-                }
-            ]
-        ],
         "constellation": [
             {
                 "level": 1,
@@ -248,11 +71,99 @@
             },
             {
                 "level": 6,
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/0/09/Constellation_Butterfly's_Embrace.png",
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/0/09/Constellation_Butterfly%27s_Embrace.png",
                 "name": "Butterfly's Embrace",
                 "effect": "Triggers when Hu Tao's HP drops below 25%, or when she suffers a lethal strike:Hu Tao will not fall as a result of the DMG sustained. Additionally, for the next 10s, all of her Elemental and Physical RES is increased by 200%, her CRIT Rate is increased by 100%, and her resistance to interruption is greatly increased.This effect triggers automatically when Hu Tao has 1 HP left.Can only occur once every 60s."
             }
         ],
+        "base_stats": {
+            "data": {
+                "0": {
+                    "1": [
+                        "1,211",
+                        "8",
+                        "68"
+                    ],
+                    "20": [
+                        "3,141",
+                        "21",
+                        "177"
+                    ]
+                },
+                "1": {
+                    "20": [
+                        "4,179",
+                        "29",
+                        "235"
+                    ],
+                    "40": [
+                        "6,253",
+                        "43",
+                        "352"
+                    ]
+                },
+                "2": {
+                    "40": [
+                        "6,990",
+                        "48",
+                        "394"
+                    ],
+                    "50": [
+                        "8,042",
+                        "55",
+                        "453"
+                    ]
+                },
+                "3": {
+                    "50": [
+                        "9,026",
+                        "62",
+                        "508"
+                    ],
+                    "60": [
+                        "10,089",
+                        "69",
+                        "568"
+                    ]
+                },
+                "4": {
+                    "60": [
+                        "10,826",
+                        "74",
+                        "610"
+                    ],
+                    "70": [
+                        "11,899",
+                        "81",
+                        "670"
+                    ]
+                },
+                "5": {
+                    "70": [
+                        "12,637",
+                        "86",
+                        "712"
+                    ],
+                    "80": [
+                        "13,721",
+                        "94",
+                        "773"
+                    ]
+                },
+                "6": {
+                    "80": [
+                        "14,459",
+                        "99",
+                        "815"
+                    ],
+                    "90": [
+                        "15,552",
+                        "106",
+                        "876"
+                    ]
+                }
+            }
+        },
         "ascensions": [
             [
                 {
@@ -381,6 +292,215 @@
                     "amount": 24
                 }
             ]
+        ],
+        "talents": [
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/df/Talent_Secret_Spear_of_Wangsheng.png",
+                "name": "Secret Spear of Wangsheng",
+                "type": "Normal Attack",
+                "desc": "Normal Attack: Performs up to six consecutive spear strikes.\nCharged Attack: Consumes a certain amount of Stamina to lunge forward, dealing damage to enemies along the way.\nPlunging Attack: Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/be/Talent_Guide_to_Afterlife.png",
+                "name": "Guide to Afterlife",
+                "type": "Elemental Skill",
+                "desc": "Hu Tao consumes a part of her HP, knocking nearby enemies back and entering the Paramita Papilio State.\nParamita Papilio State:\n\nIncreases Hu Tao's ATK based on her Max HP at the time of entering this state. ATK Bonus gained this way cannot exceed 400% of Hu Tao's Base ATK.\nHu Tao's attack DMG is converted to Pyro DMG, which cannot be overridden by any other elemental infusion.\nIncreases Hu Tao's resistance to interruption.\nIn the Paramita Papilio state, Hu Tao's Charged Attacks apply the Blood Blossom effect to enemies it hits.\nBlood Blossom Effect:\nEnemies affected by Blood Blossom will take Pyro DMG every 4s.This DMG is considered Elemental Skill DMG.Each enemy can be affected by only one Blood Blossom effect at a time, and its duration may only be refreshed by Hu Tao herself.\n\nParamita Papilio ends when its duration is over, or when Hu Tao has left the battlefield or fallen."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/1/11/Talent_Spirit_Soother.png",
+                "name": "Spirit Soother",
+                "type": "Elemental Burst",
+                "desc": "Hu Tao commands a blazing spirit to deal Pyro DMG in a large AoE. Upon striking the enemy, regenerates a percentage of Hu Tao's Max HP. This effect can be triggered up to 5 times based on the number of enemies hit.\nIf Hu Tao's HP is below or equal to 50% when the enemy is hit, both the DMG and HP Regeneration are increased."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/1/13/Talent_Flutter_By.png",
+                "name": "Flutter By",
+                "type": "1st Ascension Passive",
+                "desc": "When a Paramita Papilio state activated by Guide to Afterlife ends, all allies in the party (excluding Hu Tao herself) will have their CRIT Rate increased by 12% for 8s."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/2/24/Talent_Sanguine_Rouge.png",
+                "name": "Sanguine Rouge",
+                "type": "4th Ascension Passive",
+                "desc": "When Hu Tao's HP is equal to or less than 50%, her Pyro DMG Bonus is increased by 33%."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/6/68/Talent_The_More_the_Merrier.png",
+                "name": "The More the Merrier",
+                "type": "Utility Passive",
+                "desc": "When Hu Tao cooks a dish perfectly, she has a 18% chance to receive an additional \"Suspicious\" dish of the same type."
+            }
+        ],
+        "talent_levening_mat": [
+            {
+                "ascensions_req": "2",
+                "cost": "12,500",
+                "materials": [
+                    {
+                        "rarity": 1,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/Item_Whopperflower_Nectar.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Teachings_of_Diligence.png",
+                        "amount": 3
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "3",
+                "cost": "17,500",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Item_Shimmering_Nectar.png",
+                        "amount": 3
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9f/Item_Guide_to_Diligence.png",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "3",
+                "cost": "25,000",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Item_Shimmering_Nectar.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9f/Item_Guide_to_Diligence.png",
+                        "amount": 4
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "4",
+                "cost": "30,000",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Item_Shimmering_Nectar.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9f/Item_Guide_to_Diligence.png",
+                        "amount": 6
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "4",
+                "cost": "37,500",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Item_Shimmering_Nectar.png",
+                        "amount": 9
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9f/Item_Guide_to_Diligence.png",
+                        "amount": 9
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "5",
+                "cost": "120,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Energy_Nectar.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c2/Item_Philosophies_of_Diligence.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/48/Item_Shard_of_a_Foul_Legacy.png",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "5",
+                "cost": "260,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Energy_Nectar.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c2/Item_Philosophies_of_Diligence.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/48/Item_Shard_of_a_Foul_Legacy.png",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "6",
+                "cost": "450,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Energy_Nectar.png",
+                        "amount": 9
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c2/Item_Philosophies_of_Diligence.png",
+                        "amount": 12
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/48/Item_Shard_of_a_Foul_Legacy.png",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "6",
+                "cost": "700,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Energy_Nectar.png",
+                        "amount": 12
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c2/Item_Philosophies_of_Diligence.png",
+                        "amount": 16
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/48/Item_Shard_of_a_Foul_Legacy.png",
+                        "amount": 2
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/04/Item_Crown_of_Insight.png",
+                        "amount": 1
+                    }
+                ]
+            }
         ]
     },
     "availability": {

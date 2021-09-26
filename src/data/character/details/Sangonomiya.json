@@ -21,7 +21,7 @@
         },
         "introduction": {
             "quote": "Kokomi is the Divine Priestess of Watatsumi Island, and also serves as its supreme leader.She is well-versed in the art of war, is good at strategizing, and has keen insights into military affairs. She is also adept at handling domestic affairs, diplomacy, and other matters.\nStill, this unfathomable leader has a mysterious side to her...",
-            "content": "Sangonomiya Kokomi (Japanese: \u73ca\u745a\u5bae\u306e\u5fc3\u6d77 Sangonomiya Kokomi) is a playable Hydro character in Genshin Impact.\nThe young Divine Priestess of Watatsumi Island and a desendent of the Sangonomiya Clan. Kokomi is in charge of most of Watatsumi's affairs, shouldering heavy responsibilities alone in hopes for giving Watatsumi Island's people the hopes and happiness that they desire."
+            "content": "Sangonomiya Kokomi ( Japanese: \u73ca\u3055\u3093\u745a\u3054\u5bae\u306e\u307f\u3084\u5fc3\u3053\u3053\u6d77\u307f Sangonomiya Kokomi ) is a playable Hydro character in Genshin Impact. The young Divine Priestess of Watatsumi Island and a descendant of the Sangonomiya Clan. Kokomi is in charge of most of Watatsumi's affairs, shouldering heavy responsibilities alone in hopes for giving Watatsumi Island's people the hopes and happiness that they desire."
         },
         "personality": {
             "quote": "The Divine Priestess of Watatsumi Island. All of the island's affairs are at this young lady's fingertips.",
@@ -42,193 +42,10 @@
         ]
     },
     "combat_info": {
-        "base_stats": {
-            "special": "Hydro DMG Bonus",
-            "data": {
-                "0": {
-                    "1": [
-                        "1,049",
-                        "18",
-                        "51",
-                        "\u2014"
-                    ],
-                    "20": [
-                        "2,720",
-                        "47",
-                        "133"
-                    ]
-                },
-                "1": {
-                    "20": [
-                        "3,619",
-                        "63",
-                        "177",
-                        "\u2014"
-                    ],
-                    "40": [
-                        "5,416",
-                        "94",
-                        "264"
-                    ]
-                },
-                "2": {
-                    "40": [
-                        "6,055",
-                        "105",
-                        "295",
-                        "7.2%"
-                    ],
-                    "50": [
-                        "6,966",
-                        "121",
-                        "340"
-                    ]
-                },
-                "3": {
-                    "50": [
-                        "7,818",
-                        "136",
-                        "381",
-                        "14.4%"
-                    ],
-                    "60": [
-                        "8,738",
-                        "152",
-                        "426"
-                    ]
-                },
-                "4": {
-                    "60": [
-                        "9,377",
-                        "163",
-                        "457",
-                        "14.4%"
-                    ],
-                    "70": [
-                        "10,306",
-                        "179",
-                        "503"
-                    ]
-                },
-                "5": {
-                    "70": [
-                        "10,945",
-                        "190",
-                        "534",
-                        "21.6%"
-                    ],
-                    "80": [
-                        "11,885",
-                        "207",
-                        "580"
-                    ]
-                },
-                "6": {
-                    "80": [
-                        "12,524",
-                        "218",
-                        "611",
-                        "28.8%"
-                    ],
-                    "90": [
-                        "13,471",
-                        "234",
-                        "657"
-                    ]
-                }
-            }
-        },
-        "talents": [
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/37/Talent_The_Shape_of_Water.png",
-                "name": "The Shape of Water",
-                "type": "Normal Attack",
-                "desc": "Normal Attack: Performs up to 3 consecutive attacks that take the form of swimming fish, dealing Hydro DMG.Charged Attack: Consumes a certain amount of Stamina to deal AoE Hydro DMG after a short casting time.Plunging Attack: Gathering the might of Hydro, Kokomi plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Hydro DMG upon impact with the ground."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/6/6e/Talent_Kurage's_Oath.png",
-                "name": "Kurage's Oath",
-                "type": "Elemental Skill",
-                "desc": "Summons a \"bake-kurage\" created from water that can heal her allies.Using this skill will apply the Wet status to Sangonomiya Kokomi.\nBake-Kurage:\nDeals Hydro DMG to surrounding opponents and heal nearby active characters at fixed intervals. This healing is based on Kokomi's Max HP."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Talent_Nereid's_Ascension.png",
-                "name": "Nereid's Ascension",
-                "type": "Elemental Burst",
-                "desc": "The might of Watatsumi descends, dealing Hydro DMG to surrounding opponents, before robing Kokomi in a Ceremonial Garment made from the flowing waters of Sangonomiya.\nCeremonial Garment\n\nSangonomiya Kokomi's Normal Attack, Charged Attack and Bake-Kurage DMG are increased based on her Max HP.\nWhen her Normal and Charged Attacks hit opponents, Kokomi will restore HP for all nearby party members, and the amount restored is based on her Max HP.\nIncreases Sangonomiya Kokomi's resistance to interruption and allows her to move on the water's surface.\nThese effects will be cleared once Sangonomiya Kokomi leaves the field."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/c/cd/Talent_Tamanooya's_Casket.png",
-                "name": "Tamanooya's Casket",
-                "type": "1st Ascension Passive",
-                "desc": "If Sangonomiya Kokomi's own Bake-Kurage are on the field when she uses Nereid's Ascension, the Bake-Kurage's duration will be refreshed."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/5f/Talent_Song_of_Pearls.png",
-                "name": "Song of Pearls",
-                "type": "4th Ascension Passive",
-                "desc": "While donning the Ceremonial Garment created by Nereid's Ascension, the Normal and Charged Attack DMG Bonus Sangonomiya Kokomi gains based on her Max HP will receive a further increase based on 15% of her Healing Bonus."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/49/Talent_Princess_of_Watatsumi.png",
-                "name": "Princess of Watatsumi",
-                "type": "Utility Passive",
-                "desc": "Decreases swimming Stamina consumption for your own party members by 20%.Not stackable with Passive Talents that provide the exact same effects."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/d5/Talent_Flawless_Strategy.png",
-                "name": "Flawless Strategy",
-                "type": "Passive",
-                "desc": "Sangonomiya Kokomi has a 25% Healing Bonus, but a 100% decrease in CRIT Rate."
-            }
-        ],
-        "lvup_mat": [
-            [
-                {
-                    "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4e/Item_Teachings_of_Transience.png",
-                    "amount": 9
-                },
-                {
-                    "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b0/Item_Guide_to_Transience.png",
-                    "amount": 63
-                },
-                {
-                    "rarity": 4,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/27/Item_Philosophies_of_Transience.png",
-                    "amount": 114
-                }
-            ],
-            [
-                {
-                    "rarity": 1,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d2/Item_Spectral_Husk.png",
-                    "amount": 18
-                },
-                {
-                    "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/67/Item_Spectral_Heart.png",
-                    "amount": 66
-                },
-                {
-                    "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ea/Item_Spectral_Nucleus.png",
-                    "amount": 93
-                }
-            ],
-            [
-                {
-                    "rarity": 5,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/16/Item_Hellfire_Butterfly.png",
-                    "amount": 18
-                }
-            ]
-        ],
         "constellation": [
             {
                 "level": 1,
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/6/6b/Constellation_At_Water's_Edge.png",
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/6/6b/Constellation_At_Water%27s_Edge.png",
                 "name": "At Water's Edge",
                 "effect": "While donning the Ceremonial Garment created by Nereid's Ascension, the final Normal Attack in Sangonomiya Kokomi's combo will unleash a swimming fish to deal 30% of her Max HP as Hydro DMG.This DMG is not considered Normal Attack DMG."
             },
@@ -240,7 +57,7 @@
             },
             {
                 "level": 3,
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/c/cd/Constellation_The_Moon%2C_A_Ship_O'er_the_Seas.png",
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/c/cd/Constellation_The_Moon%2C_A_Ship_O%27er_the_Seas.png",
                 "name": "The Moon, A Ship O'er the Seas",
                 "effect": "Increases the Level of Nereid's Ascension by 3.Maximum upgrade level is 15."
             },
@@ -263,6 +80,94 @@
                 "effect": "While donning the Ceremonial Garment created by Nereid's Ascension, Sangonomiya Kokomi gains a 40% Hydro DMG Bonus for 4s after her Normal and Charged Attacks heal a character with 80% or more HP."
             }
         ],
+        "base_stats": {
+            "data": {
+                "0": {
+                    "1": [
+                        "1,049",
+                        "18",
+                        "51"
+                    ],
+                    "20": [
+                        "2,720",
+                        "47",
+                        "133"
+                    ]
+                },
+                "1": {
+                    "20": [
+                        "3,619",
+                        "63",
+                        "177"
+                    ],
+                    "40": [
+                        "5,416",
+                        "94",
+                        "264"
+                    ]
+                },
+                "2": {
+                    "40": [
+                        "6,055",
+                        "105",
+                        "295"
+                    ],
+                    "50": [
+                        "6,966",
+                        "121",
+                        "340"
+                    ]
+                },
+                "3": {
+                    "50": [
+                        "7,818",
+                        "136",
+                        "381"
+                    ],
+                    "60": [
+                        "8,738",
+                        "152",
+                        "426"
+                    ]
+                },
+                "4": {
+                    "60": [
+                        "9,377",
+                        "163",
+                        "457"
+                    ],
+                    "70": [
+                        "10,306",
+                        "179",
+                        "503"
+                    ]
+                },
+                "5": {
+                    "70": [
+                        "10,945",
+                        "190",
+                        "534"
+                    ],
+                    "80": [
+                        "11,885",
+                        "207",
+                        "580"
+                    ]
+                },
+                "6": {
+                    "80": [
+                        "12,524",
+                        "218",
+                        "611"
+                    ],
+                    "90": [
+                        "13,471",
+                        "234",
+                        "657"
+                    ]
+                }
+            }
+        },
         "ascensions": [
             [
                 {
@@ -391,6 +296,221 @@
                     "amount": 24
                 }
             ]
+        ],
+        "talents": [
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/37/Talent_The_Shape_of_Water.png",
+                "name": "The Shape of Water",
+                "type": "Normal Attack",
+                "desc": "Normal Attack: Performs up to 3 consecutive attacks that take the form of swimming fish, dealing Hydro DMG.Charged Attack: Consumes a certain amount of Stamina to deal AoE Hydro DMG after a short casting time.Plunging Attack: Gathering the might of Hydro, Kokomi plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Hydro DMG upon impact with the ground."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/6/6e/Talent_Kurage%27s_Oath.png",
+                "name": "Kurage's Oath",
+                "type": "Elemental Skill",
+                "desc": "Summons a \"bake-kurage\" created from water that can heal her allies.Using this skill will apply the Wet status to Sangonomiya Kokomi.\nBake-Kurage:\nDeals Hydro DMG to surrounding opponents and heal nearby active characters at fixed intervals. This healing is based on Kokomi's Max HP."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Talent_Nereid%27s_Ascension.png",
+                "name": "Nereid's Ascension",
+                "type": "Elemental Burst",
+                "desc": "The might of Watatsumi descends, dealing Hydro DMG to surrounding opponents, before robing Kokomi in a Ceremonial Garment made from the flowing waters of Sangonomiya.\nCeremonial Garment\n\nSangonomiya Kokomi's Normal Attack, Charged Attack and Bake-Kurage DMG are increased based on her Max HP.\nWhen her Normal and Charged Attacks hit opponents, Kokomi will restore HP for all nearby party members, and the amount restored is based on her Max HP.\nIncreases Sangonomiya Kokomi's resistance to interruption and allows her to move on the water's surface.\nThese effects will be cleared once Sangonomiya Kokomi leaves the field."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/c/cd/Talent_Tamanooya%27s_Casket.png",
+                "name": "Tamanooya's Casket",
+                "type": "1st Ascension Passive",
+                "desc": "If Sangonomiya Kokomi's own Bake-Kurage are on the field when she uses Nereid's Ascension, the Bake-Kurage's duration will be refreshed."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/5f/Talent_Song_of_Pearls.png",
+                "name": "Song of Pearls",
+                "type": "4th Ascension Passive",
+                "desc": "While donning the Ceremonial Garment created by Nereid's Ascension, the Normal and Charged Attack DMG Bonus Sangonomiya Kokomi gains based on her Max HP will receive a further increase based on 15% of her Healing Bonus."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/49/Talent_Princess_of_Watatsumi.png",
+                "name": "Princess of Watatsumi",
+                "type": "Utility Passive",
+                "desc": "Decreases swimming Stamina consumption for your own party members by 20%.Not stackable with Passive Talents that provide the exact same effects."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/d5/Talent_Flawless_Strategy.png",
+                "name": "Flawless Strategy",
+                "type": "Passive",
+                "desc": "Sangonomiya Kokomi has a 25% Healing Bonus, but a 100% decrease in CRIT Rate."
+            }
+        ],
+        "talent_levening_mat": [
+            {
+                "ascensions_req": "2",
+                "cost": "12,500",
+                "materials": [
+                    {
+                        "rarity": 1,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d2/Item_Spectral_Husk.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4e/Item_Teachings_of_Transience.png",
+                        "amount": 3
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "3",
+                "cost": "17,500",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/67/Item_Spectral_Heart.png",
+                        "amount": 3
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b0/Item_Guide_to_Transience.png",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "3",
+                "cost": "25,000",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/67/Item_Spectral_Heart.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b0/Item_Guide_to_Transience.png",
+                        "amount": 4
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "4",
+                "cost": "30,000",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/67/Item_Spectral_Heart.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b0/Item_Guide_to_Transience.png",
+                        "amount": 6
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "4",
+                "cost": "37,500",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/67/Item_Spectral_Heart.png",
+                        "amount": 9
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b0/Item_Guide_to_Transience.png",
+                        "amount": 9
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "5",
+                "cost": "120,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ea/Item_Spectral_Nucleus.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/27/Item_Philosophies_of_Transience.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/16/Item_Hellfire_Butterfly.png",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "5",
+                "cost": "260,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ea/Item_Spectral_Nucleus.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/27/Item_Philosophies_of_Transience.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/16/Item_Hellfire_Butterfly.png",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "6",
+                "cost": "450,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ea/Item_Spectral_Nucleus.png",
+                        "amount": 9
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/27/Item_Philosophies_of_Transience.png",
+                        "amount": 12
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/16/Item_Hellfire_Butterfly.png",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "6",
+                "cost": "700,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ea/Item_Spectral_Nucleus.png",
+                        "amount": 12
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/27/Item_Philosophies_of_Transience.png",
+                        "amount": 16
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/16/Item_Hellfire_Butterfly.png",
+                        "amount": 2
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/04/Item_Crown_of_Insight.png",
+                        "amount": 1
+                    }
+                ]
+            }
         ]
     },
     "availability": {

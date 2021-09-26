@@ -46,183 +46,6 @@
     "name": "Barbara",
     "nickname": "Shining Idol",
     "combat_info": {
-        "base_stats": {
-            "special": "HP",
-            "data": {
-                "0": {
-                    "1": [
-                        "821",
-                        "13",
-                        "56",
-                        "\u2014"
-                    ],
-                    "20": [
-                        "2,108",
-                        "34",
-                        "144"
-                    ]
-                },
-                "1": {
-                    "20": [
-                        "2,721",
-                        "44",
-                        "186",
-                        "\u2014"
-                    ],
-                    "40": [
-                        "4,076",
-                        "66",
-                        "279"
-                    ]
-                },
-                "2": {
-                    "40": [
-                        "4,512",
-                        "73",
-                        "308",
-                        "6.0%"
-                    ],
-                    "50": [
-                        "5,189",
-                        "84",
-                        "355"
-                    ]
-                },
-                "3": {
-                    "50": [
-                        "5,770",
-                        "94",
-                        "394",
-                        "12.0%"
-                    ],
-                    "60": [
-                        "6,448",
-                        "105",
-                        "441"
-                    ]
-                },
-                "4": {
-                    "60": [
-                        "6,884",
-                        "112",
-                        "470",
-                        "12.0%"
-                    ],
-                    "70": [
-                        "7,561",
-                        "123",
-                        "517"
-                    ]
-                },
-                "5": {
-                    "70": [
-                        "7,996",
-                        "130",
-                        "546",
-                        "18.0%"
-                    ],
-                    "80": [
-                        "8,674",
-                        "141",
-                        "593"
-                    ]
-                },
-                "6": {
-                    "80": [
-                        "9,110",
-                        "148",
-                        "623",
-                        "24.0%"
-                    ],
-                    "90": [
-                        "9,787",
-                        "159",
-                        "669"
-                    ]
-                }
-            }
-        },
-        "talents": [
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/53/Talent_Whisper_of_Water.png",
-                "name": "Whisper of Water",
-                "type": "Normal Attack",
-                "desc": "Normal Attack: Perform up to 4 water splash attacks that deal Hydro DMG.\nCharged Attack: Consumes a certain amount of Stamina to deal AoE Hydro DMG after a short casting time.\nPlunging Attack: Gathering the might of Hydro, Barbara plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Hydro DMG upon impact with the ground."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/95/Talent_Let_the_Show_Begin%E2%99%AA.png",
-                "name": "Let the Show Begin\u266a",
-                "type": "Elemental Skill",
-                "desc": "Summons water droplets resembling musical notes that form a Melody Loop, dealing Hydro DMG to surrounding opponents and applying the Wet status to them.\nMelody Loop:\n\nOn hit, Barbara's Normal Attacks heal your own party members and nearby teammates for a certain amount of HP, which scales with Barbara's Max HP.\nOn hit, Barbara's Charged Attack generates 4 times the amount of healing.\nPeriodically regenerates your own active character's HP.\nApplies the Wet status to the character and to opponents who come in contact with them."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Talent_Shining_Miracle%E2%99%AA.png",
-                "name": "Shining Miracle\u266a",
-                "type": "Elemental Burst",
-                "desc": "Heals nearby allied characters and your characters in the party for a large amount of HP that scales with Barbara's Max HP."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/49/Talent_Glorious_Season.png",
-                "name": "Glorious Season",
-                "type": "1st Ascension Passive",
-                "desc": "The Stamina Consumption of characters within Let the Show Begin's Melody Loop is reduced by 12%."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/3f/Talent_Encore.png",
-                "name": "Encore",
-                "type": "4th Ascension Passive",
-                "desc": "When your active character gains an Elemental Orb/Particle, the duration of Let the Show Begin's Melody Loop is extended by 1s. The maximum extension is 5s."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/Talent_With_My_Whole_Heart%E2%99%AA.png",
-                "name": "With My Whole Heart\u266a",
-                "type": "Utility Passive",
-                "desc": "When a Perfect Cooking is achieved on a dish with restorative effects, Barbara has a 12% chance to obtain double the product."
-            }
-        ],
-        "lvup_mat": [
-            [
-                {
-                    "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3a/Item_Teachings_of_Freedom.png",
-                    "amount": 9
-                },
-                {
-                    "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1a/Item_Guide_to_Freedom.png",
-                    "amount": 63
-                },
-                {
-                    "rarity": 4,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Item_Philosophies_of_Freedom.png",
-                    "amount": 114
-                }
-            ],
-            [
-                {
-                    "rarity": 1,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/74/Item_Divining_Scroll.png",
-                    "amount": 18
-                },
-                {
-                    "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Sealed_Scroll.png",
-                    "amount": 66
-                },
-                {
-                    "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Item_Forbidden_Curse_Scroll.png",
-                    "amount": 93
-                }
-            ],
-            [
-                {
-                    "rarity": 5,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d6/Item_Ring_of_Boreas.png",
-                    "amount": 18
-                }
-            ]
-        ],
         "constellation": [
             {
                 "level": 1,
@@ -261,6 +84,94 @@
                 "effect": "When Barbara is in the party but not on the field, and one of your own party members falls:\nAutomatically revives the fallen character.\nFully restores the revived character's HP to 100%.\nThis effect can only occur once every 15 mins."
             }
         ],
+        "base_stats": {
+            "data": {
+                "0": {
+                    "1": [
+                        "821",
+                        "13",
+                        "56"
+                    ],
+                    "20": [
+                        "2,108",
+                        "34",
+                        "144"
+                    ]
+                },
+                "1": {
+                    "20": [
+                        "2,721",
+                        "44",
+                        "186"
+                    ],
+                    "40": [
+                        "4,076",
+                        "66",
+                        "279"
+                    ]
+                },
+                "2": {
+                    "40": [
+                        "4,512",
+                        "73",
+                        "308"
+                    ],
+                    "50": [
+                        "5,189",
+                        "84",
+                        "355"
+                    ]
+                },
+                "3": {
+                    "50": [
+                        "5,770",
+                        "94",
+                        "394"
+                    ],
+                    "60": [
+                        "6,448",
+                        "105",
+                        "441"
+                    ]
+                },
+                "4": {
+                    "60": [
+                        "6,884",
+                        "112",
+                        "470"
+                    ],
+                    "70": [
+                        "7,561",
+                        "123",
+                        "517"
+                    ]
+                },
+                "5": {
+                    "70": [
+                        "7,996",
+                        "130",
+                        "546"
+                    ],
+                    "80": [
+                        "8,674",
+                        "141",
+                        "593"
+                    ]
+                },
+                "6": {
+                    "80": [
+                        "9,110",
+                        "148",
+                        "623"
+                    ],
+                    "90": [
+                        "9,787",
+                        "159",
+                        "669"
+                    ]
+                }
+            }
+        },
         "ascensions": [
             [
                 {
@@ -389,6 +300,215 @@
                     "amount": 24
                 }
             ]
+        ],
+        "talents": [
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/53/Talent_Whisper_of_Water.png",
+                "name": "Whisper of Water",
+                "type": "Normal Attack",
+                "desc": "Normal Attack: Perform up to 4 water splash attacks that deal Hydro DMG.\nCharged Attack: Consumes a certain amount of Stamina to deal AoE Hydro DMG after a short casting time.\nPlunging Attack: Gathering the might of Hydro, Barbara plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Hydro DMG upon impact with the ground."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/95/Talent_Let_the_Show_Begin%E2%99%AA.png",
+                "name": "Let the Show Begin\u266a",
+                "type": "Elemental Skill",
+                "desc": "Summons water droplets resembling musical notes that form a Melody Loop, dealing Hydro DMG to surrounding opponents and applying the Wet status to them.\nMelody Loop:\n\nOn hit, Barbara's Normal Attacks heal your own party members and nearby teammates for a certain amount of HP, which scales with Barbara's Max HP.\nOn hit, Barbara's Charged Attack generates 4 times the amount of healing.\nPeriodically regenerates your own active character's HP.\nApplies the Wet status to the character and to opponents who come in contact with them."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Talent_Shining_Miracle%E2%99%AA.png",
+                "name": "Shining Miracle\u266a",
+                "type": "Elemental Burst",
+                "desc": "Heals nearby allied characters and your characters in the party for a large amount of HP that scales with Barbara's Max HP."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/49/Talent_Glorious_Season.png",
+                "name": "Glorious Season",
+                "type": "1st Ascension Passive",
+                "desc": "The Stamina Consumption of characters within Let the Show Begin's Melody Loop is reduced by 12%."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/3f/Talent_Encore.png",
+                "name": "Encore",
+                "type": "4th Ascension Passive",
+                "desc": "When your active character gains an Elemental Orb/Particle, the duration of Let the Show Begin's Melody Loop is extended by 1s. The maximum extension is 5s."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/Talent_With_My_Whole_Heart%E2%99%AA.png",
+                "name": "With My Whole Heart\u266a",
+                "type": "Utility Passive",
+                "desc": "When a Perfect Cooking is achieved on a dish with restorative effects, Barbara has a 12% chance to obtain double the product."
+            }
+        ],
+        "talent_levening_mat": [
+            {
+                "ascensions_req": "2",
+                "cost": "12,500",
+                "materials": [
+                    {
+                        "rarity": 1,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/74/Item_Divining_Scroll.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3a/Item_Teachings_of_Freedom.png",
+                        "amount": 3
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "3",
+                "cost": "17,500",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Sealed_Scroll.png",
+                        "amount": 3
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1a/Item_Guide_to_Freedom.png",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "3",
+                "cost": "25,000",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Sealed_Scroll.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1a/Item_Guide_to_Freedom.png",
+                        "amount": 4
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "4",
+                "cost": "30,000",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Sealed_Scroll.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1a/Item_Guide_to_Freedom.png",
+                        "amount": 6
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "4",
+                "cost": "37,500",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Sealed_Scroll.png",
+                        "amount": 9
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1a/Item_Guide_to_Freedom.png",
+                        "amount": 9
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "5",
+                "cost": "120,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Item_Forbidden_Curse_Scroll.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Item_Philosophies_of_Freedom.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d6/Item_Ring_of_Boreas.png",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "5",
+                "cost": "260,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Item_Forbidden_Curse_Scroll.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Item_Philosophies_of_Freedom.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d6/Item_Ring_of_Boreas.png",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "6",
+                "cost": "450,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Item_Forbidden_Curse_Scroll.png",
+                        "amount": 9
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Item_Philosophies_of_Freedom.png",
+                        "amount": 12
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d6/Item_Ring_of_Boreas.png",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "6",
+                "cost": "700,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Item_Forbidden_Curse_Scroll.png",
+                        "amount": 12
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Item_Philosophies_of_Freedom.png",
+                        "amount": 16
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d6/Item_Ring_of_Boreas.png",
+                        "amount": 2
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/04/Item_Crown_of_Insight.png",
+                        "amount": 1
+                    }
+                ]
+            }
         ]
     },
     "availability": {

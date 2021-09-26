@@ -36,183 +36,6 @@
     "name": "Xinyan",
     "nickname": "Blazing Riff",
     "combat_info": {
-        "base_stats": {
-            "special": "ATK",
-            "data": {
-                "0": {
-                    "1": [
-                        "939",
-                        "21",
-                        "67",
-                        "\u2014"
-                    ],
-                    "20": [
-                        "2,413",
-                        "54",
-                        "172"
-                    ]
-                },
-                "1": {
-                    "20": [
-                        "3,114",
-                        "69",
-                        "222",
-                        "\u2014"
-                    ],
-                    "40": [
-                        "4,665",
-                        "103",
-                        "333"
-                    ]
-                },
-                "2": {
-                    "40": [
-                        "5,163",
-                        "115",
-                        "368",
-                        "6.0%"
-                    ],
-                    "50": [
-                        "5,939",
-                        "132",
-                        "423"
-                    ]
-                },
-                "3": {
-                    "50": [
-                        "6,604",
-                        "147",
-                        "471",
-                        "12.0%"
-                    ],
-                    "60": [
-                        "7,379",
-                        "164",
-                        "526"
-                    ]
-                },
-                "4": {
-                    "60": [
-                        "7,878",
-                        "175",
-                        "562",
-                        "12.0%"
-                    ],
-                    "70": [
-                        "8,653",
-                        "192",
-                        "617"
-                    ]
-                },
-                "5": {
-                    "70": [
-                        "9,151",
-                        "203",
-                        "652",
-                        "18.0%"
-                    ],
-                    "80": [
-                        "9,927",
-                        "220",
-                        "708"
-                    ]
-                },
-                "6": {
-                    "80": [
-                        "10,425",
-                        "231",
-                        "743",
-                        "24.0%"
-                    ],
-                    "90": [
-                        "11,201",
-                        "249",
-                        "799"
-                    ]
-                }
-            }
-        },
-        "talents": [
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/1/14/Talent_Dance_on_Fire.png",
-                "name": "Dance on Fire",
-                "type": "Normal Attack",
-                "desc": "Normal Attack: Performs up to 4 consecutive strikes.\nCharged Attack: Drains Stamina over time to perform continuous spinning attacks against all nearby opponents.At end of the sequence, perform a more powerful slash.\nPlunging Attack: Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/8/85/Talent_Sweeping_Fervor.png",
-                "name": "Sweeping Fervor",
-                "type": "Elemental Skill",
-                "desc": "Xinyan brandishes her instrument, dealing Pyro DMG on nearby opponents, forming a shield made out of her audience's passion.The shield's DMG Absorption scales based on Xinyan's DEF and on the number of opponents hit.\nHitting 0-1 opponents grants Shield Level 1: Ad Lib.\nHitting 2 opponents grants Shield Level 2: Lead-In.\nHitting 3 or more opponents grants Shield Level 3: Rave, which will also deal intermittent Pyro DMG to nearby opponents.\nThe shield has the following special properties:\n\nWhen unleashed, it infuses Xinyan with Pyro.\nIt has 250% DMG Absorption effectiveness against Pyro DMG."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/0/06/Talent_Riff_Revolution.png",
-                "name": "Riff Revolution",
-                "type": "Elemental Burst",
-                "desc": "Strumming rapidly, Xinyan launches nearby opponents and deals Physical DMG to them, hyping up the crowd. The sheer intensity of the atmosphere will cause explosions that deal Pyro DMG to nearby opponents."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/53/Talent_%22The_Show_Goes_On%2C_Even_Without_an_Audience...%22.png",
-                "name": "\"The Show Goes On, Even Without an Audience...\"",
-                "type": "1st Ascension Passive",
-                "desc": "Decreases the number of opponents Sweeping Fervor must hit to trigger each level of shielding.\nShield Level 2: Lead-In requirement reduced to 1 opponent hit.\nShield Level 3: Rave requirement reduced to 2 opponents hit or more."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/e/e5/Talent_%22...Now_That's_Rock_'N'_Roll%21%22.png",
-                "name": "\"...Now That's Rock 'N' Roll!\"",
-                "type": "4th Ascension Passive",
-                "desc": "Characters shielded by Sweeping Fervor deal 15% increased Physical DMG."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/39/Talent_A_Rad_Recipe.png",
-                "name": "A Rad Recipe",
-                "type": "Utility Passive",
-                "desc": "When a Perfect Cooking is achieved on a DEF-boosting dish, Xinyan has a 12% chance to obtain double the product."
-            }
-        ],
-        "lvup_mat": [
-            [
-                {
-                    "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/7f/Item_Teachings_of_Gold.png",
-                    "amount": 9
-                },
-                {
-                    "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/43/Item_Guide_to_Gold.png",
-                    "amount": 63
-                },
-                {
-                    "rarity": 4,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/Item_Philosophies_of_Gold.png",
-                    "amount": 114
-                }
-            ],
-            [
-                {
-                    "rarity": 1,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c9/Item_Treasure_Hoarder_Insignia.png",
-                    "amount": 18
-                },
-                {
-                    "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Item_Silver_Raven_Insignia.png",
-                    "amount": 66
-                },
-                {
-                    "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Golden_Raven_Insignia.png",
-                    "amount": 93
-                }
-            ],
-            [
-                {
-                    "rarity": 5,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/Item_Tusk_of_Monoceros_Caeli.png",
-                    "amount": 18
-                }
-            ]
-        ],
         "constellation": [
             {
                 "level": 1,
@@ -240,17 +63,105 @@
             },
             {
                 "level": 5,
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/1/18/Constellation_Screamin'_for_an_Encore.png",
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/1/18/Constellation_Screamin%27_for_an_Encore.png",
                 "name": "Screamin' for an Encore",
                 "effect": "Increases the Level of Riff Revolution by 3.Maximum upgrade level is 15."
             },
             {
                 "level": 6,
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/40/Constellation_Rockin'_in_a_Flaming_World.png",
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/40/Constellation_Rockin%27_in_a_Flaming_World.png",
                 "name": "Rockin' in a Flaming World",
                 "effect": "Decreases the Stamina Consumption of Xinyan's Charged Attacks by 30%. Additionally, Xinyan's Charged Attacks gain an ATK Bonus equal to 50% of her DEF."
             }
         ],
+        "base_stats": {
+            "data": {
+                "0": {
+                    "1": [
+                        "939",
+                        "21",
+                        "67"
+                    ],
+                    "20": [
+                        "2,413",
+                        "54",
+                        "172"
+                    ]
+                },
+                "1": {
+                    "20": [
+                        "3,114",
+                        "69",
+                        "222"
+                    ],
+                    "40": [
+                        "4,665",
+                        "103",
+                        "333"
+                    ]
+                },
+                "2": {
+                    "40": [
+                        "5,163",
+                        "115",
+                        "368"
+                    ],
+                    "50": [
+                        "5,939",
+                        "132",
+                        "423"
+                    ]
+                },
+                "3": {
+                    "50": [
+                        "6,604",
+                        "147",
+                        "471"
+                    ],
+                    "60": [
+                        "7,379",
+                        "164",
+                        "526"
+                    ]
+                },
+                "4": {
+                    "60": [
+                        "7,878",
+                        "175",
+                        "562"
+                    ],
+                    "70": [
+                        "8,653",
+                        "192",
+                        "617"
+                    ]
+                },
+                "5": {
+                    "70": [
+                        "9,151",
+                        "203",
+                        "652"
+                    ],
+                    "80": [
+                        "9,927",
+                        "220",
+                        "708"
+                    ]
+                },
+                "6": {
+                    "80": [
+                        "10,425",
+                        "231",
+                        "743"
+                    ],
+                    "90": [
+                        "11,201",
+                        "249",
+                        "799"
+                    ]
+                }
+            }
+        },
         "ascensions": [
             [
                 {
@@ -379,6 +290,215 @@
                     "amount": 24
                 }
             ]
+        ],
+        "talents": [
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/1/14/Talent_Dance_on_Fire.png",
+                "name": "Dance on Fire",
+                "type": "Normal Attack",
+                "desc": "Normal Attack: Performs up to 4 consecutive strikes.\nCharged Attack: Drains Stamina over time to perform continuous spinning attacks against all nearby opponents.At end of the sequence, perform a more powerful slash.\nPlunging Attack: Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/8/85/Talent_Sweeping_Fervor.png",
+                "name": "Sweeping Fervor",
+                "type": "Elemental Skill",
+                "desc": "Xinyan brandishes her instrument, dealing Pyro DMG on nearby opponents, forming a shield made out of her audience's passion.The shield's DMG Absorption scales based on Xinyan's DEF and on the number of opponents hit.\nHitting 0-1 opponents grants Shield Level 1: Ad Lib.\nHitting 2 opponents grants Shield Level 2: Lead-In.\nHitting 3 or more opponents grants Shield Level 3: Rave, which will also deal intermittent Pyro DMG to nearby opponents.\nThe shield has the following special properties:\n\nWhen unleashed, it infuses Xinyan with Pyro.\nIt has 250% DMG Absorption effectiveness against Pyro DMG."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/0/06/Talent_Riff_Revolution.png",
+                "name": "Riff Revolution",
+                "type": "Elemental Burst",
+                "desc": "Strumming rapidly, Xinyan launches nearby opponents and deals Physical DMG to them, hyping up the crowd. The sheer intensity of the atmosphere will cause explosions that deal Pyro DMG to nearby opponents."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/53/Talent_%22The_Show_Goes_On%2C_Even_Without_an_Audience...%22.png",
+                "name": "\"The Show Goes On, Even Without an Audience...\"",
+                "type": "1st Ascension Passive",
+                "desc": "Decreases the number of opponents Sweeping Fervor must hit to trigger each level of shielding.\nShield Level 2: Lead-In requirement reduced to 1 opponent hit.\nShield Level 3: Rave requirement reduced to 2 opponents hit or more."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/e/e5/Talent_%22...Now_That%27s_Rock_%27N%27_Roll%21%22.png",
+                "name": "\"...Now That's Rock 'N' Roll!\"",
+                "type": "4th Ascension Passive",
+                "desc": "Characters shielded by Sweeping Fervor deal 15% increased Physical DMG."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/39/Talent_A_Rad_Recipe.png",
+                "name": "A Rad Recipe",
+                "type": "Utility Passive",
+                "desc": "When a Perfect Cooking is achieved on a DEF-boosting dish, Xinyan has a 12% chance to obtain double the product."
+            }
+        ],
+        "talent_levening_mat": [
+            {
+                "ascensions_req": "2",
+                "cost": "12,500",
+                "materials": [
+                    {
+                        "rarity": 1,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c9/Item_Treasure_Hoarder_Insignia.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/7f/Item_Teachings_of_Gold.png",
+                        "amount": 3
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "3",
+                "cost": "17,500",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Item_Silver_Raven_Insignia.png",
+                        "amount": 3
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/43/Item_Guide_to_Gold.png",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "3",
+                "cost": "25,000",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Item_Silver_Raven_Insignia.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/43/Item_Guide_to_Gold.png",
+                        "amount": 4
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "4",
+                "cost": "30,000",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Item_Silver_Raven_Insignia.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/43/Item_Guide_to_Gold.png",
+                        "amount": 6
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "4",
+                "cost": "37,500",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Item_Silver_Raven_Insignia.png",
+                        "amount": 9
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/43/Item_Guide_to_Gold.png",
+                        "amount": 9
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "5",
+                "cost": "120,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Golden_Raven_Insignia.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/Item_Philosophies_of_Gold.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/Item_Tusk_of_Monoceros_Caeli.png",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "5",
+                "cost": "260,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Golden_Raven_Insignia.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/Item_Philosophies_of_Gold.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/Item_Tusk_of_Monoceros_Caeli.png",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "6",
+                "cost": "450,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Golden_Raven_Insignia.png",
+                        "amount": 9
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/Item_Philosophies_of_Gold.png",
+                        "amount": 12
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/Item_Tusk_of_Monoceros_Caeli.png",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "6",
+                "cost": "700,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Golden_Raven_Insignia.png",
+                        "amount": 12
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/Item_Philosophies_of_Gold.png",
+                        "amount": 16
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/Item_Tusk_of_Monoceros_Caeli.png",
+                        "amount": 2
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/04/Item_Crown_of_Insight.png",
+                        "amount": 1
+                    }
+                ]
+            }
         ]
     },
     "availability": {

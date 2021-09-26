@@ -37,189 +37,6 @@
     "name": "Mona",
     "nickname": "Astral Reflection",
     "combat_info": {
-        "base_stats": {
-            "special": "Energy Recharge",
-            "data": {
-                "0": {
-                    "1": [
-                        "810",
-                        "22",
-                        "51",
-                        "\u2014"
-                    ],
-                    "20": [
-                        "2,102",
-                        "58",
-                        "132"
-                    ]
-                },
-                "1": {
-                    "20": [
-                        "2,797",
-                        "77",
-                        "176",
-                        "\u2014"
-                    ],
-                    "40": [
-                        "4,185",
-                        "115",
-                        "263"
-                    ]
-                },
-                "2": {
-                    "40": [
-                        "4,678",
-                        "129",
-                        "294",
-                        "8.0%"
-                    ],
-                    "50": [
-                        "5,383",
-                        "148",
-                        "338"
-                    ]
-                },
-                "3": {
-                    "50": [
-                        "6,041",
-                        "167",
-                        "379",
-                        "16.0%"
-                    ],
-                    "60": [
-                        "6,752",
-                        "186",
-                        "424"
-                    ]
-                },
-                "4": {
-                    "60": [
-                        "7,246",
-                        "200",
-                        "455",
-                        "16.0%"
-                    ],
-                    "70": [
-                        "7,964",
-                        "220",
-                        "500"
-                    ]
-                },
-                "5": {
-                    "70": [
-                        "8,458",
-                        "233",
-                        "531",
-                        "24.0%"
-                    ],
-                    "80": [
-                        "9,184",
-                        "253",
-                        "576"
-                    ]
-                },
-                "6": {
-                    "80": [
-                        "9,677",
-                        "267",
-                        "607",
-                        "32.0%"
-                    ],
-                    "90": [
-                        "10,409",
-                        "287",
-                        "653"
-                    ]
-                }
-            }
-        },
-        "talents": [
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/de/Talent_Ripple_of_Fate.png",
-                "name": "Ripple of Fate",
-                "type": "Normal Attack",
-                "desc": "Normal Attack: Perform up to 4 water splash attacks that deal Hydro DMG.\nCharged Attack: Consumes a certain amount of Stamina to deal AoE Hydro DMG after a short casting time.\nPlunging Attack: Gathering the might of Hydro, Mona plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Hydro DMG upon impact with the ground."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/45/Talent_Mirror_Reflection_of_Doom.png",
-                "name": "Mirror Reflection of Doom",
-                "type": "Elemental Skill",
-                "desc": "Creates an illusory Phantom of fate from coalesced waterspouts.\nThe Phantom has the following special properties:\n\nContinuously taunts nearby opponents, attracting their fire.\nEach second, 4 times, deals AoE Hydro DMG.\nWhen its duration expires, the Phantom explodes, dealing AoE Hydro DMG.\nHold: Utilizes water currents to move backwards swiftly before conjuring a Phantom\nOnly one Phantom created by Mirror Reflection of Doom can exist at any time."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Talent_Stellaris_Phantasm.png",
-                "name": "Stellaris Phantasm",
-                "type": "Elemental Burst",
-                "desc": "Mona summons the sparkling waves and creates a reflection of the starry sky, applying the Illusory Bubble status to the opponents in a large AoE.\nIllusory Bubble: Traps opponents inside a pocket of destiny and also makes them Wet. Renders weaker opponents immobile. When an opponent affected by Illusory Bubble sustains DMG, it has the following effects:\n\nApplies an Omen to the opponent, which gives a DMG Bonus, also increasing the DMG of the attack that causes it.\nRemoves the Illusory Bubble, dealing Hydro DMG in the process.\nOmen: During its duration, increases DMG taken by opponents."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/9a/Talent_Illusory_Torrent.png",
-                "name": "Illusory Torrent",
-                "type": "Alternate Sprint",
-                "desc": "Alternate Sprint: Mona cloaks herself within the water's flow, consuming stamina to move rapidly.\nWhen under the effect of Illusory Torrent, Mona can move at high speed on water.Applies the Wet status to nearby opponents when she reappears."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/c/c7/Talent_Come_'n'_Get_Me%2C_Hag%21.png",
-                "name": "Come 'n' Get Me, Hag!",
-                "type": "1st Ascension Passive",
-                "desc": "After she has used Illusory Torrent for 2s, if there are any opponents nearby, Mona will automatically create a Phantom.\nA Phantom created in this manner lasts for 2s, and its explosion DMG is equal to 50% of Mirror Reflection of Doom."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/6/6a/Talent_Waterborne_Destiny.png",
-                "name": "Waterborne Destiny",
-                "type": "4th Ascension Passive",
-                "desc": "Increases Mona's Hydro DMG Bonus by a degree equivalent to 20% of her Energy Recharge rate."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/48/Talent_Principium_of_Astrology.png",
-                "name": "Principium of Astrology",
-                "type": "Utility Passive",
-                "desc": "When Mona crafts Weapon Ascension Materials, she has a 25% chance to refund one count of one material out of all the crafting materials used."
-            }
-        ],
-        "lvup_mat": [
-            [
-                {
-                    "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/33/Item_Teachings_of_Resistance.png",
-                    "amount": 9
-                },
-                {
-                    "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Item_Guide_to_Resistance.png",
-                    "amount": 63
-                },
-                {
-                    "rarity": 4,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Philosophies_of_Resistance.png",
-                    "amount": 114
-                }
-            ],
-            [
-                {
-                    "rarity": 1,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/Item_Whopperflower_Nectar.png",
-                    "amount": 18
-                },
-                {
-                    "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Item_Shimmering_Nectar.png",
-                    "amount": 66
-                },
-                {
-                    "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Energy_Nectar.png",
-                    "amount": 93
-                }
-            ],
-            [
-                {
-                    "rarity": 5,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d6/Item_Ring_of_Boreas.png",
-                    "amount": 18
-                }
-            ]
-        ],
         "constellation": [
             {
                 "level": 1,
@@ -258,6 +75,94 @@
                 "effect": "Upon entering Illusory Torrent, Mona gains a 60% increase to the DMG of her next Charged Attack per second of movement.A maximum DMG Bonus of 180% can be achieved in this manner. The effect lasts for no more than 8s."
             }
         ],
+        "base_stats": {
+            "data": {
+                "0": {
+                    "1": [
+                        "810",
+                        "22",
+                        "51"
+                    ],
+                    "20": [
+                        "2,102",
+                        "58",
+                        "132"
+                    ]
+                },
+                "1": {
+                    "20": [
+                        "2,797",
+                        "77",
+                        "176"
+                    ],
+                    "40": [
+                        "4,185",
+                        "115",
+                        "263"
+                    ]
+                },
+                "2": {
+                    "40": [
+                        "4,678",
+                        "129",
+                        "294"
+                    ],
+                    "50": [
+                        "5,383",
+                        "148",
+                        "338"
+                    ]
+                },
+                "3": {
+                    "50": [
+                        "6,041",
+                        "167",
+                        "379"
+                    ],
+                    "60": [
+                        "6,752",
+                        "186",
+                        "424"
+                    ]
+                },
+                "4": {
+                    "60": [
+                        "7,246",
+                        "200",
+                        "455"
+                    ],
+                    "70": [
+                        "7,964",
+                        "220",
+                        "500"
+                    ]
+                },
+                "5": {
+                    "70": [
+                        "8,458",
+                        "233",
+                        "531"
+                    ],
+                    "80": [
+                        "9,184",
+                        "253",
+                        "576"
+                    ]
+                },
+                "6": {
+                    "80": [
+                        "9,677",
+                        "267",
+                        "607"
+                    ],
+                    "90": [
+                        "10,409",
+                        "287",
+                        "653"
+                    ]
+                }
+            }
+        },
         "ascensions": [
             [
                 {
@@ -386,6 +291,221 @@
                     "amount": 24
                 }
             ]
+        ],
+        "talents": [
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/de/Talent_Ripple_of_Fate.png",
+                "name": "Ripple of Fate",
+                "type": "Normal Attack",
+                "desc": "Normal Attack: Perform up to 4 water splash attacks that deal Hydro DMG.\nCharged Attack: Consumes a certain amount of Stamina to deal AoE Hydro DMG after a short casting time.\nPlunging Attack: Gathering the might of Hydro, Mona plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Hydro DMG upon impact with the ground."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/45/Talent_Mirror_Reflection_of_Doom.png",
+                "name": "Mirror Reflection of Doom",
+                "type": "Elemental Skill",
+                "desc": "Creates an illusory Phantom of fate from coalesced waterspouts.\nThe Phantom has the following special properties:\n\nContinuously taunts nearby opponents, attracting their fire.\nEach second, 4 times, deals AoE Hydro DMG.\nWhen its duration expires, the Phantom explodes, dealing AoE Hydro DMG.\nHold: Utilizes water currents to move backwards swiftly before conjuring a Phantom\nOnly one Phantom created by Mirror Reflection of Doom can exist at any time."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Talent_Stellaris_Phantasm.png",
+                "name": "Stellaris Phantasm",
+                "type": "Elemental Burst",
+                "desc": "Mona summons the sparkling waves and creates a reflection of the starry sky, applying the Illusory Bubble status to the opponents in a large AoE.\nIllusory Bubble: Traps opponents inside a pocket of destiny and also makes them Wet. Renders weaker opponents immobile. When an opponent affected by Illusory Bubble sustains DMG, it has the following effects:\n\nApplies an Omen to the opponent, which gives a DMG Bonus, also increasing the DMG of the attack that causes it.\nRemoves the Illusory Bubble, dealing Hydro DMG in the process.\nOmen: During its duration, increases DMG taken by opponents."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/9a/Talent_Illusory_Torrent.png",
+                "name": "Illusory Torrent",
+                "type": "Alternate Sprint",
+                "desc": "Alternate Sprint: Mona cloaks herself within the water's flow, consuming stamina to move rapidly.\nWhen under the effect of Illusory Torrent, Mona can move at high speed on water.Applies the Wet status to nearby opponents when she reappears."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/c/c7/Talent_Come_%27n%27_Get_Me%2C_Hag%21.png",
+                "name": "Come 'n' Get Me, Hag!",
+                "type": "1st Ascension Passive",
+                "desc": "After she has used Illusory Torrent for 2s, if there are any opponents nearby, Mona will automatically create a Phantom.\nA Phantom created in this manner lasts for 2s, and its explosion DMG is equal to 50% of Mirror Reflection of Doom."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/6/6a/Talent_Waterborne_Destiny.png",
+                "name": "Waterborne Destiny",
+                "type": "4th Ascension Passive",
+                "desc": "Increases Mona's Hydro DMG Bonus by a degree equivalent to 20% of her Energy Recharge rate."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/48/Talent_Principium_of_Astrology.png",
+                "name": "Principium of Astrology",
+                "type": "Utility Passive",
+                "desc": "When Mona crafts Weapon Ascension Materials, she has a 25% chance to refund one count of one material out of all the crafting materials used."
+            }
+        ],
+        "talent_levening_mat": [
+            {
+                "ascensions_req": "2",
+                "cost": "12,500",
+                "materials": [
+                    {
+                        "rarity": 1,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/Item_Whopperflower_Nectar.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/33/Item_Teachings_of_Resistance.png",
+                        "amount": 3
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "3",
+                "cost": "17,500",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Item_Shimmering_Nectar.png",
+                        "amount": 3
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Item_Guide_to_Resistance.png",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "3",
+                "cost": "25,000",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Item_Shimmering_Nectar.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Item_Guide_to_Resistance.png",
+                        "amount": 4
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "4",
+                "cost": "30,000",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Item_Shimmering_Nectar.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Item_Guide_to_Resistance.png",
+                        "amount": 6
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "4",
+                "cost": "37,500",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Item_Shimmering_Nectar.png",
+                        "amount": 9
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Item_Guide_to_Resistance.png",
+                        "amount": 9
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "5",
+                "cost": "120,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Energy_Nectar.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Philosophies_of_Resistance.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d6/Item_Ring_of_Boreas.png",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "5",
+                "cost": "260,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Energy_Nectar.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Philosophies_of_Resistance.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d6/Item_Ring_of_Boreas.png",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "6",
+                "cost": "450,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Energy_Nectar.png",
+                        "amount": 9
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Philosophies_of_Resistance.png",
+                        "amount": 12
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d6/Item_Ring_of_Boreas.png",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "6",
+                "cost": "700,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Energy_Nectar.png",
+                        "amount": 12
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Philosophies_of_Resistance.png",
+                        "amount": 16
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d6/Item_Ring_of_Boreas.png",
+                        "amount": 2
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/04/Item_Crown_of_Insight.png",
+                        "amount": 1
+                    }
+                ]
+            }
         ]
     },
     "availability": {

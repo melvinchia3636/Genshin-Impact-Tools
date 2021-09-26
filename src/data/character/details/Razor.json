@@ -37,187 +37,10 @@
     "name": "Razor",
     "nickname": "Wolf Boy",
     "combat_info": {
-        "base_stats": {
-            "special": "Physical DMG Bonus",
-            "data": {
-                "0": {
-                    "1": [
-                        "1,003",
-                        "20",
-                        "63",
-                        "\u2014"
-                    ],
-                    "20": [
-                        "2,577",
-                        "50",
-                        "162"
-                    ]
-                },
-                "1": {
-                    "20": [
-                        "3,326",
-                        "65",
-                        "209",
-                        "\u2014"
-                    ],
-                    "40": [
-                        "4,982",
-                        "97",
-                        "313"
-                    ]
-                },
-                "2": {
-                    "40": [
-                        "5,514",
-                        "108",
-                        "346",
-                        "7.5%"
-                    ],
-                    "50": [
-                        "6,343",
-                        "124",
-                        "398"
-                    ]
-                },
-                "3": {
-                    "50": [
-                        "7,052",
-                        "138",
-                        "443",
-                        "15.0%"
-                    ],
-                    "60": [
-                        "7,881",
-                        "154",
-                        "495"
-                    ]
-                },
-                "4": {
-                    "60": [
-                        "8,413",
-                        "164",
-                        "528",
-                        "15.0%"
-                    ],
-                    "70": [
-                        "9,241",
-                        "180",
-                        "580"
-                    ]
-                },
-                "5": {
-                    "70": [
-                        "9,773",
-                        "191",
-                        "613",
-                        "22.5%"
-                    ],
-                    "80": [
-                        "10,602",
-                        "207",
-                        "665"
-                    ]
-                },
-                "6": {
-                    "80": [
-                        "11,134",
-                        "217",
-                        "699",
-                        "30.0%"
-                    ],
-                    "90": [
-                        "11,962",
-                        "234",
-                        "751"
-                    ]
-                }
-            }
-        },
-        "talents": [
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Talent_Steel_Fang.png",
-                "name": "Steel Fang",
-                "type": "Normal Attack",
-                "desc": "Normal Attack: Perform up to 4 consecutive strikes.\nCharged Attack: Drains Stamina over time to perform continuous swirling attacks against all nearby opponents. At end of the sequence, perform a more powerful slash.\nPlunging Attack: Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/0/06/Talent_Claw_and_Thunder.png",
-                "name": "Claw and Thunder",
-                "type": "Elemental Skill",
-                "desc": "Hunts his prey using the techniques taught to him by his master and his Lupical.\nPress: Swings the Thunder Wolf Claw, dealing Electro DMG to opponents in front of Razor.Upon striking an opponent, Razor gains an Electro Sigil, which increases his Energy Recharge rate.Razor can have up to 3 Electro Sigils simultaneously, and gaining a new Electro Sigil refreshes their duration.\nHold: Gathers Electro energy to unleash a lightning storm over a small AoE, causing massive Electro DMG, and clears all of Razor's Electro Sigils. Each Electro Sigil cleared in this manner will be converted into Energy for Razor."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/3a/Talent_Lightning_Fang.png",
-                "name": "Lightning Fang",
-                "type": "Elemental Burst",
-                "desc": "Summons the Wolf Within which deals Electro DMG to all nearby opponents. This clears all of Razor's Electro Sigils, which will be converted into elemental energy for him.The Wolf Within will fight alongside Razor for the skill's duration.\nThe Wolf Within:\n\nStrikes alongside Razor's normal attacks, dealing Electro DMG.\nRaises Razor's ATK SPD and Electro RES.\nCauses Razor to be immune to DMG inflicted by the Electro-Charged status.\nDisables Razor's Charged Attacks.\nIncreases Razor's resistance to interruption.\nThese effects end when Razor leaves the battlefield.\nWhen Razor leaves the field, a maximum of 10 Energy will be returned to him based off the duration remaining on this skill."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/5c/Talent_Awakening.png",
-                "name": "Awakening",
-                "type": "1st Ascension Passive",
-                "desc": "Decreases Claw and Thunder's CD by 18%. Using Lightning Fang resets the CD of Claw and Thunder."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/be/Talent_Hunger.png",
-                "name": "Hunger",
-                "type": "4th Ascension Passive",
-                "desc": "When Razor's Energy is below 50%, increases Energy Recharge by 30%."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/0/0a/Talent_Wolvensprint.png",
-                "name": "Wolvensprint",
-                "type": "Utility Passive",
-                "desc": "Decreases sprinting Stamina consumption of your characters in the party by 20%.\nNot stackable with Passive Talents that provide the exact same effects."
-            }
-        ],
-        "lvup_mat": [
-            [
-                {
-                    "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/33/Item_Teachings_of_Resistance.png",
-                    "amount": 9
-                },
-                {
-                    "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Item_Guide_to_Resistance.png",
-                    "amount": 63
-                },
-                {
-                    "rarity": 4,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Philosophies_of_Resistance.png",
-                    "amount": 114
-                }
-            ],
-            [
-                {
-                    "rarity": 1,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/69/Item_Damaged_Mask.png",
-                    "amount": 18
-                },
-                {
-                    "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Stained_Mask.png",
-                    "amount": 66
-                },
-                {
-                    "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Ominous_Mask.png",
-                    "amount": 93
-                }
-            ],
-            [
-                {
-                    "rarity": 5,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a8/Item_Dvalin's_Claw.png",
-                    "amount": 18
-                }
-            ]
-        ],
         "constellation": [
             {
                 "level": 1,
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/c/cf/Constellation_Wolf's_Instinct.png",
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/c/cf/Constellation_Wolf%27s_Instinct.png",
                 "name": "Wolf's Instinct",
                 "effect": "Picking up an Elemental Orb or Particle increases Razor's DMG by 10% for 8s."
             },
@@ -252,6 +75,94 @@
                 "effect": "Every 10s, Razor's sword charges up, causing the next Normal Attack to release lightning that deals 100% of Razor's ATK as Electro DMG.When Razor is not using Lightning Fang, a lightning strike on an opponent will grant Razor an Electro Sigil for Claw and Thunder."
             }
         ],
+        "base_stats": {
+            "data": {
+                "0": {
+                    "1": [
+                        "1,003",
+                        "20",
+                        "63"
+                    ],
+                    "20": [
+                        "2,577",
+                        "50",
+                        "162"
+                    ]
+                },
+                "1": {
+                    "20": [
+                        "3,326",
+                        "65",
+                        "209"
+                    ],
+                    "40": [
+                        "4,982",
+                        "97",
+                        "313"
+                    ]
+                },
+                "2": {
+                    "40": [
+                        "5,514",
+                        "108",
+                        "346"
+                    ],
+                    "50": [
+                        "6,343",
+                        "124",
+                        "398"
+                    ]
+                },
+                "3": {
+                    "50": [
+                        "7,052",
+                        "138",
+                        "443"
+                    ],
+                    "60": [
+                        "7,881",
+                        "154",
+                        "495"
+                    ]
+                },
+                "4": {
+                    "60": [
+                        "8,413",
+                        "164",
+                        "528"
+                    ],
+                    "70": [
+                        "9,241",
+                        "180",
+                        "580"
+                    ]
+                },
+                "5": {
+                    "70": [
+                        "9,773",
+                        "191",
+                        "613"
+                    ],
+                    "80": [
+                        "10,602",
+                        "207",
+                        "665"
+                    ]
+                },
+                "6": {
+                    "80": [
+                        "11,134",
+                        "217",
+                        "699"
+                    ],
+                    "90": [
+                        "11,962",
+                        "234",
+                        "751"
+                    ]
+                }
+            }
+        },
         "ascensions": [
             [
                 {
@@ -380,6 +291,215 @@
                     "amount": 24
                 }
             ]
+        ],
+        "talents": [
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Talent_Steel_Fang.png",
+                "name": "Steel Fang",
+                "type": "Normal Attack",
+                "desc": "Normal Attack: Perform up to 4 consecutive strikes.\nCharged Attack: Drains Stamina over time to perform continuous swirling attacks against all nearby opponents. At end of the sequence, perform a more powerful slash.\nPlunging Attack: Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/0/06/Talent_Claw_and_Thunder.png",
+                "name": "Claw and Thunder",
+                "type": "Elemental Skill",
+                "desc": "Hunts his prey using the techniques taught to him by his master and his Lupical.\nPress: Swings the Thunder Wolf Claw, dealing Electro DMG to opponents in front of Razor.Upon striking an opponent, Razor gains an Electro Sigil, which increases his Energy Recharge rate.Razor can have up to 3 Electro Sigils simultaneously, and gaining a new Electro Sigil refreshes their duration.\nHold: Gathers Electro energy to unleash a lightning storm over a small AoE, causing massive Electro DMG, and clears all of Razor's Electro Sigils. Each Electro Sigil cleared in this manner will be converted into Energy for Razor."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/3a/Talent_Lightning_Fang.png",
+                "name": "Lightning Fang",
+                "type": "Elemental Burst",
+                "desc": "Summons the Wolf Within which deals Electro DMG to all nearby opponents. This clears all of Razor's Electro Sigils, which will be converted into elemental energy for him.The Wolf Within will fight alongside Razor for the skill's duration.\nThe Wolf Within:\n\nStrikes alongside Razor's normal attacks, dealing Electro DMG.\nRaises Razor's ATK SPD and Electro RES.\nCauses Razor to be immune to DMG inflicted by the Electro-Charged status.\nDisables Razor's Charged Attacks.\nIncreases Razor's resistance to interruption.\nThese effects end when Razor leaves the battlefield.\nWhen Razor leaves the field, a maximum of 10 Energy will be returned to him based off the duration remaining on this skill."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/5c/Talent_Awakening.png",
+                "name": "Awakening",
+                "type": "1st Ascension Passive",
+                "desc": "Decreases Claw and Thunder's CD by 18%. Using Lightning Fang resets the CD of Claw and Thunder."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/be/Talent_Hunger.png",
+                "name": "Hunger",
+                "type": "4th Ascension Passive",
+                "desc": "When Razor's Energy is below 50%, increases Energy Recharge by 30%."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/0/0a/Talent_Wolvensprint.png",
+                "name": "Wolvensprint",
+                "type": "Utility Passive",
+                "desc": "Decreases sprinting Stamina consumption of your characters in the party by 20%.\nNot stackable with Passive Talents that provide the exact same effects."
+            }
+        ],
+        "talent_levening_mat": [
+            {
+                "ascensions_req": "2",
+                "cost": "12,500",
+                "materials": [
+                    {
+                        "rarity": 1,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/69/Item_Damaged_Mask.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/33/Item_Teachings_of_Resistance.png",
+                        "amount": 3
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "3",
+                "cost": "17,500",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Stained_Mask.png",
+                        "amount": 3
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Item_Guide_to_Resistance.png",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "3",
+                "cost": "25,000",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Stained_Mask.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Item_Guide_to_Resistance.png",
+                        "amount": 4
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "4",
+                "cost": "30,000",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Stained_Mask.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Item_Guide_to_Resistance.png",
+                        "amount": 6
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "4",
+                "cost": "37,500",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Stained_Mask.png",
+                        "amount": 9
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Item_Guide_to_Resistance.png",
+                        "amount": 9
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "5",
+                "cost": "120,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Ominous_Mask.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Philosophies_of_Resistance.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a8/Item_Dvalin%27s_Claw.png",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "5",
+                "cost": "260,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Ominous_Mask.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Philosophies_of_Resistance.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a8/Item_Dvalin%27s_Claw.png",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "6",
+                "cost": "450,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Ominous_Mask.png",
+                        "amount": 9
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Philosophies_of_Resistance.png",
+                        "amount": 12
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a8/Item_Dvalin%27s_Claw.png",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "6",
+                "cost": "700,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Ominous_Mask.png",
+                        "amount": 12
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Philosophies_of_Resistance.png",
+                        "amount": 16
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a8/Item_Dvalin%27s_Claw.png",
+                        "amount": 2
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/04/Item_Crown_of_Insight.png",
+                        "amount": 1
+                    }
+                ]
+            }
         ]
     },
     "availability": {

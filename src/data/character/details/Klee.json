@@ -42,183 +42,6 @@
     "name": "Klee",
     "nickname": "Fleeing Sunlight",
     "combat_info": {
-        "base_stats": {
-            "special": "Pyro DMG Bonus",
-            "data": {
-                "0": {
-                    "1": [
-                        "801",
-                        "24",
-                        "48",
-                        "\u2014"
-                    ],
-                    "20": [
-                        "2,077",
-                        "63",
-                        "124"
-                    ]
-                },
-                "1": {
-                    "20": [
-                        "2,764",
-                        "84",
-                        "165",
-                        "\u2014"
-                    ],
-                    "40": [
-                        "4,136",
-                        "125",
-                        "247"
-                    ]
-                },
-                "2": {
-                    "40": [
-                        "4,623",
-                        "140",
-                        "276",
-                        "7.2%"
-                    ],
-                    "50": [
-                        "5,319",
-                        "161",
-                        "318"
-                    ]
-                },
-                "3": {
-                    "50": [
-                        "5,970",
-                        "180",
-                        "357",
-                        "14.4%"
-                    ],
-                    "60": [
-                        "6,673",
-                        "202",
-                        "399"
-                    ]
-                },
-                "4": {
-                    "60": [
-                        "7,161",
-                        "216",
-                        "428",
-                        "14.4%"
-                    ],
-                    "70": [
-                        "7,870",
-                        "238",
-                        "470"
-                    ]
-                },
-                "5": {
-                    "70": [
-                        "8,358",
-                        "253",
-                        "500",
-                        "21.6%"
-                    ],
-                    "80": [
-                        "9,076",
-                        "274",
-                        "542"
-                    ]
-                },
-                "6": {
-                    "80": [
-                        "9,563",
-                        "289",
-                        "572",
-                        "28.8%"
-                    ],
-                    "90": [
-                        "10,287",
-                        "311",
-                        "615"
-                    ]
-                }
-            }
-        },
-        "talents": [
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/32/Talent_Kaboom%21.png",
-                "name": "Kaboom!",
-                "type": "Normal Attack",
-                "desc": "Normal Attack: Throws things that go boom when they hit things! Perform up to 3 explosive attacks, dealing AoE Pyro DMG.\nCharged Attack: Consumes a certain amount of Stamina and deals AoE Pyro DMG to opponents after a short casting time.\nPlunging Attack: Gathering the power of Pyro, Klee plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Pyro DMG upon impact with the ground."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/33/Talent_Jumpy_Dumpty.png",
-                "name": "Jumpy Dumpty",
-                "type": "Elemental Skill",
-                "desc": "Jumpy Dumpty is tons of boom-bang-fun!\nWhen thrown, Jumpy Dumpty bounces thrice, igniting and dealing AoE Pyro DMG with every bounce.\nOn the third bounce, the bomb splits into 8 mines. The mines will explode upon contact with opponents, or after a short period of time, dealing AoE Pyro DMG.\nStarts with 2 charges."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/6/64/Talent_Sparks_'n'_Splash.png",
-                "name": "Sparks 'n' Splash",
-                "type": "Elemental Burst",
-                "desc": "Klee's Blazing Delight! For 10 seconds, summons 5 times 4 Sparks 'n' Splash to attack nearby opponents, dealing AoE Pyro DMG."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/97/Talent_Pounding_Surprise.png",
-                "name": "Pounding Surprise",
-                "type": "1st Ascension Passive",
-                "desc": "When Jumpy Dumpty and Normal Attacks deal DMG, Klee has a 50% chance to obtain an Explosive Spark. This Explosive Spark is consumed by the next Charged Attack, which costs no Stamina and deals 50% increased DMG."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/90/Talent_Sparkling_Burst.png",
-                "name": "Sparkling Burst",
-                "type": "4th Ascension Passive",
-                "desc": "When Klee's Charged Attack results in a CRIT, all party members gain 2 Elemental Energy."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/a/ad/Talent_All_Of_My_Treasures%21.png",
-                "name": "All Of My Treasures!",
-                "type": "Utility Passive",
-                "desc": "Displays the location of nearby resources unique to Mondstadt on the mini-map."
-            }
-        ],
-        "lvup_mat": [
-            [
-                {
-                    "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3a/Item_Teachings_of_Freedom.png",
-                    "amount": 9
-                },
-                {
-                    "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1a/Item_Guide_to_Freedom.png",
-                    "amount": 63
-                },
-                {
-                    "rarity": 4,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Item_Philosophies_of_Freedom.png",
-                    "amount": 114
-                }
-            ],
-            [
-                {
-                    "rarity": 1,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/74/Item_Divining_Scroll.png",
-                    "amount": 18
-                },
-                {
-                    "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Sealed_Scroll.png",
-                    "amount": 66
-                },
-                {
-                    "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Item_Forbidden_Curse_Scroll.png",
-                    "amount": 93
-                }
-            ],
-            [
-                {
-                    "rarity": 5,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d6/Item_Ring_of_Boreas.png",
-                    "amount": 18
-                }
-            ]
-        ],
         "constellation": [
             {
                 "level": 1,
@@ -257,6 +80,94 @@
                 "effect": "While under the effects of Sparks 'n' Splash, Klee will regenerate 3 Energy for all members of the party (excluding Klee) every 3s.When Sparks 'n' Splash is used, all party members will gain a 10% Pyro DMG Bonus for 25s."
             }
         ],
+        "base_stats": {
+            "data": {
+                "0": {
+                    "1": [
+                        "801",
+                        "24",
+                        "48"
+                    ],
+                    "20": [
+                        "2,077",
+                        "63",
+                        "124"
+                    ]
+                },
+                "1": {
+                    "20": [
+                        "2,764",
+                        "84",
+                        "165"
+                    ],
+                    "40": [
+                        "4,136",
+                        "125",
+                        "247"
+                    ]
+                },
+                "2": {
+                    "40": [
+                        "4,623",
+                        "140",
+                        "276"
+                    ],
+                    "50": [
+                        "5,319",
+                        "161",
+                        "318"
+                    ]
+                },
+                "3": {
+                    "50": [
+                        "5,970",
+                        "180",
+                        "357"
+                    ],
+                    "60": [
+                        "6,673",
+                        "202",
+                        "399"
+                    ]
+                },
+                "4": {
+                    "60": [
+                        "7,161",
+                        "216",
+                        "428"
+                    ],
+                    "70": [
+                        "7,870",
+                        "238",
+                        "470"
+                    ]
+                },
+                "5": {
+                    "70": [
+                        "8,358",
+                        "253",
+                        "500"
+                    ],
+                    "80": [
+                        "9,076",
+                        "274",
+                        "542"
+                    ]
+                },
+                "6": {
+                    "80": [
+                        "9,563",
+                        "289",
+                        "572"
+                    ],
+                    "90": [
+                        "10,287",
+                        "311",
+                        "615"
+                    ]
+                }
+            }
+        },
         "ascensions": [
             [
                 {
@@ -385,6 +296,215 @@
                     "amount": 24
                 }
             ]
+        ],
+        "talents": [
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/32/Talent_Kaboom%21.png",
+                "name": "Kaboom!",
+                "type": "Normal Attack",
+                "desc": "Normal Attack: Throws things that go boom when they hit things! Perform up to 3 explosive attacks, dealing AoE Pyro DMG.\nCharged Attack: Consumes a certain amount of Stamina and deals AoE Pyro DMG to opponents after a short casting time.\nPlunging Attack: Gathering the power of Pyro, Klee plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Pyro DMG upon impact with the ground."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/3/33/Talent_Jumpy_Dumpty.png",
+                "name": "Jumpy Dumpty",
+                "type": "Elemental Skill",
+                "desc": "Jumpy Dumpty is tons of boom-bang-fun!\nWhen thrown, Jumpy Dumpty bounces thrice, igniting and dealing AoE Pyro DMG with every bounce.\nOn the third bounce, the bomb splits into 8 mines. The mines will explode upon contact with opponents, or after a short period of time, dealing AoE Pyro DMG.\nStarts with 2 charges."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/6/64/Talent_Sparks_%27n%27_Splash.png",
+                "name": "Sparks 'n' Splash",
+                "type": "Elemental Burst",
+                "desc": "Klee's Blazing Delight! For 10 seconds, summons 5 times 4 Sparks 'n' Splash to attack nearby opponents, dealing AoE Pyro DMG."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/97/Talent_Pounding_Surprise.png",
+                "name": "Pounding Surprise",
+                "type": "1st Ascension Passive",
+                "desc": "When Jumpy Dumpty and Normal Attacks deal DMG, Klee has a 50% chance to obtain an Explosive Spark. This Explosive Spark is consumed by the next Charged Attack, which costs no Stamina and deals 50% increased DMG."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/90/Talent_Sparkling_Burst.png",
+                "name": "Sparkling Burst",
+                "type": "4th Ascension Passive",
+                "desc": "When Klee's Charged Attack results in a CRIT, all party members gain 2 Elemental Energy."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/a/ad/Talent_All_Of_My_Treasures%21.png",
+                "name": "All Of My Treasures!",
+                "type": "Utility Passive",
+                "desc": "Displays the location of nearby resources unique to Mondstadt on the mini-map."
+            }
+        ],
+        "talent_levening_mat": [
+            {
+                "ascensions_req": "2",
+                "cost": "12,500",
+                "materials": [
+                    {
+                        "rarity": 1,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/74/Item_Divining_Scroll.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3a/Item_Teachings_of_Freedom.png",
+                        "amount": 3
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "3",
+                "cost": "17,500",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Sealed_Scroll.png",
+                        "amount": 3
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1a/Item_Guide_to_Freedom.png",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "3",
+                "cost": "25,000",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Sealed_Scroll.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1a/Item_Guide_to_Freedom.png",
+                        "amount": 4
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "4",
+                "cost": "30,000",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Sealed_Scroll.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1a/Item_Guide_to_Freedom.png",
+                        "amount": 6
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "4",
+                "cost": "37,500",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Sealed_Scroll.png",
+                        "amount": 9
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1a/Item_Guide_to_Freedom.png",
+                        "amount": 9
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "5",
+                "cost": "120,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Item_Forbidden_Curse_Scroll.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Item_Philosophies_of_Freedom.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d6/Item_Ring_of_Boreas.png",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "5",
+                "cost": "260,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Item_Forbidden_Curse_Scroll.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Item_Philosophies_of_Freedom.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d6/Item_Ring_of_Boreas.png",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "6",
+                "cost": "450,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Item_Forbidden_Curse_Scroll.png",
+                        "amount": 9
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Item_Philosophies_of_Freedom.png",
+                        "amount": 12
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d6/Item_Ring_of_Boreas.png",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "6",
+                "cost": "700,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Item_Forbidden_Curse_Scroll.png",
+                        "amount": 12
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Item_Philosophies_of_Freedom.png",
+                        "amount": 16
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d6/Item_Ring_of_Boreas.png",
+                        "amount": 2
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/04/Item_Crown_of_Insight.png",
+                        "amount": 1
+                    }
+                ]
+            }
         ]
     },
     "availability": {

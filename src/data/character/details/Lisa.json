@@ -41,183 +41,6 @@
     "name": "Lisa",
     "nickname": "Witch of Purple Rose",
     "combat_info": {
-        "base_stats": {
-            "special": "Elemental Mastery",
-            "data": {
-                "0": {
-                    "1": [
-                        "802",
-                        "19",
-                        "48",
-                        "\u2014"
-                    ],
-                    "20": [
-                        "2,061",
-                        "50",
-                        "123"
-                    ]
-                },
-                "1": {
-                    "20": [
-                        "2,661",
-                        "64",
-                        "159",
-                        "\u2014"
-                    ],
-                    "40": [
-                        "3,985",
-                        "96",
-                        "239"
-                    ]
-                },
-                "2": {
-                    "40": [
-                        "4,411",
-                        "107",
-                        "264",
-                        "24"
-                    ],
-                    "50": [
-                        "5,074",
-                        "123",
-                        "304"
-                    ]
-                },
-                "3": {
-                    "50": [
-                        "5,642",
-                        "136",
-                        "338",
-                        "48"
-                    ],
-                    "60": [
-                        "6,305",
-                        "153",
-                        "378"
-                    ]
-                },
-                "4": {
-                    "60": [
-                        "6,731",
-                        "163",
-                        "403",
-                        "48"
-                    ],
-                    "70": [
-                        "7,393",
-                        "179",
-                        "443"
-                    ]
-                },
-                "5": {
-                    "70": [
-                        "7,818",
-                        "189",
-                        "468",
-                        "72"
-                    ],
-                    "80": [
-                        "8,481",
-                        "205",
-                        "508"
-                    ]
-                },
-                "6": {
-                    "80": [
-                        "8,907",
-                        "215",
-                        "534",
-                        "96"
-                    ],
-                    "90": [
-                        "9,570",
-                        "232",
-                        "573"
-                    ]
-                }
-            }
-        },
-        "talents": [
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Talent_Lightning_Touch.png",
-                "name": "Lightning Touch",
-                "type": "Normal Attack",
-                "desc": "Normal Attack: Performs up to 4 Electro attacks, dealing Electro DMG.\nCharged Attack: Consumes a certain amount of Stamina to deal Electro DMG after a short casting time.\nPlunging Attack: Gathering the might of Electro, Lisa plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Electro DMG upon impact with the ground."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/c/c8/Talent_Violet_Arc.png",
-                "name": "Violet Arc",
-                "type": "Elemental Skill",
-                "desc": "Channels the power of lightning to sweep bothersome matters away\nPress: Releases a homing lightning orb. On hit, it deals Electro DMG, and applies a stack of the Conductive status (Max 3 stacks) to opponents in a small AoE.\nHold: After an extended casting time, calls down lightning from the heavens, dealing massive Electro DMG to all nearby opponents.\nDeals great amounts of extra damage to opponents based on the number of Conductive stacks applied to them and clears their Conductive status."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/f/fd/Talent_Lightning_Rose.png",
-                "name": "Lightning Rose",
-                "type": "Elemental Burst",
-                "desc": "Summons a Lightning Rose that unleashes powerful lightning bolts, launching surrounding opponents and dealing Electro DMG.\nThe Lightning Rose will continuously emit lightning to knock back opponents and deal Electro DMG for so long as it persists."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/48/Talent_Induced_Aftershock.png",
-                "name": "Induced Aftershock",
-                "type": "1st Ascension Passive",
-                "desc": "Hits by Charged Attacks apply Violet Arc's Conductive status to opponents."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/9a/Talent_Static_Electricity_Field.png",
-                "name": "Static Electricity Field",
-                "type": "4th Ascension Passive",
-                "desc": "Opponents hit by Lightning Rose have their DEF decreased by 15% for 10s."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/7c/Talent_General_Pharmaceutics.png",
-                "name": "General Pharmaceutics",
-                "type": "Utility Passive",
-                "desc": "When Lisa crafts a potion, she has a 20% chance to refund one count of one material out of all the crafting materials used."
-            }
-        ],
-        "lvup_mat": [
-            [
-                {
-                    "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b4/Item_Teachings_of_Ballad.png",
-                    "amount": 9
-                },
-                {
-                    "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Guide_to_Ballad.png",
-                    "amount": 63
-                },
-                {
-                    "rarity": 4,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/7e/Item_Philosophies_of_Ballad.png",
-                    "amount": 114
-                }
-            ],
-            [
-                {
-                    "rarity": 1,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/Item_Slime_Condensate.png",
-                    "amount": 18
-                },
-                {
-                    "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Slime_Secretions.png",
-                    "amount": 66
-                },
-                {
-                    "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d8/Item_Slime_Concentrate.png",
-                    "amount": 93
-                }
-            ],
-            [
-                {
-                    "rarity": 5,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a8/Item_Dvalin's_Claw.png",
-                    "amount": 18
-                }
-            ]
-        ],
         "constellation": [
             {
                 "level": 1,
@@ -256,6 +79,94 @@
                 "effect": "When Lisa takes the field, she applies 3 stacks of Violet Arc's Conductive status onto nearby opponents.This effect can only occur once every 5s."
             }
         ],
+        "base_stats": {
+            "data": {
+                "0": {
+                    "1": [
+                        "802",
+                        "19",
+                        "48"
+                    ],
+                    "20": [
+                        "2,061",
+                        "50",
+                        "123"
+                    ]
+                },
+                "1": {
+                    "20": [
+                        "2,661",
+                        "64",
+                        "159"
+                    ],
+                    "40": [
+                        "3,985",
+                        "96",
+                        "239"
+                    ]
+                },
+                "2": {
+                    "40": [
+                        "4,411",
+                        "107",
+                        "264"
+                    ],
+                    "50": [
+                        "5,074",
+                        "123",
+                        "304"
+                    ]
+                },
+                "3": {
+                    "50": [
+                        "5,642",
+                        "136",
+                        "338"
+                    ],
+                    "60": [
+                        "6,305",
+                        "153",
+                        "378"
+                    ]
+                },
+                "4": {
+                    "60": [
+                        "6,731",
+                        "163",
+                        "403"
+                    ],
+                    "70": [
+                        "7,393",
+                        "179",
+                        "443"
+                    ]
+                },
+                "5": {
+                    "70": [
+                        "7,818",
+                        "189",
+                        "468"
+                    ],
+                    "80": [
+                        "8,481",
+                        "205",
+                        "508"
+                    ]
+                },
+                "6": {
+                    "80": [
+                        "8,907",
+                        "215",
+                        "534"
+                    ],
+                    "90": [
+                        "9,570",
+                        "232",
+                        "573"
+                    ]
+                }
+            }
+        },
         "ascensions": [
             [
                 {
@@ -384,6 +295,215 @@
                     "amount": 24
                 }
             ]
+        ],
+        "talents": [
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Talent_Lightning_Touch.png",
+                "name": "Lightning Touch",
+                "type": "Normal Attack",
+                "desc": "Normal Attack: Performs up to 4 Electro attacks, dealing Electro DMG.\nCharged Attack: Consumes a certain amount of Stamina to deal Electro DMG after a short casting time.\nPlunging Attack: Gathering the might of Electro, Lisa plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Electro DMG upon impact with the ground."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/c/c8/Talent_Violet_Arc.png",
+                "name": "Violet Arc",
+                "type": "Elemental Skill",
+                "desc": "Channels the power of lightning to sweep bothersome matters away\nPress: Releases a homing lightning orb. On hit, it deals Electro DMG, and applies a stack of the Conductive status (Max 3 stacks) to opponents in a small AoE.\nHold: After an extended casting time, calls down lightning from the heavens, dealing massive Electro DMG to all nearby opponents.\nDeals great amounts of extra damage to opponents based on the number of Conductive stacks applied to them and clears their Conductive status."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/f/fd/Talent_Lightning_Rose.png",
+                "name": "Lightning Rose",
+                "type": "Elemental Burst",
+                "desc": "Summons a Lightning Rose that unleashes powerful lightning bolts, launching surrounding opponents and dealing Electro DMG.\nThe Lightning Rose will continuously emit lightning to knock back opponents and deal Electro DMG for so long as it persists."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/48/Talent_Induced_Aftershock.png",
+                "name": "Induced Aftershock",
+                "type": "1st Ascension Passive",
+                "desc": "Hits by Charged Attacks apply Violet Arc's Conductive status to opponents."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/9a/Talent_Static_Electricity_Field.png",
+                "name": "Static Electricity Field",
+                "type": "4th Ascension Passive",
+                "desc": "Opponents hit by Lightning Rose have their DEF decreased by 15% for 10s."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/7c/Talent_General_Pharmaceutics.png",
+                "name": "General Pharmaceutics",
+                "type": "Utility Passive",
+                "desc": "When Lisa crafts a potion, she has a 20% chance to refund one count of one material out of all the crafting materials used."
+            }
+        ],
+        "talent_levening_mat": [
+            {
+                "ascensions_req": "2",
+                "cost": "12,500",
+                "materials": [
+                    {
+                        "rarity": 1,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/Item_Slime_Condensate.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b4/Item_Teachings_of_Ballad.png",
+                        "amount": 3
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "3",
+                "cost": "17,500",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Slime_Secretions.png",
+                        "amount": 3
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Guide_to_Ballad.png",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "3",
+                "cost": "25,000",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Slime_Secretions.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Guide_to_Ballad.png",
+                        "amount": 4
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "4",
+                "cost": "30,000",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Slime_Secretions.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Guide_to_Ballad.png",
+                        "amount": 6
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "4",
+                "cost": "37,500",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Slime_Secretions.png",
+                        "amount": 9
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Guide_to_Ballad.png",
+                        "amount": 9
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "5",
+                "cost": "120,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d8/Item_Slime_Concentrate.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/7e/Item_Philosophies_of_Ballad.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a8/Item_Dvalin%27s_Claw.png",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "5",
+                "cost": "260,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d8/Item_Slime_Concentrate.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/7e/Item_Philosophies_of_Ballad.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a8/Item_Dvalin%27s_Claw.png",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "6",
+                "cost": "450,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d8/Item_Slime_Concentrate.png",
+                        "amount": 9
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/7e/Item_Philosophies_of_Ballad.png",
+                        "amount": 12
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a8/Item_Dvalin%27s_Claw.png",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "6",
+                "cost": "700,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d8/Item_Slime_Concentrate.png",
+                        "amount": 12
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/7e/Item_Philosophies_of_Ballad.png",
+                        "amount": 16
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a8/Item_Dvalin%27s_Claw.png",
+                        "amount": 2
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/04/Item_Crown_of_Insight.png",
+                        "amount": 1
+                    }
+                ]
+            }
         ]
     },
     "availability": {

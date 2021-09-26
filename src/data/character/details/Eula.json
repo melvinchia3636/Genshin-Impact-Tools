@@ -45,183 +45,6 @@
     "name": "Eula",
     "nickname": "Dance of the Shimmering Wave",
     "combat_info": {
-        "base_stats": {
-            "special": "CRIT DMG",
-            "data": {
-                "0": {
-                    "1": [
-                        "1,030",
-                        "27",
-                        "58",
-                        "\u2014"
-                    ],
-                    "20": [
-                        "2,671",
-                        "69",
-                        "152"
-                    ]
-                },
-                "1": {
-                    "20": [
-                        "3,554",
-                        "92",
-                        "202",
-                        "\u2014"
-                    ],
-                    "40": [
-                        "5,317",
-                        "138",
-                        "302"
-                    ]
-                },
-                "2": {
-                    "40": [
-                        "5,944",
-                        "154",
-                        "337",
-                        "9.6%"
-                    ],
-                    "50": [
-                        "6,839",
-                        "177",
-                        "388"
-                    ]
-                },
-                "3": {
-                    "50": [
-                        "7,675",
-                        "199",
-                        "436",
-                        "19.2%"
-                    ],
-                    "60": [
-                        "8,579",
-                        "222",
-                        "487"
-                    ]
-                },
-                "4": {
-                    "60": [
-                        "9,207",
-                        "238",
-                        "523",
-                        "19.2%"
-                    ],
-                    "70": [
-                        "10,119",
-                        "262",
-                        "574"
-                    ]
-                },
-                "5": {
-                    "70": [
-                        "10,746",
-                        "278",
-                        "610",
-                        "28.8%"
-                    ],
-                    "80": [
-                        "11,669",
-                        "302",
-                        "662"
-                    ]
-                },
-                "6": {
-                    "80": [
-                        "12,296",
-                        "318",
-                        "698",
-                        "38.4%"
-                    ],
-                    "90": [
-                        "13,226",
-                        "342",
-                        "751"
-                    ]
-                }
-            }
-        },
-        "talents": [
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/c/c7/Talent_Favonius_Bladework_-_Edel.png",
-                "name": "Favonius Bladework - Edel",
-                "type": "Normal Attack",
-                "desc": "Normal Attack: Perform up to 5 consecutive strikes.\nCharged Attack: Drains Stamina over time to perform continuous slashes. At the end of the sequence, perform a more powerful slash.\nPlunging Attack: Plunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/a/ae/Talent_Icetide_Vortex.png",
-                "name": "Icetide Vortex",
-                "type": "Elemental Skill",
-                "desc": "Sharp frost, swift blade.\nPress: Slashes swiftly, dealing Cryo DMG. When it hits an opponent, Eula gains a stack of Grimheart that stacks up to two times. These stats can only be gained once every 0.3s.\nGrimheart: Increases Eula's resistance to interruption and DEF.\nHold: Wielding her sword, Eula consumes all the stacks of Grimheart and lashes forward, dealing AoE Cryo DMG to opponents in front of her.\nIf Grimheart stacks are consumed, surrounding opponents will have their Physical RES and Cryo RES decreased.\nEach consumed stack of Grimheart will be converted into an Icewhirl Brand that deals Cryo DMG to nearby opponents."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/a/af/Talent_Glacial_Illumination.png",
-                "name": "Glacial Illumination",
-                "type": "Elemental Burst",
-                "desc": "Brandishes her greatsword, dealing Cryo DMG to nearby opponents and creating a Lightfall Sword that follows her around for a duration of up to 7s.\nWhile present, the Lightfall Sword increases Eula's resistance to interruption. When Eula's own Normal Attack, Elemental Skill, and Elemental Burst deal DMG to opponents, they will charge the Lightfall Sword, which can gain an energy stack once every 0.1s.\nOnce its duration ends, the Lightfall Sword will descend and explode violently, dealing Physical DMG to nearby opponents.\nThis DMG scales on the number of energy stacks the Lightfall Sword has accumulated.\nIf Eula leaves the field, the Lightfall Sword will immediately explode."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/59/Talent_Roiling_Rime.png",
-                "name": "Roiling Rime",
-                "type": "1st Ascension Passive",
-                "desc": "If 2 stacks of Grimheart are consumed upon unleashing the Holding Mode of Icetide Vortex, a Shattered Lightfall Sword will be created that will explode immediately, dealing 50% of the basic Physical DMG dealt by a Lightfall Sword created by Glacial Illumination."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/b9/Talent_Wellspring_of_War-Lust.png",
-                "name": "Wellspring of War-Lust",
-                "type": "4th Ascension Passive",
-                "desc": "When Glacial Illumination is cast, the CD of Icetide Vortex is reset and Eula gains 1 stack of Grimheart."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/4e/Talent_Aristocratic_Introspection.png",
-                "name": "Aristocratic Introspection",
-                "type": "Utility Passive",
-                "desc": "When Eula crafts Character Talent Materials, she has a 10% chance to receive double the product."
-            }
-        ],
-        "lvup_mat": [
-            [
-                {
-                    "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/33/Item_Teachings_of_Resistance.png",
-                    "amount": 9
-                },
-                {
-                    "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Item_Guide_to_Resistance.png",
-                    "amount": 63
-                },
-                {
-                    "rarity": 4,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Philosophies_of_Resistance.png",
-                    "amount": 114
-                }
-            ],
-            [
-                {
-                    "rarity": 1,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/69/Item_Damaged_Mask.png",
-                    "amount": 18
-                },
-                {
-                    "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Stained_Mask.png",
-                    "amount": 66
-                },
-                {
-                    "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Ominous_Mask.png",
-                    "amount": 93
-                }
-            ],
-            [
-                {
-                    "rarity": 5,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Item_Dragon_Lord's_Crown.png",
-                    "amount": 18
-                }
-            ]
-        ],
         "constellation": [
             {
                 "level": 1,
@@ -243,7 +66,7 @@
             },
             {
                 "level": 4,
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/2/21/Constellation_The_Obstinacy_of_One's_Inferiors.png",
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/2/21/Constellation_The_Obstinacy_of_One%27s_Inferiors.png",
                 "name": "The Obstinacy of One's Inferiors",
                 "effect": "Lightfall Swords deal 25% increased DMG against opponents with less than 50% HP."
             },
@@ -260,6 +83,94 @@
                 "effect": "Lightfall Swords created by Glacial Illumination start with 5 stacks of energy. Normal Attacks, Elemental Skills, and Elemental Bursts have a 50% chance to grant the Lightfall Sword an additional stack of energy."
             }
         ],
+        "base_stats": {
+            "data": {
+                "0": {
+                    "1": [
+                        "1,030",
+                        "27",
+                        "58"
+                    ],
+                    "20": [
+                        "2,671",
+                        "69",
+                        "152"
+                    ]
+                },
+                "1": {
+                    "20": [
+                        "3,554",
+                        "92",
+                        "202"
+                    ],
+                    "40": [
+                        "5,317",
+                        "138",
+                        "302"
+                    ]
+                },
+                "2": {
+                    "40": [
+                        "5,944",
+                        "154",
+                        "337"
+                    ],
+                    "50": [
+                        "6,839",
+                        "177",
+                        "388"
+                    ]
+                },
+                "3": {
+                    "50": [
+                        "7,675",
+                        "199",
+                        "436"
+                    ],
+                    "60": [
+                        "8,579",
+                        "222",
+                        "487"
+                    ]
+                },
+                "4": {
+                    "60": [
+                        "9,207",
+                        "238",
+                        "523"
+                    ],
+                    "70": [
+                        "10,119",
+                        "262",
+                        "574"
+                    ]
+                },
+                "5": {
+                    "70": [
+                        "10,746",
+                        "278",
+                        "610"
+                    ],
+                    "80": [
+                        "11,669",
+                        "302",
+                        "662"
+                    ]
+                },
+                "6": {
+                    "80": [
+                        "12,296",
+                        "318",
+                        "698"
+                    ],
+                    "90": [
+                        "13,226",
+                        "342",
+                        "751"
+                    ]
+                }
+            }
+        },
         "ascensions": [
             [
                 {
@@ -388,6 +299,215 @@
                     "amount": 24
                 }
             ]
+        ],
+        "talents": [
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/c/c7/Talent_Favonius_Bladework_-_Edel.png",
+                "name": "Favonius Bladework - Edel",
+                "type": "Normal Attack",
+                "desc": "Normal Attack: Perform up to 5 consecutive strikes.\nCharged Attack: Drains Stamina over time to perform continuous slashes. At the end of the sequence, perform a more powerful slash.\nPlunging Attack: Plunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/a/ae/Talent_Icetide_Vortex.png",
+                "name": "Icetide Vortex",
+                "type": "Elemental Skill",
+                "desc": "Sharp frost, swift blade.\nPress: Slashes swiftly, dealing Cryo DMG. When it hits an opponent, Eula gains a stack of Grimheart that stacks up to two times. These stats can only be gained once every 0.3s.\nGrimheart: Increases Eula's resistance to interruption and DEF.\nHold: Wielding her sword, Eula consumes all the stacks of Grimheart and lashes forward, dealing AoE Cryo DMG to opponents in front of her.\nIf Grimheart stacks are consumed, surrounding opponents will have their Physical RES and Cryo RES decreased.\nEach consumed stack of Grimheart will be converted into an Icewhirl Brand that deals Cryo DMG to nearby opponents."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/a/af/Talent_Glacial_Illumination.png",
+                "name": "Glacial Illumination",
+                "type": "Elemental Burst",
+                "desc": "Brandishes her greatsword, dealing Cryo DMG to nearby opponents and creating a Lightfall Sword that follows her around for a duration of up to 7s.\nWhile present, the Lightfall Sword increases Eula's resistance to interruption. When Eula's own Normal Attack, Elemental Skill, and Elemental Burst deal DMG to opponents, they will charge the Lightfall Sword, which can gain an energy stack once every 0.1s.\nOnce its duration ends, the Lightfall Sword will descend and explode violently, dealing Physical DMG to nearby opponents.\nThis DMG scales on the number of energy stacks the Lightfall Sword has accumulated.\nIf Eula leaves the field, the Lightfall Sword will immediately explode."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/59/Talent_Roiling_Rime.png",
+                "name": "Roiling Rime",
+                "type": "1st Ascension Passive",
+                "desc": "If 2 stacks of Grimheart are consumed upon unleashing the Holding Mode of Icetide Vortex, a Shattered Lightfall Sword will be created that will explode immediately, dealing 50% of the basic Physical DMG dealt by a Lightfall Sword created by Glacial Illumination."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/b9/Talent_Wellspring_of_War-Lust.png",
+                "name": "Wellspring of War-Lust",
+                "type": "4th Ascension Passive",
+                "desc": "When Glacial Illumination is cast, the CD of Icetide Vortex is reset and Eula gains 1 stack of Grimheart."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/4e/Talent_Aristocratic_Introspection.png",
+                "name": "Aristocratic Introspection",
+                "type": "Utility Passive",
+                "desc": "When Eula crafts Character Talent Materials, she has a 10% chance to receive double the product."
+            }
+        ],
+        "talent_levening_mat": [
+            {
+                "ascensions_req": "2",
+                "cost": "12,500",
+                "materials": [
+                    {
+                        "rarity": 1,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/69/Item_Damaged_Mask.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/33/Item_Teachings_of_Resistance.png",
+                        "amount": 3
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "3",
+                "cost": "17,500",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Stained_Mask.png",
+                        "amount": 3
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Item_Guide_to_Resistance.png",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "3",
+                "cost": "25,000",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Stained_Mask.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Item_Guide_to_Resistance.png",
+                        "amount": 4
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "4",
+                "cost": "30,000",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Stained_Mask.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Item_Guide_to_Resistance.png",
+                        "amount": 6
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "4",
+                "cost": "37,500",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Stained_Mask.png",
+                        "amount": 9
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bf/Item_Guide_to_Resistance.png",
+                        "amount": 9
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "5",
+                "cost": "120,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Ominous_Mask.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Philosophies_of_Resistance.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Item_Dragon_Lord%27s_Crown.png",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "5",
+                "cost": "260,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Ominous_Mask.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Philosophies_of_Resistance.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Item_Dragon_Lord%27s_Crown.png",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "6",
+                "cost": "450,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Ominous_Mask.png",
+                        "amount": 9
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Philosophies_of_Resistance.png",
+                        "amount": 12
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Item_Dragon_Lord%27s_Crown.png",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "6",
+                "cost": "700,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Ominous_Mask.png",
+                        "amount": 12
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Philosophies_of_Resistance.png",
+                        "amount": 16
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Item_Dragon_Lord%27s_Crown.png",
+                        "amount": 2
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/04/Item_Crown_of_Insight.png",
+                        "amount": 1
+                    }
+                ]
+            }
         ]
     },
     "availability": {

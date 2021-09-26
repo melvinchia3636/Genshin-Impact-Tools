@@ -38,15 +38,51 @@
     "name": "Aloy",
     "nickname": "Savior From Another World",
     "combat_info": {
+        "constellation": [
+            {
+                "level": 1,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/76/Constellation_Star_of_Another_World.png",
+                "name": "Star of Another World (1)",
+                "effect": "The time has not yet come for this person's corner of the night sky to light up."
+            },
+            {
+                "level": 2,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/76/Constellation_Star_of_Another_World.png",
+                "name": "Star of Another World (2)",
+                "effect": "The time has not yet come for this person's corner of the night sky to light up."
+            },
+            {
+                "level": 3,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/76/Constellation_Star_of_Another_World.png",
+                "name": "Star of Another World (3)",
+                "effect": "The time has not yet come for this person's corner of the night sky to light up."
+            },
+            {
+                "level": 4,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/76/Constellation_Star_of_Another_World.png",
+                "name": "Star of Another World (4)",
+                "effect": "The time has not yet come for this person's corner of the night sky to light up."
+            },
+            {
+                "level": 5,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/76/Constellation_Star_of_Another_World.png",
+                "name": "Star of Another World (5)",
+                "effect": "The time has not yet come for this person's corner of the night sky to light up."
+            },
+            {
+                "level": 6,
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/76/Constellation_Star_of_Another_World.png",
+                "name": "Star of Another World (6)",
+                "effect": "The time has not yet come for this person's corner of the night sky to light up."
+            }
+        ],
         "base_stats": {
-            "special": "Cryo DMG Bonus",
             "data": {
                 "0": {
                     "1": [
                         "848",
                         "18",
-                        "53",
-                        "\u2014"
+                        "53"
                     ],
                     "20": [
                         "2,201",
@@ -58,8 +94,7 @@
                     "20": [
                         "2,928",
                         "63",
-                        "182",
-                        "\u2014"
+                        "182"
                     ],
                     "40": [
                         "4,382",
@@ -71,8 +106,7 @@
                     "40": [
                         "4,899",
                         "105",
-                        "304",
-                        "7.2%"
+                        "304"
                     ],
                     "50": [
                         "5,636",
@@ -84,8 +118,7 @@
                     "50": [
                         "6,325",
                         "136",
-                        "393",
-                        "14.4%"
+                        "393"
                     ],
                     "60": [
                         "7,070",
@@ -97,8 +130,7 @@
                     "60": [
                         "7,587",
                         "163",
-                        "471",
-                        "14.4%"
+                        "471"
                     ],
                     "70": [
                         "8,339",
@@ -110,8 +142,7 @@
                     "70": [
                         "8,856",
                         "190",
-                        "550",
-                        "21.6%"
+                        "550"
                     ],
                     "80": [
                         "9,616",
@@ -123,8 +154,7 @@
                     "80": [
                         "10,133",
                         "217",
-                        "629",
-                        "28.8%"
+                        "629"
                     ],
                     "90": [
                         "10,899",
@@ -134,88 +164,6 @@
                 }
             }
         },
-        "talents": [
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/50/Talent_Rapid_Fire.png",
-                "name": "Rapid Fire",
-                "type": "Normal Attack",
-                "desc": "Normal Attack: Perform up to 4 consecutive shots with a bow.Charged Attack: Perform a more precise Aimed Shot with increased DMG.While aiming, biting frost will accumulate on the arrowhead. A fully charged frost arrow will deal Cryo DMGPlunging Attack: Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/9a/Talent_Frozen_Wilds.png",
-                "name": "Frozen Wilds",
-                "type": "Elemental Skill",
-                "desc": "Aloy throws a Freeze Bomb in the targeted direction and triggers an explosion, dealing Cryo DMG. After it explodes, the Freeze Bomb will split up into many Chillwater Bomblets that explode on contact with opponents or after a short delay, dealing Cryo DMG.When a Freeze Bomb or Chillwater Bomblet hits an opponent, the opponent's ATK is decreased and Aloy receives 1 Coil stack.Aloy can gain up to 1 Coil stack every 0.1s.Coil\nEach stack increases Aloy's Normal Attack DMG.\nWhen Aloy has 4 Coil stacks, all stacks of Coil are cleared. She then enters the Rushing Ice state, which further increases the DMG dealt by her Normal Attacks and converts her Normal Attack DMG to Cryo DMG."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/b4/Talent_Prophecies_of_Dawn.png",
-                "name": "Prophecies of Dawn",
-                "type": "Elemental Burst",
-                "desc": "Aloy throws a Power Cell filled with Cryo in the targeted direction, then detonates it with an arrow, dealing AoE Cryo Damage."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/Talent_Combat_Override.png",
-                "name": "Combat Override",
-                "type": "1st Ascension Passive",
-                "desc": "When Aloy receives the Coil effect from Frozen Wilds, her ATK is increased by 16%, while nearby party members' ATK is increased by 8%. This effect lasts 10s."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/ba/Talent_Strong_Strike.png",
-                "name": "Strong Strike",
-                "type": "4th Ascension Passive",
-                "desc": "When Aloy is in the Rushing Ice state conferred by Frozen Wilds, her Cryo DMG Bonus increases by 3.5% every 1s. A maximum Cryo DMG Bonus increase of 35% can be gained in this way."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/0/0f/Talent_Easy_Does_It.png",
-                "name": "Easy Does It",
-                "type": "Utility Passive",
-                "desc": "When Aloy is in the party, animals who produce Fowl, Raw Meat, or Chilled Meat will not be startled when party members approach them."
-            }
-        ],
-        "lvup_mat": [
-            [
-                {
-                    "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3a/Item_Teachings_of_Freedom.png",
-                    "amount": 9
-                },
-                {
-                    "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1a/Item_Guide_to_Freedom.png",
-                    "amount": 63
-                },
-                {
-                    "rarity": 4,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Item_Philosophies_of_Freedom.png",
-                    "amount": 114
-                }
-            ],
-            [
-                {
-                    "rarity": 1,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d2/Item_Spectral_Husk.png",
-                    "amount": 18
-                },
-                {
-                    "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/67/Item_Spectral_Heart.png",
-                    "amount": 66
-                },
-                {
-                    "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ea/Item_Spectral_Nucleus.png",
-                    "amount": 93
-                }
-            ],
-            [
-                {
-                    "rarity": 5,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Item_Molten_Moment.png",
-                    "amount": 18
-                }
-            ]
-        ],
-        "constellation": [],
         "ascensions": [
             [
                 {
@@ -344,6 +292,215 @@
                     "amount": 24
                 }
             ]
+        ],
+        "talents": [
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/50/Talent_Rapid_Fire.png",
+                "name": "Rapid Fire",
+                "type": "Normal Attack",
+                "desc": "Normal Attack: Perform up to 4 consecutive shots with a bow.Charged Attack: Perform a more precise Aimed Shot with increased DMG.While aiming, biting frost will accumulate on the arrowhead. A fully charged frost arrow will deal Cryo DMGPlunging Attack: Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/9a/Talent_Frozen_Wilds.png",
+                "name": "Frozen Wilds",
+                "type": "Elemental Skill",
+                "desc": "Aloy throws a Freeze Bomb in the targeted direction and triggers an explosion, dealing Cryo DMG. After it explodes, the Freeze Bomb will split up into many Chillwater Bomblets that explode on contact with opponents or after a short delay, dealing Cryo DMG.When a Freeze Bomb or Chillwater Bomblet hits an opponent, the opponent's ATK is decreased and Aloy receives 1 Coil stack.Aloy can gain up to 1 Coil stack every 0.1s.Coil\nEach stack increases Aloy's Normal Attack DMG.\nWhen Aloy has 4 Coil stacks, all stacks of Coil are cleared. She then enters the Rushing Ice state, which further increases the DMG dealt by her Normal Attacks and converts her Normal Attack DMG to Cryo DMG."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/b4/Talent_Prophecies_of_Dawn.png",
+                "name": "Prophecies of Dawn",
+                "type": "Elemental Burst",
+                "desc": "Aloy throws a Power Cell filled with Cryo in the targeted direction, then detonates it with an arrow, dealing AoE Cryo Damage."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/Talent_Combat_Override.png",
+                "name": "Combat Override",
+                "type": "1st Ascension Passive",
+                "desc": "When Aloy receives the Coil effect from Frozen Wilds, her ATK is increased by 16%, while nearby party members' ATK is increased by 8%. This effect lasts 10s."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/ba/Talent_Strong_Strike.png",
+                "name": "Strong Strike",
+                "type": "4th Ascension Passive",
+                "desc": "When Aloy is in the Rushing Ice state conferred by Frozen Wilds, her Cryo DMG Bonus increases by 3.5% every 1s. A maximum Cryo DMG Bonus increase of 35% can be gained in this way."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/0/0f/Talent_Easy_Does_It.png",
+                "name": "Easy Does It",
+                "type": "Utility Passive",
+                "desc": "When Aloy is in the party, animals who produce Fowl, Raw Meat, or Chilled Meat will not be startled when party members approach them."
+            }
+        ],
+        "talent_levening_mat": [
+            {
+                "ascensions_req": "2",
+                "cost": "12,500",
+                "materials": [
+                    {
+                        "rarity": 1,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d2/Item_Spectral_Husk.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3a/Item_Teachings_of_Freedom.png",
+                        "amount": 3
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "3",
+                "cost": "17,500",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/67/Item_Spectral_Heart.png",
+                        "amount": 3
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1a/Item_Guide_to_Freedom.png",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "3",
+                "cost": "25,000",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/67/Item_Spectral_Heart.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1a/Item_Guide_to_Freedom.png",
+                        "amount": 4
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "4",
+                "cost": "30,000",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/67/Item_Spectral_Heart.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1a/Item_Guide_to_Freedom.png",
+                        "amount": 6
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "4",
+                "cost": "37,500",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/67/Item_Spectral_Heart.png",
+                        "amount": 9
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1a/Item_Guide_to_Freedom.png",
+                        "amount": 9
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "5",
+                "cost": "120,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ea/Item_Spectral_Nucleus.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Item_Philosophies_of_Freedom.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Item_Molten_Moment.png",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "5",
+                "cost": "260,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ea/Item_Spectral_Nucleus.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Item_Philosophies_of_Freedom.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Item_Molten_Moment.png",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "6",
+                "cost": "450,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ea/Item_Spectral_Nucleus.png",
+                        "amount": 9
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Item_Philosophies_of_Freedom.png",
+                        "amount": 12
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Item_Molten_Moment.png",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "6",
+                "cost": "700,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ea/Item_Spectral_Nucleus.png",
+                        "amount": 12
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Item_Philosophies_of_Freedom.png",
+                        "amount": 16
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Item_Molten_Moment.png",
+                        "amount": 2
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/04/Item_Crown_of_Insight.png",
+                        "amount": 1
+                    }
+                ]
+            }
         ]
     },
     "availability": {

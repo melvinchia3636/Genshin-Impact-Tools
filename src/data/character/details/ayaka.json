@@ -43,189 +43,6 @@
     "name": "Kamisato Ayaka",
     "nickname": "Frostflake Heron",
     "combat_info": {
-        "base_stats": {
-            "special": "CRIT DMG",
-            "data": {
-                "0": {
-                    "1": [
-                        "1,001",
-                        "27",
-                        "61",
-                        "\u2014"
-                    ],
-                    "20": [
-                        "2,597",
-                        "79",
-                        "158"
-                    ]
-                },
-                "1": {
-                    "20": [
-                        "3,455",
-                        "92",
-                        "211",
-                        "\u2014"
-                    ],
-                    "40": [
-                        "5,170",
-                        "138",
-                        "315"
-                    ]
-                },
-                "2": {
-                    "40": [
-                        "5,779",
-                        "154",
-                        "352",
-                        "9.6%"
-                    ],
-                    "50": [
-                        "6,649",
-                        "177",
-                        "405"
-                    ]
-                },
-                "3": {
-                    "50": [
-                        "7,462",
-                        "198",
-                        "455",
-                        "19.2%"
-                    ],
-                    "60": [
-                        "8,341",
-                        "222",
-                        "509"
-                    ]
-                },
-                "4": {
-                    "60": [
-                        "8,951",
-                        "238",
-                        "546",
-                        "19.2%"
-                    ],
-                    "70": [
-                        "9,838",
-                        "262",
-                        "600"
-                    ]
-                },
-                "5": {
-                    "70": [
-                        "10,448",
-                        "278",
-                        "637",
-                        "28.8%"
-                    ],
-                    "80": [
-                        "11,345",
-                        "302",
-                        "692"
-                    ]
-                },
-                "6": {
-                    "80": [
-                        "11,954",
-                        "318",
-                        "729",
-                        "38.4%"
-                    ],
-                    "90": [
-                        "12,858",
-                        "342",
-                        "784"
-                    ]
-                }
-            }
-        },
-        "talents": [
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Talent_Kamisato_Art_Kabuki.png",
-                "name": "Kamisato Art: Kabuki",
-                "type": "Normal Attack",
-                "desc": "Normal Attack: Perform up to 5 rapid strikes.\nCharged Attack: Consumes a certain amount of Stamina to unleash a flurry of sword ki.\nPlunging Attack: Plunges from mid-air to strike the ground below, damaging enemies along the path and dealing AoE DMG upon impact."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/56/Talent_Kamisato_Art_Hyouka.png",
-                "name": "Kamisato Art: Hyouka",
-                "type": "Elemental Skill",
-                "desc": "Summons blooming ice to launch nearby opponents, dealing AoE Cryo DMG."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/1/11/Talent_Kamisato_Art_Soumetsu.png",
-                "name": "Kamisato Art: Soumetsu",
-                "type": "Elemental Burst",
-                "desc": "Summons forth a snowstorm with flawless poise, unleashing a Frostflake Seki no To that moves forward continuously.Frostflake Seki no To\nA storm of whirling icy winds that slashes repeatedly at every enemy it touches, dealing Cryo DMG\nThe snowstorm explodes after its duration ends, dealing AoE Cryo DMG."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/d8/Talent_Kamisato_Art_Senho.png",
-                "name": "Kamisato Art: Senho",
-                "type": "Alternate Sprint",
-                "desc": "Ayaka consumes Stamina and cloaks herself in a frozen fog that moves with her. In Senho form, she moves swiftly upon water.When she reappears, the following effects occur:\nAyaka unleashes frigid energy to apply Cryo on nearby opponents.\nColdness condenses around Ayaka's blade, infusing her attacks with Cryo for a brief period."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/d9/Talent_Amatsumi_Kunitsumi_Sanctification.png",
-                "name": "Amatsumi Kunitsumi Sanctification",
-                "type": "1st Ascension Passive",
-                "desc": "After using Kamisato Art: Hyouka, Kamisato Ayaka's Normal and Charged attacks deal 30% increased DMG for 6s."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/db/Talent_Kanten_Senmyou_Blessing.png",
-                "name": "Kanten Senmyou Blessing",
-                "type": "4th Ascension Passive",
-                "desc": "When the Cryo application at the end of Kamisato Art: Senho hits an opponent, Kamisato Ayaka gains the following effects:\nRestores 10 Stamina\nGains 18% Cryo DMG Bonus for 10s."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Talent_Fruits_of_Shinsa.png",
-                "name": "Fruits of Shinsa",
-                "type": "Utility Passive",
-                "desc": "When Ayaka crafts Weapon Ascension Materials, she has a 10% chance to receive double the product."
-            }
-        ],
-        "lvup_mat": [
-            [
-                {
-                    "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f2/Item_Teachings_of_Elegance.png",
-                    "amount": 9
-                },
-                {
-                    "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/df/Item_Guide_to_Elegance.png",
-                    "amount": 63
-                },
-                {
-                    "rarity": 4,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/6f/Item_Philosophies_of_Elegance.png",
-                    "amount": 114
-                }
-            ],
-            [
-                {
-                    "rarity": 1,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e2/Item_Old_Handguard.png",
-                    "amount": 18
-                },
-                {
-                    "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Kageuchi_Handguard.png",
-                    "amount": 66
-                },
-                {
-                    "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4e/Item_Famed_Handguard.png",
-                    "amount": 93
-                }
-            ],
-            [
-                {
-                    "rarity": 5,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b1/Item_Bloodjade_Branch.png",
-                    "amount": 18
-                }
-            ]
-        ],
         "constellation": [
             {
                 "level": 1,
@@ -264,6 +81,94 @@
                 "effect": "Kamisato Ayaka gains Usurahi Butou every 10s, increasing her Charged Attack DMG by 298%. This buff will be cleared 0.5s after Ayaka's Charged ATK hits an opponent, after which the timer for this ability will restart."
             }
         ],
+        "base_stats": {
+            "data": {
+                "0": {
+                    "1": [
+                        "1,001",
+                        "27",
+                        "61"
+                    ],
+                    "20": [
+                        "2,597",
+                        "79",
+                        "158"
+                    ]
+                },
+                "1": {
+                    "20": [
+                        "3,455",
+                        "92",
+                        "211"
+                    ],
+                    "40": [
+                        "5,170",
+                        "138",
+                        "315"
+                    ]
+                },
+                "2": {
+                    "40": [
+                        "5,779",
+                        "154",
+                        "352"
+                    ],
+                    "50": [
+                        "6,649",
+                        "177",
+                        "405"
+                    ]
+                },
+                "3": {
+                    "50": [
+                        "7,462",
+                        "198",
+                        "455"
+                    ],
+                    "60": [
+                        "8,341",
+                        "222",
+                        "509"
+                    ]
+                },
+                "4": {
+                    "60": [
+                        "8,951",
+                        "238",
+                        "546"
+                    ],
+                    "70": [
+                        "9,838",
+                        "262",
+                        "600"
+                    ]
+                },
+                "5": {
+                    "70": [
+                        "10,448",
+                        "278",
+                        "637"
+                    ],
+                    "80": [
+                        "11,345",
+                        "302",
+                        "692"
+                    ]
+                },
+                "6": {
+                    "80": [
+                        "11,954",
+                        "318",
+                        "729"
+                    ],
+                    "90": [
+                        "12,858",
+                        "342",
+                        "784"
+                    ]
+                }
+            }
+        },
         "ascensions": [
             [
                 {
@@ -392,6 +297,221 @@
                     "amount": 24
                 }
             ]
+        ],
+        "talents": [
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Talent_Kamisato_Art_Kabuki.png",
+                "name": "Kamisato Art: Kabuki",
+                "type": "Normal Attack",
+                "desc": "Normal Attack: Perform up to 5 rapid strikes.\nCharged Attack: Consumes a certain amount of Stamina to unleash a flurry of sword ki.\nPlunging Attack: Plunges from mid-air to strike the ground below, damaging enemies along the path and dealing AoE DMG upon impact."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/56/Talent_Kamisato_Art_Hyouka.png",
+                "name": "Kamisato Art: Hyouka",
+                "type": "Elemental Skill",
+                "desc": "Summons blooming ice to launch nearby opponents, dealing AoE Cryo DMG."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/1/11/Talent_Kamisato_Art_Soumetsu.png",
+                "name": "Kamisato Art: Soumetsu",
+                "type": "Elemental Burst",
+                "desc": "Summons forth a snowstorm with flawless poise, unleashing a Frostflake Seki no To that moves forward continuously.Frostflake Seki no To\nA storm of whirling icy winds that slashes repeatedly at every enemy it touches, dealing Cryo DMG\nThe snowstorm explodes after its duration ends, dealing AoE Cryo DMG."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/d8/Talent_Kamisato_Art_Senho.png",
+                "name": "Kamisato Art: Senho",
+                "type": "Alternate Sprint",
+                "desc": "Ayaka consumes Stamina and cloaks herself in a frozen fog that moves with her. In Senho form, she moves swiftly upon water.When she reappears, the following effects occur:\nAyaka unleashes frigid energy to apply Cryo on nearby opponents.\nColdness condenses around Ayaka's blade, infusing her attacks with Cryo for a brief period."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/d9/Talent_Amatsumi_Kunitsumi_Sanctification.png",
+                "name": "Amatsumi Kunitsumi Sanctification",
+                "type": "1st Ascension Passive",
+                "desc": "After using Kamisato Art: Hyouka, Kamisato Ayaka's Normal and Charged attacks deal 30% increased DMG for 6s."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/db/Talent_Kanten_Senmyou_Blessing.png",
+                "name": "Kanten Senmyou Blessing",
+                "type": "4th Ascension Passive",
+                "desc": "When the Cryo application at the end of Kamisato Art: Senho hits an opponent, Kamisato Ayaka gains the following effects:\nRestores 10 Stamina\nGains 18% Cryo DMG Bonus for 10s."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Talent_Fruits_of_Shinsa.png",
+                "name": "Fruits of Shinsa",
+                "type": "Utility Passive",
+                "desc": "When Ayaka crafts Weapon Ascension Materials, she has a 10% chance to receive double the product."
+            }
+        ],
+        "talent_levening_mat": [
+            {
+                "ascensions_req": "2",
+                "cost": "12,500",
+                "materials": [
+                    {
+                        "rarity": 1,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e2/Item_Old_Handguard.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f2/Item_Teachings_of_Elegance.png",
+                        "amount": 3
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "3",
+                "cost": "17,500",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Kageuchi_Handguard.png",
+                        "amount": 3
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/df/Item_Guide_to_Elegance.png",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "3",
+                "cost": "25,000",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Kageuchi_Handguard.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/df/Item_Guide_to_Elegance.png",
+                        "amount": 4
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "4",
+                "cost": "30,000",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Kageuchi_Handguard.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/df/Item_Guide_to_Elegance.png",
+                        "amount": 6
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "4",
+                "cost": "37,500",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Kageuchi_Handguard.png",
+                        "amount": 9
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/df/Item_Guide_to_Elegance.png",
+                        "amount": 9
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "5",
+                "cost": "120,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4e/Item_Famed_Handguard.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/6f/Item_Philosophies_of_Elegance.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b1/Item_Bloodjade_Branch.png",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "5",
+                "cost": "260,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4e/Item_Famed_Handguard.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/6f/Item_Philosophies_of_Elegance.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b1/Item_Bloodjade_Branch.png",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "6",
+                "cost": "450,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4e/Item_Famed_Handguard.png",
+                        "amount": 9
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/6f/Item_Philosophies_of_Elegance.png",
+                        "amount": 12
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b1/Item_Bloodjade_Branch.png",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "6",
+                "cost": "700,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4e/Item_Famed_Handguard.png",
+                        "amount": 12
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/6f/Item_Philosophies_of_Elegance.png",
+                        "amount": 16
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b1/Item_Bloodjade_Branch.png",
+                        "amount": 2
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/04/Item_Crown_of_Insight.png",
+                        "amount": 1
+                    }
+                ]
+            }
         ]
     },
     "availability": {

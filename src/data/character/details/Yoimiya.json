@@ -40,183 +40,6 @@
     "name": "Yoimiya",
     "nickname": "Frolicking Flames",
     "combat_info": {
-        "base_stats": {
-            "special": "CRIT Rate",
-            "data": {
-                "0": {
-                    "1": [
-                        "791",
-                        "25",
-                        "48",
-                        "\u2014"
-                    ],
-                    "20": [
-                        "2,053",
-                        "65",
-                        "124"
-                    ]
-                },
-                "1": {
-                    "20": [
-                        "2,731",
-                        "87",
-                        "165",
-                        "\u2014"
-                    ],
-                    "40": [
-                        "4,086",
-                        "130",
-                        "247"
-                    ]
-                },
-                "2": {
-                    "40": [
-                        "4,568",
-                        "145",
-                        "276",
-                        "4.8%"
-                    ],
-                    "50": [
-                        "5,256",
-                        "167",
-                        "318"
-                    ]
-                },
-                "3": {
-                    "50": [
-                        "5,899",
-                        "187",
-                        "357",
-                        "9.6%"
-                    ],
-                    "60": [
-                        "6,593",
-                        "209",
-                        "399"
-                    ]
-                },
-                "4": {
-                    "60": [
-                        "7,075",
-                        "225",
-                        "428",
-                        "9.6%"
-                    ],
-                    "70": [
-                        "7,777",
-                        "247",
-                        "470"
-                    ]
-                },
-                "5": {
-                    "70": [
-                        "8,259",
-                        "262",
-                        "500",
-                        "14.4%"
-                    ],
-                    "80": [
-                        "8,968",
-                        "285",
-                        "542"
-                    ]
-                },
-                "6": {
-                    "80": [
-                        "9,450",
-                        "300",
-                        "572",
-                        "19.2%"
-                    ],
-                    "90": [
-                        "10,164",
-                        "323",
-                        "615"
-                    ]
-                }
-            }
-        },
-        "talents": [
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/d8/Talent_Firework_Flare-Up.png",
-                "name": "Firework Flare-Up",
-                "type": "Normal Attack",
-                "desc": "Normal Attack: Performs up to 5 consecutive shots with a bow.\nCharged Attack: Perform a more precise Aimed Shot with increased DMG.\nWhile aiming, flames will accumulate on the arrowhead before being fired off as an attack. Has different effects based on how long the energy has been charged:\n\nCharge Level 1: Fires off a flaming arrow that deals Pyro DMG.\nCharge Level 2: Generates a maximum of 3 Kindling Arrows based on time spent charging, releasing them as part of this Aimed Shot. Kindling Arrows will home in on nearby opponents, dealing Pyro DMG on hit.\nPlunging Attack: Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/0/03/Talent_Niwabi_Fire-Dance.png",
-                "name": "Niwabi Fire-Dance",
-                "type": "Elemental Skill",
-                "desc": "Yoimiya waves a sparkler and causes a ring of saltpeter to surround her.\nNiwabi Enshou: During this time, arrows fired by Yoimiya's Normal Attack will be Blazing Arrows, and their DMG will be increased and converted to Pyro DMG. during this time, Normal Attack: Firework Flare-Up will not generate Kindling Arrows at Charge Level 2.\nThis effect will deactivate when Yoimiya leaves the field."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Talent_Ryuukin_Saxifrage.png",
-                "name": "Ryuukin Saxifrage",
-                "type": "Elemental Burst",
-                "desc": "Yoimiya leaps into the air along with her original creation, the \"Ryuukin Saxifrage,\" and fires forth blazing rockets bursting with surprises that deal AoE Pyro DMG and mark one of the hit opponents with Aurous Blaze.\nAurous Blaze: All Normal/Charged/Plunging Attacks, Elemental Skills, and Elemental Bursts by any party member other than Yoimiya that hit an opponent marked by Aurous Blaze will trigger an explosion, dealing AoE Pyro DMG.When an opponent affected by Aurous Blaze is defeated before its duration expires, the effect will pass on to another nearby opponent, who will inherit the remaining duration.\nOne Aurous Blaze explosion can be triggered every 2s. When Yoimiya is down, Aurous Blaze effects created through her skills will be deactivated."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/a/a2/Talent_Tricks_of_the_Trouble-Maker.png",
-                "name": "Tricks of the Trouble-Maker",
-                "type": "1st Ascension Passive",
-                "desc": "During Niwabi Fire-Dance, shots from Yoimiya's Normal Attack will increase her Pyro DMG Bonus by 2% on hit. This effect lasts for 3s and can have a maximum of 10 stacks."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/9b/Talent_Summer_Night's_Dawn.png",
-                "name": "Summer Night's Dawn",
-                "type": "4th Ascension Passive",
-                "desc": "Using Ryuukin Saxifrage causes nearby party members (not including Yoimiya) to gain a 10% ATK increase for 15s. Additionally, a further ATK Bonus will be added on based on the number of \"Tricks of the Trouble-Maker\" stacks Yoimiya possesses when using Ryuukin Saxifrage. Each stack increases this ATK Bonus by 1%."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/6/6e/Talent_Blazing_Match.png",
-                "name": "Blazing Match",
-                "type": "Utility Passive",
-                "desc": "When Yoimiya crafts Decoration, Ornament, and Landscape-type Furnishings, she has a 100% chance to refund a portion of the materials used."
-            }
-        ],
-        "lvup_mat": [
-            [
-                {
-                    "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4e/Item_Teachings_of_Transience.png",
-                    "amount": 9
-                },
-                {
-                    "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b0/Item_Guide_to_Transience.png",
-                    "amount": 63
-                },
-                {
-                    "rarity": 4,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/27/Item_Philosophies_of_Transience.png",
-                    "amount": 114
-                }
-            ],
-            [
-                {
-                    "rarity": 1,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/74/Item_Divining_Scroll.png",
-                    "amount": 18
-                },
-                {
-                    "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Sealed_Scroll.png",
-                    "amount": 66
-                },
-                {
-                    "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Item_Forbidden_Curse_Scroll.png",
-                    "amount": 93
-                }
-            ],
-            [
-                {
-                    "rarity": 5,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Item_Dragon_Lord's_Crown.png",
-                    "amount": 18
-                }
-            ]
-        ],
         "constellation": [
             {
                 "level": 1,
@@ -232,7 +55,7 @@
             },
             {
                 "level": 3,
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/7e/Constellation_Trickster's_Flare.png",
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/7e/Constellation_Trickster%27s_Flare.png",
                 "name": "Trickster's Flare",
                 "effect": "Increase the Level of Niwabi Fire-Dance by 3.Maximum upgrade level is 15."
             },
@@ -244,7 +67,7 @@
             },
             {
                 "level": 5,
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/bc/Constellation_A_Summer_Festival's_Eve.png",
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/b/bc/Constellation_A_Summer_Festival%27s_Eve.png",
                 "name": "A Summer Festival's Eve",
                 "effect": "Increases the Level of Ryuukin Saxifrage by 3.Maximum upgrade level is 15."
             },
@@ -255,6 +78,94 @@
                 "effect": "During Niwabi Fire-Dance, Yoimiya's Normal Attacks have a 50% chance of firing an extra Kindling Arrow that deals 60% of its original DMG. This DMG is considered Normal Attack DMG."
             }
         ],
+        "base_stats": {
+            "data": {
+                "0": {
+                    "1": [
+                        "791",
+                        "25",
+                        "48"
+                    ],
+                    "20": [
+                        "2,053",
+                        "65",
+                        "124"
+                    ]
+                },
+                "1": {
+                    "20": [
+                        "2,731",
+                        "87",
+                        "165"
+                    ],
+                    "40": [
+                        "4,086",
+                        "130",
+                        "247"
+                    ]
+                },
+                "2": {
+                    "40": [
+                        "4,568",
+                        "145",
+                        "276"
+                    ],
+                    "50": [
+                        "5,256",
+                        "167",
+                        "318"
+                    ]
+                },
+                "3": {
+                    "50": [
+                        "5,899",
+                        "187",
+                        "357"
+                    ],
+                    "60": [
+                        "6,593",
+                        "209",
+                        "399"
+                    ]
+                },
+                "4": {
+                    "60": [
+                        "7,075",
+                        "225",
+                        "428"
+                    ],
+                    "70": [
+                        "7,777",
+                        "247",
+                        "470"
+                    ]
+                },
+                "5": {
+                    "70": [
+                        "8,259",
+                        "262",
+                        "500"
+                    ],
+                    "80": [
+                        "8,968",
+                        "285",
+                        "542"
+                    ]
+                },
+                "6": {
+                    "80": [
+                        "9,450",
+                        "300",
+                        "572"
+                    ],
+                    "90": [
+                        "10,164",
+                        "323",
+                        "615"
+                    ]
+                }
+            }
+        },
         "ascensions": [
             [
                 {
@@ -383,6 +294,215 @@
                     "amount": 24
                 }
             ]
+        ],
+        "talents": [
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/d8/Talent_Firework_Flare-Up.png",
+                "name": "Firework Flare-Up",
+                "type": "Normal Attack",
+                "desc": "Normal Attack: Performs up to 5 consecutive shots with a bow.\nCharged Attack: Perform a more precise Aimed Shot with increased DMG.\nWhile aiming, flames will accumulate on the arrowhead before being fired off as an attack. Has different effects based on how long the energy has been charged:\n\nCharge Level 1: Fires off a flaming arrow that deals Pyro DMG.\nCharge Level 2: Generates a maximum of 3 Kindling Arrows based on time spent charging, releasing them as part of this Aimed Shot. Kindling Arrows will home in on nearby opponents, dealing Pyro DMG on hit.\nPlunging Attack: Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/0/03/Talent_Niwabi_Fire-Dance.png",
+                "name": "Niwabi Fire-Dance",
+                "type": "Elemental Skill",
+                "desc": "Yoimiya waves a sparkler and causes a ring of saltpeter to surround her.\nNiwabi Enshou: During this time, arrows fired by Yoimiya's Normal Attack will be Blazing Arrows, and their DMG will be increased and converted to Pyro DMG. during this time, Normal Attack: Firework Flare-Up will not generate Kindling Arrows at Charge Level 2.\nThis effect will deactivate when Yoimiya leaves the field."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Talent_Ryuukin_Saxifrage.png",
+                "name": "Ryuukin Saxifrage",
+                "type": "Elemental Burst",
+                "desc": "Yoimiya leaps into the air along with her original creation, the \"Ryuukin Saxifrage,\" and fires forth blazing rockets bursting with surprises that deal AoE Pyro DMG and mark one of the hit opponents with Aurous Blaze.\nAurous Blaze: All Normal/Charged/Plunging Attacks, Elemental Skills, and Elemental Bursts by any party member other than Yoimiya that hit an opponent marked by Aurous Blaze will trigger an explosion, dealing AoE Pyro DMG.When an opponent affected by Aurous Blaze is defeated before its duration expires, the effect will pass on to another nearby opponent, who will inherit the remaining duration.\nOne Aurous Blaze explosion can be triggered every 2s. When Yoimiya is down, Aurous Blaze effects created through her skills will be deactivated."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/a/a2/Talent_Tricks_of_the_Trouble-Maker.png",
+                "name": "Tricks of the Trouble-Maker",
+                "type": "1st Ascension Passive",
+                "desc": "During Niwabi Fire-Dance, shots from Yoimiya's Normal Attack will increase her Pyro DMG Bonus by 2% on hit. This effect lasts for 3s and can have a maximum of 10 stacks."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/9b/Talent_Summer_Night%27s_Dawn.png",
+                "name": "Summer Night's Dawn",
+                "type": "4th Ascension Passive",
+                "desc": "Using Ryuukin Saxifrage causes nearby party members (not including Yoimiya) to gain a 10% ATK increase for 15s. Additionally, a further ATK Bonus will be added on based on the number of \"Tricks of the Trouble-Maker\" stacks Yoimiya possesses when using Ryuukin Saxifrage. Each stack increases this ATK Bonus by 1%."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/6/6e/Talent_Blazing_Match.png",
+                "name": "Blazing Match",
+                "type": "Utility Passive",
+                "desc": "When Yoimiya crafts Decoration, Ornament, and Landscape-type Furnishings, she has a 100% chance to refund a portion of the materials used."
+            }
+        ],
+        "talent_levening_mat": [
+            {
+                "ascensions_req": "2",
+                "cost": "12,500",
+                "materials": [
+                    {
+                        "rarity": 1,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/74/Item_Divining_Scroll.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4e/Item_Teachings_of_Transience.png",
+                        "amount": 3
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "3",
+                "cost": "17,500",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Sealed_Scroll.png",
+                        "amount": 3
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b0/Item_Guide_to_Transience.png",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "3",
+                "cost": "25,000",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Sealed_Scroll.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b0/Item_Guide_to_Transience.png",
+                        "amount": 4
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "4",
+                "cost": "30,000",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Sealed_Scroll.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b0/Item_Guide_to_Transience.png",
+                        "amount": 6
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "4",
+                "cost": "37,500",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Sealed_Scroll.png",
+                        "amount": 9
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b0/Item_Guide_to_Transience.png",
+                        "amount": 9
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "5",
+                "cost": "120,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Item_Forbidden_Curse_Scroll.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/27/Item_Philosophies_of_Transience.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Item_Dragon_Lord%27s_Crown.png",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "5",
+                "cost": "260,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Item_Forbidden_Curse_Scroll.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/27/Item_Philosophies_of_Transience.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Item_Dragon_Lord%27s_Crown.png",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "6",
+                "cost": "450,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Item_Forbidden_Curse_Scroll.png",
+                        "amount": 9
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/27/Item_Philosophies_of_Transience.png",
+                        "amount": 12
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Item_Dragon_Lord%27s_Crown.png",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "6",
+                "cost": "700,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Item_Forbidden_Curse_Scroll.png",
+                        "amount": 12
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/27/Item_Philosophies_of_Transience.png",
+                        "amount": 16
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Item_Dragon_Lord%27s_Crown.png",
+                        "amount": 2
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/04/Item_Crown_of_Insight.png",
+                        "amount": 1
+                    }
+                ]
+            }
         ]
     },
     "availability": {

@@ -42,183 +42,6 @@
     "name": "Amber",
     "nickname": "Gliding Champion",
     "combat_info": {
-        "base_stats": {
-            "special": "ATK",
-            "data": {
-                "0": {
-                    "1": [
-                        "793",
-                        "19",
-                        "50",
-                        "\u2014"
-                    ],
-                    "20": [
-                        "2,038",
-                        "48",
-                        "129"
-                    ]
-                },
-                "1": {
-                    "20": [
-                        "2,630",
-                        "62",
-                        "167",
-                        "\u2014"
-                    ],
-                    "40": [
-                        "3,940",
-                        "93",
-                        "250"
-                    ]
-                },
-                "2": {
-                    "40": [
-                        "4,361",
-                        "103",
-                        "277",
-                        "6.0%"
-                    ],
-                    "50": [
-                        "5,016",
-                        "118",
-                        "318"
-                    ]
-                },
-                "3": {
-                    "50": [
-                        "5,578",
-                        "131",
-                        "354",
-                        "12.0%"
-                    ],
-                    "60": [
-                        "6,233",
-                        "147",
-                        "396"
-                    ]
-                },
-                "4": {
-                    "60": [
-                        "6,654",
-                        "157",
-                        "422",
-                        "12.0%"
-                    ],
-                    "70": [
-                        "7,309",
-                        "172",
-                        "464"
-                    ]
-                },
-                "5": {
-                    "70": [
-                        "7,730",
-                        "182",
-                        "491",
-                        "18.0%"
-                    ],
-                    "80": [
-                        "8,385",
-                        "198",
-                        "532"
-                    ]
-                },
-                "6": {
-                    "80": [
-                        "8,806",
-                        "208",
-                        "559",
-                        "24.0%"
-                    ],
-                    "90": [
-                        "9,461",
-                        "223",
-                        "601"
-                    ]
-                }
-            }
-        },
-        "talents": [
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/1/1b/Talent_Sharpshooter.png",
-                "name": "Sharpshooter",
-                "type": "Normal Attack",
-                "desc": "Normal Attack: Perform up to 5 consecutive shots with a bow.\nCharged Attack: Perform a more precise Aimed Shot with increased DMG. While aiming, flames will accumulate on the arrowhead. A fully charged flaming arrow will deal Pyro DMG.\nPlunging Attack: Fires off a shower of arrows in mid-air before falling an striking the ground, dealing AoE DMG upon impact."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/e/e0/Talent_Explosive_Puppet.png",
-                "name": "Explosive Puppet",
-                "type": "Elemental Skill",
-                "desc": "The ever-reliable Baron Bunny takes the stage.\nBaron Bunny:\n\nContinuously taunts the enemy, drawing their fire.\nBaron Bunny's HP scales with Amber's Max HP.\nWhen destroyed or when its timer expires, Baron Bunny explodes, dealing AoE Pyro DMG.\nHold: Adjusts the throwing direction of Baron Bunny. The longer the button is held, the further the throw."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/6/6c/Talent_Fiery_Rain.png",
-                "name": "Fiery Rain",
-                "type": "Elemental Burst",
-                "desc": "Fires off a shower of arrows, dealing continuous AoE Pyro DMG."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/54/Talent_Every_Arrow_Finds_Its_Target.png",
-                "name": "Every Arrow Finds Its Target",
-                "type": "1st Ascension Passive",
-                "desc": "Increases the CRIT Rate of Fiery Rain by 10% and widens its AoE by 30%."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/51/Talent_Precise_Shot.png",
-                "name": "Precise Shot",
-                "type": "4th Ascension Passive",
-                "desc": "Aimed Shot hits on weak spots increase ATK by 15% for 10s."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/df/Talent_Gliding_Champion.png",
-                "name": "Gliding Champion",
-                "type": "Utility Passive",
-                "desc": "Decreases gliding Stamina consumption for your own party members by 20%.Not stackable with Passive Talents that provide the exact same effects."
-            }
-        ],
-        "lvup_mat": [
-            [
-                {
-                    "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3a/Item_Teachings_of_Freedom.png",
-                    "amount": 9
-                },
-                {
-                    "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1a/Item_Guide_to_Freedom.png",
-                    "amount": 63
-                },
-                {
-                    "rarity": 4,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Item_Philosophies_of_Freedom.png",
-                    "amount": 114
-                }
-            ],
-            [
-                {
-                    "rarity": 1,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/Item_Firm_Arrowhead.png",
-                    "amount": 18
-                },
-                {
-                    "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0d/Item_Sharp_Arrowhead.png",
-                    "amount": 66
-                },
-                {
-                    "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/22/Item_Weathered_Arrowhead.png",
-                    "amount": 93
-                }
-            ],
-            [
-                {
-                    "rarity": 5,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/07/Item_Dvalin's_Sigh.png",
-                    "amount": 18
-                }
-            ]
-        ],
         "constellation": [
             {
                 "level": 1,
@@ -240,13 +63,13 @@
             },
             {
                 "level": 4,
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/d6/Constellation_It's_Not_Just_Any_Doll....png",
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/d6/Constellation_It%27s_Not_Just_Any_Doll....png",
                 "name": "It's Not Just Any Doll...",
                 "effect": "Decreases Explosive Puppet's CD by 20%. Adds 1 additional charge."
             },
             {
                 "level": 5,
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/95/Constellation_It's_Baron_Bunny%21.png",
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/95/Constellation_It%27s_Baron_Bunny%21.png",
                 "name": "It's Baron Bunny!",
                 "effect": "Increases the Level of Explosive Puppet by 3.Maximum upgrade level is 15."
             },
@@ -257,6 +80,94 @@
                 "effect": "Fiery Rain increases all party members' Movement SPD by 15% and ATK by 15% for 10s."
             }
         ],
+        "base_stats": {
+            "data": {
+                "0": {
+                    "1": [
+                        "793",
+                        "19",
+                        "50"
+                    ],
+                    "20": [
+                        "2,038",
+                        "48",
+                        "129"
+                    ]
+                },
+                "1": {
+                    "20": [
+                        "2,630",
+                        "62",
+                        "167"
+                    ],
+                    "40": [
+                        "3,940",
+                        "93",
+                        "250"
+                    ]
+                },
+                "2": {
+                    "40": [
+                        "4,361",
+                        "103",
+                        "277"
+                    ],
+                    "50": [
+                        "5,016",
+                        "118",
+                        "318"
+                    ]
+                },
+                "3": {
+                    "50": [
+                        "5,578",
+                        "131",
+                        "354"
+                    ],
+                    "60": [
+                        "6,233",
+                        "147",
+                        "396"
+                    ]
+                },
+                "4": {
+                    "60": [
+                        "6,654",
+                        "157",
+                        "422"
+                    ],
+                    "70": [
+                        "7,309",
+                        "172",
+                        "464"
+                    ]
+                },
+                "5": {
+                    "70": [
+                        "7,730",
+                        "182",
+                        "491"
+                    ],
+                    "80": [
+                        "8,385",
+                        "198",
+                        "532"
+                    ]
+                },
+                "6": {
+                    "80": [
+                        "8,806",
+                        "208",
+                        "559"
+                    ],
+                    "90": [
+                        "9,461",
+                        "223",
+                        "601"
+                    ]
+                }
+            }
+        },
         "ascensions": [
             [
                 {
@@ -385,6 +296,215 @@
                     "amount": 24
                 }
             ]
+        ],
+        "talents": [
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/1/1b/Talent_Sharpshooter.png",
+                "name": "Sharpshooter",
+                "type": "Normal Attack",
+                "desc": "Normal Attack: Perform up to 5 consecutive shots with a bow.\nCharged Attack: Perform a more precise Aimed Shot with increased DMG. While aiming, flames will accumulate on the arrowhead. A fully charged flaming arrow will deal Pyro DMG.\nPlunging Attack: Fires off a shower of arrows in mid-air before falling an striking the ground, dealing AoE DMG upon impact."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/e/e0/Talent_Explosive_Puppet.png",
+                "name": "Explosive Puppet",
+                "type": "Elemental Skill",
+                "desc": "The ever-reliable Baron Bunny takes the stage.\nBaron Bunny:\n\nContinuously taunts the enemy, drawing their fire.\nBaron Bunny's HP scales with Amber's Max HP.\nWhen destroyed or when its timer expires, Baron Bunny explodes, dealing AoE Pyro DMG.\nHold: Adjusts the throwing direction of Baron Bunny. The longer the button is held, the further the throw."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/6/6c/Talent_Fiery_Rain.png",
+                "name": "Fiery Rain",
+                "type": "Elemental Burst",
+                "desc": "Fires off a shower of arrows, dealing continuous AoE Pyro DMG."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/54/Talent_Every_Arrow_Finds_Its_Target.png",
+                "name": "Every Arrow Finds Its Target",
+                "type": "1st Ascension Passive",
+                "desc": "Increases the CRIT Rate of Fiery Rain by 10% and widens its AoE by 30%."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/5/51/Talent_Precise_Shot.png",
+                "name": "Precise Shot",
+                "type": "4th Ascension Passive",
+                "desc": "Aimed Shot hits on weak spots increase ATK by 15% for 10s."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/d/df/Talent_Gliding_Champion.png",
+                "name": "Gliding Champion",
+                "type": "Utility Passive",
+                "desc": "Decreases gliding Stamina consumption for your own party members by 20%.Not stackable with Passive Talents that provide the exact same effects."
+            }
+        ],
+        "talent_levening_mat": [
+            {
+                "ascensions_req": "2",
+                "cost": "12,500",
+                "materials": [
+                    {
+                        "rarity": 1,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/Item_Firm_Arrowhead.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3a/Item_Teachings_of_Freedom.png",
+                        "amount": 3
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "3",
+                "cost": "17,500",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0d/Item_Sharp_Arrowhead.png",
+                        "amount": 3
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1a/Item_Guide_to_Freedom.png",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "3",
+                "cost": "25,000",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0d/Item_Sharp_Arrowhead.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1a/Item_Guide_to_Freedom.png",
+                        "amount": 4
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "4",
+                "cost": "30,000",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0d/Item_Sharp_Arrowhead.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1a/Item_Guide_to_Freedom.png",
+                        "amount": 6
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "4",
+                "cost": "37,500",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0d/Item_Sharp_Arrowhead.png",
+                        "amount": 9
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1a/Item_Guide_to_Freedom.png",
+                        "amount": 9
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "5",
+                "cost": "120,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/22/Item_Weathered_Arrowhead.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Item_Philosophies_of_Freedom.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/07/Item_Dvalin%27s_Sigh.png",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "5",
+                "cost": "260,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/22/Item_Weathered_Arrowhead.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Item_Philosophies_of_Freedom.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/07/Item_Dvalin%27s_Sigh.png",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "6",
+                "cost": "450,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/22/Item_Weathered_Arrowhead.png",
+                        "amount": 9
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Item_Philosophies_of_Freedom.png",
+                        "amount": 12
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/07/Item_Dvalin%27s_Sigh.png",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "6",
+                "cost": "700,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/22/Item_Weathered_Arrowhead.png",
+                        "amount": 12
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Item_Philosophies_of_Freedom.png",
+                        "amount": 16
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/07/Item_Dvalin%27s_Sigh.png",
+                        "amount": 2
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/04/Item_Crown_of_Insight.png",
+                        "amount": 1
+                    }
+                ]
+            }
         ]
     },
     "availability": {

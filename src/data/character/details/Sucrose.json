@@ -36,183 +36,6 @@
     "name": "Sucrose",
     "nickname": "Harmless Sweetie",
     "combat_info": {
-        "base_stats": {
-            "special": "Anemo DMG Bonus",
-            "data": {
-                "0": {
-                    "1": [
-                        "775",
-                        "14",
-                        "59",
-                        "\u2014"
-                    ],
-                    "20": [
-                        "1,991",
-                        "37",
-                        "151"
-                    ]
-                },
-                "1": {
-                    "20": [
-                        "2,570",
-                        "47",
-                        "195",
-                        "\u2014"
-                    ],
-                    "40": [
-                        "3,850",
-                        "71",
-                        "293"
-                    ]
-                },
-                "2": {
-                    "40": [
-                        "4,261",
-                        "78",
-                        "324",
-                        "6.0%"
-                    ],
-                    "50": [
-                        "4,901",
-                        "90",
-                        "373"
-                    ]
-                },
-                "3": {
-                    "50": [
-                        "5,450",
-                        "100",
-                        "414",
-                        "12.0%"
-                    ],
-                    "60": [
-                        "6,090",
-                        "112",
-                        "463"
-                    ]
-                },
-                "4": {
-                    "60": [
-                        "6,501",
-                        "120",
-                        "494",
-                        "12.0%"
-                    ],
-                    "70": [
-                        "7,141",
-                        "131",
-                        "543"
-                    ]
-                },
-                "5": {
-                    "70": [
-                        "7,552",
-                        "139",
-                        "574",
-                        "18.0%"
-                    ],
-                    "80": [
-                        "8,192",
-                        "151",
-                        "623"
-                    ]
-                },
-                "6": {
-                    "80": [
-                        "8,603",
-                        "158",
-                        "654",
-                        "24.0%"
-                    ],
-                    "90": [
-                        "9,243",
-                        "170",
-                        "703"
-                    ]
-                }
-            }
-        },
-        "talents": [
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/92/Talent_Wind_Spirit_Creation.png",
-                "name": "Wind Spirit Creation",
-                "type": "Normal Attack",
-                "desc": "Normal Attack: Performs up to 4 attacks using Wind Spirits, dealing Anemo DMG.\nCharged Attack: Consumes a certain amount of Stamina and deals AoE Anemo DMG after a short casting time.\nPlunging Attack: Calling upon the power of her Wind Spirits, Sucrose plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Anemo DMG upon impact with the ground."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/76/Talent_Astable_Anemohypostasis_Creation_-_6308.png",
-                "name": "Astable Anemohypostasis Creation - 6308",
-                "type": "Elemental Skill",
-                "desc": "Creates a small Wind Spirit that pulls opponents and objects towards its location, launches opponents within its AoE, and deals Anemo DMG."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/4d/Talent_Forbidden_Creation_-_Isomer_75_Type_II.png",
-                "name": "Forbidden Creation - Isomer 75 / Type II",
-                "type": "Elemental Burst",
-                "desc": "Sucrose hurls an unstable concoction that creates a Large Wind Spirit. While it persists, the Large Wind Spirit will continuously pull and launch nearby opponents, and deal Anemo DMG.\nElemental Absorption: If the Wind Spirit comes into contact with Hydro/Pyro/Cryo/Electro elements, it will deal additional elemental DMG of that type. Elemental Absorption may only occur once per use."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/Talent_Catalyst_Conversion.png",
-                "name": "Catalyst Conversion",
-                "type": "1st Ascension Passive",
-                "desc": "When Sucrose triggers a Swirl effect, all characters in the party with the matching element (excluding Sucrose) have their Elemental Mastery increased by 50 for 8s."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Talent_Mollis_Favonius.png",
-                "name": "Mollis Favonius",
-                "type": "4th Ascension Passive",
-                "desc": "When Astable Anemohypostasis Creation - 6308 or Forbidden Creation - Isomer 75 / Type II hits an opponent, increases all party members' (excluding Sucrose) Elemental Mastery based on 20% of Sucrose's Elemental Mastery for 8s."
-            },
-            {
-                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/7e/Talent_Astable_Invention.png",
-                "name": "Astable Invention",
-                "type": "Utility Passive",
-                "desc": "When Sucrose crafts Character and Weapon Enhancement Materials, she has a 10% chance to obtain double the product."
-            }
-        ],
-        "lvup_mat": [
-            [
-                {
-                    "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3a/Item_Teachings_of_Freedom.png",
-                    "amount": 9
-                },
-                {
-                    "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1a/Item_Guide_to_Freedom.png",
-                    "amount": 63
-                },
-                {
-                    "rarity": 4,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Item_Philosophies_of_Freedom.png",
-                    "amount": 114
-                }
-            ],
-            [
-                {
-                    "rarity": 1,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/Item_Whopperflower_Nectar.png",
-                    "amount": 18
-                },
-                {
-                    "rarity": 2,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Item_Shimmering_Nectar.png",
-                    "amount": 66
-                },
-                {
-                    "rarity": 3,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Energy_Nectar.png",
-                    "amount": 93
-                }
-            ],
-            [
-                {
-                    "rarity": 5,
-                    "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/81/Item_Spirit_Locket_of_Boreas.png",
-                    "amount": 18
-                }
-            ]
-        ],
         "constellation": [
             {
                 "level": 1,
@@ -251,6 +74,94 @@
                 "effect": "If Forbidden Creation - Isomer 75 / Type II triggers an Elemental Absorption, all party members gain a 20% Elemental DMG Bonus for the corresponding absorbed element during its duration."
             }
         ],
+        "base_stats": {
+            "data": {
+                "0": {
+                    "1": [
+                        "775",
+                        "14",
+                        "59"
+                    ],
+                    "20": [
+                        "1,991",
+                        "37",
+                        "151"
+                    ]
+                },
+                "1": {
+                    "20": [
+                        "2,570",
+                        "47",
+                        "195"
+                    ],
+                    "40": [
+                        "3,850",
+                        "71",
+                        "293"
+                    ]
+                },
+                "2": {
+                    "40": [
+                        "4,261",
+                        "78",
+                        "324"
+                    ],
+                    "50": [
+                        "4,901",
+                        "90",
+                        "373"
+                    ]
+                },
+                "3": {
+                    "50": [
+                        "5,450",
+                        "100",
+                        "414"
+                    ],
+                    "60": [
+                        "6,090",
+                        "112",
+                        "463"
+                    ]
+                },
+                "4": {
+                    "60": [
+                        "6,501",
+                        "120",
+                        "494"
+                    ],
+                    "70": [
+                        "7,141",
+                        "131",
+                        "543"
+                    ]
+                },
+                "5": {
+                    "70": [
+                        "7,552",
+                        "139",
+                        "574"
+                    ],
+                    "80": [
+                        "8,192",
+                        "151",
+                        "623"
+                    ]
+                },
+                "6": {
+                    "80": [
+                        "8,603",
+                        "158",
+                        "654"
+                    ],
+                    "90": [
+                        "9,243",
+                        "170",
+                        "703"
+                    ]
+                }
+            }
+        },
         "ascensions": [
             [
                 {
@@ -379,6 +290,215 @@
                     "amount": 24
                 }
             ]
+        ],
+        "talents": [
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/9/92/Talent_Wind_Spirit_Creation.png",
+                "name": "Wind Spirit Creation",
+                "type": "Normal Attack",
+                "desc": "Normal Attack: Performs up to 4 attacks using Wind Spirits, dealing Anemo DMG.\nCharged Attack: Consumes a certain amount of Stamina and deals AoE Anemo DMG after a short casting time.\nPlunging Attack: Calling upon the power of her Wind Spirits, Sucrose plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Anemo DMG upon impact with the ground."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/76/Talent_Astable_Anemohypostasis_Creation_-_6308.png",
+                "name": "Astable Anemohypostasis Creation - 6308",
+                "type": "Elemental Skill",
+                "desc": "Creates a small Wind Spirit that pulls opponents and objects towards its location, launches opponents within its AoE, and deals Anemo DMG."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/4/4d/Talent_Forbidden_Creation_-_Isomer_75_Type_II.png",
+                "name": "Forbidden Creation - Isomer 75 / Type II",
+                "type": "Elemental Burst",
+                "desc": "Sucrose hurls an unstable concoction that creates a Large Wind Spirit. While it persists, the Large Wind Spirit will continuously pull and launch nearby opponents, and deal Anemo DMG.\nElemental Absorption: If the Wind Spirit comes into contact with Hydro/Pyro/Cryo/Electro elements, it will deal additional elemental DMG of that type. Elemental Absorption may only occur once per use."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/Talent_Catalyst_Conversion.png",
+                "name": "Catalyst Conversion",
+                "type": "1st Ascension Passive",
+                "desc": "When Sucrose triggers a Swirl effect, all characters in the party with the matching element (excluding Sucrose) have their Elemental Mastery increased by 50 for 8s."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Talent_Mollis_Favonius.png",
+                "name": "Mollis Favonius",
+                "type": "4th Ascension Passive",
+                "desc": "When Astable Anemohypostasis Creation - 6308 or Forbidden Creation - Isomer 75 / Type II hits an opponent, increases all party members' (excluding Sucrose) Elemental Mastery based on 20% of Sucrose's Elemental Mastery for 8s."
+            },
+            {
+                "icon": "https://static.wikia.nocookie.net/gensin-impact/images/7/7e/Talent_Astable_Invention.png",
+                "name": "Astable Invention",
+                "type": "Utility Passive",
+                "desc": "When Sucrose crafts Character and Weapon Enhancement Materials, she has a 10% chance to obtain double the product."
+            }
+        ],
+        "talent_levening_mat": [
+            {
+                "ascensions_req": "2",
+                "cost": "12,500",
+                "materials": [
+                    {
+                        "rarity": 1,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/Item_Whopperflower_Nectar.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3a/Item_Teachings_of_Freedom.png",
+                        "amount": 3
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "3",
+                "cost": "17,500",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Item_Shimmering_Nectar.png",
+                        "amount": 3
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1a/Item_Guide_to_Freedom.png",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "3",
+                "cost": "25,000",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Item_Shimmering_Nectar.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1a/Item_Guide_to_Freedom.png",
+                        "amount": 4
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "4",
+                "cost": "30,000",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Item_Shimmering_Nectar.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1a/Item_Guide_to_Freedom.png",
+                        "amount": 6
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "4",
+                "cost": "37,500",
+                "materials": [
+                    {
+                        "rarity": 2,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/46/Item_Shimmering_Nectar.png",
+                        "amount": 9
+                    },
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1a/Item_Guide_to_Freedom.png",
+                        "amount": 9
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "5",
+                "cost": "120,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Energy_Nectar.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Item_Philosophies_of_Freedom.png",
+                        "amount": 4
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/81/Item_Spirit_Locket_of_Boreas.png",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "5",
+                "cost": "260,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Energy_Nectar.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Item_Philosophies_of_Freedom.png",
+                        "amount": 6
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/81/Item_Spirit_Locket_of_Boreas.png",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "6",
+                "cost": "450,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Energy_Nectar.png",
+                        "amount": 9
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Item_Philosophies_of_Freedom.png",
+                        "amount": 12
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/81/Item_Spirit_Locket_of_Boreas.png",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "ascensions_req": "6",
+                "cost": "700,000",
+                "materials": [
+                    {
+                        "rarity": 3,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Item_Energy_Nectar.png",
+                        "amount": 12
+                    },
+                    {
+                        "rarity": 4,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Item_Philosophies_of_Freedom.png",
+                        "amount": 16
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/81/Item_Spirit_Locket_of_Boreas.png",
+                        "amount": 2
+                    },
+                    {
+                        "rarity": 5,
+                        "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/04/Item_Crown_of_Insight.png",
+                        "amount": 1
+                    }
+                ]
+            }
         ]
     },
     "availability": {
@@ -512,7 +632,7 @@
                     {
                         "rarity": 5,
                         "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/52/Character_Raiden_Shogun_Thumb.png",
-                        "text": "Raiden Shogun",
+                        "text": "Raiden",
                         "icon": "Electro"
                     },
                     {
