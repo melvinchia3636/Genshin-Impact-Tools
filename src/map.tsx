@@ -28,9 +28,9 @@ const Map: React.FC<IMap> = ({currentTab, changeTab}: IMap): JSX.Element => {
 
     const [found, setFound] = useState<number[]>([]);
     const [expand, setExpand] = useState<boolean>(false);
-    const active: any = {};
+    const [active, setActive] = useState<any>({});
     const mapRef = useRef<any>(null);
-    let map: any;
+    const [map, setMap] = useState<any>();
 
     const image = Object.fromEntries(Object.entries(data.marker_pos).map(([i, e]) => [i, {
         url: markers,
@@ -53,7 +53,7 @@ const Map: React.FC<IMap> = ({currentTab, changeTab}: IMap): JSX.Element => {
         function initMap() {
             // eslint-disable-next-line @typescript-eslint/ban-ts-comment
             //@ts-ignore
-            map = new google.maps.Map(document.getElementById("map"), {
+            const map = new google.maps.Map(document.getElementById("map"), {
                 center: { 
                     lat: 0.75736599921177,
                     lng: -0.68149126464823,
@@ -65,6 +65,7 @@ const Map: React.FC<IMap> = ({currentTab, changeTab}: IMap): JSX.Element => {
                     mapTypeIds: ["moon"],
                 },
             });
+            setMap(map);
             // eslint-disable-next-line @typescript-eslint/ban-ts-comment
             //@ts-ignore
             const moonMapType = new google.maps.ImageMapType({
@@ -122,8 +123,15 @@ const Map: React.FC<IMap> = ({currentTab, changeTab}: IMap): JSX.Element => {
         initMap();
     }, []);
 
+    const removeMarker = (id: number) => {
+        active[id+""].map((e: any) => {
+            e.setMap(null);
+        });
+        delete active[id+""];
+    };
+
     const addMarker = (id: number) => {
-        active[id+""] = data.locations.filter(e => e.category_id === id).map(e => {
+        const marker = data.locations.filter(e => e.category_id === id).map(e => {
             // eslint-disable-next-line @typescript-eslint/ban-ts-comment
             //@ts-ignore
             const myLatlng = new google.maps.LatLng(parseFloat(e.latitude), parseFloat(e.longitude));
@@ -134,17 +142,11 @@ const Map: React.FC<IMap> = ({currentTab, changeTab}: IMap): JSX.Element => {
                 title: e.title,
                 icon: image[e.category_id]
             });
+            console.log(map);
             marker.setMap(map);
             return marker;
         });
-        console.log(active);
-    };
-
-    const removeMarker = (id: number) => {
-        active[id+""].map((e: any) => {
-            e.setMap(null);
-        });
-        delete active[id+""];
+        active[id+""] = marker;
         console.log(active);
     };
     
