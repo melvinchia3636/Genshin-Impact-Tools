@@ -2,87 +2,166 @@ import React, { useEffect, useRef, useState } from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import Navbar from "./navbar";
 import "leaflet/dist/leaflet.css";
-import types from "./data/type/type.json";
-import marks from "./data/type/marks.json";
+import data from "./data/data.json";
 import Scrollbar from "react-smooth-scrollbar";
 import L from "leaflet";
 import bg from "./assets/bg.png";
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 //@ts-ignore
 import Multiple from "multiple.js";
+import { Helmet } from "react-helmet";
+import markers from "./assets/markers.png";
 
 interface IMap {
     currentTab: number;
     changeTab: any;
 }
 
+export function AddLibrary(urlOfTheLibrary: string) {
+    const script = document.createElement("script");
+    script.src = urlOfTheLibrary;
+    script.async = true;
+    document.body.appendChild(script);
+}
+
 const Map: React.FC<IMap> = ({currentTab, changeTab}: IMap): JSX.Element => {
 
     const [found, setFound] = useState<number[]>([]);
     const [expand, setExpand] = useState<boolean>(false);
+    const active: any = {};
     const mapRef = useRef<any>(null);
+    let map: any;
 
-    const typesList: {
-        type: string,
-        item: {
-            name: string,
-            amount?: number,
-            state: {
-                active: boolean,
-                setActive: any
-            }
-        }[]
-    }[] = [];
-
-    types.forEach(e => {
-        !typesList.some(f => f.type === (e.level === "NewUpdate" ? "New Updates" : e.level)) ? typesList.push({
-            type: e.level === "NewUpdate" ? "New Updates" : e.level,
-            item: [{
-                name: e.type,
-                amount: marks.filter(f => f.type === e.type).length,
-                state: (() => {
-                    const [active, setActive] = useState<boolean>(false);
-                    return {
-                        active,
-                        setActive
-                    };
-                })()
-            }]
-        }) : typesList[typesList.map(e => e.type).indexOf(e.level === "NewUpdate" ? "New Updates" : e.level)].item.push({
-            name: e.type,
-            amount: marks.filter(f => f.type === e.type).length,
-            state: (() => {
-                const [active, setActive] = useState<boolean>(false);
-                return {
-                    active,
-                    setActive
-                };
-            })()
-        });
-    });
+    const image = Object.fromEntries(Object.entries(data.marker_pos).map(([i, e]) => [i, {
+        url: markers,
+        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+        //@ts-ignore
+        size: new google.maps.Size(36, 48),
+        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+        //@ts-ignore
+        origin: new google.maps.Point(0, e),
+        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+        //@ts-ignore
+        anchor: new google.maps.Point(0, 48)
+    }]));
 
     useEffect(() => {
         new Multiple({
             selector: ".section",
             background: `url(${bg}), linear-gradient(104deg, #4C7F9B 20.53%, #0E1E3E 100%)`
         });
+        function initMap() {
+            // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+            //@ts-ignore
+            map = new google.maps.Map(document.getElementById("map"), {
+                center: { 
+                    lat: 0.75736599921177,
+                    lng: -0.68149126464823,
+                },
+                backgroundColor: "#170129",
+                zoom: 14,
+                streetViewControl: false,
+                mapTypeControlOptions: {
+                    mapTypeIds: ["moon"],
+                },
+            });
+            // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+            //@ts-ignore
+            const moonMapType = new google.maps.ImageMapType({
+                getTileUrl: function (coord: any, zoom: number) {
+                    const normalizedCoord = getNormalizedCoord(coord, zoom);
+          
+                    if (!normalizedCoord) {
+                        return "";
+                    }
+
+                    return (
+                        "https://cdn.mapgenie.io/images/tiles/genshin-impact/teyvat/default-v7" +
+                  "/" +
+                  zoom +
+                  "/" +
+                  normalizedCoord.x +
+                  "/" +
+                  normalizedCoord.y +
+                  ".png"
+                    );
+                },
+                // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+                //@ts-ignore
+                tileSize: new google.maps.Size(256, 256),
+                maxZoom: 17,
+                minZoom: 10,
+                radius: 1738000,
+                name: "Moon",
+            });
+          
+            map.mapTypes.set("moon", moonMapType);
+            map.setMapTypeId("moon");
+        }
+          
+        // Normalizes the coords that tiles repeat across the x axis (horizontally)
+        // like the standard Google map tiles.
+        function getNormalizedCoord(coord: any, zoom: number) {
+            const y = coord.y;
+            let x = coord.x;
+            // tile range in one direction range is dependent on zoom level
+            // 0 = 1 tile, 1 = 2 tiles, 2 = 4 tiles, 3 = 8 tiles, etc
+            const tileRange = 1 << zoom;
+          
+            // don't repeat across y-axis (vertically)
+            if (y < 0 || y >= tileRange) {
+                return null;
+            }
+          
+            // repeat across x-axis
+            if (x < 0 || x >= tileRange) {
+                x = ((x % tileRange) + tileRange) % tileRange;
+            }
+            return { x: x, y: y };
+        }
+        initMap();
     }, []);
+
+    const addMarker = (id: number) => {
+        active[id+""] = data.locations.filter(e => e.category_id === id).map(e => {
+            // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+            //@ts-ignore
+            const myLatlng = new google.maps.LatLng(parseFloat(e.latitude), parseFloat(e.longitude));
+            // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+            //@ts-ignore
+            const marker = new google.maps.Marker({
+                position: myLatlng,
+                title: e.title,
+                icon: image[e.category_id]
+            });
+            marker.setMap(map);
+            return marker;
+        });
+        console.log(active);
+    };
+
+    const removeMarker = (id: number) => {
+        active[id+""].map((e: any) => {
+            e.setMap(null);
+        });
+        delete active[id+""];
+        console.log(active);
+    };
     
     return <>
         <Navbar currentTab={currentTab} changeTab={changeTab}/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/multiple.js/0.0.1/multiple.min.css"/>
         <div className={"pt-16 transition-all duration-500 section relative " + (expand ? "w-full pr-6" : "w-0 pr-0")}>
-            <Scrollbar className={"overflow-y-auto transition-all duration-500 flex flex-col " + (expand ? "px-6" : "px-0")} style={{height: "calc(100vh - 4rem)"}} alwaysShowTracks={true}>
-                {typesList.map(({type, item}) => <div key={type}>
-                    <h2 className="text-genshin-white text-3xl mb-4 whitespace-nowrap">{type}</h2>
+            <Scrollbar className={"overflow-y-auto transition-all duration-500 flex flex-col pb-9 " + (expand ? "px-6" : "px-0")} style={{height: "calc(100vh - 4rem)"}} alwaysShowTracks={true}>
+                {data.groups.map(({title, categories}) => <div key={title}>
+                    <h2 className="text-genshin-white text-3xl mb-4 whitespace-nowrap">{title}</h2>
                     <div className="flex flex-col gap-3 mb-16">
-                        {item.map(({name, amount, state}) => 
-                            <div key={name} className={"flex items-center justify-between item pl-4 cursor-pointer pr-6 py-3 rounded-lg transition-colors "+(state.active ? "active" : "")}  onClick={() => state.setActive(!state.active)} >
+                        {categories.map(({id, title, icon}) => 
+                            <div key={id} className={"flex items-center justify-between item pl-4 cursor-pointer pr-6 py-3 rounded-lg transition-colors "} onClick={() => Object.keys(active).includes(id+"") ? removeMarker(id) : addMarker(id)}>
                                 <div className="flex items-center gap-4 mr-12 whitespace-nowrap">
-                                    <img src={`https://map.genshinpact.com/markers/${name}.png`} className="w-12 h-12"/>
-                                    <p className="text-genshin-white text-xl whitespace-nowrap">{name}</p>
+                                    <p className="text-genshin-white text-xl whitespace-nowrap flex items-center gap-4"><span className={"icon-"+icon}></span>{title}</p>
                                 </div>
-                                <p className="text-3xl mt-1 text-genshin-lightblue">{amount}</p>
+                                <p className="text-3xl mt-1 text-genshin-lightblue">{data.locations.filter(e => e.category_id == id).length}</p>
                             </div>
                         )}
                     </div>
@@ -99,43 +178,7 @@ const Map: React.FC<IMap> = ({currentTab, changeTab}: IMap): JSX.Element => {
             </button>
         </div>
         <div className="w-full section">
-            <MapContainer center={[65, -40]} zoom={4} minZoom={3} maxZoom={6} className="w-full h-screen" whenCreated={ mapInstance => { mapRef.current = mapInstance; }}>
-                <TileLayer url="https://map.genshinpact.com/tiles/{z}/{x}/{y}.png"/>
-                {typesList.map(e => e.item)
-                    .flat()
-                    .filter(e => e.state.active)
-                    .map(e => marks.filter(f => f.type === e.name))
-                    .flat()
-                    .map(e => <Marker key={e.markerid} position={[parseFloat(e.lat), parseFloat(e.lon)]} icon={
-                        new L.Icon({
-                            iconUrl: `https://map.genshinpact.com/markers/${e.type}.png`,
-                            iconRetinaUrl: `https://map.genshinpact.com/markers/${e.type}.png`,
-                            iconSize: new L.Point(24, 24),
-                            className:  (found.includes(parseInt(e.markerid, 10)) ? "opacity-50" : "") + " marker transition-all"
-                        })
-                    }>
-                        <Popup>
-                            <h3 className="text-center mb-2 text-lg text-genshin-lighterblue">{e.type} #{e.markerid}</h3>
-                            <img src={e.imageurl} className="rounded-sm w-full mb-4 max-w-none"/>
-                            <h4 className="text-genshin-lighterblue mb-1">Share Link</h4>
-                            <div className="flex items-center gap-4 py-3 px-4 rounded-md text-genshin-lighterblue bg-genshin-mediumblue mb-4">
-                                https://genshin.thecodeblog.net/map#{e.markerid}
-                                <button>
-                                    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1.2rem" height="1.2rem" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M15 20H5V7c0-.55-.45-1-1-1s-1 .45-1 1v13c0 1.1.9 2 2 2h10c.55 0 1-.45 1-1s-.45-1-1-1zm5-4V4c0-1.1-.9-2-2-2H9c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h9c1.1 0 2-.9 2-2zm-2 0H9V4h9v12z" fill="currentColor"/></svg>
-                                </button>
-                            </div>
-                            <button className="text-lg text-genshin-lightblue bg-genshin-white w-full py-2 text-center rounded-full" onClick={() => {
-                                const id = parseInt(e.markerid, 10);
-                                if (found.includes(id)) {
-                                    setFound(found.filter(e => e !== id));
-                                } else {
-                                    setFound(found.concat([parseInt(e.markerid, 10)]));
-                                }
-                            }}>Mark As {found.includes(parseInt(e.markerid, 10)) ? "Unfound" : "Found"}</button>
-                        </Popup>
-                    </Marker>)
-                }
-            </MapContainer>
+            <div id="map" className="w-full h-screen"></div>
         </div>
     </>;
 };

@@ -551,6 +551,16 @@ const Availability: React.FC<IAvailability> = ({data, setIsAuto, changeSubSectio
 };
 
 const Stories: React.FC<IStories> = ({data, setIsAuto, changeSubSection, first}: IStories):JSX.Element => {
+    const getIcon = (indicator: "yes" | "no" | "spec") => {
+        let icon: JSX.Element;
+        switch (indicator){
+        case "yes": icon = <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.7104 7.20986C18.6175 7.11613 18.5069 7.04174 18.385 6.99097C18.2632 6.9402 18.1324 6.91406 18.0004 6.91406C17.8684 6.91406 17.7377 6.9402 17.6159 6.99097C17.494 7.04174 17.3834 7.11613 17.2904 7.20986L9.84044 14.6699L6.71044 11.5299C6.61392 11.4366 6.49998 11.3633 6.37512 11.3141C6.25026 11.2649 6.11694 11.2408 5.98276 11.2431C5.84858 11.2454 5.71617 11.2741 5.59309 11.3276C5.47001 11.3811 5.35868 11.4583 5.26544 11.5549C5.1722 11.6514 5.09889 11.7653 5.04968 11.8902C5.00048 12.015 4.97635 12.1484 4.97867 12.2825C4.98099 12.4167 5.00972 12.5491 5.06321 12.6722C5.1167 12.7953 5.19392 12.9066 5.29044 12.9999L9.13044 16.8399C9.2234 16.9336 9.334 17.008 9.45586 17.0588C9.57772 17.1095 9.70843 17.1357 9.84044 17.1357C9.97245 17.1357 10.1032 17.1095 10.225 17.0588C10.3469 17.008 10.4575 16.9336 10.5504 16.8399L18.7104 8.67986C18.8119 8.58622 18.893 8.47257 18.9484 8.34607C19.0038 8.21957 19.0324 8.08296 19.0324 7.94486C19.0324 7.80676 19.0038 7.67015 18.9484 7.54365C18.893 7.41715 18.8119 7.3035 18.7104 7.20986Z" fill="#BBE922"/></svg>; break;
+        case "no": icon = <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13.4099 12.0002L17.7099 7.71019C17.8982 7.52188 18.004 7.26649 18.004 7.00019C18.004 6.73388 17.8982 6.47849 17.7099 6.29019C17.5216 6.10188 17.2662 5.99609 16.9999 5.99609C16.7336 5.99609 16.4782 6.10188 16.2899 6.29019L11.9999 10.5902L7.70994 6.29019C7.52164 6.10188 7.26624 5.99609 6.99994 5.99609C6.73364 5.99609 6.47824 6.10188 6.28994 6.29019C6.10164 6.47849 5.99585 6.73388 5.99585 7.00019C5.99585 7.26649 6.10164 7.52188 6.28994 7.71019L10.5899 12.0002L6.28994 16.2902C6.19621 16.3831 6.12182 16.4937 6.07105 16.6156C6.02028 16.7375 5.99414 16.8682 5.99414 17.0002C5.99414 17.1322 6.02028 17.2629 6.07105 17.3848C6.12182 17.5066 6.19621 17.6172 6.28994 17.7102C6.3829 17.8039 6.4935 17.8783 6.61536 17.9291C6.73722 17.9798 6.86793 18.006 6.99994 18.006C7.13195 18.006 7.26266 17.9798 7.38452 17.9291C7.50638 17.8783 7.61698 17.8039 7.70994 17.7102L11.9999 13.4102L16.2899 17.7102C16.3829 17.8039 16.4935 17.8783 16.6154 17.9291C16.7372 17.9798 16.8679 18.006 16.9999 18.006C17.132 18.006 17.2627 17.9798 17.3845 17.9291C17.5064 17.8783 17.617 17.8039 17.7099 17.7102C17.8037 17.6172 17.8781 17.5066 17.9288 17.3848C17.9796 17.2629 18.0057 17.1322 18.0057 17.0002C18.0057 16.8682 17.9796 16.7375 17.9288 16.6156C17.8781 16.4937 17.8037 16.3831 17.7099 16.2902L13.4099 12.0002Z" fill="#BB0909"/></svg>; break;
+        case "spec": icon = <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.5616 14.634L13.9996 12L18.5616 9.366C18.7894 9.23245 18.9552 9.01421 19.0227 8.75892C19.0902 8.50362 19.0539 8.23199 18.9219 8.00331C18.7899 7.77462 18.5727 7.60744 18.3179 7.53825C18.063 7.46906 17.7912 7.50348 17.5616 7.634L12.9996 10.268V5C12.9996 4.73478 12.8943 4.48043 12.7067 4.29289C12.5192 4.10536 12.2648 4 11.9996 4C11.7344 4 11.48 4.10536 11.2925 4.29289C11.105 4.48043 10.9996 4.73478 10.9996 5V10.268L6.43762 7.634C6.20806 7.50348 5.9362 7.46906 5.68135 7.53825C5.42651 7.60744 5.20938 7.77462 5.07734 8.00331C4.94531 8.23199 4.90908 8.50362 4.97658 8.75892C5.04408 9.01421 5.20981 9.23245 5.43762 9.366L9.99962 12L5.43762 14.634C5.20981 14.7676 5.04408 14.9858 4.97658 15.2411C4.90908 15.4964 4.94531 15.768 5.07734 15.9967C5.20938 16.2254 5.42651 16.3926 5.68135 16.4617C5.9362 16.5309 6.20806 16.4965 6.43762 16.366L10.9996 13.732V19C10.9996 19.2652 11.105 19.5196 11.2925 19.7071C11.48 19.8946 11.7344 20 11.9996 20C12.2648 20 12.5192 19.8946 12.7067 19.7071C12.8943 19.5196 12.9996 19.2652 12.9996 19V13.732L17.5616 16.366C17.7912 16.4965 18.063 16.5309 18.3179 16.4617C18.5727 16.3926 18.7899 16.2254 18.9219 15.9967C19.0539 15.768 19.0902 15.4964 19.0227 15.2411C18.9552 14.9858 18.7894 14.7676 18.5616 14.634Z" fill="#F0F3E5"/></svg>; break;                          
+        }
+        return icon;
+    };
+
     return <div className="w-full ml-6 h-screen overflow-y-auto" style={{flexShrink: 9999}}>
         <CharBanner data={data}/>
         <div className="pb-12 pl-4 pr-12">
@@ -627,6 +637,63 @@ const Stories: React.FC<IStories> = ({data, setIsAuto, changeSubSection, first}:
                     </div>
                 </>
             </VisibilitySensor>
+            <VisibilitySensor
+                onChange={(isVisible) => {
+                    if (isVisible && !first) {
+                        setIsAuto(true);
+                        changeSubSection(3);
+                    }
+                }}
+            >
+                <>
+                    <div className="flex items-center gap-3 pt-12" id="3-3">
+                        <Bullet color="#ACCACB"/>
+                        <span className="text-genshin-detailsblue text-3xl">Quests & Events</span>
+                    </div>
+                    <div className="flex flex-col gap-4 mt-6 pl-10">
+                        {Object.entries<string>(data.stories.quests_events).map(([k, v]: string[]) => <div key={k}>
+                            <div className="flex items-center gap-3">
+                                <Bullet size={22} color="#ACCACB"/>
+                                <span className="text-genshin-detailsblue text-2xl">{k}</span>
+                            </div>
+                            <div><ReactMarkdown className="react-markdown ml-9">{v}</ReactMarkdown></div>
+                        </div>)}
+                    </div>
+                </>
+            </VisibilitySensor>
+            <VisibilitySensor
+                onChange={(isVisible) => {
+                    if (isVisible && !first) {
+                        setIsAuto(true);
+                        changeSubSection(4);
+                    }
+                }}
+            >
+                <>
+                    <div className="flex items-center gap-3 pt-12" id="3-4">
+                        <Bullet color="#ACCACB"/>
+                        <span className="text-genshin-detailsblue text-3xl">Character Interactions</span>
+                    </div>
+                    <div className="flex flex-col gap-4 mt-6 pl-10">
+                        <div className="text-genshin-white font-rubik text-lg tracking-wider -mt-2">The following characters mention {data.name} in their <strong className="font-rubik">character stories</strong> or <strong className="font-rubik">voice lines</strong>.</div>
+                        <div className="flex flex-col gap-2 mt-2 pl-1">
+                            <div className="w-full flex px-4 items-center text-genshin-lighterblue overflow-hidden">
+                                <p className="text-md mb-1 mt-1 w-8/12">Character</p>
+                                <p className="text-md mb-1 mt-1 w-4/12 flex justify-center">Stories</p>
+                                <p className="text-md mb-1 mt-1 w-4/12 flex justify-center">Voice Lines</p>
+                            </div>
+                            {Object.entries<{stories: "yes" | "no" | "spec", voices: "yes" | "no" | "spec",}>(data.stories.interactions).map(([name, {stories, voices}]: [string, {stories: "yes" | "no" | "spec", voices: "yes" | "no" | "spec",}]) => <div key="hmm" className="bg-genshin-cardblue transition-all duration-300 w-full flex p-4 items-center rounded-md text-genshin-white overflow-hidden">
+                                <div className="flex items-center w-8/12">
+                                    <img className="w-8" src={require(`./assets/characters/icon/${name.toLowerCase().replace(/\s/g, "_")}.png`).default}/>
+                                    <p className="text-xl ml-4 pt-0.5">{name}</p>
+                                </div>
+                                <div className="w-4/12 flex justify-center">{getIcon(stories)}</div>
+                                <div className="w-4/12 flex justify-center">{getIcon(voices)}</div>
+                            </div>)}
+                        </div>
+                    </div>
+                </>
+            </VisibilitySensor>
         </div>
     </div>;
 };
@@ -653,8 +720,7 @@ const CharacterInfo: React.FC<ICharInfo> = ({selectedChar, setSelectedChar}: ICh
             "Namecards",
             "Constellation",
             "Quest & Events",
-            "Character Interactions",
-            "Mail"
+            "Character Interactions"
         ],
         "Voice-Overs": [
             "Japanese",

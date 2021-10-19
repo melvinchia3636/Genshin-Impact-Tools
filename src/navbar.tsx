@@ -12,8 +12,18 @@ const Navbar: React.FC<INavbar> = ({currentTab, changeTab, setSelectedChar}):JSX
         "Characters",
         "Weapons",
         "Artifacts",
+        "Inventories",
+        "Books",
+        "Recipes",
+        "Enemies",
+        "Wildlifes",
+        "The World",
+        "Domains",
         "Events",
         "Quests",
+        "Achievements",
+        "Reputation Rewards",
+        "Adventurer Handbook",
         "Wish Counter",
         "Team Builder"
     ];

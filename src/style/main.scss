@@ -136,3 +136,248 @@ body {
 .mt-0 {
     margin-top: 0 !important
 }
+
+div[style*="background-color"]:last-of-type {
+    display: none
+}
+
+@font-face {
+    font-family: icomoon;
+    src: url(./icomoon.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: block
+}
+
+[class*=" icon-"],[class^=icon-] {
+    font-family: icomoon!important;
+    speak: never;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 2.6rem;
+}
+
+.icon-painted_wall:before {
+    content: "\e900"
+}
+
+.icon-echoing_conch:before {
+    content: "\e901"
+}
+
+.icon-glimmering_beacon:before {
+    content: "\e902"
+}
+
+.icon-waverider_waypoint:before {
+    content: "\e903"
+}
+
+.icon-wood:before {
+    content: "\e904"
+}
+
+.icon-geo_sigil:before {
+    content: "\e905"
+}
+
+.icon-easter_egg:before {
+    content: "\e906"
+}
+
+.icon-event:before {
+    content: "\e907"
+}
+
+.icon-exquisite_chest:before {
+    content: "\e908"
+}
+
+.icon-ley_line:before {
+    content: "\e909"
+}
+
+.icon-location:before {
+    content: "\e90a"
+}
+
+.icon-luxurious_chest:before {
+    content: "\e90b"
+}
+
+.icon-other:before {
+    content: "\e90c"
+}
+
+.icon-resource_crystal:before {
+    content: "\e90d"
+}
+
+.icon-crystal:before {
+    content: "\e90e"
+}
+
+.icon-mysterious_seelie:before {
+    content: "\e90f"
+}
+
+.icon-book:before {
+    content: "\e910"
+}
+
+.icon-challenge:before {
+    content: "\e911"
+}
+
+.icon-resource_animal:before {
+    content: "\e912"
+}
+
+.icon-resource_plant:before {
+    content: "\e913"
+}
+
+.icon-flower:before {
+    content: "\e914"
+}
+
+.icon-shrine:before {
+    content: "\e915"
+}
+
+.icon-teleporter:before {
+    content: "\e916"
+}
+
+.icon-statue_of_the_7:before {
+    content: "\e917"
+}
+
+.icon-abyssal_domain:before {
+    content: "\e918"
+}
+
+.icon-adventurers_guild:before {
+    content: "\e919"
+}
+
+.icon-alchemy:before {
+    content: "\e91a"
+}
+
+.icon-anemoculus:before {
+    content: "\e91b";
+    color: #5fdcb0
+}
+
+.icon-archon_quest:before {
+    content: "\e91c"
+}
+
+.icon-bar:before {
+    content: "\e91d"
+}
+
+.icon-blacksmith:before {
+    content: "\e91e"
+}
+
+.icon-boss:before {
+    content: "\e91f"
+}
+
+.icon-character:before {
+    content: "\e920"
+}
+
+.icon-common_chest:before {
+    content: "\e921"
+}
+
+.icon-cryoculus:before {
+    content: "\e922";
+    color: #9dfbfa
+}
+
+.icon-dendroculus:before {
+    content: "\e923";
+    color: #a5d535
+}
+
+.icon-electroculus:before {
+    content: "\e924";
+    color: #d695fd
+}
+
+.icon-elite_boss:before {
+    content: "\e925";
+    color: gold
+}
+
+.icon-general_goods:before {
+    content: "\e926"
+}
+
+.icon-geoculus:before {
+    content: "\e927";
+    color: #fab434
+}
+
+.icon-hrydoculus:before {
+    content: "\e928";
+    color: #4cf
+}
+
+.icon-item:before {
+    content: "\e929"
+}
+
+.icon-chest:before {
+    content: "\e92a"
+}
+
+.icon-monster:before {
+    content: "\e92b"
+}
+
+.icon-precious_chest:before {
+    content: "\e92c"
+}
+
+.icon-pyroculus:before {
+    content: "\e92d";
+    color: #f27930
+}
+
+.icon-general_shop:before {
+    content: "\e92e"
+}
+
+.icon-shop:before {
+    content: "\e92f"
+}
+
+.icon-specialty_shop:before {
+    content: "\e930"
+}
+
+.icon-special_shop:before {
+    content: "\e931"
+}
+
+.icon-story_quest:before {
+    content: "\e932"
+}
+
+.icon-world_quest:before {
+    content: "\e933"
+}
+
+.icon-region:before {
+    content: "\e934"
+}
