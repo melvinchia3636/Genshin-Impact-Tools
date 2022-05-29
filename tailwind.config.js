@@ -1,6 +1,5 @@
 module.exports = {
-    purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
-    darkMode: false, // or 'media' or 'class'
+    content: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
     theme: {
         fontFamily: {
             "rubik": ["Rubik"]
@@ -18,9 +17,6 @@ module.exports = {
                 cardblue: "rgba(146, 181, 201, 0.3)"
             }
         }
-    },
-    variants: {
-        extend: {},
     },
     plugins: [],
 };

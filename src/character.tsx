@@ -328,7 +328,7 @@ const CombatInfo: React.FC<ICombatInfo> = ({data, setIsAuto, changeSubSection, f
                         <p className="text-genshin-white titlecase tracking-wider whitespace-nowrap w-full" style={{fontSize: "1.4rem"}}>Ascension Phase</p>
                         <div className="flex w-full items-center">
                             <div className="mr-6 text-genshin-white text-2xl">{ascensionPhase}</div>
-                            <Slider min={0} max={6} onChange={e => {setAscensionPhase(e); setBaseStats([Object.keys(data.combat_info.base_stats.data[e+""])[0], Object.values(data.combat_info.base_stats.data[e+""])[0]]);}}/>
+                            <Slider min={0} max={6} onChange={e => {setAscensionPhase(e as number); setBaseStats([Object.keys(data.combat_info.base_stats.data[e+""])[0], Object.values(data.combat_info.base_stats.data[e+""])[0]]);}}/>
                         </div>
                     </div>
                     <div className="flex mt-6 pl-1 justify-between">

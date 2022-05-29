@@ -20,8 +20,8 @@
     "google-map-react": "^2.1.10",
     "leaflet": "^1.7.1",
     "multiple.js": "^0.0.1",
-    "rc-slider": "^9.7.2",
-    "react": "^17.0.2",
+    "rc-slider": "^10.0.0",
+    "react": "18",
     "react-animejs": "^0.5.6",
     "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0",
@@ -29,7 +29,7 @@
     "react-markdown": "^7.0.1",
     "react-router-dom": "^5.2.0",
     "react-script-tag": "^1.1.2",
-    "react-scripts": "4.0.3",
+    "react-scripts": "5",
     "react-smooth-scrollbar": "^8.0.6",
     "react-tilt": "^0.1.4",
     "react-visibility-sensor": "^5.1.1",
@@ -39,16 +39,10 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "set PORT=80 && craco start",
-    "build": "craco build",
-    "test": "craco test",
+    "start": "set PORT=80 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
   },
   "browserslist": [
     ">0.2%",
@@ -60,10 +54,11 @@
     "@types/leaflet": "^1.7.5",
     "@typescript-eslint/eslint-plugin": "^4.28.3",
     "@typescript-eslint/parser": "^4.28.3",
-    "autoprefixer": "^9.8.6",
-    "eslint": "^7.30.0",
+    "autoprefixer": "^10.4.7",
+    "eslint": "^8.16.0",
     "eslint-plugin-react": "^7.24.0",
-    "postcss": "^7.0.36",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.4"
+    "eslint-plugin-react-hooks": "^4.6.0-next-3133dfa6e-20220526",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.0.24"
   }
 }
